@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "generate": "node scripts/generate-archives.mjs",
-    "check": "node scripts/generate-archives.mjs --check"
+    "check": "node scripts/generate-archives.mjs --check",
+    "article:build": "sh templates/jcrt-journal-article/build-article.sh"
   }
 }
