@@ -1,6 +1,7 @@
 {
   "name": "jcrt-meta",
   "private": true,
+  "license": "AGPL-3.0-only",
   "type": "module",
   "scripts": {
     "generate": "node scripts/generate-archives.mjs",
