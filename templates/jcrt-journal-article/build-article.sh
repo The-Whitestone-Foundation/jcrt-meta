@@ -25,6 +25,8 @@ mkdir -p "$TEXMFVAR"
 
 pandoc "$input" \
   --from markdown \
+  --shift-heading-level-by=-1 \
+  --lua-filter "$template_dir/docx-accessibility.lua" \
   --template "$template_dir/jcrt-journal-article.tex" \
   --metadata logo="$template_dir/jcrt-logo.pdf" \
   --pdf-engine=lualatex \
@@ -33,6 +35,7 @@ pandoc "$input" \
 
 pandoc "$input" \
   --from markdown \
+  --shift-heading-level-by=-1 \
   --metadata logo="$logo_svg" \
   --lua-filter "$template_dir/docx-accessibility.lua" \
   --reference-doc "$template_dir/jcrt-reference.docx" \

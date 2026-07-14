@@ -1,7 +1,7 @@
 \DocumentMetadata{
   lang=$if(lang)$$lang$$else$en-US$endif$,
-  pdfstandard=ua-2,
-  pdfversion=2.0,
+  pdfstandard=ua-1,
+  pdfversion=1.7,
   testphase={phase-III}
 }
 \documentclass[11pt]{article}
@@ -78,6 +78,7 @@ $if(csl-refs)$
 $endif$
 
 \hypersetup{
+  pdfdisplaydoctitle=true,
   colorlinks=false,
   pdfborderstyle={/S/U/W 1},
   linkbordercolor=jcrtnavy,
@@ -142,7 +143,10 @@ $endif$
 
   \vfill
 
-  {\LARGE\bfseries $title$\par}
+  \begingroup
+  \centering
+  \section*{\LARGE $title$}
+  \endgroup
   \vspace{0.25in}
   {\Large $for(author)$$author$$sep$; $endfor$\par}
 $if(affiliation)$

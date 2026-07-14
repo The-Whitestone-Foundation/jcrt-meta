@@ -24,10 +24,19 @@ local function heading(level, content, identifier)
 end
 
 function Pandoc(doc)
-  if FORMAT ~= "docx" then return doc end
-
   local meta = doc.meta
   local title = text(meta.title)
+  local normalized_title = title:lower():gsub("%s+", " "):gsub("^%s+", ""):gsub("%s+$", "")
+  local blocks = {}
+  for _, block in ipairs(doc.blocks) do
+    local is_duplicate_title = block.t == "Header"
+      and text(block.content):lower():gsub("%s+", " "):gsub("^%s+", ""):gsub("%s+$", "") == normalized_title
+    if not is_duplicate_title then blocks[#blocks + 1] = block end
+  end
+  doc.blocks = blocks
+
+  if FORMAT ~= "docx" then return doc end
+
   local authors = table.concat(values(meta.author), "; ")
   local volume_issue = text(meta.volume) .. "." .. text(meta.issue)
   local season = text(meta.season)
@@ -55,10 +64,11 @@ function Pandoc(doc)
   local cover = {}
   local alt = "a 2x2 grid with alternating black and red squares the letters JCRT. one letter per square in high contrast."
   cover[#cover + 1] = paragraph({pandoc.Image({pandoc.Str(alt)}, text(meta.logo), "", pandoc.Attr("jcrt-logo", {}, {{"width", "0.9in"}}))})
-  cover[#cover + 1] = heading(1, "The Journal for Cultural and Religious Theory (JCRT)", "jcrt-journal")
-  cover[#cover + 1] = heading(2, volume_issue .. " | " .. season, "jcrt-issue")
+  cover[#cover + 1] = paragraph("The Journal for Cultural and Religious Theory (JCRT)")
+  cover[#cover + 1] = paragraph(volume_issue .. " | " .. season)
+  -- Pandoc applies --shift-heading-level-by=-1 after this filter.
   cover[#cover + 1] = heading(2, title, "jcrt-article-title")
-  cover[#cover + 1] = heading(3, authors, "jcrt-author")
+  cover[#cover + 1] = paragraph(authors)
 
   if text(meta.affiliation) ~= "" then
     cover[#cover + 1] = paragraph({pandoc.Emph({pandoc.Str(text(meta.affiliation))})})
@@ -71,10 +81,10 @@ function Pandoc(doc)
     })
   end
   if abstract ~= "" then
-    cover[#cover + 1] = heading(2, "Abstract", "jcrt-abstract")
+    cover[#cover + 1] = heading(3, "Abstract", "jcrt-abstract")
     cover[#cover + 1] = paragraph(abstract)
     if keywords ~= "" then
-      cover[#cover + 1] = heading(3, {pandoc.Emph({pandoc.Str("Keywords: " .. keywords)})}, "jcrt-keywords")
+      cover[#cover + 1] = paragraph({pandoc.Emph({pandoc.Str("Keywords: " .. keywords)})})
     end
   end
 
