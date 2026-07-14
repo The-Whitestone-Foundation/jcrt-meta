@@ -1,0 +1,156 @@
+[
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Appel, Kurt",
+            "given_name": "Kurt",
+            "family_name": "Appel"
+          },
+          "role": {
+            "id": "author"
+          }
+        },
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Deibl, Jakob",
+            "given_name": "Jakob",
+            "family_name": "Deibl"
+          },
+          "role": {
+            "id": "author"
+          }
+        },
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Guanzini, Isabella",
+            "given_name": "Isabella",
+            "family_name": "Guanzini"
+          },
+          "role": {
+            "id": "author"
+          }
+        },
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Skinner, Alex",
+            "given_name": "Alex",
+            "family_name": "Skinner"
+          },
+          "role": {
+            "id": "author"
+          }
+        },
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Eder, Natalie",
+            "given_name": "Natalie",
+            "family_name": "Eder"
+          },
+          "role": {
+            "id": "author"
+          }
+        },
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Raschke, Carl A.",
+            "given_name": "Carl A.",
+            "family_name": "Raschke"
+          },
+          "role": {
+            "id": "author"
+          }
+        },
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Thomas, Rachel",
+            "given_name": "Rachel",
+            "family_name": "Thomas"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "In Praise of Mortality: Christianity as a New Humanism",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2021",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "mbgRL8",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/20.2/praise/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "id": "cc-by-4.0",
+          "title": {
+            "en": "Creative Commons Attribution 4.0 International"
+          }
+        }
+      ],
+      "description": "This edition of  JCRT is a full translation from the German of the book Preis der Sterblichkeit: Christentum und Neuer Humanismus (Freiburg im Breisgau, Germany: Verlag Herder, 2015) Kurt Appel, Editor; Jakob Deibl; Isabella Guanzini; Alex Skinner; Natalie Eder; Carl A. Raschke; Rachel Thomas (Translators)"
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "2",
+        "volume": "20",
+        "pages": "",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": [
+        "translation"
+      ]
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "Praise.pdf": {
+          "size": 2770989,
+          "key": "Praise.pdf"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "name": "jcrt-meta",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-archives.mjs",
+    "check": "node scripts/generate-archives.mjs --check"
+  }
+}
