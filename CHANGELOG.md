@@ -1,10 +1,108 @@
-# Changelog
+# CHANGELOG
 
 All notable changes to this project are documented in this file.
+
+Each version below records one Git commit, in chronological order. Commit hashes
+link to the corresponding repository diff.
+
+## [0.0.5] - 2026-07-14
+
+Commit [`823a867`](https://github.com/The-Whitestone-Foundation/jcrt-meta/commit/823a867d1ddf8972c8e563c93d580e2cbb1ed728) — `edit: CHANGELOG`
+
+### Project documentation and versioning
+
+- Added `CHANGELOG.md` with the complete initial development record covering
+  repository setup, metadata generation, controlled subjects, article
+  publishing, accessibility work, archive PDFs, validation, and licensing.
+- Expanded `README.md` with a four-step metadata rebuild workflow using
+  `npm run generate` and `npm run check`.
+- Documented generator exclusions for unpublished records and non-article
+  slugs, plus the `JCRT Editors` fallback for records without an author.
+- Linked the README to the changelog and declared package version `0.0.1` in
+  `package.json`.
+
+### Archive PDF collection
+
+- Added 49 generated archive PDFs across issues `04.1`, `04.2`, `08.1`,
+  `10.2`, `12.2`, `13.1`, `13.2`, `14.2`, `15.1`, `16.1`, `16.3`, `18.1`,
+  `18.3`, `19.3`, `20.3`, and `21.3`.
+- Completed the issue `04.1` set with 10 articles and issue `04.2` with nine
+  articles, then added 30 PDFs for later issues.
+- Recorded 52 changed files and 16,837 inserted lines in the commit.
+
+## [0.0.4] - 2026-07-14
+
+Commit [`214b8fc`](https://github.com/The-Whitestone-Foundation/jcrt-meta/commit/214b8fcd2277f1dacc1fd9e06c67c792cc858abe) — `md to pdf convert`
+
+### Archive PDF collection
+
+- Created 82 generated article PDFs under `archives/`, mirroring the first
+  nine numbered issue directories from `01.1` through `03.3`.
+- Added 28 PDFs for volume 1, 26 for volume 2, and 28 for volume 3.
+- Preserved source-derived filenames, including multi-author names such as
+  `reinhard_lupton.pdf`, `taylor_raschke.pdf`, and
+  `wyschogrod_raschke.pdf`.
+- This was a binary-output-only commit: it added no source lines and removed
+  none.
+
+## [0.0.3] - 2026-07-14
+
+Commit [`d62e337`](https://github.com/The-Whitestone-Foundation/jcrt-meta/commit/d62e3375aed022e3d661a93382cd8eec98b00383) — `edit template for md/only posts working`
+
+### Accessible article output corrections
+
+- Applied the DOCX accessibility Lua filter to PDF generation as well as DOCX
+  generation, allowing shared removal of duplicate article-title headings.
+- Shifted Markdown heading levels down by one during both output builds so the
+  cover title becomes the single semantic `H1` and article sections begin at
+  `H2`.
+- Changed journal name, issue, and author cover elements from headings to
+  paragraphs; retained the article title and abstract as structured headings
+  and rendered keywords as an emphasized paragraph.
+- Changed tagged PDF output from PDF/UA-2 with PDF 2.0 to the more broadly
+  compatible PDF/UA-1 with PDF 1.7.
+- Enabled `pdfdisplaydoctitle` and rendered the PDF cover title as an unnumbered
+  section for correct title semantics.
+- Regenerated the Crockett PDF and DOCX samples with the corrected templates.
+
+## [0.0.2] - 2026-07-14
+
+Commit [`676fd07`](https://github.com/The-Whitestone-Foundation/jcrt-meta/commit/676fd07d923db6056eeaf2305d767092f6546f62) — `edit: adding template for md/html only posts`
+
+### Journal article publishing template
+
+- Added the reusable `templates/jcrt-journal-article/` Pandoc toolchain for
+  producing both LuaLaTeX PDF and reference-styled DOCX files from Markdown.
+- Added `npm run article:build` and an executable POSIX build script with input
+  validation, optional output-directory support, a portable template path,
+  LuaTeX cache setup, citation processing, and emitted output paths.
+- Added a 208-line LaTeX template with tagged PDF metadata, Book Antiqua or TeX
+  Gyre Pagella typography, JCRT colors and page furniture, cover metadata,
+  abstracts, keywords, citations, bookmarks, external links, rights, license,
+  publisher, and ISSN fields.
+- Added an 88-line Lua filter that builds an accessible DOCX cover, supplies
+  metadata defaults, adds descriptive logo alternative text, and preserves a
+  printable canonical article URL.
+- Added the SVG JCRT logo and its vector PDF derivative, plus a styled DOCX
+  reference file with accessible hyperlink presentation.
+- Added the 215-line Crockett Markdown sample and generated matching PDF and
+  DOCX examples.
+- Added cross-platform requirements, commands, accessibility guidance, and
+  verification instructions for macOS, Windows, and Ubuntu.
 
 ## [0.0.1] - 2026-07-14
 
 Initial version created from the JCRT metadata development chat.
+
+Commit [`4dfcd03`](https://github.com/The-Whitestone-Foundation/jcrt-meta/commit/4dfcd03946c9fb4511510b1b2e3ad9cdedbed0f4) — `license`
+
+### Commit-specific licensing changes
+
+- Added the complete 661-line GNU Affero General Public License version 3 as
+  `LICENSE`.
+- Declared the SPDX license identifier `AGPL-3.0-only` in `package.json`.
+- Added the README license section and linked it to the repository license
+  file.
 
 ### Repository setup
 
@@ -102,4 +200,31 @@ Initial version created from the JCRT metadata development chat.
   initialize Git, create the first commit, and create
   `The-Whitestone-Foundation/jcrt-meta` with `gh repo create`.
 
+## [0.0.0] - 2026-07-13
+
+Commit [`95e7656`](https://github.com/The-Whitestone-Foundation/jcrt-meta/commit/95e765606edb9540b86a2f8a3fb9e06adf563c07) — `:rocket: init commit meta data`
+
+### Initial repository and metadata generator
+
+- Created the `jcrt-meta` repository structure, `.gitignore`, concise usage
+  README, and private ESM `package.json`.
+- Added `npm run generate` for deterministic archive regeneration and
+  `npm run check` for validating committed output without rewriting it.
+- Added the 161-line `scripts/generate-archives.mjs` generator to read JCRT
+  archive front matter and construct KCWorks-ready metadata records.
+- Created 67 issue-level `metadata.json` files under `metadata/archives/`,
+  covering numbered issue directories `01.1` through `25.1`, plus the empty
+  `28.2` issue output.
+- Generated 801 article records while excluding unpublished content and known
+  non-article pages.
+- Preserved bibliographic fields, DOI and PDF data, controlled FAST and
+  Homosaurus subjects, unique `import-recid` identifiers, ownership metadata,
+  and fallback creator data.
+- Recorded 71 new files and 88,758 inserted lines in the root commit.
+
+[0.0.5]: https://github.com/The-Whitestone-Foundation/jcrt-meta/releases/tag/v0.0.5
+[0.0.4]: https://github.com/The-Whitestone-Foundation/jcrt-meta/releases/tag/v0.0.4
+[0.0.3]: https://github.com/The-Whitestone-Foundation/jcrt-meta/releases/tag/v0.0.3
+[0.0.2]: https://github.com/The-Whitestone-Foundation/jcrt-meta/releases/tag/v0.0.2
 [0.0.1]: https://github.com/The-Whitestone-Foundation/jcrt-meta/releases/tag/v0.0.1
+[0.0.0]: https://github.com/The-Whitestone-Foundation/jcrt-meta/releases/tag/v0.0.0

@@ -1,4 +1,28 @@
-# JCRT Pandoc journal article template
+# JCRT metadata
+
+
+[](https://github.com/the-Whitestone-Foundation/jcrt-meta#jcrt-metadata)
+
+Generated KCWorks import metadata for JCRT. Each numbered archive issue has one `metadata/archives/<issue>/metadata.json` array containing its article records.
+
+Run `npm run generate` after changing archive front matter in `../jcrt-v2`. Run `npm run check` to verify that committed metadata is current and valid.
+
+The archive nanoid is exported as an `import-recid` identifier. Controlled subjects preserve the FAST or Homosaurus label, identifier, URI, scheme, and authority category from the source front matter.
+
+## Rebuilding the archive metadata
+
+1.  Update the numbered issue content in `../jcrt-v2/content/archives/`.
+2.  Run `npm run generate` to regenerate every issue-level metadata file.
+3.  Run `npm run check` to confirm the committed JSON is current.
+4.  Review the changed files, then commit and push them to GitHub.
+
+The generator omits unpublished records and known non-article files such as `index`, `bios`, `author-bios`, `table-of-contents`, and `abstracts`. Records without an author use `JCRT Editors` as a fallback creator.
+
+## CHANGELOG
+See [CHANGELOG.md](https://github.com/The-Whitestone-Foundation/jcrt-meta/blob/main/CHANGELOG.md) for the complete development record.
+
+
+## JCRT Pandoc journal article template
 
 This template package outputs both `.pdf` and `.docx`. The LuaLaTeX PDF has the
 JCRT cover page; both formats include the article body and any bibliography
@@ -17,6 +41,7 @@ text/link contrast, document language, structured headings, bookmarks, image
 alt text, and embedded publication metadata. The bundled Word reference file
 sets hyperlinks to underlined dark navy (`#003366`) rather than Word's lower-
 contrast default blue.
+
 For printed copies, the canonical URL appears as plain text on the line below
 the descriptive "Read this article on JCRT" hyperlink.
 
@@ -69,6 +94,10 @@ output directory as the optional second argument:
 ```sh
 templates/jcrt-journal-article/build-article.sh article.md output/articles
 ```
+
+## Enable
+- Enabled `pdfdisplaydoctitle` and rendered the PDF cover title as an unnumbered
+  section for correct title semantics.
 
 ## Sample
 
@@ -161,3 +190,10 @@ rsvg-convert --format=pdf \
   --output=templates/jcrt-journal-article/jcrt-logo.pdf \
   templates/jcrt-journal-article/jcrt-logo.svg
 ```
+
+License
+-------
+
+[](https://github.com/the-Whitestone-Foundation/jcrt-meta#license)
+
+This project is licensed under the GNU Affero General Public License v3.0 only. See [LICENSE](https://github.com/The-Whitestone-Foundation/jcrt-meta/blob/main/LICENSE).
