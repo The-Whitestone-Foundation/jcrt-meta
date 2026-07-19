@@ -5,6 +5,69 @@ All notable changes to this project are documented in this file.
 Each version below records one Git commit, in chronological order. Commit hashes
 link to the corresponding repository diff.
 
+## [0.0.7] - 2026-07-19 — jcrt-v2 archives: keywords, FAST subjects, indentation (round 2)
+
+Second cleanup pass over `content/archives/` folders 01.*–04.* (116 `.md` files). Continues the entry below.
+
+### Keywords (116/116 files)
+- Added content-derived topical `keywords:` (lowercase hyphen-joined slugs, ~8–15 per article) to the 108 files that had empty `keywords: []`; the 8 already-populated files were left untouched. Derived from each article body; the 04.3 book-review stubs (frontmatter-only) drew from their referenced PDFs in `jcrt-files/archives/04.3/`.
+
+### FAST subjects (115/116 files; `04.1/index2.md` is a TOC page, left empty)
+- Added OCLC FAST subject headings to the 108 files with empty `subjects:` (8 already-populated skipped).
+- Every heading **live-verified** against `fast.oclc.org/searchfast/fastsuggest` — authorized (`type:auth`) records only. `identifier` = FAST `idroot`; `uri` = `id.worldcat.org/fast/<idroot minus "fst"+leading zeros>`; `category` from MARC tag (100→personal, 130→uniform-title, 147/111→event, 150→topical, 151→geographic). Subjects alphabetized by label. Terms with no confident authorized match were **dropped, never fabricated**.
+- 424 unique FAST identifiers written; all 116 frontmatter blocks parse as valid YAML; a 15-ID sample all resolve HTTP 200.
+- Fixed a homograph: "Barth, Karl" used the wrong `fst00147863` (a `type:alt` cross-ref, 1896–1962 person) in `02.2/tatusko.md` and `04.3/michaud.md` → corrected to authorized theologian `fst00038092` (1886–1968).
+
+### Separator normalization (round 2)
+- Collapsed stacked/duplicated horizontal-rule runs (2+ consecutive indented `* * *` separated by blank lines) → single `***` in `01.3/kosky.md` (2 runs) and `02.1/sugimoto.md` (one 6-rule run). Isolated single rules preserved.
+
+### Body-indentation cleanup (158 lines, 72 files)
+- Flushed stray-indented body prose (migration left paragraphs indented 4–5 spaces, rendering as code blocks) to the left margin. **List-aware**: list items, blockquotes, and nested list-item continuations (e.g. `01.3/crockett.md`, `02.2/taylor.md` under `1. _The Logic of Sense_` / `2. _Difference and Repetition_`) were preserved. 0 stray-indented prose remain; all frontmatter still valid YAML.
+
+### Notes / still open
+- `03.2/taylor.md` `[^18]:` footnote still needs its citation text.
+- `04.2` — `lambert.md` / `rabate-lambert.md` / `lambert-taylor.intro.md` have bodies that don't match their titles (migration shuffle); keywords/subjects were derived from each file's actual body content.
+- `03.1/gooch.md`, `04.1/kosky.md` duplicate-definition footnote swaps still unaddressed.
+- Reconstructed footnote/body ordering and keyword/subject accuracy still pending verification against the original PDFs.
+
+## [0.0.6] - 2026-07-19 — jcrt-v2 archives cleanup (content/archives/, folders 01.*–04.*)
+
+Bulk migration-artifact cleanup across the JCRT v2 archive markdown. All paths under `content/archives/`.
+
+### Bracket / escaping fixes
+- **Single-letter escaped brackets → bare letter** (`\[U\]` → `U`, etc.): 54 occurrences across 21 files in `content/archives/`. Special case: `Semiotext\[e\]` → `Semiotext(e)` in `04.1/hamner.md` (publisher name).
+- **religioustheory single-letter brackets → bare letter**: 95 occurrences.
+- **All remaining escaped word/phrase brackets → HTML entities** across `content/`: `\[` → `&#91;`, `\]` → `&#93;` (~1113 / ~1101). This preserves the visible brackets on editorial insertions like `[Church]` while fixing the markdown escaping.
+- **Repaired footnote refs that the entity pass had mangled** (`&#91;^N]` → `[^N]`) in `03.1/gooch.md`, `04.1/kosky.md`, `04.1/mcgrath.md`.
+
+### Footnote reconstruction (body/footnote swap from bad HTML→MD migration)
+Diagnosis: `[^_ftnrefN]` entries were the real footnotes (missing the `:`), and plain `[^M]:` entries were article BODY paragraphs mislabeled as footnote definitions. Fixed 4 files by converting `[^_ftnrefN]` → `[^N]:` and lifting the `[^M]:` paragraphs back into the article body (file order preserved):
+- `04.1/hamner.md` — 14 footnotes, 21 body paragraphs (restored under existing section headers).
+- `04.1/egginton.md` — 36 footnotes, 44 body paragraphs (continuous body; two stray block quotes relocated by textual inference).
+- `03.2/taylor.md` — 29 footnotes, 23 body paragraphs. NOTE: `[^18]:` is empty in source — needs its citation text filled by hand.
+- `04.1/mcgrath.md` — 27 footnotes, 12 body paragraphs. Also collapsed 25 doubled inline refs (`[^N][^N]` → `[^N]`).
+- All four verified: every in-text `[^n]` resolves to exactly one `[^n]:` definition and vice versa; zero `ftnref` remain in `content/archives/`.
+
+### Blockquote & separator normalization
+- **De-indented over-indented blockquotes** in 42 `pdf: false` files (272 lines): `     > …` (rendered as code blocks) → flush `> …`.
+- **Collapsed the empty-bio-placeholder block** (`* * *` / empty `>` / `* * *`) → single `***` in 79 files.
+
+### bios file
+- `18.3/bios.md`: rejoined blank-line-split paragraphs, merged shattered italic titles into clean spans, fixed double spaces / space-before-punctuation / escaped hyphen / double underscore. Content fixes: `in a doctoral student` → `is a`, `Emmanuel Faique` → `Emmanuel Falque`, `Associate professor` → `Associate Professor`, `(Routledge 2016)` → `(Routledge, 2016)`.
+
+### Frontmatter standardization (116 files, folders 01.*–04.*)
+- Reordered every file's frontmatter to the canonical 15-field order: `nanoid, doi, atproto, article_number, volume, issue, pages, title, author, affiliation, description, pdf, date, keywords, subjects`.
+- Renamed `affilation` → `affiliation` (templates already read `affiliation or affilation`, so safe).
+- Added missing target fields as empty keys; multiline `keywords`/`subjects` YAML preserved verbatim.
+- **Preserved** legacy fields `abstract`, `year`, `sort_id`, `season`, `tags` (appended after `subjects`) rather than renaming/dropping — the site templates depend on them: `year` = sort key in `eleventy.config.js` + SEO date; `abstract` = rendered in `archive_article.njk`; `sort_id` = TOC ordering; `season` = issue index display.
+- **Filled `volume`/`issue`/`year`** in all 116 files from each folder's `index.njk` (source of truth): 01.1=(1,1,1999) 01.2=(1,2,2000) 01.3=(1,3,2000) 02.1=(2,1,2000) 02.2=(2,2,2001) 02.3=(2,3,2001) 03.1=(3,1,2001) 03.2=(3,2,2002) 03.3=(3,3,2002) 04.1=(4,1,2002) 04.2=(4,2,2003) 04.3=(4,3,2003). (99 files changed; 17 already matched.)
+
+### Open follow-ups (not yet done)
+- Verify reconstructed footnote/body ordering and section placement against the original published PDFs (placement was inferred from file order).
+- `03.2/taylor.md` `[^18]:` needs its citation text.
+- `03.1/gooch.md` and `04.1/kosky.md` have the same body/footnote swap in a different form (duplicate `[^N]:` definitions, no `ftnref`) — not yet fixed.
+- Optional: fully migrate `abstract` → `description` and `year` → `date`, dropping the legacy keys, which also requires updating the template references noted above.
+
 ## [0.0.5] - 2026-07-14
 
 Commit [`823a867`](https://github.com/The-Whitestone-Foundation/jcrt-meta/commit/823a867d1ddf8972c8e563c93d580e2cbb1ed728) — `edit: CHANGELOG`
