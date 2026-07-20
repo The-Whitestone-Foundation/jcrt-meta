@@ -9,6 +9,7 @@
 \usepackage[letterpaper,margin=1in]{geometry}
 \usepackage{fontspec}
 \usepackage{graphicx}
+\providecommand{\pandocbounded}[1]{{\setbox0=\hbox{#1}\ifdim\wd0>\linewidth\resizebox{\linewidth}{!}{#1}\else\box0\fi}}
 \usepackage{microtype}
 \usepackage{xurl}
 \usepackage{hyperref}
@@ -194,6 +195,9 @@ $endif$
     \textcopyright{} $if(copyright-year)$$copyright-year$$elseif(year)$$year$$endif$
     $if(rights-holder)$$rights-holder$$else$$for(author)$$author$$sep$, $endfor$$endif$.
   $endif$
+$if(url)$
+  \\[0.04in]{\ttfamily\nolinkurl{$url$}}\\[0.04in]
+$endif$
   Published by $if(publisher)$$publisher$$else$Whitestone Publications$endif$.
   ISSN $if(issn)$$issn$$else$1530-5228$endif$.
   $if(license)$

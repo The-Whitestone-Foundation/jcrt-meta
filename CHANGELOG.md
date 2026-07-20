@@ -5,6 +5,36 @@ All notable changes to this project are documented in this file.
 Each version below records one Git commit, in chronological order. Commit hashes
 link to the corresponding repository diff.
 
+## [0.0.8] - 2026-07-19 — full-archive keywords + FAST subjects, article PDFs, cover template
+
+Extended metadata to the ENTIRE archive (68 issue folders, 821 `.md`), built article PDFs for volumes 1–4, fixed migration data issues, and updated the PDF cover template. Source `.md` under `jcrt-v2/content/archives/`; PDFs + template under this repo.
+
+### Keywords — every real article now covered
+- Added content-derived `keywords:` to the ~205 remaining files (later volumes are mostly frontmatter-only book-review stubs). Hybrid method: derived from the reviewed-book title + review author, reading the referenced `jcrt-files` PDF only when the title was too terse. 12 subagents. Only the 5 `bios` pages, 1 `abstracts` page, and 2 test files (`0000-demo`, `tester-again`) are intentionally left blank.
+
+### FAST subjects — every real article now covered
+- Added verified OCLC FAST `subjects:` to the ~207 remaining files, run as a "slow" pass (two waves of 6 subagents). Candidate headings derived from each file's title + populated `keywords:`.
+- Every heading live-verified against `fast.oclc.org` (authorized `type:auth` records only); unmatchable scholars/terms dropped, never fabricated. **1,429 unique FAST identifiers** across the archive; sampled IDs all resolve HTTP 200; all 821 frontmatter blocks parse as valid YAML.
+- Wrong-Barth homograph (`fst00147863`, an `alt` for a 1896–1962 person) swept again and corrected to the authorized theologian `fst00038092` (1886–1968).
+
+### Article PDFs (volumes 1–4)
+- Built PDFs for all 101 body-bearing articles in `01.1`–`04.2` via the Pandoc→LuaLaTeX pipeline (`build-article.sh` recipe), regenerating from the freshly cleaned/annotated `.md`. Promoted to `archives/<issue>/` and validated: **101/101 qpdf-check pass**, all pages ≥ 1.
+- Added `RECIPE.md` documenting the end-to-end PDF build.
+- `04.3` skipped (frontmatter-only stubs; real source PDFs already in `jcrt-files/archives/04.3/`).
+
+### Migration data fixes
+- `24.1/phelps.md`: keyword typo `psychadelics` → `psychedelics`.
+- `06.2/waggoner.md` ↔ `06.2/waggoner.art.md`: the titles of these two DISTINCT Matt Waggoner pieces were swapped by the migration. Verified each against its own PDF and corrected: `waggoner.art.md` → the article "Giving Up the Good: Adorno, Kierkegaard, and the Critique of Political Culture" (kept its Adorno/Kierkegaard keywords/subjects); `waggoner.md` → the review "Death of a Discipline" (Gayatri Spivak), whose stale auto-generated keywords + malformed subjects were replaced with clean keywords and 8 FAST-verified subjects (Spivak, comparative literature, postcolonialism, multiculturalism, humanism, etc.). Filled/renamed `affilation`→`affiliation` on both.
+- `04.2/lambert.md` ↔ `04.2/rabate-lambert.md`: bodies were swapped by the migration (each file's internal copyright URL pointed at the other). Swapped `keywords` + `subjects` + body between the two so each file's title/author now matches its content.
+
+### Cover template
+- `templates/jcrt-journal-article/jcrt-journal-article.tex`: the cover now prints the article URL as **monospaced plain text** (`\ttfamily\nolinkurl{$url$}`, guarded by `$if(url)$`) directly under the copyright line. Supplied at build time via `--metadata url="https://jcrt.org/archives/<issue>/<stem>/"`.
+- Added `\providecommand{\pandocbounded}[1]{…}` to the preamble so articles containing images compile under Pandoc 3.x (previously undefined). This unblocked `02.3/magee.md` (its remote `.webp`/`.gif` figures are dead 404 links and are gracefully dropped; article text intact).
+
+### Open follow-ups
+- `06.2/waggoner.md` shares the "Giving Up the Good" title with `waggoner.art.md` — possible duplicate of the same article across two files; not yet reconciled.
+- `04.2/{lambert-taylor.intro}` and similar migration shuffles verified case-by-case; spot-check any other title/body mismatches against the PDFs.
+
 ## [0.0.7] - 2026-07-19 — jcrt-v2 archives: keywords, FAST subjects, indentation (round 2)
 
 Second cleanup pass over `content/archives/` folders 01.*–04.* (116 `.md` files). Continues the entry below.
