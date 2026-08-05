@@ -8,6 +8,101 @@
         {
           "person_or_org": {
             "type": "personal",
+            "name": "editors",
+            "given_name": "",
+            "family_name": "editors"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "Author Bios",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2024",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "JkLUvq",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/23.1/bios/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "title": {
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
+        }
+      ],
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Religion",
+          "scheme": "FAST",
+          "identifier": "fst01093763",
+          "uri": "https://id.worldcat.org/fast/1093763",
+          "category": "topical"
+        }
+      ]
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "1",
+        "volume": "23",
+        "pages": "",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": []
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "bios.pdf": {
+          "size": 134273,
+          "key": "bios.pdf"
+        }
+      }
+    }
+  },
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
             "name": "Durante, Chris",
             "given_name": "Chris",
             "family_name": "Durante"
@@ -41,10 +136,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -98,7 +193,7 @@
       "enabled": true,
       "entries": {
         "Durante.pdf": {
-          "size": 161929,
+          "size": 162260,
           "key": "Durante.pdf"
         }
       }
@@ -146,10 +241,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -203,7 +298,7 @@
       "enabled": true,
       "entries": {
         "Grane.pdf": {
-          "size": 194402,
+          "size": 195056,
           "key": "Grane.pdf"
         }
       }
@@ -251,10 +346,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -308,7 +403,7 @@
       "enabled": true,
       "entries": {
         "Hujing.pdf": {
-          "size": 176338,
+          "size": 176651,
           "key": "Hujing.pdf"
         }
       }
@@ -356,10 +451,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -504,7 +599,7 @@
       "enabled": true,
       "entries": {
         "Johnson.pdf": {
-          "size": 186191,
+          "size": 186619,
           "key": "Johnson.pdf"
         }
       }
@@ -552,10 +647,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -643,7 +738,7 @@
       "enabled": true,
       "entries": {
         "Kaur.pdf": {
-          "size": 444038,
+          "size": 474484,
           "key": "Kaur.pdf"
         }
       }
@@ -691,10 +786,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -814,7 +909,7 @@
       "enabled": true,
       "entries": {
         "Massaro.pdf": {
-          "size": 176896,
+          "size": 177734,
           "key": "Massaro.pdf"
         }
       }
@@ -862,10 +957,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1002,7 +1097,7 @@
       "enabled": true,
       "entries": {
         "Mather.pdf": {
-          "size": 186262,
+          "size": 186573,
           "key": "Mather.pdf"
         }
       }
@@ -1050,10 +1145,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1199,7 +1294,7 @@
       "enabled": true,
       "entries": {
         "McKanan.pdf": {
-          "size": 196978,
+          "size": 197653,
           "key": "McKanan.pdf"
         }
       }
@@ -1247,10 +1342,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1371,7 +1466,7 @@
       "enabled": true,
       "entries": {
         "Monson.pdf": {
-          "size": 182638,
+          "size": 182973,
           "key": "Monson.pdf"
         }
       }
@@ -1419,10 +1514,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1615,7 +1710,7 @@
       "enabled": true,
       "entries": {
         "Pope.pdf": {
-          "size": 212151,
+          "size": 212499,
           "key": "Pope.pdf"
         }
       }
@@ -1663,10 +1758,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1774,7 +1869,7 @@
       "enabled": true,
       "entries": {
         "Prewitt-Davis.pdf": {
-          "size": 177272,
+          "size": 177614,
           "key": "Prewitt-Davis.pdf"
         }
       }

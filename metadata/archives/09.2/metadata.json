@@ -41,10 +41,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -125,7 +125,7 @@
       "enabled": true,
       "entries": {
         "bielik-robson.pdf": {
-          "size": 216474,
+          "size": 216660,
           "key": "bielik-robson.pdf"
         }
       }
@@ -173,10 +173,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -266,7 +266,7 @@
       "enabled": true,
       "entries": {
         "boer.pdf": {
-          "size": 192833,
+          "size": 193027,
           "key": "boer.pdf"
         }
       }
@@ -314,10 +314,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -396,7 +396,7 @@
       "enabled": true,
       "entries": {
         "crockett.pdf": {
-          "size": 98526,
+          "size": 98895,
           "key": "crockett.pdf"
         }
       }
@@ -444,10 +444,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -540,7 +540,7 @@
       "enabled": true,
       "entries": {
         "d'amato.pdf": {
-          "size": 200728,
+          "size": 201142,
           "key": "d'amato.pdf"
         }
       }
@@ -588,10 +588,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -677,7 +677,7 @@
       "enabled": true,
       "entries": {
         "fox.pdf": {
-          "size": 172026,
+          "size": 172453,
           "key": "fox.pdf"
         }
       }
@@ -725,10 +725,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -833,7 +833,7 @@
       "enabled": true,
       "entries": {
         "kotsko.pdf": {
-          "size": 134619,
+          "size": 135027,
           "key": "kotsko.pdf"
         }
       }
@@ -881,13 +881,57 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": "Review of Jonathan I. Israel, Radical Enlightenment: Philosophy and the Making of Modernity 1650-1750. Oxford University Press, 2002. 832 pp. ISBN 9780199254569. Jonathan Israel, Enlightenment Contested: Philosophy, Modernity, and the Emancipation of Man 1670-1752. Oxford University Press, 2006. 983 pp. ISBN 978-0199279227. "
+      "description": "Review of Jonathan I. Israel, Radical Enlightenment: Philosophy and the Making of Modernity 1650-1750. Oxford University Press, 2002. 832 pp. ISBN 9780199254569. Jonathan Israel, Enlightenment Contested: Philosophy, Modernity, and the Emancipation of Man 1670-1752. Oxford University Press, 2006. 983 pp. ISBN 978-0199279227. ",
+      "subjects": [
+        {
+          "subject": "Civilization, Modern",
+          "scheme": "FAST",
+          "identifier": "fst00863073",
+          "uri": "https://id.worldcat.org/fast/863073",
+          "category": "topical"
+        },
+        {
+          "subject": "Enlightenment",
+          "scheme": "FAST",
+          "identifier": "fst00912527",
+          "uri": "https://id.worldcat.org/fast/912527",
+          "category": "topical"
+        },
+        {
+          "subject": "Liberty",
+          "scheme": "FAST",
+          "identifier": "fst00997251",
+          "uri": "https://id.worldcat.org/fast/997251",
+          "category": "topical"
+        },
+        {
+          "subject": "Materialism",
+          "scheme": "FAST",
+          "identifier": "fst01011758",
+          "uri": "https://id.worldcat.org/fast/1011758",
+          "category": "topical"
+        },
+        {
+          "subject": "Rationalism",
+          "scheme": "FAST",
+          "identifier": "fst01090275",
+          "uri": "https://id.worldcat.org/fast/1090275",
+          "category": "topical"
+        },
+        {
+          "subject": "Secularism",
+          "scheme": "FAST",
+          "identifier": "fst01110732",
+          "uri": "https://id.worldcat.org/fast/1110732",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -897,7 +941,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "jonathan-israel",
+        "radical-enlightenment",
+        "secular-modernity",
+        "baruch-spinoza",
+        "enlightenment",
+        "modernity",
+        "emancipation",
+        "secularism",
+        "intellectual-history",
+        "rationalism",
+        "early-modern-philosophy",
+        "materialism"
+      ]
     },
     "parent": {
       "access": {
@@ -919,7 +976,7 @@
       "enabled": true,
       "entries": {
         "leo.pdf": {
-          "size": 112840,
+          "size": 113852,
           "key": "leo.pdf"
         }
       }
@@ -967,13 +1024,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Heresy",
+          "scheme": "FAST",
+          "identifier": "fst00955449",
+          "uri": "https://id.worldcat.org/fast/955449",
+          "category": "topical"
+        },
+        {
+          "subject": "Korea",
+          "scheme": "FAST",
+          "identifier": "fst01206434",
+          "uri": "https://id.worldcat.org/fast/1206434",
+          "category": "geographic"
+        },
+        {
+          "subject": "Popular culture",
+          "scheme": "FAST",
+          "identifier": "fst01071344",
+          "uri": "https://id.worldcat.org/fast/1071344",
+          "category": "topical"
+        },
+        {
+          "subject": "Second Advent",
+          "scheme": "FAST",
+          "identifier": "fst01110547",
+          "uri": "https://id.worldcat.org/fast/1110547",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -983,7 +1070,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "mark-millar",
+        "chosen",
+        "comic-books",
+        "second-coming-of-christ",
+        "heresy",
+        "apocalyptic-christianity",
+        "popular-culture",
+        "radical-theology",
+        "thomas-altizer",
+        "william-blake",
+        "catholicism",
+        "sacred-and-profane"
+      ]
     },
     "parent": {
       "access": {
@@ -1005,7 +1105,7 @@
       "enabled": true,
       "entries": {
         "rodkey.pdf": {
-          "size": 87447,
+          "size": 88385,
           "key": "rodkey.pdf"
         }
       }

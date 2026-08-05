@@ -8,6 +8,142 @@
         {
           "person_or_org": {
             "type": "personal",
+            "name": "editors",
+            "given_name": "",
+            "family_name": "editors"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "Author Bios",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2019",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "T6x2f-",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/18.2/bios/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "title": {
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
+        }
+      ],
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Continental philosophy",
+          "scheme": "FAST",
+          "identifier": "fst01765182",
+          "uri": "https://id.worldcat.org/fast/1765182",
+          "category": "topical"
+        },
+        {
+          "subject": "Mysticism",
+          "scheme": "FAST",
+          "identifier": "fst01031629",
+          "uri": "https://id.worldcat.org/fast/1031629",
+          "category": "topical"
+        },
+        {
+          "subject": "Phenomenology",
+          "scheme": "FAST",
+          "identifier": "fst01060522",
+          "uri": "https://id.worldcat.org/fast/1060522",
+          "category": "topical"
+        },
+        {
+          "subject": "Political theology",
+          "scheme": "FAST",
+          "identifier": "fst01069899",
+          "uri": "https://id.worldcat.org/fast/1069899",
+          "category": "topical"
+        },
+        {
+          "subject": "Theology, Doctrinal",
+          "scheme": "FAST",
+          "identifier": "fst01149617",
+          "uri": "https://id.worldcat.org/fast/1149617",
+          "category": "topical"
+        }
+      ]
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "2",
+        "volume": "18",
+        "pages": "",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": [
+        "phenomenology",
+        "philosophy-of-religion",
+        "continental-philosophy",
+        "political-theology",
+        "systematic-theology",
+        "radical-theology",
+        "meister-eckhart",
+        "gilles-deleuze",
+        "islamic-studies",
+        "mysticism",
+        "religious-studies",
+        "contributor-biographies"
+      ]
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "Bios.pdf": {
+          "size": 70766,
+          "key": "Bios.pdf"
+        }
+      }
+    }
+  },
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
             "name": "Deroo, Neal",
             "given_name": "Neal",
             "family_name": "Deroo"
@@ -41,10 +177,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -92,7 +228,7 @@
       "enabled": true,
       "entries": {
         "DeRoo.pdf": {
-          "size": 257181,
+          "size": 248284,
           "key": "DeRoo.pdf"
         }
       }
@@ -140,10 +276,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -193,7 +329,7 @@
       "enabled": true,
       "entries": {
         "Fishley.pdf": {
-          "size": 187876,
+          "size": 180481,
           "key": "Fishley.pdf"
         }
       }
@@ -241,10 +377,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -299,7 +435,7 @@
       "enabled": true,
       "entries": {
         "Giardino.pdf": {
-          "size": 208061,
+          "size": 200382,
           "key": "Giardino.pdf"
         }
       }
@@ -347,10 +483,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -412,7 +548,7 @@
       "enabled": true,
       "entries": {
         "Graham.pdf": {
-          "size": 250705,
+          "size": 242138,
           "key": "Graham.pdf"
         }
       }
@@ -460,13 +596,71 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Animism",
+          "scheme": "FAST",
+          "identifier": "fst00809637",
+          "uri": "https://id.worldcat.org/fast/809637",
+          "category": "topical"
+        },
+        {
+          "subject": "Commodity fetishism",
+          "scheme": "FAST",
+          "identifier": "fst00869740",
+          "uri": "https://id.worldcat.org/fast/869740",
+          "category": "topical"
+        },
+        {
+          "subject": "Decolonization",
+          "scheme": "FAST",
+          "identifier": "fst00889115",
+          "uri": "https://id.worldcat.org/fast/889115",
+          "category": "topical"
+        },
+        {
+          "subject": "Political theology",
+          "scheme": "FAST",
+          "identifier": "fst01069899",
+          "uri": "https://id.worldcat.org/fast/1069899",
+          "category": "topical"
+        },
+        {
+          "subject": "Race",
+          "scheme": "FAST",
+          "identifier": "fst01086436",
+          "uri": "https://id.worldcat.org/fast/1086436",
+          "category": "topical"
+        },
+        {
+          "subject": "Secularism",
+          "scheme": "FAST",
+          "identifier": "fst01110732",
+          "uri": "https://id.worldcat.org/fast/1110732",
+          "category": "topical"
+        },
+        {
+          "subject": "Settler colonialism",
+          "scheme": "FAST",
+          "identifier": "fst02025744",
+          "uri": "https://id.worldcat.org/fast/2025744",
+          "category": "topical"
+        },
+        {
+          "subject": "Kinks and fetishes",
+          "scheme": "Homosaurus",
+          "identifier": "homoit0000442",
+          "uri": "https://homosaurus.org/v5/homoit0000442",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -476,7 +670,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "fetish",
+        "indigeneity",
+        "settler-colonialism",
+        "decolonization",
+        "commodity-fetishism",
+        "political-theology",
+        "indigenous-religious-traditions",
+        "animism",
+        "materiality",
+        "colonialism",
+        "race",
+        "secularism"
+      ]
     },
     "parent": {
       "access": {
@@ -498,7 +705,7 @@
       "enabled": true,
       "entries": {
         "Green.pdf": {
-          "size": 282756,
+          "size": 274832,
           "key": "Green.pdf"
         }
       }
@@ -546,10 +753,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -611,7 +818,7 @@
       "enabled": true,
       "entries": {
         "Guerriero.pdf": {
-          "size": 132261,
+          "size": 125373,
           "key": "Guerriero.pdf"
         }
       }
@@ -659,10 +866,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -709,7 +916,7 @@
       "enabled": true,
       "entries": {
         "Harrison.pdf": {
-          "size": 164093,
+          "size": 156799,
           "key": "Harrison.pdf"
         }
       }
@@ -757,10 +964,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -822,7 +1029,7 @@
       "enabled": true,
       "entries": {
         "Hovorun.pdf": {
-          "size": 227160,
+          "size": 219704,
           "key": "Hovorun.pdf"
         }
       }
@@ -870,13 +1077,36 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Analogy",
+          "scheme": "FAST",
+          "identifier": "fst00808308",
+          "uri": "https://id.worldcat.org/fast/808308",
+          "category": "topical"
+        },
+        {
+          "subject": "Negative theology",
+          "scheme": "FAST",
+          "identifier": "fst01035499",
+          "uri": "https://id.worldcat.org/fast/1035499",
+          "category": "topical"
+        },
+        {
+          "subject": "Transcendence of God",
+          "scheme": "FAST",
+          "identifier": "fst01154533",
+          "uri": "https://id.worldcat.org/fast/1154533",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -886,7 +1116,20 @@
         "pages": "246-252",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "divine-transcendence",
+        "non-contrastive-transcendence",
+        "apophatic-theology",
+        "presence-and-absence",
+        "god-language",
+        "immanence",
+        "negative-theology",
+        "analogy",
+        "kathryn-tanner",
+        "theology-of-language",
+        "ineffability",
+        "divine-otherness"
+      ]
     },
     "parent": {
       "access": {
@@ -908,7 +1151,7 @@
       "enabled": true,
       "entries": {
         "Konigsburg.pdf": {
-          "size": 190198,
+          "size": 183829,
           "key": "Konigsburg.pdf"
         }
       }
@@ -956,10 +1199,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1014,7 +1257,7 @@
       "enabled": true,
       "entries": {
         "Lewis.pdf": {
-          "size": 259021,
+          "size": 250114,
           "key": "Lewis.pdf"
         }
       }
@@ -1062,10 +1305,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1127,7 +1370,7 @@
       "enabled": true,
       "entries": {
         "McAvan.pdf": {
-          "size": 177220,
+          "size": 169814,
           "key": "McAvan.pdf"
         }
       }
@@ -1175,10 +1418,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1240,7 +1483,7 @@
       "enabled": true,
       "entries": {
         "Oliver.pdf": {
-          "size": 302897,
+          "size": 294123,
           "key": "Oliver.pdf"
         }
       }
@@ -1288,10 +1531,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1353,7 +1596,7 @@
       "enabled": true,
       "entries": {
         "Pessin.pdf": {
-          "size": 197032,
+          "size": 189643,
           "key": "Pessin.pdf"
         }
       }
@@ -1401,10 +1644,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1454,7 +1697,7 @@
       "enabled": true,
       "entries": {
         "Prewitt-Davis.pdf": {
-          "size": 167204,
+          "size": 159759,
           "key": "Prewitt-Davis.pdf"
         }
       }
@@ -1502,13 +1745,36 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Death of God theology",
+          "scheme": "FAST",
+          "identifier": "fst00888716",
+          "uri": "https://id.worldcat.org/fast/888716",
+          "category": "topical"
+        },
+        {
+          "subject": "Materialism",
+          "scheme": "FAST",
+          "identifier": "fst01011758",
+          "uri": "https://id.worldcat.org/fast/1011758",
+          "category": "topical"
+        },
+        {
+          "subject": "Political theology",
+          "scheme": "FAST",
+          "identifier": "fst01069899",
+          "uri": "https://id.worldcat.org/fast/1069899",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -1518,7 +1784,20 @@
         "pages": "282-289",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "slavoj-zizek",
+        "gilles-deleuze",
+        "death-of-god-theology",
+        "radical-theology",
+        "materialism",
+        "immanence",
+        "dialectics",
+        "christian-atheism",
+        "g-w-f-hegel",
+        "negation",
+        "political-theology",
+        "univocity"
+      ]
     },
     "parent": {
       "access": {
@@ -1540,7 +1819,7 @@
       "enabled": true,
       "entries": {
         "Samuel.pdf": {
-          "size": 148893,
+          "size": 149814,
           "key": "Samuel.pdf"
         }
       }
@@ -1588,10 +1867,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1646,7 +1925,7 @@
       "enabled": true,
       "entries": {
         "Stanton.pdf": {
-          "size": 1110540,
+          "size": 1108082,
           "key": "Stanton.pdf"
         }
       }
@@ -1694,10 +1973,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1753,7 +2032,7 @@
       "enabled": true,
       "entries": {
         "Trozzo.pdf": {
-          "size": 204910,
+          "size": 196870,
           "key": "Trozzo.pdf"
         }
       }
@@ -1801,10 +2080,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1860,7 +2139,7 @@
       "enabled": true,
       "entries": {
         "Vaino.pdf": {
-          "size": 240749,
+          "size": 232572,
           "key": "Vaino.pdf"
         }
       }

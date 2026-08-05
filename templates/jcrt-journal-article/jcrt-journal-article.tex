@@ -118,7 +118,7 @@ $endif$
 $if(license-url)$
   pdflicenseurl={$license-url$}
 $else$
-  pdflicenseurl={https://creativecommons.org/licenses/by/4.0/}
+  pdflicenseurl={https://jcrt.org/copyright/}
 $endif$
 }
 
@@ -201,9 +201,9 @@ $endif$
   Published by $if(publisher)$$publisher$$else$Whitestone Publications$endif$.
   ISSN $if(issn)$$issn$$else$1530-5228$endif$.
   $if(license)$
-    \href{$if(license-url)$$license-url$$else$https://creativecommons.org/licenses/by/4.0/$endif$}{$license$}.
+    \href{$if(license-url)$$license-url$$else$https://jcrt.org/copyright/$endif$}{$license$}.
   $else$
-    Licensed under \href{$if(license-url)$$license-url$$else$https://creativecommons.org/licenses/by/4.0/$endif$}{CC BY 4.0}.
+    Rights: \href{$if(license-url)$$license-url$$else$https://jcrt.org/copyright/$endif$}{JCRT copyright policy}.
   $endif$
   }
 \end{center}

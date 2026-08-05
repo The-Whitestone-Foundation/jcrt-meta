@@ -41,10 +41,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -98,8 +98,149 @@
       "enabled": true,
       "entries": {
         "Appel.pdf": {
-          "size": 113380,
+          "size": 113803,
           "key": "Appel.pdf"
+        }
+      }
+    }
+  },
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "editors",
+            "given_name": "",
+            "family_name": "editors"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "Author Bios",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2018",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "UEFJvv",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/18.1/bios/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "title": {
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
+        }
+      ],
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Comparative literature",
+          "scheme": "FAST",
+          "identifier": "fst01734553",
+          "uri": "https://id.worldcat.org/fast/1734553",
+          "category": "topical"
+        },
+        {
+          "subject": "Continental philosophy",
+          "scheme": "FAST",
+          "identifier": "fst01765182",
+          "uri": "https://id.worldcat.org/fast/1765182",
+          "category": "topical"
+        },
+        {
+          "subject": "Political theology",
+          "scheme": "FAST",
+          "identifier": "fst01069899",
+          "uri": "https://id.worldcat.org/fast/1069899",
+          "category": "topical"
+        },
+        {
+          "subject": "Psychoanalysis",
+          "scheme": "FAST",
+          "identifier": "fst01081235",
+          "uri": "https://id.worldcat.org/fast/1081235",
+          "category": "topical"
+        },
+        {
+          "subject": "Religion and sociology",
+          "scheme": "FAST",
+          "identifier": "fst01093858",
+          "uri": "https://id.worldcat.org/fast/1093858",
+          "category": "topical"
+        },
+        {
+          "subject": "Theology",
+          "scheme": "FAST",
+          "identifier": "fst01149559",
+          "uri": "https://id.worldcat.org/fast/1149559",
+          "category": "topical"
+        }
+      ]
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "1",
+        "volume": "18",
+        "pages": "",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": [
+        "religious-studies",
+        "philosophy-of-religion",
+        "political-theology",
+        "psychoanalysis",
+        "continental-philosophy",
+        "comparative-literature",
+        "sociology-of-religion",
+        "theology",
+        "lacanian-psychoanalysis",
+        "contributor-biographies"
+      ]
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "Bios.pdf": {
+          "size": 71460,
+          "key": "Bios.pdf"
         }
       }
     }
@@ -146,102 +287,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
-        }
-      ],
-      "description": "",
-      "subjects": [
-        {
-          "subject": "Psychoanalysis",
-          "scheme": "FAST",
-          "identifier": "fst01081235",
-          "uri": "https://id.worldcat.org/fast/1081235",
-          "category": "topical"
-        }
-      ]
-    },
-    "custom_fields": {
-      "journal:journal": {
-        "title": "Journal for Cultural & Religious Theory",
-        "issue": "1",
-        "volume": "18",
-        "pages": "89-108",
-        "issn": "1530-5228"
-      },
-      "kcr:user_defined_tags": [
-        "psychoanalysis",
-        "sectarian-conflict"
-      ]
-    },
-    "parent": {
-      "access": {
-        "owned_by": [
-          {
-            "full_name": "Adam DJ Brett",
-            "email": "adam@adamdjbrett.com",
-            "identifiers": [
-              {
-                "identifier": "adamdjbrett",
-                "scheme": "kc_username"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "files": {
-      "enabled": false
-    }
-  },
-  {
-    "metadata": {
-      "resource_type": {
-        "id": "textDocument-journalArticle"
-      },
-      "creators": [
-        {
-          "person_or_org": {
-            "type": "personal",
-            "name": "Burke, Brigid",
-            "given_name": "Brigid",
-            "family_name": "Burke"
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
           },
-          "role": {
-            "id": "author"
-          }
-        }
-      ],
-      "title": "The Mythology of Afterlife Beliefs and Their Impact on Religious Conflict.",
-      "publisher": "Whitestone Publications",
-      "publication_date": "2018",
-      "languages": [
-        {
-          "id": "eng"
-        }
-      ],
-      "identifiers": [
-        {
-          "identifier": "4DtBc_",
-          "scheme": "import-recid"
-        },
-        {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
-          "identifier": "https://jcrt.org/archives/18.1/burke2/",
-          "scheme": "url"
-        }
-      ],
-      "rights": [
-        {
-          "id": "cc-by-4.0",
-          "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -288,7 +337,105 @@
       "enabled": true,
       "entries": {
         "Burke2.pdf": {
-          "size": 243383,
+          "size": 243526,
+          "key": "Burke2.pdf"
+        }
+      }
+    }
+  },
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Burke, Brigid",
+            "given_name": "Brigid",
+            "family_name": "Burke"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "The Mythology of Afterlife Beliefs and Their Impact on Religious Conflict.",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2018",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "4DtBc_",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/18.1/burke2/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "title": {
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
+        }
+      ],
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Psychoanalysis",
+          "scheme": "FAST",
+          "identifier": "fst01081235",
+          "uri": "https://id.worldcat.org/fast/1081235",
+          "category": "topical"
+        }
+      ]
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "1",
+        "volume": "18",
+        "pages": "89-108",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": [
+        "psychoanalysis",
+        "sectarian-conflict"
+      ]
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "Burke2.pdf": {
+          "size": 243526,
           "key": "Burke2.pdf"
         }
       }
@@ -336,10 +483,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -401,7 +548,7 @@
       "enabled": true,
       "entries": {
         "Cook1.pdf": {
-          "size": 446889,
+          "size": 450036,
           "key": "Cook1.pdf"
         }
       }
@@ -449,10 +596,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -514,7 +661,7 @@
       "enabled": true,
       "entries": {
         "Delay.pdf": {
-          "size": 95390,
+          "size": 95763,
           "key": "Delay.pdf"
         }
       }
@@ -562,10 +709,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -628,7 +775,7 @@
       "enabled": true,
       "entries": {
         "Green.pdf": {
-          "size": 148757,
+          "size": 149065,
           "key": "Green.pdf"
         }
       }
@@ -676,117 +823,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
-        }
-      ],
-      "description": "",
-      "subjects": [
-        {
-          "subject": "Literary criticism",
-          "scheme": "FAST",
-          "identifier": "fst01986215",
-          "uri": "https://id.worldcat.org/fast/1986215",
-          "category": "form-genre"
-        },
-        {
-          "subject": "Religious literature, Russian",
-          "scheme": "FAST",
-          "identifier": "fst01094183",
-          "uri": "https://id.worldcat.org/fast/1094183",
-          "category": "topical"
-        },
-        {
-          "subject": "Theology",
-          "scheme": "FAST",
-          "identifier": "fst01149559",
-          "uri": "https://id.worldcat.org/fast/1149559",
-          "category": "topical"
-        }
-      ]
-    },
-    "custom_fields": {
-      "journal:journal": {
-        "title": "Journal for Cultural & Religious Theory",
-        "issue": "1",
-        "volume": "18",
-        "pages": "110-120",
-        "issn": "1530-5228"
-      },
-      "kcr:user_defined_tags": [
-        "theology",
-        "literary-criticism",
-        "russian-religious-literature"
-      ]
-    },
-    "parent": {
-      "access": {
-        "owned_by": [
-          {
-            "full_name": "Adam DJ Brett",
-            "email": "adam@adamdjbrett.com",
-            "identifiers": [
-              {
-                "identifier": "adamdjbrett",
-                "scheme": "kc_username"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "files": {
-      "enabled": false
-    }
-  },
-  {
-    "metadata": {
-      "resource_type": {
-        "id": "textDocument-journalArticle"
-      },
-      "creators": [
-        {
-          "person_or_org": {
-            "type": "personal",
-            "name": "Komkov, Oleg",
-            "given_name": "Oleg",
-            "family_name": "Komkov"
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
           },
-          "role": {
-            "id": "author"
-          }
-        }
-      ],
-      "title": "The Vertical Form - the Iconological Dimension on 2oth Century Russian Religious Aesthetics and Literary Criticism.",
-      "publisher": "Whitestone Publications",
-      "publication_date": "2018",
-      "languages": [
-        {
-          "id": "eng"
-        }
-      ],
-      "identifiers": [
-        {
-          "identifier": "O-8ms7",
-          "scheme": "import-recid"
-        },
-        {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
-          "identifier": "https://jcrt.org/archives/18.1/komkov2/",
-          "scheme": "url"
-        }
-      ],
-      "rights": [
-        {
-          "id": "cc-by-4.0",
-          "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -848,7 +888,120 @@
       "enabled": true,
       "entries": {
         "Komkov2.pdf": {
-          "size": 185280,
+          "size": 185722,
+          "key": "Komkov2.pdf"
+        }
+      }
+    }
+  },
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Komkov, Oleg",
+            "given_name": "Oleg",
+            "family_name": "Komkov"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "The Vertical Form - the Iconological Dimension on 2oth Century Russian Religious Aesthetics and Literary Criticism.",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2018",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "O-8ms7",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/18.1/komkov2/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "title": {
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
+        }
+      ],
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Literary criticism",
+          "scheme": "FAST",
+          "identifier": "fst01986215",
+          "uri": "https://id.worldcat.org/fast/1986215",
+          "category": "form-genre"
+        },
+        {
+          "subject": "Religious literature, Russian",
+          "scheme": "FAST",
+          "identifier": "fst01094183",
+          "uri": "https://id.worldcat.org/fast/1094183",
+          "category": "topical"
+        },
+        {
+          "subject": "Theology",
+          "scheme": "FAST",
+          "identifier": "fst01149559",
+          "uri": "https://id.worldcat.org/fast/1149559",
+          "category": "topical"
+        }
+      ]
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "1",
+        "volume": "18",
+        "pages": "110-120",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": [
+        "theology",
+        "literary-criticism",
+        "russian-religious-literature"
+      ]
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "Komkov2.pdf": {
+          "size": 185722,
           "key": "Komkov2.pdf"
         }
       }
@@ -896,10 +1049,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -946,7 +1099,7 @@
       "enabled": true,
       "entries": {
         "Koser.pdf": {
-          "size": 120223,
+          "size": 120531,
           "key": "Koser.pdf"
         }
       }
@@ -994,117 +1147,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
-        }
-      ],
-      "description": "",
-      "subjects": [
-        {
-          "subject": "Christianity",
-          "scheme": "FAST",
-          "identifier": "fst00859599",
-          "uri": "https://id.worldcat.org/fast/859599",
-          "category": "topical"
-        },
-        {
-          "subject": "Psychoanalysis",
-          "scheme": "FAST",
-          "identifier": "fst01081235",
-          "uri": "https://id.worldcat.org/fast/1081235",
-          "category": "topical"
-        },
-        {
-          "subject": "Theology",
-          "scheme": "FAST",
-          "identifier": "fst01149559",
-          "uri": "https://id.worldcat.org/fast/1149559",
-          "category": "topical"
-        }
-      ]
-    },
-    "custom_fields": {
-      "journal:journal": {
-        "title": "Journal for Cultural & Religious Theory",
-        "issue": "1",
-        "volume": "18",
-        "pages": "71-84",
-        "issn": "1530-5228"
-      },
-      "kcr:user_defined_tags": [
-        "theology",
-        "christianity",
-        "psychoanalysis"
-      ]
-    },
-    "parent": {
-      "access": {
-        "owned_by": [
-          {
-            "full_name": "Adam DJ Brett",
-            "email": "adam@adamdjbrett.com",
-            "identifiers": [
-              {
-                "identifier": "adamdjbrett",
-                "scheme": "kc_username"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "files": {
-      "enabled": false
-    }
-  },
-  {
-    "metadata": {
-      "resource_type": {
-        "id": "textDocument-journalArticle"
-      },
-      "creators": [
-        {
-          "person_or_org": {
-            "type": "personal",
-            "name": "LØLand, Ole Jakob",
-            "given_name": "Ole Jakob",
-            "family_name": "LØLand"
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
           },
-          "role": {
-            "id": "author"
-          }
-        }
-      ],
-      "title": "The Modern Philosophers‘ Paul: Reclaiming Pauline Introspection and Reviving Legacies of Anti-Judaism.",
-      "publisher": "Whitestone Publications",
-      "publication_date": "2018",
-      "languages": [
-        {
-          "id": "eng"
-        }
-      ],
-      "identifiers": [
-        {
-          "identifier": "zANNt0",
-          "scheme": "import-recid"
-        },
-        {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
-          "identifier": "https://jcrt.org/archives/18.1/loland1/",
-          "scheme": "url"
-        }
-      ],
-      "rights": [
-        {
-          "id": "cc-by-4.0",
-          "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1166,7 +1212,120 @@
       "enabled": true,
       "entries": {
         "Loland1.pdf": {
-          "size": 277487,
+          "size": 277755,
+          "key": "Loland1.pdf"
+        }
+      }
+    }
+  },
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "LØLand, Ole Jakob",
+            "given_name": "Ole Jakob",
+            "family_name": "LØLand"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "The Modern Philosophers‘ Paul: Reclaiming Pauline Introspection and Reviving Legacies of Anti-Judaism.",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2018",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "zANNt0",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/18.1/loland1/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "title": {
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
+        }
+      ],
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Christianity",
+          "scheme": "FAST",
+          "identifier": "fst00859599",
+          "uri": "https://id.worldcat.org/fast/859599",
+          "category": "topical"
+        },
+        {
+          "subject": "Psychoanalysis",
+          "scheme": "FAST",
+          "identifier": "fst01081235",
+          "uri": "https://id.worldcat.org/fast/1081235",
+          "category": "topical"
+        },
+        {
+          "subject": "Theology",
+          "scheme": "FAST",
+          "identifier": "fst01149559",
+          "uri": "https://id.worldcat.org/fast/1149559",
+          "category": "topical"
+        }
+      ]
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "1",
+        "volume": "18",
+        "pages": "71-84",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": [
+        "theology",
+        "christianity",
+        "psychoanalysis"
+      ]
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "Loland1.pdf": {
+          "size": 277755,
           "key": "Loland1.pdf"
         }
       }
@@ -1214,10 +1373,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1273,7 +1432,7 @@
       "enabled": true,
       "entries": {
         "McAndrew.pdf": {
-          "size": 121259,
+          "size": 121657,
           "key": "McAndrew.pdf"
         }
       }
@@ -1321,10 +1480,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1378,7 +1537,7 @@
       "enabled": true,
       "entries": {
         "Pederson.pdf": {
-          "size": 194277,
+          "size": 194578,
           "key": "Pederson.pdf"
         }
       }
@@ -1426,109 +1585,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
-        }
-      ],
-      "description": "",
-      "subjects": [
-        {
-          "subject": "Evangelicalism",
-          "scheme": "FAST",
-          "identifier": "fst00917002",
-          "uri": "https://id.worldcat.org/fast/917002",
-          "category": "topical"
-        },
-        {
-          "subject": "Theology, Doctrinal",
-          "scheme": "FAST",
-          "identifier": "fst01149617",
-          "uri": "https://id.worldcat.org/fast/1149617",
-          "category": "topical"
-        }
-      ]
-    },
-    "custom_fields": {
-      "journal:journal": {
-        "title": "Journal for Cultural & Religious Theory",
-        "issue": "1",
-        "volume": "18",
-        "pages": "85-88",
-        "issn": "1530-5228"
-      },
-      "kcr:user_defined_tags": [
-        "evangelicalism",
-        "doctrinal-theology"
-      ]
-    },
-    "parent": {
-      "access": {
-        "owned_by": [
-          {
-            "full_name": "Adam DJ Brett",
-            "email": "adam@adamdjbrett.com",
-            "identifiers": [
-              {
-                "identifier": "adamdjbrett",
-                "scheme": "kc_username"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "files": {
-      "enabled": false
-    }
-  },
-  {
-    "metadata": {
-      "resource_type": {
-        "id": "textDocument-journalArticle"
-      },
-      "creators": [
-        {
-          "person_or_org": {
-            "type": "personal",
-            "name": "Ramos, Joshua",
-            "given_name": "Joshua",
-            "family_name": "Ramos"
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
           },
-          "role": {
-            "id": "author"
-          }
-        }
-      ],
-      "title": "The Secularizing Ethos and the End of Biblical Authority: How Today’s Evangelicals Abandoned Evangelicalism.",
-      "publisher": "Whitestone Publications",
-      "publication_date": "2018",
-      "languages": [
-        {
-          "id": "eng"
-        }
-      ],
-      "identifiers": [
-        {
-          "identifier": "7PnW83",
-          "scheme": "import-recid"
-        },
-        {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
-          "identifier": "https://jcrt.org/archives/18.1/ramos1/",
-          "scheme": "url"
-        }
-      ],
-      "rights": [
-        {
-          "id": "cc-by-4.0",
-          "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1582,7 +1642,112 @@
       "enabled": true,
       "entries": {
         "Ramos1.pdf": {
-          "size": 96841,
+          "size": 97319,
+          "key": "Ramos1.pdf"
+        }
+      }
+    }
+  },
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Ramos, Joshua",
+            "given_name": "Joshua",
+            "family_name": "Ramos"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "The Secularizing Ethos and the End of Biblical Authority: How Today’s Evangelicals Abandoned Evangelicalism.",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2018",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "7PnW83",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/18.1/ramos1/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "title": {
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
+        }
+      ],
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Evangelicalism",
+          "scheme": "FAST",
+          "identifier": "fst00917002",
+          "uri": "https://id.worldcat.org/fast/917002",
+          "category": "topical"
+        },
+        {
+          "subject": "Theology, Doctrinal",
+          "scheme": "FAST",
+          "identifier": "fst01149617",
+          "uri": "https://id.worldcat.org/fast/1149617",
+          "category": "topical"
+        }
+      ]
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "1",
+        "volume": "18",
+        "pages": "85-88",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": [
+        "evangelicalism",
+        "doctrinal-theology"
+      ]
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "Ramos1.pdf": {
+          "size": 97319,
           "key": "Ramos1.pdf"
         }
       }
@@ -1630,10 +1795,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1695,7 +1860,7 @@
       "enabled": true,
       "entries": {
         "Richard.pdf": {
-          "size": 159365,
+          "size": 159655,
           "key": "Richard.pdf"
         }
       }
@@ -1743,110 +1908,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
-        }
-      ],
-      "description": "",
-      "subjects": [
-        {
-          "subject": "Bharatiya Janata Party",
-          "scheme": "FAST",
-          "identifier": "fst00572840",
-          "uri": "https://id.worldcat.org/fast/572840",
-          "category": "corporate"
-        },
-        {
-          "subject": "Institutionalism (Religion)",
-          "scheme": "FAST",
-          "identifier": "fst00974321",
-          "uri": "https://id.worldcat.org/fast/974321",
-          "category": "topical"
-        }
-      ]
-    },
-    "custom_fields": {
-      "journal:journal": {
-        "title": "Journal for Cultural & Religious Theory",
-        "issue": "1",
-        "volume": "18",
-        "pages": "121-137",
-        "issn": "1530-5228"
-      },
-      "kcr:user_defined_tags": [
-        "institutionalism-religion",
-        "sectarian-conflict",
-        "bharatiya-janata-party"
-      ]
-    },
-    "parent": {
-      "access": {
-        "owned_by": [
-          {
-            "full_name": "Adam DJ Brett",
-            "email": "adam@adamdjbrett.com",
-            "identifiers": [
-              {
-                "identifier": "adamdjbrett",
-                "scheme": "kc_username"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "files": {
-      "enabled": false
-    }
-  },
-  {
-    "metadata": {
-      "resource_type": {
-        "id": "textDocument-journalArticle"
-      },
-      "creators": [
-        {
-          "person_or_org": {
-            "type": "personal",
-            "name": "Sharma, Vivek Swaroop",
-            "given_name": "Vivek Swaroop",
-            "family_name": "Sharma"
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
           },
-          "role": {
-            "id": "author"
-          }
-        }
-      ],
-      "title": "Framing Religious Conflict and Violence - Insights from Historical Institutionalism.",
-      "publisher": "Whitestone Publications",
-      "publication_date": "2018",
-      "languages": [
-        {
-          "id": "eng"
-        }
-      ],
-      "identifiers": [
-        {
-          "identifier": "4t82wQ",
-          "scheme": "import-recid"
-        },
-        {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
-          "identifier": "https://jcrt.org/archives/18.1/sharma2/",
-          "scheme": "url"
-        }
-      ],
-      "rights": [
-        {
-          "id": "cc-by-4.0",
-          "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1901,7 +1966,113 @@
       "enabled": true,
       "entries": {
         "Sharma2.pdf": {
-          "size": 234557,
+          "size": 234915,
+          "key": "Sharma2.pdf"
+        }
+      }
+    }
+  },
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Sharma, Vivek Swaroop",
+            "given_name": "Vivek Swaroop",
+            "family_name": "Sharma"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "Framing Religious Conflict and Violence - Insights from Historical Institutionalism.",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2018",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "4t82wQ",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/18.1/sharma2/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "title": {
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
+        }
+      ],
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Bharatiya Janata Party",
+          "scheme": "FAST",
+          "identifier": "fst00572840",
+          "uri": "https://id.worldcat.org/fast/572840",
+          "category": "corporate"
+        },
+        {
+          "subject": "Institutionalism (Religion)",
+          "scheme": "FAST",
+          "identifier": "fst00974321",
+          "uri": "https://id.worldcat.org/fast/974321",
+          "category": "topical"
+        }
+      ]
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "1",
+        "volume": "18",
+        "pages": "121-137",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": [
+        "institutionalism-religion",
+        "sectarian-conflict",
+        "bharatiya-janata-party"
+      ]
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "Sharma2.pdf": {
+          "size": 234915,
           "key": "Sharma2.pdf"
         }
       }
@@ -1949,120 +2120,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
-        }
-      ],
-      "description": "",
-      "subjects": [
-        {
-          "subject": "Ethnology",
-          "scheme": "FAST",
-          "identifier": "fst00916106",
-          "uri": "https://id.worldcat.org/fast/916106",
-          "category": "topical"
-        },
-        {
-          "subject": "Journalism",
-          "scheme": "FAST",
-          "identifier": "fst00984032",
-          "uri": "https://id.worldcat.org/fast/984032",
-          "category": "topical"
-        },
-        {
-          "subject": "Social advocacy",
-          "scheme": "FAST",
-          "identifier": "fst01122271",
-          "uri": "https://id.worldcat.org/fast/1122271",
-          "category": "topical"
-        }
-      ]
-    },
-    "custom_fields": {
-      "journal:journal": {
-        "title": "Journal for Cultural & Religious Theory",
-        "issue": "1",
-        "volume": "18",
-        "pages": "138-155",
-        "issn": "1530-5228"
-      },
-      "kcr:user_defined_tags": [
-        "ethnology",
-        "human-rights-organizations",
-        "journalism",
-        "other-social-advocacy-organizations",
-        "social-advocacy",
-        "social-advocacy-organizations"
-      ]
-    },
-    "parent": {
-      "access": {
-        "owned_by": [
-          {
-            "full_name": "Adam DJ Brett",
-            "email": "adam@adamdjbrett.com",
-            "identifiers": [
-              {
-                "identifier": "adamdjbrett",
-                "scheme": "kc_username"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "files": {
-      "enabled": false
-    }
-  },
-  {
-    "metadata": {
-      "resource_type": {
-        "id": "textDocument-journalArticle"
-      },
-      "creators": [
-        {
-          "person_or_org": {
-            "type": "personal",
-            "name": "Spickard, James V.",
-            "given_name": "James V.",
-            "family_name": "Spickard"
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
           },
-          "role": {
-            "id": "author"
-          }
-        }
-      ],
-      "title": "Slow Journalism? Ethnography as a Means of Understanding Religious Social Activism.",
-      "publisher": "Whitestone Publications",
-      "publication_date": "2018",
-      "languages": [
-        {
-          "id": "eng"
-        }
-      ],
-      "identifiers": [
-        {
-          "identifier": "JhY9lR",
-          "scheme": "import-recid"
-        },
-        {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
-          "identifier": "https://jcrt.org/archives/18.1/spickard2/",
-          "scheme": "url"
-        }
-      ],
-      "rights": [
-        {
-          "id": "cc-by-4.0",
-          "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -2127,7 +2188,123 @@
       "enabled": true,
       "entries": {
         "Spickard2.pdf": {
-          "size": 234073,
+          "size": 234342,
+          "key": "Spickard2.pdf"
+        }
+      }
+    }
+  },
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "Spickard, James V.",
+            "given_name": "James V.",
+            "family_name": "Spickard"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "Slow Journalism? Ethnography as a Means of Understanding Religious Social Activism.",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2018",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "JhY9lR",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/18.1/spickard2/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "title": {
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
+        }
+      ],
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Ethnology",
+          "scheme": "FAST",
+          "identifier": "fst00916106",
+          "uri": "https://id.worldcat.org/fast/916106",
+          "category": "topical"
+        },
+        {
+          "subject": "Journalism",
+          "scheme": "FAST",
+          "identifier": "fst00984032",
+          "uri": "https://id.worldcat.org/fast/984032",
+          "category": "topical"
+        },
+        {
+          "subject": "Social advocacy",
+          "scheme": "FAST",
+          "identifier": "fst01122271",
+          "uri": "https://id.worldcat.org/fast/1122271",
+          "category": "topical"
+        }
+      ]
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "1",
+        "volume": "18",
+        "pages": "138-155",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": [
+        "ethnology",
+        "human-rights-organizations",
+        "journalism",
+        "other-social-advocacy-organizations",
+        "social-advocacy",
+        "social-advocacy-organizations"
+      ]
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "Spickard2.pdf": {
+          "size": 234342,
           "key": "Spickard2.pdf"
         }
       }

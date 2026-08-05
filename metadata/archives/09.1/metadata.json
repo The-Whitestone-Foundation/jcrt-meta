@@ -41,10 +41,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -144,7 +144,7 @@
       "enabled": true,
       "entries": {
         "Celermajer.pdf": {
-          "size": 259463,
+          "size": 248833,
           "key": "Celermajer.pdf"
         }
       }
@@ -192,13 +192,71 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Civilization, Modern",
+          "scheme": "FAST",
+          "identifier": "fst00863073",
+          "uri": "https://id.worldcat.org/fast/863073",
+          "category": "topical"
+        },
+        {
+          "subject": "Cosmopolitanism",
+          "scheme": "FAST",
+          "identifier": "fst00880635",
+          "uri": "https://id.worldcat.org/fast/880635",
+          "category": "topical"
+        },
+        {
+          "subject": "Enlightenment",
+          "scheme": "FAST",
+          "identifier": "fst00912527",
+          "uri": "https://id.worldcat.org/fast/912527",
+          "category": "topical"
+        },
+        {
+          "subject": "Liberty",
+          "scheme": "FAST",
+          "identifier": "fst00997251",
+          "uri": "https://id.worldcat.org/fast/997251",
+          "category": "topical"
+        },
+        {
+          "subject": "Political science",
+          "scheme": "FAST",
+          "identifier": "fst01069781",
+          "uri": "https://id.worldcat.org/fast/1069781",
+          "category": "topical"
+        },
+        {
+          "subject": "Rationalism",
+          "scheme": "FAST",
+          "identifier": "fst01090275",
+          "uri": "https://id.worldcat.org/fast/1090275",
+          "category": "topical"
+        },
+        {
+          "subject": "Secularism",
+          "scheme": "FAST",
+          "identifier": "fst01110732",
+          "uri": "https://id.worldcat.org/fast/1110732",
+          "category": "topical"
+        },
+        {
+          "subject": "Universalism",
+          "scheme": "FAST",
+          "identifier": "fst01161574",
+          "uri": "https://id.worldcat.org/fast/1161574",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -208,7 +266,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "enlightenment",
+        "radical-engagement",
+        "political-theory",
+        "stephen-eric-bronner",
+        "rationalism",
+        "secularism",
+        "modernity",
+        "progressive-politics",
+        "critique-of-reason",
+        "universalism",
+        "emancipation",
+        "cosmopolitanism"
+      ]
     },
     "parent": {
       "access": {
@@ -230,7 +301,7 @@
       "enabled": true,
       "entries": {
         "Grieve-Carlson.pdf": {
-          "size": 107335,
+          "size": 108484,
           "key": "Grieve-Carlson.pdf"
         }
       }
@@ -278,10 +349,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -374,7 +445,7 @@
       "enabled": true,
       "entries": {
         "Hyman.pdf": {
-          "size": 200656,
+          "size": 191333,
           "key": "Hyman.pdf"
         }
       }
@@ -422,13 +493,71 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Existentialism",
+          "scheme": "FAST",
+          "identifier": "fst00918204",
+          "uri": "https://id.worldcat.org/fast/918204",
+          "category": "topical"
+        },
+        {
+          "subject": "Faith",
+          "scheme": "FAST",
+          "identifier": "fst01198492",
+          "uri": "https://id.worldcat.org/fast/1198492",
+          "category": "topical"
+        },
+        {
+          "subject": "Faith and reason",
+          "scheme": "FAST",
+          "identifier": "fst00919959",
+          "uri": "https://id.worldcat.org/fast/919959",
+          "category": "topical"
+        },
+        {
+          "subject": "Irony",
+          "scheme": "FAST",
+          "identifier": "fst00979386",
+          "uri": "https://id.worldcat.org/fast/979386",
+          "category": "topical"
+        },
+        {
+          "subject": "Philosophy, Ancient",
+          "scheme": "FAST",
+          "identifier": "fst01060860",
+          "uri": "https://id.worldcat.org/fast/1060860",
+          "category": "topical"
+        },
+        {
+          "subject": "Philosophy, Danish",
+          "scheme": "FAST",
+          "identifier": "fst01747032",
+          "uri": "https://id.worldcat.org/fast/1747032",
+          "category": "topical"
+        },
+        {
+          "subject": "Questioning",
+          "scheme": "FAST",
+          "identifier": "fst01085685",
+          "uri": "https://id.worldcat.org/fast/1085685",
+          "category": "topical"
+        },
+        {
+          "subject": "Subjectivity",
+          "scheme": "FAST",
+          "identifier": "fst01136568",
+          "uri": "https://id.worldcat.org/fast/1136568",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -438,7 +567,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "soren-kierkegaard",
+        "socrates",
+        "philosophy-of-religion",
+        "faith",
+        "irony",
+        "socratic-method",
+        "existentialism",
+        "reason-and-faith",
+        "ancient-philosophy",
+        "platonic-dialogue",
+        "subjectivity",
+        "danish-philosophy"
+      ]
     },
     "parent": {
       "access": {
@@ -460,7 +602,7 @@
       "enabled": true,
       "entries": {
         "Igrek.pdf": {
-          "size": 100305,
+          "size": 94201,
           "key": "Igrek.pdf"
         }
       }
@@ -508,10 +650,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -596,7 +738,7 @@
       "enabled": true,
       "entries": {
         "Large.pdf": {
-          "size": 228918,
+          "size": 218717,
           "key": "Large.pdf"
         }
       }
@@ -666,10 +808,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -750,7 +892,7 @@
       "enabled": true,
       "entries": {
         "Malabou.pdf": {
-          "size": 195889,
+          "size": 187315,
           "key": "Malabou.pdf"
         }
       }
@@ -820,10 +962,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -906,7 +1048,7 @@
       "enabled": true,
       "entries": {
         "Negri.pdf": {
-          "size": 130087,
+          "size": 122728,
           "key": "Negri.pdf"
         }
       }
@@ -954,10 +1096,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1054,7 +1196,7 @@
       "enabled": true,
       "entries": {
         "Pound.pdf": {
-          "size": 174767,
+          "size": 165645,
           "key": "Pound.pdf"
         }
       }
@@ -1102,10 +1244,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1201,7 +1343,7 @@
       "enabled": true,
       "entries": {
         "Raschke.pdf": {
-          "size": 165355,
+          "size": 156925,
           "key": "Raschke.pdf"
         }
       }
@@ -1249,10 +1391,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1352,7 +1494,7 @@
       "enabled": true,
       "entries": {
         "Rubenstein.pdf": {
-          "size": 234548,
+          "size": 224864,
           "key": "Rubenstein.pdf"
         }
       }
@@ -1400,13 +1542,78 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Dignity",
+          "scheme": "FAST",
+          "identifier": "fst00893760",
+          "uri": "https://id.worldcat.org/fast/893760",
+          "category": "topical"
+        },
+        {
+          "subject": "Ethics",
+          "scheme": "FAST",
+          "identifier": "fst00915833",
+          "uri": "https://id.worldcat.org/fast/915833",
+          "category": "topical"
+        },
+        {
+          "subject": "Human rights",
+          "scheme": "FAST",
+          "identifier": "fst00963285",
+          "uri": "https://id.worldcat.org/fast/963285",
+          "category": "topical"
+        },
+        {
+          "subject": "Humanitarian intervention",
+          "scheme": "FAST",
+          "identifier": "fst00963572",
+          "uri": "https://id.worldcat.org/fast/963572",
+          "category": "topical"
+        },
+        {
+          "subject": "Idolatry",
+          "scheme": "FAST",
+          "identifier": "fst00966944",
+          "uri": "https://id.worldcat.org/fast/966944",
+          "category": "topical"
+        },
+        {
+          "subject": "Liberalism",
+          "scheme": "FAST",
+          "identifier": "fst00997183",
+          "uri": "https://id.worldcat.org/fast/997183",
+          "category": "topical"
+        },
+        {
+          "subject": "Political science Philosophy",
+          "scheme": "FAST",
+          "identifier": "fst01069819",
+          "uri": "https://id.worldcat.org/fast/1069819",
+          "category": "topical"
+        },
+        {
+          "subject": "Secularism",
+          "scheme": "FAST",
+          "identifier": "fst01110732",
+          "uri": "https://id.worldcat.org/fast/1110732",
+          "category": "topical"
+        },
+        {
+          "subject": "World politics",
+          "scheme": "FAST",
+          "identifier": "fst01181381",
+          "uri": "https://id.worldcat.org/fast/1181381",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -1416,7 +1623,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "human-rights",
+        "michael-ignatieff",
+        "political-philosophy",
+        "idolatry",
+        "moral-universalism",
+        "humanitarian-intervention",
+        "liberalism",
+        "individual-agency",
+        "ethics",
+        "international-politics",
+        "secularism",
+        "human-dignity"
+      ]
     },
     "parent": {
       "access": {
@@ -1438,7 +1658,7 @@
       "enabled": true,
       "entries": {
         "Smaw.pdf": {
-          "size": 88363,
+          "size": 82808,
           "key": "Smaw.pdf"
         }
       }

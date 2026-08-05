@@ -41,13 +41,50 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Christian Mission",
+          "scheme": "FAST",
+          "identifier": "fst00532135",
+          "uri": "https://id.worldcat.org/fast/532135",
+          "category": "corporate"
+        },
+        {
+          "subject": "Christology",
+          "scheme": "FAST",
+          "identifier": "fst01352288",
+          "uri": "https://id.worldcat.org/fast/1352288",
+          "category": "topical"
+        },
+        {
+          "subject": "Church",
+          "scheme": "FAST",
+          "identifier": "fst00860364",
+          "uri": "https://id.worldcat.org/fast/860364",
+          "category": "topical"
+        },
+        {
+          "subject": "Missions Theory",
+          "scheme": "FAST",
+          "identifier": "fst01023834",
+          "uri": "https://id.worldcat.org/fast/1023834",
+          "category": "topical"
+        },
+        {
+          "subject": "Political theology",
+          "scheme": "FAST",
+          "identifier": "fst01069899",
+          "uri": "https://id.worldcat.org/fast/1069899",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -57,7 +94,19 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "christology",
+        "apocalyptic-theology",
+        "political-theology",
+        "christian-mission",
+        "missiology",
+        "philosophy-of-history",
+        "ernst-troeltsch",
+        "karl-barth",
+        "john-howard-yoder",
+        "ecclesiology",
+        "radical-theology"
+      ]
     },
     "parent": {
       "access": {
@@ -79,7 +128,7 @@
       "enabled": true,
       "entries": {
         "barber.pdf": {
-          "size": 102384,
+          "size": 103397,
           "key": "barber.pdf"
         }
       }
@@ -138,10 +187,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -256,7 +305,7 @@
       "enabled": true,
       "entries": {
         "barber&smith.pdf": {
-          "size": 172527,
+          "size": 172926,
           "key": "barber&smith.pdf"
         }
       }
@@ -304,13 +353,29 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Continental philosophy",
+          "scheme": "FAST",
+          "identifier": "fst01765182",
+          "uri": "https://id.worldcat.org/fast/1765182",
+          "category": "topical"
+        },
+        {
+          "subject": "Hermeneutics",
+          "scheme": "FAST",
+          "identifier": "fst00955492",
+          "uri": "https://id.worldcat.org/fast/955492",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -320,7 +385,19 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "anatheism",
+        "richard-kearney",
+        "philosophy-of-religion",
+        "post-secular",
+        "god-after-god",
+        "continental-philosophy",
+        "hermeneutics",
+        "faith-and-doubt",
+        "sacred-and-secular",
+        "theism-and-atheism",
+        "religious-imagination"
+      ]
     },
     "parent": {
       "access": {
@@ -342,7 +419,7 @@
       "enabled": true,
       "entries": {
         "burkey.pdf": {
-          "size": 111483,
+          "size": 112393,
           "key": "burkey.pdf"
         }
       }
@@ -390,13 +467,36 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Cosmography",
+          "scheme": "FAST",
+          "identifier": "fst00880594",
+          "uri": "https://id.worldcat.org/fast/880594",
+          "category": "topical"
+        },
+        {
+          "subject": "Natural history",
+          "scheme": "FAST",
+          "identifier": "fst01034268",
+          "uri": "https://id.worldcat.org/fast/1034268",
+          "category": "topical"
+        },
+        {
+          "subject": "Renaissance",
+          "scheme": "FAST",
+          "identifier": "fst01094518",
+          "uri": "https://id.worldcat.org/fast/1094518",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -406,7 +506,19 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "renaissance",
+        "german-history",
+        "age-of-exploration",
+        "early-modern-europe",
+        "wonder-and-marvels",
+        "new-world",
+        "cosmography",
+        "natural-history",
+        "cultural-history",
+        "discovery",
+        "the-marvelous"
+      ]
     },
     "parent": {
       "access": {
@@ -428,7 +540,7 @@
       "enabled": true,
       "entries": {
         "campbell.pdf": {
-          "size": 84425,
+          "size": 85348,
           "key": "campbell.pdf"
         }
       }
@@ -487,10 +599,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -586,7 +698,7 @@
       "enabled": true,
       "entries": {
         "delpech-ramey&miller.pdf": {
-          "size": 240589,
+          "size": 241124,
           "key": "delpech-ramey&miller.pdf"
         }
       }
@@ -634,13 +746,50 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Academic freedom",
+          "scheme": "FAST",
+          "identifier": "fst00794987",
+          "uri": "https://id.worldcat.org/fast/794987",
+          "category": "topical"
+        },
+        {
+          "subject": "Education, Higher",
+          "scheme": "FAST",
+          "identifier": "fst00903005",
+          "uri": "https://id.worldcat.org/fast/903005",
+          "category": "topical"
+        },
+        {
+          "subject": "Education, Humanistic",
+          "scheme": "FAST",
+          "identifier": "fst00903134",
+          "uri": "https://id.worldcat.org/fast/903134",
+          "category": "topical"
+        },
+        {
+          "subject": "Humanities",
+          "scheme": "FAST",
+          "identifier": "fst00963588",
+          "uri": "https://id.worldcat.org/fast/963588",
+          "category": "topical"
+        },
+        {
+          "subject": "Neoliberalism",
+          "scheme": "FAST",
+          "identifier": "fst01737382",
+          "uri": "https://id.worldcat.org/fast/1737382",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -650,7 +799,19 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "higher-education",
+        "corporate-university",
+        "humanities",
+        "academic-labor",
+        "neoliberalism",
+        "professoriate",
+        "tenure",
+        "university-reform",
+        "liberal-education",
+        "commercialization-of-education",
+        "academic-freedom"
+      ]
     },
     "parent": {
       "access": {
@@ -672,7 +833,7 @@
       "enabled": true,
       "entries": {
         "grieve-carlson.pdf": {
-          "size": 99071,
+          "size": 100183,
           "key": "grieve-carlson.pdf"
         }
       }
@@ -720,10 +881,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -865,7 +1026,7 @@
       "enabled": true,
       "entries": {
         "grimshaw.pdf": {
-          "size": 208720,
+          "size": 209001,
           "key": "grimshaw.pdf"
         }
       }
@@ -913,10 +1074,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1028,7 +1189,7 @@
       "enabled": true,
       "entries": {
         "hanson.pdf": {
-          "size": 140440,
+          "size": 140769,
           "key": "hanson.pdf"
         }
       }
@@ -1076,10 +1237,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1187,7 +1348,7 @@
       "enabled": true,
       "entries": {
         "jaarsma.pdf": {
-          "size": 289290,
+          "size": 289494,
           "key": "jaarsma.pdf"
         }
       }
@@ -1235,10 +1396,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1333,7 +1494,7 @@
       "enabled": true,
       "entries": {
         "metcalf.pdf": {
-          "size": 181034,
+          "size": 181531,
           "key": "metcalf.pdf"
         }
       }
@@ -1381,13 +1542,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Deconstruction",
+          "scheme": "FAST",
+          "identifier": "fst00889137",
+          "uri": "https://id.worldcat.org/fast/889137",
+          "category": "topical"
+        },
+        {
+          "subject": "Phenomenology",
+          "scheme": "FAST",
+          "identifier": "fst01060522",
+          "uri": "https://id.worldcat.org/fast/1060522",
+          "category": "topical"
+        },
+        {
+          "subject": "Postmodernism",
+          "scheme": "FAST",
+          "identifier": "fst01073164",
+          "uri": "https://id.worldcat.org/fast/1073164",
+          "category": "topical"
+        },
+        {
+          "subject": "Religion and culture",
+          "scheme": "FAST",
+          "identifier": "fst01093823",
+          "uri": "https://id.worldcat.org/fast/1093823",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -1397,7 +1588,19 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "continental-philosophy-of-religion",
+        "postmodernism",
+        "john-caputo",
+        "radical-theology",
+        "deconstruction",
+        "phenomenology",
+        "religion-and-culture",
+        "weak-theology",
+        "post-secular",
+        "philosophy-of-religion",
+        "jacques-derrida"
+      ]
     },
     "parent": {
       "access": {
@@ -1419,7 +1622,7 @@
       "enabled": true,
       "entries": {
         "pcr4.pdf": {
-          "size": 203975,
+          "size": 205075,
           "key": "pcr4.pdf"
         }
       }
@@ -1467,13 +1670,64 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Christian Mission",
+          "scheme": "FAST",
+          "identifier": "fst00532135",
+          "uri": "https://id.worldcat.org/fast/532135",
+          "category": "corporate"
+        },
+        {
+          "subject": "Evangelistic work",
+          "scheme": "FAST",
+          "identifier": "fst00917035",
+          "uri": "https://id.worldcat.org/fast/917035",
+          "category": "topical"
+        },
+        {
+          "subject": "Globalization",
+          "scheme": "FAST",
+          "identifier": "fst00943532",
+          "uri": "https://id.worldcat.org/fast/943532",
+          "category": "topical"
+        },
+        {
+          "subject": "Incarnation",
+          "scheme": "FAST",
+          "identifier": "fst00968453",
+          "uri": "https://id.worldcat.org/fast/968453",
+          "category": "topical"
+        },
+        {
+          "subject": "Missions Theory",
+          "scheme": "FAST",
+          "identifier": "fst01023834",
+          "uri": "https://id.worldcat.org/fast/1023834",
+          "category": "topical"
+        },
+        {
+          "subject": "Postmodern theology",
+          "scheme": "FAST",
+          "identifier": "fst01073163",
+          "uri": "https://id.worldcat.org/fast/1073163",
+          "category": "topical"
+        },
+        {
+          "subject": "Postmodernism",
+          "scheme": "FAST",
+          "identifier": "fst01073164",
+          "uri": "https://id.worldcat.org/fast/1073164",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -1483,7 +1737,19 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "globalization",
+        "christian-mission",
+        "postmodernism",
+        "great-commission",
+        "evangelism",
+        "carl-raschke",
+        "global-christianity",
+        "missiology",
+        "postmodern-theology",
+        "incarnation",
+        "cultural-theology"
+      ]
     },
     "parent": {
       "access": {
@@ -1505,7 +1771,7 @@
       "enabled": true,
       "entries": {
         "rodkey.pdf": {
-          "size": 75409,
+          "size": 76380,
           "key": "rodkey.pdf"
         }
       }
@@ -1553,13 +1819,57 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Aesthetics",
+          "scheme": "FAST",
+          "identifier": "fst00798702",
+          "uri": "https://id.worldcat.org/fast/798702",
+          "category": "topical"
+        },
+        {
+          "subject": "Art",
+          "scheme": "FAST",
+          "identifier": "fst01423702",
+          "uri": "https://id.worldcat.org/fast/1423702",
+          "category": "form-genre"
+        },
+        {
+          "subject": "Art criticism",
+          "scheme": "FAST",
+          "identifier": "fst00815492",
+          "uri": "https://id.worldcat.org/fast/815492",
+          "category": "topical"
+        },
+        {
+          "subject": "Art History",
+          "scheme": "FAST",
+          "identifier": "fst00815264",
+          "uri": "https://id.worldcat.org/fast/815264",
+          "category": "topical"
+        },
+        {
+          "subject": "Art, Abstract",
+          "scheme": "FAST",
+          "identifier": "fst00815850",
+          "uri": "https://id.worldcat.org/fast/815850",
+          "category": "topical"
+        },
+        {
+          "subject": "Religious art",
+          "scheme": "FAST",
+          "identifier": "fst01985313",
+          "uri": "https://id.worldcat.org/fast/1985313",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -1569,7 +1879,19 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "theology-and-art",
+        "modern-art",
+        "christianity-and-aesthetics",
+        "visual-art",
+        "art-criticism",
+        "religious-art",
+        "aesthetics",
+        "contemporary-art",
+        "faith-and-culture",
+        "abstract-art",
+        "art-history"
+      ]
     },
     "parent": {
       "access": {
@@ -1591,7 +1913,7 @@
       "enabled": true,
       "entries": {
         "sanzaro.pdf": {
-          "size": 131825,
+          "size": 132794,
           "key": "sanzaro.pdf"
         }
       }
@@ -1650,10 +1972,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1735,7 +2057,7 @@
       "enabled": true,
       "entries": {
         "stern&gimbel.pdf": {
-          "size": 287946,
+          "size": 288299,
           "key": "stern&gimbel.pdf"
         }
       }
@@ -1783,10 +2105,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1883,7 +2205,7 @@
       "enabled": true,
       "entries": {
         "york.pdf": {
-          "size": 134696,
+          "size": 134972,
           "key": "york.pdf"
         }
       }

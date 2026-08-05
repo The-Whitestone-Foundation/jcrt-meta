@@ -52,13 +52,36 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Decolonization",
+          "scheme": "FAST",
+          "identifier": "fst00889115",
+          "uri": "https://id.worldcat.org/fast/889115",
+          "category": "topical"
+        },
+        {
+          "subject": "Environmentalism",
+          "scheme": "FAST",
+          "identifier": "fst00913543",
+          "uri": "https://id.worldcat.org/fast/913543",
+          "category": "topical"
+        },
+        {
+          "subject": "Settler colonialism",
+          "scheme": "FAST",
+          "identifier": "fst02025744",
+          "uri": "https://id.worldcat.org/fast/2025744",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -66,6 +89,112 @@
         "issue": "2",
         "volume": "23",
         "pages": "132-139",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": [
+        "indigenous-values",
+        "philip-p-arnold",
+        "indigenous-religion",
+        "native-american-religions",
+        "doctrine-of-discovery",
+        "sacred-land",
+        "settler-colonialism",
+        "environmentalism",
+        "indigenous-studies",
+        "decolonization"
+      ]
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "Arnold.pdf": {
+          "size": 129928,
+          "key": "Arnold.pdf"
+        }
+      }
+    }
+  },
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "editors",
+            "given_name": "",
+            "family_name": "editors"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "Author bios",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2025",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "0BQ7r9",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/23.2/bios/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "title": {
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
+        }
+      ],
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Religion",
+          "scheme": "FAST",
+          "identifier": "fst01093763",
+          "uri": "https://id.worldcat.org/fast/1093763",
+          "category": "topical"
+        }
+      ]
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "2",
+        "volume": "23",
+        "pages": "",
         "issn": "1530-5228"
       },
       "kcr:user_defined_tags": []
@@ -89,9 +218,9 @@
     "files": {
       "enabled": true,
       "entries": {
-        "Arnold.pdf": {
-          "size": 129011,
-          "key": "Arnold.pdf"
+        "bios.pdf": {
+          "size": 104394,
+          "key": "bios.pdf"
         }
       }
     }
@@ -138,10 +267,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -191,7 +320,7 @@
       "enabled": true,
       "entries": {
         "Marks.pdf": {
-          "size": 325836,
+          "size": 326239,
           "key": "Marks.pdf"
         }
       }
@@ -239,10 +368,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -296,7 +425,7 @@
       "enabled": true,
       "entries": {
         "Porter.pdf": {
-          "size": 243492,
+          "size": 244099,
           "key": "Porter.pdf"
         }
       }
@@ -344,13 +473,36 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Dialogue",
+          "scheme": "FAST",
+          "identifier": "fst00892486",
+          "uri": "https://id.worldcat.org/fast/892486",
+          "category": "topical"
+        },
+        {
+          "subject": "Phenomenology",
+          "scheme": "FAST",
+          "identifier": "fst01060522",
+          "uri": "https://id.worldcat.org/fast/1060522",
+          "category": "topical"
+        },
+        {
+          "subject": "Semiotics",
+          "scheme": "FAST",
+          "identifier": "fst01112351",
+          "uri": "https://id.worldcat.org/fast/1112351",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -360,7 +512,19 @@
         "pages": "175-195",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "grammar-of-address",
+        "cognitive-science-of-religion",
+        "carl-raschke",
+        "second-person",
+        "philosophy-of-language",
+        "religious-studies",
+        "phenomenology",
+        "dialogue",
+        "martin-buber",
+        "semiotics",
+        "personhood"
+      ]
     },
     "parent": {
       "access": {
@@ -382,7 +546,7 @@
       "enabled": true,
       "entries": {
         "Raschke.pdf": {
-          "size": 272945,
+          "size": 273866,
           "key": "Raschke.pdf"
         }
       }
@@ -430,10 +594,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -495,7 +659,7 @@
       "enabled": true,
       "entries": {
         "Sendag.pdf": {
-          "size": 397820,
+          "size": 398189,
           "key": "Sendag.pdf"
         }
       }

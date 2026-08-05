@@ -8,8 +8,8 @@
         {
           "person_or_org": {
             "type": "personal",
-            "name": "Caputo, John D",
-            "given_name": "John D",
+            "name": "Caputo, John D.",
+            "given_name": "John D.",
             "family_name": "Caputo"
           },
           "role": {
@@ -41,13 +41,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Deconstruction",
+          "scheme": "FAST",
+          "identifier": "fst00889137",
+          "uri": "https://id.worldcat.org/fast/889137",
+          "category": "topical"
+        },
+        {
+          "subject": "Messianism",
+          "scheme": "FAST",
+          "identifier": "fst01017438",
+          "uri": "https://id.worldcat.org/fast/1017438",
+          "category": "topical"
+        },
+        {
+          "subject": "Negative theology",
+          "scheme": "FAST",
+          "identifier": "fst01035499",
+          "uri": "https://id.worldcat.org/fast/1035499",
+          "category": "topical"
+        },
+        {
+          "subject": "Religion",
+          "scheme": "FAST",
+          "identifier": "fst01093763",
+          "uri": "https://id.worldcat.org/fast/1093763",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -57,7 +87,21 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "deconstruction",
+        "jacques-derrida",
+        "death-of-deconstruction",
+        "continental-philosophy-of-religion",
+        "messianism",
+        "hauntology",
+        "negative-theology",
+        "mark-taylor",
+        "emmanuel-levinas",
+        "soren-kierkegaard",
+        "the-gift",
+        "future-of-theory",
+        "religion"
+      ]
     },
     "parent": {
       "access": {
@@ -76,7 +120,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "caputo.pdf": {
+          "size": 52639,
+          "key": "caputo.pdf"
+        }
+      }
     }
   },
   {
@@ -121,13 +171,50 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Hysteria",
+          "scheme": "FAST",
+          "identifier": "fst00966135",
+          "uri": "https://id.worldcat.org/fast/966135",
+          "category": "topical"
+        },
+        {
+          "subject": "Literary theory",
+          "scheme": "FAST",
+          "identifier": "fst01404190",
+          "uri": "https://id.worldcat.org/fast/1404190",
+          "category": "title"
+        },
+        {
+          "subject": "Poststructuralism",
+          "scheme": "FAST",
+          "identifier": "fst01073231",
+          "uri": "https://id.worldcat.org/fast/1073231",
+          "category": "topical"
+        },
+        {
+          "subject": "Psychoanalysis",
+          "scheme": "FAST",
+          "identifier": "fst01081235",
+          "uri": "https://id.worldcat.org/fast/1081235",
+          "category": "topical"
+        },
+        {
+          "subject": "Structuralism",
+          "scheme": "FAST",
+          "identifier": "fst01135732",
+          "uri": "https://id.worldcat.org/fast/1135732",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -137,7 +224,21 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "literary-theory",
+        "resistance-to-theory",
+        "paul-de-man",
+        "jacques-lacan",
+        "four-discourses",
+        "hysteria",
+        "structuralism",
+        "poststructuralism",
+        "jean-michel-rabate",
+        "sigmund-freud",
+        "psychoanalysis",
+        "institution-of-theory",
+        "master-signifier"
+      ]
     },
     "parent": {
       "access": {
@@ -156,7 +257,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "flaxman.pdf": {
+          "size": 97053,
+          "key": "flaxman.pdf"
+        }
+      }
     }
   },
   {
@@ -212,13 +319,36 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Continental philosophy",
+          "scheme": "FAST",
+          "identifier": "fst01765182",
+          "uri": "https://id.worldcat.org/fast/1765182",
+          "category": "topical"
+        },
+        {
+          "subject": "Deconstruction",
+          "scheme": "FAST",
+          "identifier": "fst00889137",
+          "uri": "https://id.worldcat.org/fast/889137",
+          "category": "topical"
+        },
+        {
+          "subject": "Literary criticism",
+          "scheme": "FAST",
+          "identifier": "fst01986215",
+          "uri": "https://id.worldcat.org/fast/1986215",
+          "category": "form-genre"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -228,7 +358,18 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "future-of-theory",
+        "literary-criticism",
+        "death-of-theory",
+        "prometheus",
+        "franz-kafka",
+        "friedrich-nietzsche",
+        "jean-michel-rabate",
+        "ghost-of-theory",
+        "continental-philosophy",
+        "deconstruction"
+      ]
     },
     "parent": {
       "access": {
@@ -247,7 +388,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "lambert-taylor.intro.pdf": {
+          "size": 78894,
+          "key": "lambert-taylor.intro.pdf"
+        }
+      }
     }
   },
   {
@@ -265,7 +412,12 @@
           },
           "role": {
             "id": "author"
-          }
+          },
+          "affiliations": [
+            {
+              "name": "Syracuse University"
+            }
+          ]
         }
       ],
       "title": "‘Create, She Said’: Deleuze and Feminism (on Dorothea Olkowski’s Gilles Deleuze and the Ruin of Representation)",
@@ -292,13 +444,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Castration",
+          "scheme": "FAST",
+          "identifier": "fst00848466",
+          "uri": "https://id.worldcat.org/fast/848466",
+          "category": "topical"
+        },
+        {
+          "subject": "Feminism",
+          "scheme": "FAST",
+          "identifier": "fst00922671",
+          "uri": "https://id.worldcat.org/fast/922671",
+          "category": "topical"
+        },
+        {
+          "subject": "Phenomenology",
+          "scheme": "FAST",
+          "identifier": "fst01060522",
+          "uri": "https://id.worldcat.org/fast/1060522",
+          "category": "topical"
+        },
+        {
+          "subject": "Psychoanalysis",
+          "scheme": "FAST",
+          "identifier": "fst01081235",
+          "uri": "https://id.worldcat.org/fast/1081235",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -308,7 +490,22 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "gilles-deleuze",
+        "feminism",
+        "ruin-of-representation",
+        "mary-kelly",
+        "phenomenology",
+        "psychoanalysis",
+        "sexual-difference",
+        "becoming-woman",
+        "felix-guattari",
+        "maurice-merleau-ponty",
+        "jacques-derrida",
+        "castration",
+        "dorothea-olkowski",
+        "luce-irigaray"
+      ]
     },
     "parent": {
       "access": {
@@ -327,7 +524,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "lambert.pdf": {
+          "size": 151720,
+          "key": "lambert.pdf"
+        }
+      }
     }
   },
   {
@@ -372,13 +575,36 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Comedy",
+          "scheme": "FAST",
+          "identifier": "fst00869083",
+          "uri": "https://id.worldcat.org/fast/869083",
+          "category": "topical"
+        },
+        {
+          "subject": "Gesture",
+          "scheme": "FAST",
+          "identifier": "fst00942279",
+          "uri": "https://id.worldcat.org/fast/942279",
+          "category": "topical"
+        },
+        {
+          "subject": "Laughter",
+          "scheme": "FAST",
+          "identifier": "fst00993552",
+          "uri": "https://id.worldcat.org/fast/993552",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -388,7 +614,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "laughter",
+        "gesture",
+        "the-sublime",
+        "anti-sublime",
+        "friedrich-nietzsche",
+        "immanuel-kant",
+        "max-kommerell",
+        "giorgio-agamben",
+        "soren-kierkegaard",
+        "the-body",
+        "thus-spoke-zarathustra",
+        "comedy"
+      ]
     },
     "parent": {
       "access": {
@@ -407,7 +646,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "nichols.pdf": {
+          "size": 90217,
+          "key": "nichols.pdf"
+        }
+      }
     }
   },
   {
@@ -452,13 +697,71 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Christianity",
+          "scheme": "FAST",
+          "identifier": "fst00859599",
+          "uri": "https://id.worldcat.org/fast/859599",
+          "category": "topical"
+        },
+        {
+          "subject": "Civilization, Modern",
+          "scheme": "FAST",
+          "identifier": "fst00863073",
+          "uri": "https://id.worldcat.org/fast/863073",
+          "category": "topical"
+        },
+        {
+          "subject": "Fundamentalism",
+          "scheme": "FAST",
+          "identifier": "fst00936186",
+          "uri": "https://id.worldcat.org/fast/936186",
+          "category": "topical"
+        },
+        {
+          "subject": "Islam",
+          "scheme": "FAST",
+          "identifier": "fst00979776",
+          "uri": "https://id.worldcat.org/fast/979776",
+          "category": "topical"
+        },
+        {
+          "subject": "Nationalism",
+          "scheme": "FAST",
+          "identifier": "fst01033832",
+          "uri": "https://id.worldcat.org/fast/1033832",
+          "category": "topical"
+        },
+        {
+          "subject": "Political theology",
+          "scheme": "FAST",
+          "identifier": "fst01069899",
+          "uri": "https://id.worldcat.org/fast/1069899",
+          "category": "topical"
+        },
+        {
+          "subject": "Religion",
+          "scheme": "FAST",
+          "identifier": "fst01093763",
+          "uri": "https://id.worldcat.org/fast/1093763",
+          "category": "topical"
+        },
+        {
+          "subject": "Secularization",
+          "scheme": "FAST",
+          "identifier": "fst01110738",
+          "uri": "https://id.worldcat.org/fast/1110738",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -468,7 +771,21 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "religion",
+        "modernity",
+        "secularization",
+        "islam",
+        "christianity",
+        "max-weber",
+        "rationalization",
+        "nationalism",
+        "talal-asad",
+        "fundamentalism",
+        "friedrich-nietzsche",
+        "political-theology",
+        "clash-of-civilizations"
+      ]
     },
     "parent": {
       "access": {
@@ -487,7 +804,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "pecora.pdf": {
+          "size": 98376,
+          "key": "pecora.pdf"
+        }
+      }
     }
   },
   {
@@ -543,13 +866,29 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Hysteria",
+          "scheme": "FAST",
+          "identifier": "fst00966135",
+          "uri": "https://id.worldcat.org/fast/966135",
+          "category": "topical"
+        },
+        {
+          "subject": "Psychoanalysis",
+          "scheme": "FAST",
+          "identifier": "fst01081235",
+          "uri": "https://id.worldcat.org/fast/1081235",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -559,7 +898,22 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "future-of-theory",
+        "hysteria",
+        "jacques-lacan",
+        "four-discourses",
+        "psychoanalysis",
+        "judith-butler",
+        "camille-paglia",
+        "roland-barthes",
+        "jacques-derrida",
+        "paul-de-man",
+        "gilles-deleuze",
+        "french-theory",
+        "jouissance",
+        "gender-theory"
+      ]
     },
     "parent": {
       "access": {
@@ -578,7 +932,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "rabate-lambert.pdf": {
+          "size": 67333,
+          "key": "rabate-lambert.pdf"
+        }
+      }
     }
   },
   {
@@ -623,13 +983,36 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Avant garde",
+          "scheme": "FAST",
+          "identifier": "fst01776700",
+          "uri": "https://id.worldcat.org/fast/1776700",
+          "category": "title"
+        },
+        {
+          "subject": "Parody",
+          "scheme": "FAST",
+          "identifier": "fst01053849",
+          "uri": "https://id.worldcat.org/fast/1053849",
+          "category": "topical"
+        },
+        {
+          "subject": "Spectacular, The",
+          "scheme": "FAST",
+          "identifier": "fst01129046",
+          "uri": "https://id.worldcat.org/fast/1129046",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -639,7 +1022,21 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "spectacle",
+        "new-media-theory",
+        "film-theory",
+        "guy-debord",
+        "society-of-the-spectacle",
+        "apparatus-theory",
+        "ideology-criticism",
+        "cultural-studies",
+        "parody",
+        "situationism",
+        "gilles-deleuze",
+        "rhizome",
+        "avant-garde"
+      ]
     },
     "parent": {
       "access": {
@@ -658,7 +1055,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "saper.pdf": {
+          "size": 84762,
+          "key": "saper.pdf"
+        }
+      }
     }
   },
   {
@@ -703,13 +1106,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Abraham and Isaac",
+          "scheme": "FAST",
+          "identifier": "fst01379855",
+          "uri": "https://id.worldcat.org/fast/1379855",
+          "category": "title"
+        },
+        {
+          "subject": "Allegory",
+          "scheme": "FAST",
+          "identifier": "fst00805516",
+          "uri": "https://id.worldcat.org/fast/805516",
+          "category": "topical"
+        },
+        {
+          "subject": "Deconstruction",
+          "scheme": "FAST",
+          "identifier": "fst00889137",
+          "uri": "https://id.worldcat.org/fast/889137",
+          "category": "topical"
+        },
+        {
+          "subject": "Stupidity",
+          "scheme": "FAST",
+          "identifier": "fst01136261",
+          "uri": "https://id.worldcat.org/fast/1136261",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -719,7 +1152,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "stupidity",
+        "avital-ronell",
+        "future-of-theory",
+        "gilles-deleuze",
+        "paul-de-man",
+        "franz-kafka",
+        "refusal",
+        "deconstruction",
+        "allegory",
+        "parabasis",
+        "transcendental",
+        "abraham-and-isaac"
+      ]
     },
     "parent": {
       "access": {
@@ -738,7 +1184,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "taylor.pdf": {
+          "size": 164189,
+          "key": "taylor.pdf"
+        }
+      }
     }
   },
   {
@@ -750,8 +1202,8 @@
         {
           "person_or_org": {
             "type": "personal",
-            "name": "Williams, Jeffrey J",
-            "given_name": "Jeffrey J",
+            "name": "Williams, Jeffrey J.",
+            "given_name": "Jeffrey J.",
             "family_name": "Williams"
           },
           "role": {
@@ -783,13 +1235,36 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Deconstruction",
+          "scheme": "FAST",
+          "identifier": "fst00889137",
+          "uri": "https://id.worldcat.org/fast/889137",
+          "category": "topical"
+        },
+        {
+          "subject": "Literary criticism",
+          "scheme": "FAST",
+          "identifier": "fst01986215",
+          "uri": "https://id.worldcat.org/fast/1986215",
+          "category": "form-genre"
+        },
+        {
+          "subject": "New Criticism",
+          "scheme": "FAST",
+          "identifier": "fst01036719",
+          "uri": "https://id.worldcat.org/fast/1036719",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -799,7 +1274,21 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "literary-criticism",
+        "theory-change",
+        "paradigm-shift",
+        "thomas-kuhn",
+        "new-criticism",
+        "cultural-studies",
+        "research-university",
+        "paul-de-man",
+        "deconstruction",
+        "pierre-bourdieu",
+        "habitus",
+        "disciplinary-emulation",
+        "aesthetic-judgment"
+      ]
     },
     "parent": {
       "access": {
@@ -818,7 +1307,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "williams.pdf": {
+          "size": 83625,
+          "key": "williams.pdf"
+        }
+      }
     }
   }
 ]

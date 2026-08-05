@@ -41,10 +41,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -155,7 +155,7 @@
       "enabled": true,
       "entries": {
         "Cauchi.pdf": {
-          "size": 304483,
+          "size": 292958,
           "key": "Cauchi.pdf"
         }
       }
@@ -203,10 +203,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -324,7 +324,7 @@
       "enabled": true,
       "entries": {
         "Gangle.pdf": {
-          "size": 214107,
+          "size": 203871,
           "key": "Gangle.pdf"
         }
       }
@@ -372,13 +372,57 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Death of God theology",
+          "scheme": "FAST",
+          "identifier": "fst00888716",
+          "uri": "https://id.worldcat.org/fast/888716",
+          "category": "topical"
+        },
+        {
+          "subject": "Eschatology",
+          "scheme": "FAST",
+          "identifier": "fst00915134",
+          "uri": "https://id.worldcat.org/fast/915134",
+          "category": "topical"
+        },
+        {
+          "subject": "Iconoclasm",
+          "scheme": "FAST",
+          "identifier": "fst00966761",
+          "uri": "https://id.worldcat.org/fast/966761",
+          "category": "topical"
+        },
+        {
+          "subject": "Salvation Christianity",
+          "scheme": "FAST",
+          "identifier": "fst01104426",
+          "uri": "https://id.worldcat.org/fast/1104426",
+          "category": "topical"
+        },
+        {
+          "subject": "Secularization",
+          "scheme": "FAST",
+          "identifier": "fst01110738",
+          "uri": "https://id.worldcat.org/fast/1110738",
+          "category": "topical"
+        },
+        {
+          "subject": "Theology",
+          "scheme": "FAST",
+          "identifier": "fst01149559",
+          "uri": "https://id.worldcat.org/fast/1149559",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -388,7 +432,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "gabriel-vahanian",
+        "secularization",
+        "death-of-god-theology",
+        "philosophy-of-language",
+        "iconoclasm",
+        "biblical-faith",
+        "radical-theology",
+        "secularity",
+        "eschatology",
+        "soteriology",
+        "technological-civilization",
+        "christian-theology"
+      ]
     },
     "parent": {
       "access": {
@@ -410,7 +467,7 @@
       "enabled": true,
       "entries": {
         "Miller.pdf": {
-          "size": 102465,
+          "size": 96138,
           "key": "Miller.pdf"
         }
       }
@@ -458,10 +515,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -558,7 +615,7 @@
       "enabled": true,
       "entries": {
         "Mooney.pdf": {
-          "size": 246918,
+          "size": 236056,
           "key": "Mooney.pdf"
         }
       }
@@ -606,10 +663,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -720,7 +777,7 @@
       "enabled": true,
       "entries": {
         "Robert.pdf": {
-          "size": 211700,
+          "size": 201713,
           "key": "Robert.pdf"
         }
       }
@@ -768,13 +825,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Country music",
+          "scheme": "FAST",
+          "identifier": "fst00881424",
+          "uri": "https://id.worldcat.org/fast/881424",
+          "category": "topical"
+        },
+        {
+          "subject": "Music Religious aspects",
+          "scheme": "FAST",
+          "identifier": "fst01030421",
+          "uri": "https://id.worldcat.org/fast/1030421",
+          "category": "topical"
+        },
+        {
+          "subject": "Protestantism",
+          "scheme": "FAST",
+          "identifier": "fst01079920",
+          "uri": "https://id.worldcat.org/fast/1079920",
+          "category": "topical"
+        },
+        {
+          "subject": "Religion and culture",
+          "scheme": "FAST",
+          "identifier": "fst01093823",
+          "uri": "https://id.worldcat.org/fast/1093823",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -784,7 +871,19 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "johnny-cash",
+        "american-christianity",
+        "country-music",
+        "religion-and-popular-culture",
+        "religion-and-music",
+        "american-identity",
+        "protestantism",
+        "sin-and-redemption",
+        "national-identity",
+        "cultural-theology",
+        "religion-and-culture"
+      ]
     },
     "parent": {
       "access": {
@@ -806,7 +905,7 @@
       "enabled": true,
       "entries": {
         "Rodkey.pdf": {
-          "size": 81689,
+          "size": 75990,
           "key": "Rodkey.pdf"
         }
       }
@@ -865,10 +964,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -968,7 +1067,7 @@
       "enabled": true,
       "entries": {
         "Simmons.pdf": {
-          "size": 256530,
+          "size": 245745,
           "key": "Simmons.pdf"
         }
       }
@@ -1016,10 +1115,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1120,7 +1219,7 @@
       "enabled": true,
       "entries": {
         "Steinmetz-Jenkins.pdf": {
-          "size": 196001,
+          "size": 186375,
           "key": "Steinmetz-Jenkins.pdf"
         }
       }

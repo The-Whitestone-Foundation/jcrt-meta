@@ -72,7 +72,7 @@ copyright, and license URL in the PDF. It defaults to:
 
 - Publisher: Whitestone Publications
 - ISSN: 1530-5228
-- License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+- Rights: Copyright held by the author(s); JCRT copyright policy
 - Rights holder: article author(s)
 - Copyright year: `copyright-year`, falling back to `year`
 

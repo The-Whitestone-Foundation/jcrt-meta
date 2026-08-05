@@ -41,10 +41,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -100,7 +100,7 @@
       "enabled": true,
       "entries": {
         "Afridi.pdf": {
-          "size": 180092,
+          "size": 172302,
           "key": "Afridi.pdf"
         }
       }
@@ -148,10 +148,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -208,8 +208,144 @@
       "enabled": true,
       "entries": {
         "Arnold.pdf": {
-          "size": 111368,
+          "size": 104654,
           "key": "Arnold.pdf"
+        }
+      }
+    }
+  },
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "editors",
+            "given_name": "",
+            "family_name": "editors"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "Author Bios",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2022",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "kzJlHY",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/21.2/bios/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "title": {
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
+        }
+      ],
+      "description": "",
+      "subjects": [
+        {
+          "subject": "African diaspora",
+          "scheme": "FAST",
+          "identifier": "fst00799755",
+          "uri": "https://id.worldcat.org/fast/799755",
+          "category": "topical"
+        },
+        {
+          "subject": "Anthropology of religion",
+          "scheme": "FAST",
+          "identifier": "fst01738842",
+          "uri": "https://id.worldcat.org/fast/1738842",
+          "category": "topical"
+        },
+        {
+          "subject": "Antisemitism",
+          "scheme": "FAST",
+          "identifier": "fst00810769",
+          "uri": "https://id.worldcat.org/fast/810769",
+          "category": "topical"
+        },
+        {
+          "subject": "Feminist theology",
+          "scheme": "FAST",
+          "identifier": "fst00922812",
+          "uri": "https://id.worldcat.org/fast/922812",
+          "category": "topical"
+        },
+        {
+          "subject": "Islam",
+          "scheme": "FAST",
+          "identifier": "fst00979776",
+          "uri": "https://id.worldcat.org/fast/979776",
+          "category": "topical"
+        }
+      ]
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "2",
+        "volume": "21",
+        "pages": "",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": [
+        "contributor-biographies",
+        "religious-studies",
+        "holocaust-studies",
+        "islam",
+        "antisemitism",
+        "indigenous-religions",
+        "haudenosaunee",
+        "anthropology-of-religion",
+        "postcolonial-studies",
+        "feminist-theology",
+        "african-diaspora",
+        "prophetic-pragmatism"
+      ]
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "bios.pdf": {
+          "size": 53660,
+          "key": "bios.pdf"
         }
       }
     }
@@ -256,10 +392,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -314,7 +450,7 @@
       "enabled": true,
       "entries": {
         "Macdonald.pdf": {
-          "size": 354960,
+          "size": 344778,
           "key": "Macdonald.pdf"
         }
       }
@@ -362,10 +498,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -448,7 +584,7 @@
       "enabled": true,
       "entries": {
         "Molla.pdf": {
-          "size": 231861,
+          "size": 222820,
           "key": "Molla.pdf"
         }
       }
@@ -496,13 +632,22 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Religion",
+          "scheme": "FAST",
+          "identifier": "fst01093763",
+          "uri": "https://id.worldcat.org/fast/1093763",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -539,7 +684,7 @@
       "enabled": true,
       "entries": {
         "Taylor.pdf": {
-          "size": 169915,
+          "size": 162380,
           "key": "Taylor.pdf"
         }
       }
@@ -587,10 +732,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -639,7 +784,7 @@
       "enabled": true,
       "entries": {
         "Walker.pdf": {
-          "size": 158519,
+          "size": 150749,
           "key": "Walker.pdf"
         }
       }
@@ -687,10 +832,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -739,7 +884,7 @@
       "enabled": true,
       "entries": {
         "Wood.pdf": {
-          "size": 370428,
+          "size": 359746,
           "key": "Wood.pdf"
         }
       }

@@ -91,7 +91,7 @@ Approx. 15 s per file. Builds can be parallelized (e.g. `xargs -P 4`); the LuaLa
 | `keywords` (list) | PDF keywords + cover "Keywords:" line |
 | `url` | cover "Read this article on JCRT" link |
 | `season` | cover `volume.issue | season` line |
-| defaults | publisher "Whitestone Publications", ISSN 1530-5228, CC BY 4.0, lang en-US (all overridable) |
+| defaults | publisher "Whitestone Publications", ISSN 1530-5228, author-held copyright with the JCRT policy URL, lang en-US (all overridable) |
 
 `pages`, `nanoid`, `atproto`, `article_number`, `subjects`, `pdf` are consumed by the metadata JSON pipeline, not the PDF template.
 

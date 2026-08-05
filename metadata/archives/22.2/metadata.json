@@ -8,6 +8,101 @@
         {
           "person_or_org": {
             "type": "personal",
+            "name": "editors",
+            "given_name": "",
+            "family_name": "editors"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "Author Bios",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2023",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "OHcVAK",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/22.2/bios/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "title": {
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
+        }
+      ],
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Religion",
+          "scheme": "FAST",
+          "identifier": "fst01093763",
+          "uri": "https://id.worldcat.org/fast/1093763",
+          "category": "topical"
+        }
+      ]
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "2",
+        "volume": "22",
+        "pages": "",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": []
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "bios.pdf": {
+          "size": 82463,
+          "key": "bios.pdf"
+        }
+      }
+    }
+  },
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
             "name": "Byng, Gabriel Thomas Gustav",
             "given_name": "Gabriel Thomas Gustav",
             "family_name": "Byng"
@@ -41,13 +136,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "God",
+          "scheme": "FAST",
+          "identifier": "fst00944037",
+          "uri": "https://id.worldcat.org/fast/944037",
+          "category": "topical"
+        },
+        {
+          "subject": "Mysticism",
+          "scheme": "FAST",
+          "identifier": "fst01031629",
+          "uri": "https://id.worldcat.org/fast/1031629",
+          "category": "topical"
+        },
+        {
+          "subject": "Negative theology",
+          "scheme": "FAST",
+          "identifier": "fst01035499",
+          "uri": "https://id.worldcat.org/fast/1035499",
+          "category": "topical"
+        },
+        {
+          "subject": "Ontology",
+          "scheme": "FAST",
+          "identifier": "fst01045995",
+          "uri": "https://id.worldcat.org/fast/1045995",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -57,7 +182,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "meister-eckhart",
+        "mysticism",
+        "ek-sistence",
+        "theology-of-the-real",
+        "negative-theology",
+        "apophatic-theology",
+        "jacques-lacan",
+        "the-real",
+        "medieval-mysticism",
+        "divine-being",
+        "ontology",
+        "god"
+      ]
     },
     "parent": {
       "access": {
@@ -79,7 +217,7 @@
       "enabled": true,
       "entries": {
         "Byng.pdf": {
-          "size": 275990,
+          "size": 276657,
           "key": "Byng.pdf"
         }
       }
@@ -149,13 +287,57 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Aesthetics",
+          "scheme": "FAST",
+          "identifier": "fst00798702",
+          "uri": "https://id.worldcat.org/fast/798702",
+          "category": "topical"
+        },
+        {
+          "subject": "Art",
+          "scheme": "FAST",
+          "identifier": "fst00815177",
+          "uri": "https://id.worldcat.org/fast/815177",
+          "category": "topical"
+        },
+        {
+          "subject": "Fashion",
+          "scheme": "FAST",
+          "identifier": "fst00921600",
+          "uri": "https://id.worldcat.org/fast/921600",
+          "category": "topical"
+        },
+        {
+          "subject": "Fashion and art",
+          "scheme": "FAST",
+          "identifier": "fst00921625",
+          "uri": "https://id.worldcat.org/fast/921625",
+          "category": "topical"
+        },
+        {
+          "subject": "Material culture",
+          "scheme": "FAST",
+          "identifier": "fst01011739",
+          "uri": "https://id.worldcat.org/fast/1011739",
+          "category": "topical"
+        },
+        {
+          "subject": "Painting",
+          "scheme": "FAST",
+          "identifier": "fst01050567",
+          "uri": "https://id.worldcat.org/fast/1050567",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -165,7 +347,18 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "fashion",
+        "art",
+        "aesthetics",
+        "ali-hval",
+        "contemporary-art",
+        "material-culture",
+        "textile-art",
+        "painting",
+        "fashion-and-art",
+        "artist-interview"
+      ]
     },
     "parent": {
       "access": {
@@ -187,7 +380,7 @@
       "enabled": true,
       "entries": {
         "Dubus.pdf": {
-          "size": 199283,
+          "size": 200054,
           "key": "Dubus.pdf"
         }
       }
@@ -235,10 +428,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -388,7 +581,7 @@
       "enabled": true,
       "entries": {
         "Hall.pdf": {
-          "size": 265028,
+          "size": 265378,
           "key": "Hall.pdf"
         }
       }
@@ -436,13 +629,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Atheism",
+          "scheme": "FAST",
+          "identifier": "fst00819974",
+          "uri": "https://id.worldcat.org/fast/819974",
+          "category": "topical"
+        },
+        {
+          "subject": "Death of God",
+          "scheme": "FAST",
+          "identifier": "fst00888713",
+          "uri": "https://id.worldcat.org/fast/888713",
+          "category": "topical"
+        },
+        {
+          "subject": "Negative theology",
+          "scheme": "FAST",
+          "identifier": "fst01035499",
+          "uri": "https://id.worldcat.org/fast/1035499",
+          "category": "topical"
+        },
+        {
+          "subject": "Secularism",
+          "scheme": "FAST",
+          "identifier": "fst01110732",
+          "uri": "https://id.worldcat.org/fast/1110732",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -452,7 +675,18 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "g-w-f-hegel",
+        "gavin-hyman",
+        "philosophy-of-religion",
+        "dialectics",
+        "atheism",
+        "negative-theology",
+        "death-of-god",
+        "absolute-spirit",
+        "secularism",
+        "speculative-philosophy"
+      ]
     },
     "parent": {
       "access": {
@@ -474,7 +708,7 @@
       "enabled": true,
       "entries": {
         "Howes.pdf": {
-          "size": 316315,
+          "size": 317002,
           "key": "Howes.pdf"
         }
       }
@@ -533,10 +767,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -640,7 +874,7 @@
       "enabled": true,
       "entries": {
         "Keller.pdf": {
-          "size": 275683,
+          "size": 275827,
           "key": "Keller.pdf"
         }
       }
@@ -688,10 +922,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -834,7 +1068,7 @@
       "enabled": true,
       "entries": {
         "Raschke.pdf": {
-          "size": 270409,
+          "size": 270860,
           "key": "Raschke.pdf"
         }
       }
@@ -882,10 +1116,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1004,7 +1238,7 @@
       "enabled": true,
       "entries": {
         "Singh.pdf": {
-          "size": 298160,
+          "size": 298848,
           "key": "Singh.pdf"
         }
       }

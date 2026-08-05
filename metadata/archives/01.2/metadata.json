@@ -41,13 +41,36 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Popular culture",
+          "scheme": "FAST",
+          "identifier": "fst01071344",
+          "uri": "https://id.worldcat.org/fast/1071344",
+          "category": "topical"
+        },
+        {
+          "subject": "Reader-response criticism",
+          "scheme": "FAST",
+          "identifier": "fst01090552",
+          "uri": "https://id.worldcat.org/fast/1090552",
+          "category": "topical"
+        },
+        {
+          "subject": "Religion and culture",
+          "scheme": "FAST",
+          "identifier": "fst01093823",
+          "uri": "https://id.worldcat.org/fast/1093823",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -57,7 +80,21 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "popular-culture",
+        "religion-and-culture",
+        "simulacra",
+        "hyperreality",
+        "reader-response-criticism",
+        "cultural-studies",
+        "jean-baudrillard",
+        "michel-de-certeau",
+        "mark-c-taylor",
+        "michel-foucault",
+        "textuality",
+        "academic-discourse",
+        "virtualization"
+      ]
     },
     "parent": {
       "access": {
@@ -76,7 +113,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "adcock.pdf": {
+          "size": 232495,
+          "key": "adcock.pdf"
+        }
+      }
     }
   },
   {
@@ -121,13 +164,71 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Antisemitism",
+          "scheme": "FAST",
+          "identifier": "fst00810769",
+          "uri": "https://id.worldcat.org/fast/810769",
+          "category": "topical"
+        },
+        {
+          "subject": "Blood accusation",
+          "scheme": "FAST",
+          "identifier": "fst00834641",
+          "uri": "https://id.worldcat.org/fast/834641",
+          "category": "topical"
+        },
+        {
+          "subject": "Christianity",
+          "scheme": "FAST",
+          "identifier": "fst00859599",
+          "uri": "https://id.worldcat.org/fast/859599",
+          "category": "topical"
+        },
+        {
+          "subject": "Fantasy",
+          "scheme": "FAST",
+          "identifier": "fst00920687",
+          "uri": "https://id.worldcat.org/fast/920687",
+          "category": "topical"
+        },
+        {
+          "subject": "Human sacrifice",
+          "scheme": "FAST",
+          "identifier": "fst00963355",
+          "uri": "https://id.worldcat.org/fast/963355",
+          "category": "topical"
+        },
+        {
+          "subject": "Messianism",
+          "scheme": "FAST",
+          "identifier": "fst01017438",
+          "uri": "https://id.worldcat.org/fast/1017438",
+          "category": "topical"
+        },
+        {
+          "subject": "National socialism",
+          "scheme": "FAST",
+          "identifier": "fst01033761",
+          "uri": "https://id.worldcat.org/fast/1033761",
+          "category": "topical"
+        },
+        {
+          "subject": "Ritual murder",
+          "scheme": "FAST",
+          "identifier": "fst02041146",
+          "uri": "https://id.worldcat.org/fast/2041146",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -137,7 +238,22 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "fabulation",
+        "antisemitism",
+        "holocaust",
+        "christianity",
+        "nazism",
+        "ritual-murder",
+        "blood-libel",
+        "human-sacrifice",
+        "phantasy",
+        "sigmund-freud",
+        "jacques-lacan",
+        "apocalypse",
+        "messianism",
+        "scapegoating"
+      ]
     },
     "parent": {
       "access": {
@@ -156,7 +272,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "canning.pdf": {
+          "size": 438441,
+          "key": "canning.pdf"
+        }
+      }
     }
   },
   {
@@ -201,13 +323,36 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Alchemy",
+          "scheme": "FAST",
+          "identifier": "fst00804245",
+          "uri": "https://id.worldcat.org/fast/804245",
+          "category": "topical"
+        },
+        {
+          "subject": "Homo religiosus",
+          "scheme": "FAST",
+          "identifier": "fst01381881",
+          "uri": "https://id.worldcat.org/fast/1381881",
+          "category": "title"
+        },
+        {
+          "subject": "Religions",
+          "scheme": "FAST",
+          "identifier": "fst01093898",
+          "uri": "https://id.worldcat.org/fast/1093898",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -217,7 +362,21 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "mircea-eliade",
+        "hierophany",
+        "sacred-and-profane",
+        "homo-religiosus",
+        "homo-faber",
+        "comparative-religion",
+        "religious-symbolism",
+        "alchemy",
+        "archetypes",
+        "imagination-of-matter",
+        "rudolf-otto",
+        "neolithic-revolution",
+        "history-of-religions"
+      ]
     },
     "parent": {
       "access": {
@@ -236,7 +395,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "long.pdf": {
+          "size": 286814,
+          "key": "long.pdf"
+        }
+      }
     }
   },
   {
@@ -281,13 +446,29 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Deconstruction",
+          "scheme": "FAST",
+          "identifier": "fst00889137",
+          "uri": "https://id.worldcat.org/fast/889137",
+          "category": "topical"
+        },
+        {
+          "subject": "Nihilism",
+          "scheme": "FAST",
+          "identifier": "fst01037702",
+          "uri": "https://id.worldcat.org/fast/1037702",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -297,7 +478,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "gilles-deleuze",
+        "difference-and-repetition",
+        "image-of-thought",
+        "immanence",
+        "deconstruction",
+        "fractured-self",
+        "theological-thinking",
+        "alterity",
+        "nihilism",
+        "friedrich-nietzsche",
+        "transcendence",
+        "philosophy-of-religion"
+      ]
     },
     "parent": {
       "access": {
@@ -316,7 +510,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "lorentzen.pdf": {
+          "size": 180936,
+          "key": "lorentzen.pdf"
+        }
+      }
     }
   },
   {
@@ -334,7 +534,12 @@
           },
           "role": {
             "id": "author"
-          }
+          },
+          "affiliations": [
+            {
+              "name": "Le Moyne College"
+            }
+          ]
         }
       ],
       "title": "Rebellious No",
@@ -361,10 +566,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -429,7 +634,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "nvahanian.pdf": {
+          "size": 196033,
+          "key": "nvahanian.pdf"
+        }
+      }
     }
   },
   {
@@ -474,13 +685,57 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "American literature",
+          "scheme": "FAST",
+          "identifier": "fst00807113",
+          "uri": "https://id.worldcat.org/fast/807113",
+          "category": "topical"
+        },
+        {
+          "subject": "Danger",
+          "scheme": "FAST",
+          "identifier": "fst02010151",
+          "uri": "https://id.worldcat.org/fast/2010151",
+          "category": "topical"
+        },
+        {
+          "subject": "Implicit religion",
+          "scheme": "FAST",
+          "identifier": "fst00968178",
+          "uri": "https://id.worldcat.org/fast/968178",
+          "category": "topical"
+        },
+        {
+          "subject": "Liminality",
+          "scheme": "FAST",
+          "identifier": "fst00998872",
+          "uri": "https://id.worldcat.org/fast/998872",
+          "category": "topical"
+        },
+        {
+          "subject": "Trance",
+          "scheme": "FAST",
+          "identifier": "fst01154483",
+          "uri": "https://id.worldcat.org/fast/1154483",
+          "category": "topical"
+        },
+        {
+          "subject": "Travel",
+          "scheme": "FAST",
+          "identifier": "fst01155558",
+          "uri": "https://id.worldcat.org/fast/1155558",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -490,7 +745,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "travel",
+        "rite-of-passage",
+        "liminality",
+        "implicit-religion",
+        "mark-twain",
+        "paul-bowles",
+        "henry-miller",
+        "danger",
+        "trance",
+        "rupture",
+        "self-transformation",
+        "american-literature"
+      ]
     },
     "parent": {
       "access": {
@@ -509,7 +777,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "ruf.pdf": {
+          "size": 250700,
+          "key": "ruf.pdf"
+        }
+      }
     }
   },
   {
@@ -554,13 +828,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Collective memory",
+          "scheme": "FAST",
+          "identifier": "fst01739814",
+          "uri": "https://id.worldcat.org/fast/1739814",
+          "category": "topical"
+        },
+        {
+          "subject": "Historiography",
+          "scheme": "FAST",
+          "identifier": "fst00958221",
+          "uri": "https://id.worldcat.org/fast/958221",
+          "category": "topical"
+        },
+        {
+          "subject": "Memory",
+          "scheme": "FAST",
+          "identifier": "fst01015913",
+          "uri": "https://id.worldcat.org/fast/1015913",
+          "category": "topical"
+        },
+        {
+          "subject": "Representative government and representation",
+          "scheme": "FAST",
+          "identifier": "fst01094941",
+          "uri": "https://id.worldcat.org/fast/1094941",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -570,7 +874,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "heterology",
+        "philosophy-of-history",
+        "alterity",
+        "ethics-of-remembering",
+        "edith-wyschogrod",
+        "historiography",
+        "emmanuel-levinas",
+        "memory",
+        "representation",
+        "the-sublime",
+        "otherness",
+        "collective-memory"
+      ]
     },
     "parent": {
       "access": {
@@ -589,7 +906,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "smith.pdf": {
+          "size": 131398,
+          "key": "smith.pdf"
+        }
+      }
     }
   },
   {
@@ -634,13 +957,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Critical theory",
+          "scheme": "FAST",
+          "identifier": "fst00883690",
+          "uri": "https://id.worldcat.org/fast/883690",
+          "category": "topical"
+        },
+        {
+          "subject": "Deconstruction",
+          "scheme": "FAST",
+          "identifier": "fst00889137",
+          "uri": "https://id.worldcat.org/fast/889137",
+          "category": "topical"
+        },
+        {
+          "subject": "Postmodernism",
+          "scheme": "FAST",
+          "identifier": "fst01073164",
+          "uri": "https://id.worldcat.org/fast/1073164",
+          "category": "topical"
+        },
+        {
+          "subject": "Semiotics",
+          "scheme": "FAST",
+          "identifier": "fst01112351",
+          "uri": "https://id.worldcat.org/fast/1112351",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -650,7 +1003,21 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "religious-theory",
+        "deconstruction",
+        "semiotics",
+        "jacques-derrida",
+        "carl-raschke",
+        "disciplinarity",
+        "supplementarity",
+        "critical-theory",
+        "mark-c-taylor",
+        "clement-greenberg",
+        "postmodernism",
+        "study-of-religion",
+        "philosophy-of-religion"
+      ]
     },
     "parent": {
       "access": {
@@ -669,7 +1036,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "taylor.pdf": {
+          "size": 145379,
+          "key": "taylor.pdf"
+        }
+      }
     }
   },
   {
@@ -725,13 +1098,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Community",
+          "scheme": "FAST",
+          "identifier": "fst00870635",
+          "uri": "https://id.worldcat.org/fast/870635",
+          "category": "topical"
+        },
+        {
+          "subject": "Glory",
+          "scheme": "FAST",
+          "identifier": "fst00943612",
+          "uri": "https://id.worldcat.org/fast/943612",
+          "category": "topical"
+        },
+        {
+          "subject": "Justice",
+          "scheme": "FAST",
+          "identifier": "fst00985122",
+          "uri": "https://id.worldcat.org/fast/985122",
+          "category": "topical"
+        },
+        {
+          "subject": "Memory",
+          "scheme": "FAST",
+          "identifier": "fst01015913",
+          "uri": "https://id.worldcat.org/fast/1015913",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -741,7 +1144,21 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "heterology",
+        "philosophy-of-history",
+        "alterity",
+        "radical-orthodoxy",
+        "emmanuel-levinas",
+        "jacques-derrida",
+        "john-milbank",
+        "the-trace",
+        "ethics-of-alterity",
+        "memory",
+        "glory",
+        "justice",
+        "community"
+      ]
     },
     "parent": {
       "access": {
@@ -760,7 +1177,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "wyschogrod_raschke.pdf": {
+          "size": 180152,
+          "key": "wyschogrod_raschke.pdf"
+        }
+      }
     }
   }
 ]

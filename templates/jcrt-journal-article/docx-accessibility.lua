@@ -52,13 +52,13 @@ function Pandoc(doc)
   local issn = text(meta.issn)
   if issn == "" then issn = "1530-5228" end
   local license = text(meta.license)
-  if license == "" then license = "CC BY 4.0" end
+  if license == "" then license = "JCRT copyright policy" end
   local license_url = text(meta["license-url"])
-  if license_url == "" then license_url = "https://creativecommons.org/licenses/by/4.0/" end
+  if license_url == "" then license_url = "https://jcrt.org/copyright/" end
   if meta.lang == nil then meta.lang = pandoc.MetaString("en-US") end
   if meta.subject == nil and abstract ~= "" then meta.subject = pandoc.MetaString(abstract) end
   if meta.rights == nil then
-    meta.rights = pandoc.MetaString("Copyright " .. year .. " " .. rights_holder .. ". " .. license .. ".")
+    meta.rights = pandoc.MetaString("Copyright " .. year .. " " .. rights_holder .. ". Published in the Journal for Cultural and Religious Theory.")
   end
 
   local cover = {}
@@ -89,7 +89,7 @@ function Pandoc(doc)
   end
 
   cover[#cover + 1] = pandoc.HorizontalRule()
-  local copyright = "Copyright " .. year .. " " .. rights_holder .. ". Published by " .. publisher .. ". ISSN " .. issn .. ". Licensed under "
+  local copyright = "Copyright " .. year .. " " .. rights_holder .. ". Published by " .. publisher .. ". ISSN " .. issn .. ". Rights: "
   cover[#cover + 1] = paragraph({pandoc.Str(copyright), pandoc.Link({pandoc.Str(license)}, license_url), pandoc.Str(".")})
   cover[#cover + 1] = pandoc.RawBlock("openxml", '<w:p><w:r><w:br w:type="page"/></w:r></w:p>')
 

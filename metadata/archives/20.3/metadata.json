@@ -8,6 +8,135 @@
         {
           "person_or_org": {
             "type": "personal",
+            "name": "editors",
+            "given_name": "",
+            "family_name": "editors"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "Author Bios",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2021",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "vDbhWS",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/20.3/bios/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "title": {
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
+        }
+      ],
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Political theology",
+          "scheme": "FAST",
+          "identifier": "fst01069899",
+          "uri": "https://id.worldcat.org/fast/1069899",
+          "category": "topical"
+        },
+        {
+          "subject": "Racism",
+          "scheme": "FAST",
+          "identifier": "fst01086616",
+          "uri": "https://id.worldcat.org/fast/1086616",
+          "category": "topical"
+        },
+        {
+          "subject": "Theology, Doctrinal",
+          "scheme": "FAST",
+          "identifier": "fst01149617",
+          "uri": "https://id.worldcat.org/fast/1149617",
+          "category": "topical"
+        },
+        {
+          "subject": "Decolonial theory",
+          "scheme": "Homosaurus",
+          "identifier": "homoit0003616",
+          "uri": "https://homosaurus.org/v5/homoit0003616",
+          "category": "topical"
+        }
+      ]
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "3",
+        "volume": "20",
+        "pages": "",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": [
+        "contributor-biographies",
+        "decoloniality",
+        "walter-mignolo",
+        "catherine-walsh",
+        "native-american-religions",
+        "american-indian-liberation-theology",
+        "tink-tinker",
+        "charles-sanders-peirce",
+        "philosophy-of-religion",
+        "racism",
+        "political-theology",
+        "dogmatic-theology"
+      ]
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "bios.pdf": {
+          "size": 48280,
+          "key": "bios.pdf"
+        }
+      }
+    }
+  },
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
             "name": "Boulting, Noel",
             "given_name": "Noel",
             "family_name": "Boulting"
@@ -41,10 +170,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "Can the world be conceived as an artwork as Simone Weil sometimes suggests? And does this suggestion not imply examining the relation between the creator's intentions and what is created? Three approaches will be explored so as to ascertain Simone Weil's response in terms of her Decreation thesis. The first approach can be labelled a phenomenological perspective, employing an insight from Sartre's existentialism, the Frankfurt school of philosophy and the German Literary tradition, illustrating her concern for the significance of human experience. The second approach, the ontological, is illustrated through claims made by Luria - the Jewish mystic - and Von Schelling - arguably the founder of ecological philosophy - in establishing her claim on behalf of what",
@@ -94,7 +223,7 @@
       "enabled": true,
       "entries": {
         "Boulting.pdf": {
-          "size": 214509,
+          "size": 204120,
           "key": "Boulting.pdf"
         }
       }
@@ -142,10 +271,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -192,7 +321,7 @@
       "enabled": true,
       "entries": {
         "Cuda.pdf": {
-          "size": 308267,
+          "size": 295675,
           "key": "Cuda.pdf"
         }
       }
@@ -273,13 +402,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Civilization, Modern",
+          "scheme": "FAST",
+          "identifier": "fst00863073",
+          "uri": "https://id.worldcat.org/fast/863073",
+          "category": "topical"
+        },
+        {
+          "subject": "Eurocentrism",
+          "scheme": "FAST",
+          "identifier": "fst00916597",
+          "uri": "https://id.worldcat.org/fast/916597",
+          "category": "topical"
+        },
+        {
+          "subject": "Knowledge, Theory of",
+          "scheme": "FAST",
+          "identifier": "fst00988194",
+          "uri": "https://id.worldcat.org/fast/988194",
+          "category": "topical"
+        },
+        {
+          "subject": "Decolonial theory",
+          "scheme": "Homosaurus",
+          "identifier": "homoit0003616",
+          "uri": "https://homosaurus.org/v5/homoit0003616",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -289,7 +448,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "decoloniality",
+        "coloniality",
+        "walter-mignolo",
+        "catherine-walsh",
+        "modernity",
+        "colonial-matrix-of-power",
+        "epistemology",
+        "indigenous-knowledge",
+        "latin-american-thought",
+        "tink-tinker",
+        "decolonial-thought",
+        "eurocentrism"
+      ]
     },
     "parent": {
       "access": {
@@ -311,7 +483,7 @@
       "enabled": true,
       "entries": {
         "Decoloniality.pdf": {
-          "size": 268835,
+          "size": 258323,
           "key": "Decoloniality.pdf"
         }
       }
@@ -359,10 +531,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -411,7 +583,7 @@
       "enabled": true,
       "entries": {
         "Felese.pdf": {
-          "size": 219937,
+          "size": 210365,
           "key": "Felese.pdf"
         }
       }
@@ -459,10 +631,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -512,7 +684,7 @@
       "enabled": true,
       "entries": {
         "Holdier.pdf": {
-          "size": 186112,
+          "size": 177544,
           "key": "Holdier.pdf"
         }
       }
@@ -560,10 +732,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -610,7 +782,7 @@
       "enabled": true,
       "entries": {
         "Kline.pdf": {
-          "size": 238559,
+          "size": 227906,
           "key": "Kline.pdf"
         }
       }
@@ -658,10 +830,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -715,7 +887,7 @@
       "enabled": true,
       "entries": {
         "Klug.pdf": {
-          "size": 314126,
+          "size": 302011,
           "key": "Klug.pdf"
         }
       }
@@ -796,13 +968,22 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": "The following is a transcript of the keynote panel session of a three-day international webinar"
+      "description": "The following is a transcript of the keynote panel session of a three-day international webinar",
+      "subjects": [
+        {
+          "subject": "Religion",
+          "scheme": "FAST",
+          "identifier": "fst01093763",
+          "uri": "https://id.worldcat.org/fast/1093763",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -838,7 +1019,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "Decoloniality.pdf": {
+          "size": 258323,
+          "key": "Decoloniality.pdf"
+        }
+      }
     }
   }
 ]

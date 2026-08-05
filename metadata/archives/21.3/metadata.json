@@ -41,13 +41,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Biopolitics",
+          "scheme": "FAST",
+          "identifier": "fst00832668",
+          "uri": "https://id.worldcat.org/fast/832668",
+          "category": "topical"
+        },
+        {
+          "subject": "Political theology",
+          "scheme": "FAST",
+          "identifier": "fst01069899",
+          "uri": "https://id.worldcat.org/fast/1069899",
+          "category": "topical"
+        },
+        {
+          "subject": "Sovereignty",
+          "scheme": "FAST",
+          "identifier": "fst01127379",
+          "uri": "https://id.worldcat.org/fast/1127379",
+          "category": "topical"
+        },
+        {
+          "subject": "Vitalism",
+          "scheme": "FAST",
+          "identifier": "fst01168145",
+          "uri": "https://id.worldcat.org/fast/1168145",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -57,7 +87,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "thanatopolitics",
+        "marranism",
+        "agata-bielik-robson",
+        "political-theology",
+        "biopolitics",
+        "jewish-thought",
+        "sovereignty",
+        "vitalism",
+        "crypto-judaism",
+        "arthur-bradley",
+        "unbearable-life",
+        "life-and-death"
+      ]
     },
     "parent": {
       "access": {
@@ -76,7 +119,163 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "Bradley5.pdf": {
+          "size": 319248,
+          "key": "Bradley5.pdf"
+        }
+      }
+    }
+  },
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "editors",
+            "given_name": "",
+            "family_name": "editors"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "Author Bios",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2022",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "0K6XVQ",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/21.3/bios/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "title": {
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
+        }
+      ],
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Biopolitics",
+          "scheme": "FAST",
+          "identifier": "fst00832668",
+          "uri": "https://id.worldcat.org/fast/832668",
+          "category": "topical"
+        },
+        {
+          "subject": "Deconstruction",
+          "scheme": "FAST",
+          "identifier": "fst00889137",
+          "uri": "https://id.worldcat.org/fast/889137",
+          "category": "topical"
+        },
+        {
+          "subject": "Kura kaupapa Māori",
+          "scheme": "FAST",
+          "identifier": "fst00989377",
+          "uri": "https://id.worldcat.org/fast/989377",
+          "category": "topical"
+        },
+        {
+          "subject": "Political theology",
+          "scheme": "FAST",
+          "identifier": "fst01069899",
+          "uri": "https://id.worldcat.org/fast/1069899",
+          "category": "topical"
+        },
+        {
+          "subject": "Psychoanalysis",
+          "scheme": "FAST",
+          "identifier": "fst01081235",
+          "uri": "https://id.worldcat.org/fast/1081235",
+          "category": "topical"
+        },
+        {
+          "subject": "Settler colonialism",
+          "scheme": "FAST",
+          "identifier": "fst02025744",
+          "uri": "https://id.worldcat.org/fast/2025744",
+          "category": "topical"
+        },
+        {
+          "subject": "Sovereignty",
+          "scheme": "FAST",
+          "identifier": "fst01127379",
+          "uri": "https://id.worldcat.org/fast/1127379",
+          "category": "topical"
+        }
+      ]
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "3",
+        "volume": "21",
+        "pages": "",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": [
+        "contributor-biographies",
+        "jewish-thought",
+        "marranism",
+        "jacques-derrida",
+        "political-theology",
+        "psychoanalysis",
+        "arthur-bradley",
+        "sovereignty",
+        "biopolitics",
+        "deconstruction",
+        "kaupapa-maori",
+        "settler-colonialism"
+      ]
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "bios.pdf": {
+          "size": 65237,
+          "key": "bios.pdf"
+        }
+      }
     }
   },
   {
@@ -121,10 +320,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -172,7 +371,7 @@
       "enabled": true,
       "entries": {
         "Bradley2.pdf": {
-          "size": 102387,
+          "size": 96466,
           "key": "Bradley2.pdf"
         }
       }
@@ -220,13 +419,22 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Religion",
+          "scheme": "FAST",
+          "identifier": "fst01093763",
+          "uri": "https://id.worldcat.org/fast/1093763",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -262,7 +470,7 @@
       "enabled": true,
       "entries": {
         "Bradley3.pdf": {
-          "size": 113296,
+          "size": 107140,
           "key": "Bradley3.pdf"
         }
       }
@@ -310,10 +518,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -382,7 +590,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "Bradley6.pdf": {
+          "size": 131913,
+          "key": "Bradley6.pdf"
+        }
+      }
     }
   },
   {
@@ -427,13 +641,50 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Biopolitics",
+          "scheme": "FAST",
+          "identifier": "fst00832668",
+          "uri": "https://id.worldcat.org/fast/832668",
+          "category": "topical"
+        },
+        {
+          "subject": "Genealogy",
+          "scheme": "FAST",
+          "identifier": "fst00939652",
+          "uri": "https://id.worldcat.org/fast/939652",
+          "category": "topical"
+        },
+        {
+          "subject": "Political science Philosophy",
+          "scheme": "FAST",
+          "identifier": "fst01069819",
+          "uri": "https://id.worldcat.org/fast/1069819",
+          "category": "topical"
+        },
+        {
+          "subject": "Political theology",
+          "scheme": "FAST",
+          "identifier": "fst01069899",
+          "uri": "https://id.worldcat.org/fast/1069899",
+          "category": "topical"
+        },
+        {
+          "subject": "Sovereignty",
+          "scheme": "FAST",
+          "identifier": "fst01127379",
+          "uri": "https://id.worldcat.org/fast/1127379",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -443,7 +694,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "arthur-bradley",
+        "political-erasure",
+        "unbearable-life",
+        "sovereignty",
+        "political-theology",
+        "biopolitics",
+        "damnatio-memoriae",
+        "political-disappearance",
+        "political-philosophy",
+        "carl-raschke",
+        "state-violence",
+        "genealogy"
+      ]
     },
     "parent": {
       "access": {
@@ -465,7 +729,7 @@
       "enabled": true,
       "entries": {
         "Bradley0.pdf": {
-          "size": 389405,
+          "size": 390307,
           "key": "Bradley0.pdf"
         }
       }
@@ -513,13 +777,50 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Biopolitics",
+          "scheme": "FAST",
+          "identifier": "fst00832668",
+          "uri": "https://id.worldcat.org/fast/832668",
+          "category": "topical"
+        },
+        {
+          "subject": "Genealogy",
+          "scheme": "FAST",
+          "identifier": "fst00939652",
+          "uri": "https://id.worldcat.org/fast/939652",
+          "category": "topical"
+        },
+        {
+          "subject": "Political theology",
+          "scheme": "FAST",
+          "identifier": "fst01069899",
+          "uri": "https://id.worldcat.org/fast/1069899",
+          "category": "topical"
+        },
+        {
+          "subject": "Sovereignty",
+          "scheme": "FAST",
+          "identifier": "fst01127379",
+          "uri": "https://id.worldcat.org/fast/1127379",
+          "category": "topical"
+        },
+        {
+          "subject": "War on terror",
+          "scheme": "FAST",
+          "identifier": "fst02057043",
+          "uri": "https://id.worldcat.org/fast/2057043",
+          "category": "title"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -529,7 +830,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "arthur-bradley",
+        "unbearable-life",
+        "political-erasure",
+        "sovereignty",
+        "damnatio-memoriae",
+        "biopolitics",
+        "political-theology",
+        "michel-foucault",
+        "war-on-terror",
+        "political-disappearance",
+        "carl-schmitt",
+        "genealogy"
+      ]
     },
     "parent": {
       "access": {
@@ -551,7 +865,7 @@
       "enabled": true,
       "entries": {
         "Bradley1.pdf": {
-          "size": 86392,
+          "size": 80780,
           "key": "Bradley1.pdf"
         }
       }
@@ -599,13 +913,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Deconstruction",
+          "scheme": "FAST",
+          "identifier": "fst00889137",
+          "uri": "https://id.worldcat.org/fast/889137",
+          "category": "topical"
+        },
+        {
+          "subject": "Negative theology",
+          "scheme": "FAST",
+          "identifier": "fst01035499",
+          "uri": "https://id.worldcat.org/fast/1035499",
+          "category": "topical"
+        },
+        {
+          "subject": "Political theology",
+          "scheme": "FAST",
+          "identifier": "fst01069899",
+          "uri": "https://id.worldcat.org/fast/1069899",
+          "category": "topical"
+        },
+        {
+          "subject": "Sovereignty",
+          "scheme": "FAST",
+          "identifier": "fst01127379",
+          "uri": "https://id.worldcat.org/fast/1127379",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -615,7 +959,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "arthur-bradley",
+        "unbearable-life",
+        "political-theology",
+        "negative-theology",
+        "negative-dialectics",
+        "deconstruction",
+        "jacques-derrida",
+        "georges-bataille",
+        "political-disappearance",
+        "philosophical-negativity",
+        "the-troubles",
+        "sovereignty"
+      ]
     },
     "parent": {
       "access": {
@@ -637,7 +994,7 @@
       "enabled": true,
       "entries": {
         "Bradley2.pdf": {
-          "size": 102387,
+          "size": 96466,
           "key": "Bradley2.pdf"
         }
       }
@@ -685,13 +1042,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Biopolitics",
+          "scheme": "FAST",
+          "identifier": "fst00832668",
+          "uri": "https://id.worldcat.org/fast/832668",
+          "category": "topical"
+        },
+        {
+          "subject": "French Revolution",
+          "scheme": "FAST",
+          "identifier": "fst01403446",
+          "uri": "https://id.worldcat.org/fast/1403446",
+          "category": "title"
+        },
+        {
+          "subject": "Sovereignty",
+          "scheme": "FAST",
+          "identifier": "fst01127379",
+          "uri": "https://id.worldcat.org/fast/1127379",
+          "category": "topical"
+        },
+        {
+          "subject": "Vitalism",
+          "scheme": "FAST",
+          "identifier": "fst01168145",
+          "uri": "https://id.worldcat.org/fast/1168145",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -701,7 +1088,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "niall-gildea",
+        "arthur-bradley",
+        "unbearable-life",
+        "nihilopolitics",
+        "biopolitics",
+        "michel-foucault",
+        "sovereignty",
+        "vitalism",
+        "jacques-derrida",
+        "french-revolution",
+        "thanatopolitics",
+        "life-and-death"
+      ]
     },
     "parent": {
       "access": {
@@ -723,7 +1123,7 @@
       "enabled": true,
       "entries": {
         "Bradley3.pdf": {
-          "size": 113296,
+          "size": 107140,
           "key": "Bradley3.pdf"
         }
       }
@@ -771,13 +1171,36 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Deconstruction",
+          "scheme": "FAST",
+          "identifier": "fst00889137",
+          "uri": "https://id.worldcat.org/fast/889137",
+          "category": "topical"
+        },
+        {
+          "subject": "Negative theology",
+          "scheme": "FAST",
+          "identifier": "fst01035499",
+          "uri": "https://id.worldcat.org/fast/1035499",
+          "category": "topical"
+        },
+        {
+          "subject": "Sovereignty",
+          "scheme": "FAST",
+          "identifier": "fst01127379",
+          "uri": "https://id.worldcat.org/fast/1127379",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -787,7 +1210,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "arthur-bradley",
+        "niall-gildea",
+        "jacques-derrida",
+        "deconstruction",
+        "negative-theology",
+        "michel-foucault",
+        "foucault-derrida-debate",
+        "unbearable-life",
+        "history-of-madness",
+        "political-erasure",
+        "sovereignty",
+        "philosophical-negativity"
+      ]
     },
     "parent": {
       "access": {
@@ -809,7 +1245,7 @@
       "enabled": true,
       "entries": {
         "Bradley4.pdf": {
-          "size": 122363,
+          "size": 116553,
           "key": "Bradley4.pdf"
         }
       }
@@ -857,13 +1293,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Biopolitics",
+          "scheme": "FAST",
+          "identifier": "fst00832668",
+          "uri": "https://id.worldcat.org/fast/832668",
+          "category": "topical"
+        },
+        {
+          "subject": "Political theology",
+          "scheme": "FAST",
+          "identifier": "fst01069899",
+          "uri": "https://id.worldcat.org/fast/1069899",
+          "category": "topical"
+        },
+        {
+          "subject": "Sovereignty",
+          "scheme": "FAST",
+          "identifier": "fst01127379",
+          "uri": "https://id.worldcat.org/fast/1127379",
+          "category": "topical"
+        },
+        {
+          "subject": "Vitalism",
+          "scheme": "FAST",
+          "identifier": "fst01168145",
+          "uri": "https://id.worldcat.org/fast/1168145",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -873,7 +1339,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "thanatopolitics",
+        "marranism",
+        "agata-bielik-robson",
+        "arthur-bradley",
+        "unbearable-life",
+        "political-theology",
+        "biopolitics",
+        "jewish-thought",
+        "sovereignty",
+        "vitalism",
+        "crypto-judaism",
+        "life-and-death"
+      ]
     },
     "parent": {
       "access": {
@@ -895,7 +1374,7 @@
       "enabled": true,
       "entries": {
         "Bradley5.pdf": {
-          "size": 326063,
+          "size": 319248,
           "key": "Bradley5.pdf"
         }
       }
@@ -943,13 +1422,50 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Biopolitics",
+          "scheme": "FAST",
+          "identifier": "fst00832668",
+          "uri": "https://id.worldcat.org/fast/832668",
+          "category": "topical"
+        },
+        {
+          "subject": "Messianism",
+          "scheme": "FAST",
+          "identifier": "fst01017438",
+          "uri": "https://id.worldcat.org/fast/1017438",
+          "category": "topical"
+        },
+        {
+          "subject": "Political theology",
+          "scheme": "FAST",
+          "identifier": "fst01069899",
+          "uri": "https://id.worldcat.org/fast/1069899",
+          "category": "topical"
+        },
+        {
+          "subject": "Sovereignty",
+          "scheme": "FAST",
+          "identifier": "fst01127379",
+          "uri": "https://id.worldcat.org/fast/1127379",
+          "category": "topical"
+        },
+        {
+          "subject": "Vitalism",
+          "scheme": "FAST",
+          "identifier": "fst01168145",
+          "uri": "https://id.worldcat.org/fast/1168145",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -959,7 +1475,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "arthur-bradley",
+        "agata-bielik-robson",
+        "marranism",
+        "thanatopolitics",
+        "unbearable-life",
+        "political-theology",
+        "biopolitics",
+        "jewish-thought",
+        "vitalism",
+        "sovereignty",
+        "crypto-judaism",
+        "messianism"
+      ]
     },
     "parent": {
       "access": {
@@ -981,7 +1510,7 @@
       "enabled": true,
       "entries": {
         "Bradley6.pdf": {
-          "size": 137871,
+          "size": 131913,
           "key": "Bradley6.pdf"
         }
       }
@@ -1029,13 +1558,29 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Biopolitics",
+          "scheme": "FAST",
+          "identifier": "fst00832668",
+          "uri": "https://id.worldcat.org/fast/832668",
+          "category": "topical"
+        },
+        {
+          "subject": "Sovereignty",
+          "scheme": "FAST",
+          "identifier": "fst01127379",
+          "uri": "https://id.worldcat.org/fast/1127379",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -1045,7 +1590,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "bostjan-nedoh",
+        "arthur-bradley",
+        "unbearable-life",
+        "nihilopolitics",
+        "biopolitics",
+        "thanatopolitics",
+        "sovereignty",
+        "giorgio-agamben",
+        "bare-life",
+        "louis-althusser",
+        "damnatio-memoriae",
+        "walter-benjamin"
+      ]
     },
     "parent": {
       "access": {
@@ -1067,7 +1625,7 @@
       "enabled": true,
       "entries": {
         "Bradley7.pdf": {
-          "size": 205490,
+          "size": 206338,
           "key": "Bradley7.pdf"
         }
       }
@@ -1115,13 +1673,57 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Biopolitics",
+          "scheme": "FAST",
+          "identifier": "fst00832668",
+          "uri": "https://id.worldcat.org/fast/832668",
+          "category": "topical"
+        },
+        {
+          "subject": "Messianism",
+          "scheme": "FAST",
+          "identifier": "fst01017438",
+          "uri": "https://id.worldcat.org/fast/1017438",
+          "category": "topical"
+        },
+        {
+          "subject": "Ontology",
+          "scheme": "FAST",
+          "identifier": "fst01045995",
+          "uri": "https://id.worldcat.org/fast/1045995",
+          "category": "topical"
+        },
+        {
+          "subject": "Political theology",
+          "scheme": "FAST",
+          "identifier": "fst01069899",
+          "uri": "https://id.worldcat.org/fast/1069899",
+          "category": "topical"
+        },
+        {
+          "subject": "Psychoanalysis",
+          "scheme": "FAST",
+          "identifier": "fst01081235",
+          "uri": "https://id.worldcat.org/fast/1081235",
+          "category": "topical"
+        },
+        {
+          "subject": "Sovereignty",
+          "scheme": "FAST",
+          "identifier": "fst01127379",
+          "uri": "https://id.worldcat.org/fast/1127379",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -1131,7 +1733,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "political-theology",
+        "walter-benjamin",
+        "messianism",
+        "radical-contingency",
+        "sovereignty",
+        "ontology",
+        "psychoanalysis",
+        "jacques-lacan",
+        "biopolitics",
+        "philip-roth",
+        "arthur-bradley",
+        "bostjan-nedoh"
+      ]
     },
     "parent": {
       "access": {
@@ -1153,7 +1768,7 @@
       "enabled": true,
       "entries": {
         "Bradley8.pdf": {
-          "size": 115826,
+          "size": 116723,
           "key": "Bradley8.pdf"
         }
       }
@@ -1201,10 +1816,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1272,7 +1887,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "Bradley3.pdf": {
+          "size": 107140,
+          "key": "Bradley3.pdf"
+        }
+      }
     }
   },
   {
@@ -1317,10 +1938,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1382,7 +2003,7 @@
       "enabled": true,
       "entries": {
         "Johnston.pdf": {
-          "size": 572813,
+          "size": 561764,
           "key": "Johnston.pdf"
         }
       }
@@ -1430,10 +2051,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1495,7 +2116,7 @@
       "enabled": true,
       "entries": {
         "Meganck.pdf": {
-          "size": 354018,
+          "size": 344337,
           "key": "Meganck.pdf"
         }
       }
@@ -1543,10 +2164,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1621,7 +2242,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "Bradley7.pdf": {
+          "size": 206338,
+          "key": "Bradley7.pdf"
+        }
+      }
     }
   },
   {
@@ -1688,13 +2315,22 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Religion",
+          "scheme": "FAST",
+          "identifier": "fst01093763",
+          "uri": "https://id.worldcat.org/fast/1093763",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -1734,7 +2370,7 @@
       "enabled": true,
       "entries": {
         "Raschke.pdf": {
-          "size": 276776,
+          "size": 267893,
           "key": "Raschke.pdf"
         }
       }
@@ -1782,10 +2418,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1840,7 +2476,7 @@
       "enabled": true,
       "entries": {
         "Simon.pdf": {
-          "size": 443569,
+          "size": 432434,
           "key": "Simon.pdf"
         }
       }

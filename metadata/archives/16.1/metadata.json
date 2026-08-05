@@ -41,10 +41,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -106,7 +106,7 @@
       "enabled": true,
       "entries": {
         "Carson.pdf": {
-          "size": 95565,
+          "size": 96005,
           "key": "Carson.pdf"
         }
       }
@@ -154,10 +154,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -202,7 +202,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "InterviewGaia.pdf": {
+          "size": 117533,
+          "key": "InterviewGaia.pdf"
+        }
+      }
     }
   },
   {
@@ -247,10 +253,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -320,7 +326,7 @@
       "enabled": true,
       "entries": {
         "Ferguson.pdf": {
-          "size": 205476,
+          "size": 205831,
           "key": "Ferguson.pdf"
         }
       }
@@ -368,10 +374,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -424,7 +430,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "InterviewUlmer.pdf": {
+          "size": 325431,
+          "key": "InterviewUlmer.pdf"
+        }
+      }
     }
   },
   {
@@ -469,10 +481,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -519,7 +531,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "IntroFigueiredo.pdf": {
+          "size": 106175,
+          "key": "IntroFigueiredo.pdf"
+        }
+      }
     }
   },
   {
@@ -564,13 +582,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Gentrification",
+          "scheme": "FAST",
+          "identifier": "fst00940296",
+          "uri": "https://id.worldcat.org/fast/940296",
+          "category": "topical"
+        },
+        {
+          "subject": "Graffiti",
+          "scheme": "FAST",
+          "identifier": "fst00945846",
+          "uri": "https://id.worldcat.org/fast/945846",
+          "category": "topical"
+        },
+        {
+          "subject": "Public art",
+          "scheme": "FAST",
+          "identifier": "fst01082064",
+          "uri": "https://id.worldcat.org/fast/1082064",
+          "category": "topical"
+        },
+        {
+          "subject": "Street art",
+          "scheme": "FAST",
+          "identifier": "fst01134650",
+          "uri": "https://id.worldcat.org/fast/1134650",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -580,7 +628,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "street-art",
+        "gaia",
+        "muralism",
+        "graffiti",
+        "public-space",
+        "gentrification",
+        "civic-dialogue",
+        "urban-art",
+        "community-engagement",
+        "race-and-class",
+        "public-art",
+        "civic-humanities"
+      ]
     },
     "parent": {
       "access": {
@@ -602,7 +663,7 @@
       "enabled": true,
       "entries": {
         "InterviewGaia.pdf": {
-          "size": 116628,
+          "size": 117533,
           "key": "InterviewGaia.pdf"
         }
       }
@@ -650,13 +711,57 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Critical pedagogy",
+          "scheme": "FAST",
+          "identifier": "fst00883676",
+          "uri": "https://id.worldcat.org/fast/883676",
+          "category": "topical"
+        },
+        {
+          "subject": "Democracy",
+          "scheme": "FAST",
+          "identifier": "fst00890077",
+          "uri": "https://id.worldcat.org/fast/890077",
+          "category": "topical"
+        },
+        {
+          "subject": "Education, Higher",
+          "scheme": "FAST",
+          "identifier": "fst00903005",
+          "uri": "https://id.worldcat.org/fast/903005",
+          "category": "topical"
+        },
+        {
+          "subject": "Neoliberalism",
+          "scheme": "FAST",
+          "identifier": "fst01737382",
+          "uri": "https://id.worldcat.org/fast/1737382",
+          "category": "topical"
+        },
+        {
+          "subject": "Social justice",
+          "scheme": "FAST",
+          "identifier": "fst01122603",
+          "uri": "https://id.worldcat.org/fast/1122603",
+          "category": "topical"
+        },
+        {
+          "subject": "Voluntarism",
+          "scheme": "FAST",
+          "identifier": "fst01168976",
+          "uri": "https://id.worldcat.org/fast/1168976",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -666,7 +771,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "henry-giroux",
+        "critical-pedagogy",
+        "civic-engagement",
+        "neoliberalism",
+        "higher-education",
+        "public-intellectual",
+        "community-engagement",
+        "market-fundamentalism",
+        "volunteerism",
+        "democracy",
+        "civic-humanities",
+        "social-justice"
+      ]
     },
     "parent": {
       "access": {
@@ -688,7 +806,7 @@
       "enabled": true,
       "entries": {
         "InterviewGiroux.pdf": {
-          "size": 163807,
+          "size": 164853,
           "key": "InterviewGiroux.pdf"
         }
       }
@@ -736,13 +854,36 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Comic books, strips, etc.",
+          "scheme": "FAST",
+          "identifier": "fst00869145",
+          "uri": "https://id.worldcat.org/fast/869145",
+          "category": "topical"
+        },
+        {
+          "subject": "Education, Higher",
+          "scheme": "FAST",
+          "identifier": "fst00903005",
+          "uri": "https://id.worldcat.org/fast/903005",
+          "category": "topical"
+        },
+        {
+          "subject": "Visual metaphor",
+          "scheme": "FAST",
+          "identifier": "fst02005848",
+          "uri": "https://id.worldcat.org/fast/2005848",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -752,7 +893,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "nick-sousanis",
+        "comics-as-scholarship",
+        "unflattening",
+        "visual-thinking",
+        "graphic-dissertation",
+        "comics",
+        "visual-metaphor",
+        "aesthetic-education",
+        "maxine-greene",
+        "accessibility",
+        "higher-education",
+        "civic-humanities"
+      ]
     },
     "parent": {
       "access": {
@@ -774,7 +928,7 @@
       "enabled": true,
       "entries": {
         "InterviewSousanis.pdf": {
-          "size": 169789,
+          "size": 170861,
           "key": "InterviewSousanis.pdf"
         }
       }
@@ -822,13 +976,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Avant garde",
+          "scheme": "FAST",
+          "identifier": "fst01776700",
+          "uri": "https://id.worldcat.org/fast/1776700",
+          "category": "title"
+        },
+        {
+          "subject": "Digital humanities",
+          "scheme": "FAST",
+          "identifier": "fst00963599",
+          "uri": "https://id.worldcat.org/fast/963599",
+          "category": "topical"
+        },
+        {
+          "subject": "Humanities",
+          "scheme": "FAST",
+          "identifier": "fst00963588",
+          "uri": "https://id.worldcat.org/fast/963588",
+          "category": "topical"
+        },
+        {
+          "subject": "Media studies",
+          "scheme": "FAST",
+          "identifier": "fst01787007",
+          "uri": "https://id.worldcat.org/fast/1787007",
+          "category": "title"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -838,7 +1022,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "gregory-ulmer",
+        "electracy",
+        "theopraxesis",
+        "heuretics",
+        "applied-grammatology",
+        "jacques-derrida",
+        "digital-humanities",
+        "joseph-beuys",
+        "media-studies",
+        "avant-garde",
+        "university",
+        "humanities"
+      ]
     },
     "parent": {
       "access": {
@@ -860,7 +1057,7 @@
       "enabled": true,
       "entries": {
         "InterviewUlmer.pdf": {
-          "size": 324704,
+          "size": 325431,
           "key": "InterviewUlmer.pdf"
         }
       }
@@ -908,13 +1105,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Democracy",
+          "scheme": "FAST",
+          "identifier": "fst00890077",
+          "uri": "https://id.worldcat.org/fast/890077",
+          "category": "topical"
+        },
+        {
+          "subject": "Education, Higher",
+          "scheme": "FAST",
+          "identifier": "fst00903005",
+          "uri": "https://id.worldcat.org/fast/903005",
+          "category": "topical"
+        },
+        {
+          "subject": "Humanities",
+          "scheme": "FAST",
+          "identifier": "fst00963588",
+          "uri": "https://id.worldcat.org/fast/963588",
+          "category": "topical"
+        },
+        {
+          "subject": "Rhetoric",
+          "scheme": "FAST",
+          "identifier": "fst01096948",
+          "uri": "https://id.worldcat.org/fast/1096948",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -924,7 +1151,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "civic-humanities",
+        "public-humanities",
+        "civic-engagement",
+        "humanities",
+        "community-engagement",
+        "higher-education",
+        "public-scholarship",
+        "democracy",
+        "university",
+        "rhetoric",
+        "arts-and-humanities",
+        "civic-arts"
+      ]
     },
     "parent": {
       "access": {
@@ -946,7 +1186,7 @@
       "enabled": true,
       "entries": {
         "IntroFigueiredo.pdf": {
-          "size": 105089,
+          "size": 106175,
           "key": "IntroFigueiredo.pdf"
         }
       }
@@ -994,10 +1234,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1045,7 +1285,7 @@
       "enabled": true,
       "entries": {
         "Li.pdf": {
-          "size": 376930,
+          "size": 377246,
           "key": "Li.pdf"
         }
       }
@@ -1093,10 +1333,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1152,7 +1392,7 @@
       "enabled": true,
       "entries": {
         "Obrien.pdf": {
-          "size": 343464,
+          "size": 343811,
           "key": "Obrien.pdf"
         }
       }
@@ -1200,10 +1440,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1265,7 +1505,7 @@
       "enabled": true,
       "entries": {
         "Raschke.pdf": {
-          "size": 320510,
+          "size": 320980,
           "key": "Raschke.pdf"
         }
       }
@@ -1313,13 +1553,50 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Continental philosophy",
+          "scheme": "FAST",
+          "identifier": "fst01765182",
+          "uri": "https://id.worldcat.org/fast/1765182",
+          "category": "topical"
+        },
+        {
+          "subject": "Emotions",
+          "scheme": "FAST",
+          "identifier": "fst00908819",
+          "uri": "https://id.worldcat.org/fast/908819",
+          "category": "topical"
+        },
+        {
+          "subject": "Ethics",
+          "scheme": "FAST",
+          "identifier": "fst00915833",
+          "uri": "https://id.worldcat.org/fast/915833",
+          "category": "topical"
+        },
+        {
+          "subject": "Phenomenology",
+          "scheme": "FAST",
+          "identifier": "fst01060522",
+          "uri": "https://id.worldcat.org/fast/1060522",
+          "category": "topical"
+        },
+        {
+          "subject": "Subjectivity",
+          "scheme": "FAST",
+          "identifier": "fst01136568",
+          "uri": "https://id.worldcat.org/fast/1136568",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -1329,7 +1606,21 @@
         "pages": "95-108",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "judith-butler",
+        "senses-of-the-subject",
+        "subject-formation",
+        "embodiment",
+        "subjectivity",
+        "philosophy-of-the-body",
+        "passions",
+        "receptivity",
+        "phenomenology",
+        "baruch-spinoza",
+        "maurice-merleau-ponty",
+        "ethics",
+        "continental-philosophy"
+      ]
     },
     "parent": {
       "access": {
@@ -1351,7 +1642,7 @@
       "enabled": true,
       "entries": {
         "reviewbutler.pdf": {
-          "size": 322457,
+          "size": 323520,
           "key": "reviewbutler.pdf"
         }
       }
@@ -1410,10 +1701,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1464,7 +1755,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "InterviewSousanis.pdf": {
+          "size": 170861,
+          "key": "InterviewSousanis.pdf"
+        }
+      }
     }
   },
   {
@@ -1520,10 +1817,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1571,7 +1868,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "InterviewGiroux.pdf": {
+          "size": 164853,
+          "key": "InterviewGiroux.pdf"
+        }
+      }
     }
   },
   {
@@ -1616,10 +1919,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1674,7 +1977,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "reviewbutler.pdf": {
+          "size": 323520,
+          "key": "reviewbutler.pdf"
+        }
+      }
     }
   }
 ]

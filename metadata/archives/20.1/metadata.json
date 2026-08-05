@@ -41,10 +41,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -94,7 +94,7 @@
       "enabled": true,
       "entries": {
         "Ball.pdf": {
-          "size": 222718,
+          "size": 223004,
           "key": "Ball.pdf"
         }
       }
@@ -142,10 +142,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -195,8 +195,122 @@
       "enabled": true,
       "entries": {
         "Bedford.pdf": {
-          "size": 154686,
+          "size": 155003,
           "key": "Bedford.pdf"
+        }
+      }
+    }
+  },
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "editors",
+            "given_name": "",
+            "family_name": "editors"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "Author Bios",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2024",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "7hRvgj",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/20.1/bios/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "title": {
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
+        }
+      ],
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Aesthetics",
+          "scheme": "FAST",
+          "identifier": "fst00798702",
+          "uri": "https://id.worldcat.org/fast/798702",
+          "category": "topical"
+        },
+        {
+          "subject": "Political theology",
+          "scheme": "FAST",
+          "identifier": "fst01069899",
+          "uri": "https://id.worldcat.org/fast/1069899",
+          "category": "topical"
+        }
+      ]
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "1",
+        "volume": "20",
+        "pages": "",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": [
+        "contributor-biographies",
+        "religious-studies",
+        "political-theology",
+        "philosophy-of-religion",
+        "marxist-political-economy",
+        "jacques-lacan",
+        "hasidic-mysticism",
+        "jewish-thought",
+        "theological-ethics",
+        "race-and-religion",
+        "aesthetics"
+      ]
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "bios.pdf": {
+          "size": 54219,
+          "key": "bios.pdf"
         }
       }
     }
@@ -243,10 +357,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -293,7 +407,7 @@
       "enabled": true,
       "entries": {
         "Conroy.pdf": {
-          "size": 280605,
+          "size": 280711,
           "key": "Conroy.pdf"
         }
       }
@@ -341,13 +455,22 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Religion",
+          "scheme": "FAST",
+          "identifier": "fst01093763",
+          "uri": "https://id.worldcat.org/fast/1093763",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -382,7 +505,7 @@
       "enabled": true,
       "entries": {
         "Lacey.pdf": {
-          "size": 174691,
+          "size": 175133,
           "key": "Lacey.pdf"
         }
       }
@@ -430,10 +553,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -495,7 +618,7 @@
       "enabled": true,
       "entries": {
         "Maeshiro.pdf": {
-          "size": 431397,
+          "size": 431478,
           "key": "Maeshiro.pdf"
         }
       }
@@ -543,10 +666,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -595,7 +718,7 @@
       "enabled": true,
       "entries": {
         "McMaken.pdf": {
-          "size": 235508,
+          "size": 235930,
           "key": "McMaken.pdf"
         }
       }
@@ -643,10 +766,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -701,7 +824,7 @@
       "enabled": true,
       "entries": {
         "Reiser.pdf": {
-          "size": 550464,
+          "size": 550528,
           "key": "Reiser.pdf"
         }
       }
@@ -749,10 +872,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -802,7 +925,7 @@
       "enabled": true,
       "entries": {
         "Urquidez.pdf": {
-          "size": 307994,
+          "size": 308056,
           "key": "Urquidez.pdf"
         }
       }
@@ -850,10 +973,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -915,7 +1038,7 @@
       "enabled": true,
       "entries": {
         "Willis.pdf": {
-          "size": 224269,
+          "size": 224591,
           "key": "Willis.pdf"
         }
       }

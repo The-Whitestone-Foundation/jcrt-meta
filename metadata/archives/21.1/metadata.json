@@ -41,10 +41,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -92,8 +92,144 @@
       "enabled": true,
       "entries": {
         "Bakker.pdf": {
-          "size": 284325,
+          "size": 272214,
           "key": "Bakker.pdf"
+        }
+      }
+    }
+  },
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
+            "name": "editors",
+            "given_name": "",
+            "family_name": "editors"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "Author Bios",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2022",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "XVvPlQ",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/21.1/bios/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "title": {
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
+        }
+      ],
+      "description": "",
+      "subjects": [
+        {
+          "subject": "African diaspora",
+          "scheme": "FAST",
+          "identifier": "fst00799755",
+          "uri": "https://id.worldcat.org/fast/799755",
+          "category": "topical"
+        },
+        {
+          "subject": "Continental philosophy",
+          "scheme": "FAST",
+          "identifier": "fst01765182",
+          "uri": "https://id.worldcat.org/fast/1765182",
+          "category": "topical"
+        },
+        {
+          "subject": "Deconstruction",
+          "scheme": "FAST",
+          "identifier": "fst00889137",
+          "uri": "https://id.worldcat.org/fast/889137",
+          "category": "topical"
+        },
+        {
+          "subject": "Liberation theology",
+          "scheme": "FAST",
+          "identifier": "fst00997211",
+          "uri": "https://id.worldcat.org/fast/997211",
+          "category": "topical"
+        },
+        {
+          "subject": "Phenomenology",
+          "scheme": "FAST",
+          "identifier": "fst01060522",
+          "uri": "https://id.worldcat.org/fast/1060522",
+          "category": "topical"
+        }
+      ]
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "1",
+        "volume": "21",
+        "pages": "",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": [
+        "contributor-biographies",
+        "philosophy-of-religion",
+        "continental-philosophy",
+        "liberation-theology",
+        "race-and-religion",
+        "african-diaspora",
+        "deconstruction",
+        "phenomenology",
+        "postcoloniality",
+        "utopian-studies",
+        "lenart-skof",
+        "disenchantment"
+      ]
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "bios.pdf": {
+          "size": 31896,
+          "key": "bios.pdf"
         }
       }
     }
@@ -140,10 +276,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -192,7 +328,7 @@
       "enabled": true,
       "entries": {
         "Boulting.pdf": {
-          "size": 315866,
+          "size": 316191,
           "key": "Boulting.pdf"
         }
       }
@@ -240,10 +376,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -297,7 +433,7 @@
       "enabled": true,
       "entries": {
         "Burkette.pdf": {
-          "size": 296703,
+          "size": 284628,
           "key": "Burkette.pdf"
         }
       }
@@ -345,13 +481,57 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Brazil",
+          "scheme": "FAST",
+          "identifier": "fst01206830",
+          "uri": "https://id.worldcat.org/fast/1206830",
+          "category": "geographic"
+        },
+        {
+          "subject": "Dignity",
+          "scheme": "FAST",
+          "identifier": "fst00893760",
+          "uri": "https://id.worldcat.org/fast/893760",
+          "category": "topical"
+        },
+        {
+          "subject": "Hylomorphism",
+          "scheme": "FAST",
+          "identifier": "fst00965439",
+          "uri": "https://id.worldcat.org/fast/965439",
+          "category": "topical"
+        },
+        {
+          "subject": "Scholasticism",
+          "scheme": "FAST",
+          "identifier": "fst01106919",
+          "uri": "https://id.worldcat.org/fast/1106919",
+          "category": "topical"
+        },
+        {
+          "subject": "Theological anthropology",
+          "scheme": "FAST",
+          "identifier": "fst01431587",
+          "uri": "https://id.worldcat.org/fast/1431587",
+          "category": "topical"
+        },
+        {
+          "subject": "Thomism",
+          "scheme": "FAST",
+          "identifier": "fst01765220",
+          "uri": "https://id.worldcat.org/fast/1765220",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -361,7 +541,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "thomas-aquinas",
+        "body-soul-dualism",
+        "human-dignity",
+        "brazil",
+        "hylomorphism",
+        "theological-anthropology",
+        "social-hierarchy",
+        "thomism",
+        "catholic-theology",
+        "colonialism",
+        "national-identity",
+        "scholasticism"
+      ]
     },
     "parent": {
       "access": {
@@ -383,7 +576,7 @@
       "enabled": true,
       "entries": {
         "Marinho.pdf": {
-          "size": 375321,
+          "size": 362052,
           "key": "Marinho.pdf"
         }
       }
@@ -431,10 +624,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -497,7 +690,7 @@
       "enabled": true,
       "entries": {
         "Raubach.pdf": {
-          "size": 262149,
+          "size": 251054,
           "key": "Raubach.pdf"
         }
       }
@@ -545,10 +738,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -635,7 +828,7 @@
       "enabled": true,
       "entries": {
         "Sirota.pdf": {
-          "size": 219387,
+          "size": 207895,
           "key": "Sirota.pdf"
         }
       }
@@ -683,13 +876,36 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Latter Day Saint churches",
+          "scheme": "FAST",
+          "identifier": "fst01026221",
+          "uri": "https://id.worldcat.org/fast/1026221",
+          "category": "topical"
+        },
+        {
+          "subject": "Panentheism",
+          "scheme": "FAST",
+          "identifier": "fst01052088",
+          "uri": "https://id.worldcat.org/fast/1052088",
+          "category": "topical"
+        },
+        {
+          "subject": "Quantum entanglement",
+          "scheme": "FAST",
+          "identifier": "fst01895138",
+          "uri": "https://id.worldcat.org/fast/1895138",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -699,7 +915,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "futurity-of-god",
+        "temporality",
+        "raymond-ruyer",
+        "mormonism",
+        "panentheism",
+        "philosophy-of-religion",
+        "friedrich-schelling",
+        "giordano-bruno",
+        "astrotheology",
+        "catherine-keller",
+        "theology-of-the-future",
+        "quantum-entanglement"
+      ]
     },
     "parent": {
       "access": {
@@ -721,7 +950,7 @@
       "enabled": true,
       "entries": {
         "Skof.pdf": {
-          "size": 282415,
+          "size": 271396,
           "key": "Skof.pdf"
         }
       }

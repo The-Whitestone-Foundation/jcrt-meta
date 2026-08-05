@@ -7,6 +7,9 @@
   "scripts": {
     "generate": "node scripts/generate-archives.mjs",
     "check": "node scripts/generate-archives.mjs --check",
+    "archives:build": "node scripts/build-archive-assets.mjs",
+    "archives:check": "node scripts/build-archive-assets.mjs --check",
+    "pdf:ua:check": "verapdf -f ua1 --format text --processes 4 -r archives",
     "article:build": "sh templates/jcrt-journal-article/build-article.sh"
   }
 }

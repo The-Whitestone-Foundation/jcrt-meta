@@ -41,13 +41,50 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Deconstruction",
+          "scheme": "FAST",
+          "identifier": "fst00889137",
+          "uri": "https://id.worldcat.org/fast/889137",
+          "category": "topical"
+        },
+        {
+          "subject": "Intertextuality",
+          "scheme": "FAST",
+          "identifier": "fst00977562",
+          "uri": "https://id.worldcat.org/fast/977562",
+          "category": "topical"
+        },
+        {
+          "subject": "Quotation",
+          "scheme": "FAST",
+          "identifier": "fst01086126",
+          "uri": "https://id.worldcat.org/fast/1086126",
+          "category": "topical"
+        },
+        {
+          "subject": "Representative government and representation",
+          "scheme": "FAST",
+          "identifier": "fst01094941",
+          "uri": "https://id.worldcat.org/fast/1094941",
+          "category": "topical"
+        },
+        {
+          "subject": "Semiotics",
+          "scheme": "FAST",
+          "identifier": "fst01112351",
+          "uri": "https://id.worldcat.org/fast/1112351",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -57,7 +94,22 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "mieke-bal",
+        "quotation",
+        "preposterous-history",
+        "navel-metaphor",
+        "representation",
+        "semiotics",
+        "narratology",
+        "deconstruction",
+        "feminist-biblical-criticism",
+        "word-image-opposition",
+        "jacques-derrida",
+        "intertextuality",
+        "theory-of-religion",
+        "roland-barthes"
+      ]
     },
     "parent": {
       "access": {
@@ -76,7 +128,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "bennett-carpenter.pdf": {
+          "size": 104468,
+          "key": "bennett-carpenter.pdf"
+        }
+      }
     }
   },
   {
@@ -121,13 +179,29 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Ethics",
+          "scheme": "FAST",
+          "identifier": "fst00915833",
+          "uri": "https://id.worldcat.org/fast/915833",
+          "category": "topical"
+        },
+        {
+          "subject": "Subjectivity",
+          "scheme": "FAST",
+          "identifier": "fst01136568",
+          "uri": "https://id.worldcat.org/fast/1136568",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -137,7 +211,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "paul-ricoeur",
+        "narrative-identity",
+        "hermeneutics-of-the-self",
+        "subjectivity",
+        "ethics",
+        "oneself-as-another",
+        "emmanuel-levinas",
+        "moral-philosophy",
+        "theological-ethics",
+        "phronesis",
+        "practical-wisdom",
+        "book-review"
+      ]
     },
     "parent": {
       "access": {
@@ -156,7 +243,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "blundell.pdf": {
+          "size": 55869,
+          "key": "blundell.pdf"
+        }
+      }
     }
   },
   {
@@ -201,13 +294,78 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Aporia",
+          "scheme": "FAST",
+          "identifier": "fst00811469",
+          "uri": "https://id.worldcat.org/fast/811469",
+          "category": "topical"
+        },
+        {
+          "subject": "Christianity",
+          "scheme": "FAST",
+          "identifier": "fst00859599",
+          "uri": "https://id.worldcat.org/fast/859599",
+          "category": "topical"
+        },
+        {
+          "subject": "Deconstruction",
+          "scheme": "FAST",
+          "identifier": "fst00889137",
+          "uri": "https://id.worldcat.org/fast/889137",
+          "category": "topical"
+        },
+        {
+          "subject": "Ethics",
+          "scheme": "FAST",
+          "identifier": "fst00915833",
+          "uri": "https://id.worldcat.org/fast/915833",
+          "category": "topical"
+        },
+        {
+          "subject": "Faith",
+          "scheme": "FAST",
+          "identifier": "fst01198492",
+          "uri": "https://id.worldcat.org/fast/1198492",
+          "category": "topical"
+        },
+        {
+          "subject": "Mediation",
+          "scheme": "FAST",
+          "identifier": "fst01013617",
+          "uri": "https://id.worldcat.org/fast/1013617",
+          "category": "topical"
+        },
+        {
+          "subject": "Negative theology",
+          "scheme": "FAST",
+          "identifier": "fst01035499",
+          "uri": "https://id.worldcat.org/fast/1035499",
+          "category": "topical"
+        },
+        {
+          "subject": "Psychoanalysis",
+          "scheme": "FAST",
+          "identifier": "fst01081235",
+          "uri": "https://id.worldcat.org/fast/1081235",
+          "category": "topical"
+        },
+        {
+          "subject": "Sin, Original",
+          "scheme": "FAST",
+          "identifier": "fst01119208",
+          "uri": "https://id.worldcat.org/fast/1119208",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -217,7 +375,23 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "deconstruction",
+        "christianity",
+        "soren-kierkegaard",
+        "faith",
+        "jean-luc-nancy",
+        "negative-theology",
+        "mediation",
+        "aporia",
+        "original-sin",
+        "dread",
+        "immanuel-kant",
+        "jacques-derrida",
+        "psychoanalysis",
+        "singularity",
+        "ethics"
+      ]
     },
     "parent": {
       "access": {
@@ -236,7 +410,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "egginton.pdf": {
+          "size": 323006,
+          "key": "egginton.pdf"
+        }
+      }
     }
   },
   {
@@ -248,13 +428,18 @@
         {
           "person_or_org": {
             "type": "personal",
-            "name": "Hamner, M Gail",
-            "given_name": "M Gail",
+            "name": "Hamner, M. Gail",
+            "given_name": "M. Gail",
             "family_name": "Hamner"
           },
           "role": {
             "id": "author"
-          }
+          },
+          "affiliations": [
+            {
+              "name": "Syracuse University"
+            }
+          ]
         }
       ],
       "title": "A Private Happiness for All, Or, How to Cure National Depression, Hold Down a Career, Fulfill the Maternal Function and Still Wage Feminist Battle with a Smile",
@@ -281,13 +466,50 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Femininity",
+          "scheme": "FAST",
+          "identifier": "fst00922657",
+          "uri": "https://id.worldcat.org/fast/922657",
+          "category": "topical"
+        },
+        {
+          "subject": "Feminism",
+          "scheme": "FAST",
+          "identifier": "fst00922671",
+          "uri": "https://id.worldcat.org/fast/922671",
+          "category": "topical"
+        },
+        {
+          "subject": "Motherhood",
+          "scheme": "FAST",
+          "identifier": "fst01026907",
+          "uri": "https://id.worldcat.org/fast/1026907",
+          "category": "topical"
+        },
+        {
+          "subject": "Psychoanalysis",
+          "scheme": "FAST",
+          "identifier": "fst01081235",
+          "uri": "https://id.worldcat.org/fast/1081235",
+          "category": "topical"
+        },
+        {
+          "subject": "Revolt",
+          "scheme": "FAST",
+          "identifier": "fst01198950",
+          "uri": "https://id.worldcat.org/fast/1198950",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -297,7 +519,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "julia-kristeva",
+        "revolt",
+        "the-sacred",
+        "feminism",
+        "maternity",
+        "psychoanalysis",
+        "may-1968",
+        "political-action",
+        "jouissance",
+        "femininity",
+        "national-depression",
+        "book-review"
+      ]
     },
     "parent": {
       "access": {
@@ -316,7 +551,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "hamner.pdf": {
+          "size": 178575,
+          "key": "hamner.pdf"
+        }
+      }
     }
   },
   {
@@ -361,13 +602,29 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Ceremonial exchange",
+          "scheme": "FAST",
+          "identifier": "fst00851404",
+          "uri": "https://id.worldcat.org/fast/851404",
+          "category": "topical"
+        },
+        {
+          "subject": "Deconstruction",
+          "scheme": "FAST",
+          "identifier": "fst00889137",
+          "uri": "https://id.worldcat.org/fast/889137",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -377,7 +634,19 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "cultural-religious-theory",
+        "levinasian-ethics",
+        "deconstruction",
+        "mieke-bal",
+        "iconography",
+        "gift-exchange",
+        "jean-luc-marion",
+        "julia-kristeva",
+        "martin-heidegger",
+        "paul-ricoeur",
+        "continental-philosophy-of-religion"
+      ]
     },
     "parent": {
       "access": {
@@ -396,7 +665,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "index2.pdf": {
+          "size": 56795,
+          "key": "index2.pdf"
+        }
+      }
     }
   },
   {
@@ -441,13 +716,64 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Aura",
+          "scheme": "FAST",
+          "identifier": "fst00821342",
+          "uri": "https://id.worldcat.org/fast/821342",
+          "category": "topical"
+        },
+        {
+          "subject": "Civilization, Modern",
+          "scheme": "FAST",
+          "identifier": "fst00863073",
+          "uri": "https://id.worldcat.org/fast/863073",
+          "category": "topical"
+        },
+        {
+          "subject": "Invisibility",
+          "scheme": "FAST",
+          "identifier": "fst01764553",
+          "uri": "https://id.worldcat.org/fast/1764553",
+          "category": "topical"
+        },
+        {
+          "subject": "Perspective",
+          "scheme": "FAST",
+          "identifier": "fst01058877",
+          "uri": "https://id.worldcat.org/fast/1058877",
+          "category": "topical"
+        },
+        {
+          "subject": "Phenomenology",
+          "scheme": "FAST",
+          "identifier": "fst01060522",
+          "uri": "https://id.worldcat.org/fast/1060522",
+          "category": "topical"
+        },
+        {
+          "subject": "Representative government and representation",
+          "scheme": "FAST",
+          "identifier": "fst01094941",
+          "uri": "https://id.worldcat.org/fast/1094941",
+          "category": "topical"
+        },
+        {
+          "subject": "Subjectivity",
+          "scheme": "FAST",
+          "identifier": "fst01136568",
+          "uri": "https://id.worldcat.org/fast/1136568",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -457,7 +783,22 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "icon",
+        "image",
+        "world-picture",
+        "martin-heidegger",
+        "nicholas-of-cusa",
+        "modernity",
+        "subjectivity",
+        "representation",
+        "perspective",
+        "walter-benjamin",
+        "aura",
+        "phenomenology",
+        "invisibility",
+        "disenchantment"
+      ]
     },
     "parent": {
       "access": {
@@ -476,7 +817,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "kosky.pdf": {
+          "size": 78865,
+          "key": "kosky.pdf"
+        }
+      }
     }
   },
   {
@@ -521,13 +868,50 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Blackfoot",
+          "scheme": "FAST",
+          "identifier": "fst00833864",
+          "uri": "https://id.worldcat.org/fast/833864",
+          "category": "topical"
+        },
+        {
+          "subject": "Exchange",
+          "scheme": "FAST",
+          "identifier": "fst00917649",
+          "uri": "https://id.worldcat.org/fast/917649",
+          "category": "topical"
+        },
+        {
+          "subject": "Medicine bundles",
+          "scheme": "FAST",
+          "identifier": "fst01015165",
+          "uri": "https://id.worldcat.org/fast/1015165",
+          "category": "topical"
+        },
+        {
+          "subject": "Ontology",
+          "scheme": "FAST",
+          "identifier": "fst01045995",
+          "uri": "https://id.worldcat.org/fast/1045995",
+          "category": "topical"
+        },
+        {
+          "subject": "Reciprocity",
+          "scheme": "FAST",
+          "identifier": "fst01091400",
+          "uri": "https://id.worldcat.org/fast/1091400",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -537,7 +921,22 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "gift",
+        "marcel-mauss",
+        "jacques-derrida",
+        "reciprocity",
+        "exchange",
+        "indigenous-religion",
+        "blackfoot",
+        "medicine-bundles",
+        "commodity",
+        "economy",
+        "ontology",
+        "colonialism",
+        "materiality",
+        "cross-cultural-exchange"
+      ]
     },
     "parent": {
       "access": {
@@ -556,7 +955,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "lokensgard.pdf": {
+          "size": 71471,
+          "key": "lokensgard.pdf"
+        }
+      }
     }
   },
   {
@@ -601,13 +1006,50 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Arianism",
+          "scheme": "FAST",
+          "identifier": "fst00814376",
+          "uri": "https://id.worldcat.org/fast/814376",
+          "category": "topical"
+        },
+        {
+          "subject": "Deconstruction",
+          "scheme": "FAST",
+          "identifier": "fst00889137",
+          "uri": "https://id.worldcat.org/fast/889137",
+          "category": "topical"
+        },
+        {
+          "subject": "Dogmatism",
+          "scheme": "FAST",
+          "identifier": "fst00896231",
+          "uri": "https://id.worldcat.org/fast/896231",
+          "category": "topical"
+        },
+        {
+          "subject": "Faith",
+          "scheme": "FAST",
+          "identifier": "fst01198492",
+          "uri": "https://id.worldcat.org/fast/1198492",
+          "category": "topical"
+        },
+        {
+          "subject": "Negative theology",
+          "scheme": "FAST",
+          "identifier": "fst01035499",
+          "uri": "https://id.worldcat.org/fast/1035499",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -617,7 +1059,21 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "jean-luc-marion",
+        "undecidability",
+        "deconstruction",
+        "apophatic-theology",
+        "negative-theology",
+        "dogmatism",
+        "jacques-derrida",
+        "john-caputo",
+        "faith",
+        "metaphysics-of-presence",
+        "arianism",
+        "trinitarianism",
+        "god-without-being"
+      ]
     },
     "parent": {
       "access": {
@@ -636,7 +1092,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "markmanolopoulos.pdf": {
+          "size": 68222,
+          "key": "markmanolopoulos.pdf"
+        }
+      }
     }
   },
   {
@@ -657,7 +1119,7 @@
           }
         }
       ],
-      "title": "PhÄNomenologie Des ReligiÖSen Lebens",
+      "title": "Phänomenologie des religiösen Lebens",
       "publisher": "Whitestone Publications",
       "publication_date": "2002",
       "languages": [
@@ -681,13 +1143,43 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Agitation (Psychology)",
+          "scheme": "FAST",
+          "identifier": "fst00800380",
+          "uri": "https://id.worldcat.org/fast/800380",
+          "category": "topical"
+        },
+        {
+          "subject": "Anxiety",
+          "scheme": "FAST",
+          "identifier": "fst00810950",
+          "uri": "https://id.worldcat.org/fast/810950",
+          "category": "topical"
+        },
+        {
+          "subject": "Neoplatonism",
+          "scheme": "FAST",
+          "identifier": "fst01035884",
+          "uri": "https://id.worldcat.org/fast/1035884",
+          "category": "topical"
+        },
+        {
+          "subject": "Scholasticism",
+          "scheme": "FAST",
+          "identifier": "fst01106919",
+          "uri": "https://id.worldcat.org/fast/1106919",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -697,7 +1189,22 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "martin-heidegger",
+        "augustine",
+        "phenomenology-of-religion",
+        "onto-theology",
+        "restlessness",
+        "care",
+        "historicity",
+        "facticity",
+        "neoplatonism",
+        "scholasticism",
+        "being-and-time",
+        "angst",
+        "divine-simplicity",
+        "vita-beata"
+      ]
     },
     "parent": {
       "access": {
@@ -716,7 +1223,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "mcgrath.pdf": {
+          "size": 211878,
+          "key": "mcgrath.pdf"
+        }
+      }
     }
   },
   {
@@ -761,13 +1274,64 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Deconstruction",
+          "scheme": "FAST",
+          "identifier": "fst00889137",
+          "uri": "https://id.worldcat.org/fast/889137",
+          "category": "topical"
+        },
+        {
+          "subject": "Dialogue",
+          "scheme": "FAST",
+          "identifier": "fst00892486",
+          "uri": "https://id.worldcat.org/fast/892486",
+          "category": "topical"
+        },
+        {
+          "subject": "Ethics",
+          "scheme": "FAST",
+          "identifier": "fst00915833",
+          "uri": "https://id.worldcat.org/fast/915833",
+          "category": "topical"
+        },
+        {
+          "subject": "Faith",
+          "scheme": "FAST",
+          "identifier": "fst01198492",
+          "uri": "https://id.worldcat.org/fast/1198492",
+          "category": "topical"
+        },
+        {
+          "subject": "Infinite",
+          "scheme": "FAST",
+          "identifier": "fst00972421",
+          "uri": "https://id.worldcat.org/fast/972421",
+          "category": "topical"
+        },
+        {
+          "subject": "Postmodernism",
+          "scheme": "FAST",
+          "identifier": "fst01073164",
+          "uri": "https://id.worldcat.org/fast/1073164",
+          "category": "topical"
+        },
+        {
+          "subject": "Subjectivity",
+          "scheme": "FAST",
+          "identifier": "fst01136568",
+          "uri": "https://id.worldcat.org/fast/1136568",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -777,7 +1341,23 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "emmanuel-levinas",
+        "faith",
+        "ethics",
+        "alterity",
+        "infinity",
+        "rene-descartes",
+        "edmund-husserl",
+        "deconstruction",
+        "ontotheology",
+        "postmodernism",
+        "the-face",
+        "grammar-of-address",
+        "dialogue",
+        "heterology",
+        "subjectivity"
+      ]
     },
     "parent": {
       "access": {
@@ -796,7 +1376,13 @@
       }
     },
     "files": {
-      "enabled": false
+      "enabled": true,
+      "entries": {
+        "raschke.pdf": {
+          "size": 59931,
+          "key": "raschke.pdf"
+        }
+      }
     }
   }
 ]

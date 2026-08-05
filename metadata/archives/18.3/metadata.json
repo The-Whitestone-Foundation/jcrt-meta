@@ -8,6 +8,101 @@
         {
           "person_or_org": {
             "type": "personal",
+            "name": "JCRT Editors",
+            "given_name": "JCRT",
+            "family_name": "Editors"
+          },
+          "role": {
+            "id": "author"
+          }
+        }
+      ],
+      "title": "Author Bios",
+      "publisher": "Whitestone Publications",
+      "publication_date": "2019",
+      "languages": [
+        {
+          "id": "eng"
+        }
+      ],
+      "identifiers": [
+        {
+          "identifier": "z6mMuC",
+          "scheme": "import-recid"
+        },
+        {
+          "identifier": "1530-5228",
+          "scheme": "issn"
+        },
+        {
+          "identifier": "https://jcrt.org/archives/18.3/bios/",
+          "scheme": "url"
+        }
+      ],
+      "rights": [
+        {
+          "title": {
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
+        }
+      ],
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Religion",
+          "scheme": "FAST",
+          "identifier": "fst01093763",
+          "uri": "https://id.worldcat.org/fast/1093763",
+          "category": "topical"
+        }
+      ]
+    },
+    "custom_fields": {
+      "journal:journal": {
+        "title": "Journal for Cultural & Religious Theory",
+        "issue": "3",
+        "volume": "18",
+        "pages": "",
+        "issn": "1530-5228"
+      },
+      "kcr:user_defined_tags": []
+    },
+    "parent": {
+      "access": {
+        "owned_by": [
+          {
+            "full_name": "Adam DJ Brett",
+            "email": "adam@adamdjbrett.com",
+            "identifiers": [
+              {
+                "identifier": "adamdjbrett",
+                "scheme": "kc_username"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "files": {
+      "enabled": true,
+      "entries": {
+        "bios.pdf": {
+          "size": 60243,
+          "key": "bios.pdf"
+        }
+      }
+    }
+  },
+  {
+    "metadata": {
+      "resource_type": {
+        "id": "textDocument-journalArticle"
+      },
+      "creators": [
+        {
+          "person_or_org": {
+            "type": "personal",
             "name": "Burley, Mikel",
             "given_name": "Mikel",
             "family_name": "Burley"
@@ -41,10 +136,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -93,7 +188,7 @@
       "enabled": true,
       "entries": {
         "Burley.pdf": {
-          "size": 385173,
+          "size": 375282,
           "key": "Burley.pdf"
         }
       }
@@ -141,10 +236,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -194,7 +289,7 @@
       "enabled": true,
       "entries": {
         "Cisney.pdf": {
-          "size": 1594439,
+          "size": 1590524,
           "key": "Cisney.pdf"
         }
       }
@@ -242,10 +337,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -300,7 +395,7 @@
       "enabled": true,
       "entries": {
         "Deibl.pdf": {
-          "size": 342424,
+          "size": 333867,
           "key": "Deibl.pdf"
         }
       }
@@ -348,13 +443,22 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Religion",
+          "scheme": "FAST",
+          "identifier": "fst01093763",
+          "uri": "https://id.worldcat.org/fast/1093763",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -390,7 +494,7 @@
       "enabled": true,
       "entries": {
         "Goggin.pdf": {
-          "size": 289022,
+          "size": 280368,
           "key": "Goggin.pdf"
         }
       }
@@ -438,10 +542,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -496,7 +600,7 @@
       "enabled": true,
       "entries": {
         "Haynes.pdf": {
-          "size": 279151,
+          "size": 270888,
           "key": "Haynes.pdf"
         }
       }
@@ -544,10 +648,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -595,7 +699,7 @@
       "enabled": true,
       "entries": {
         "Jones.pdf": {
-          "size": 256978,
+          "size": 248941,
           "key": "Jones.pdf"
         }
       }
@@ -643,10 +747,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -701,7 +805,7 @@
       "enabled": true,
       "entries": {
         "McCracken.pdf": {
-          "size": 207199,
+          "size": 199268,
           "key": "McCracken.pdf"
         }
       }
@@ -749,13 +853,50 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Desire",
+          "scheme": "FAST",
+          "identifier": "fst00891351",
+          "uri": "https://id.worldcat.org/fast/891351",
+          "category": "topical"
+        },
+        {
+          "subject": "Mysticism",
+          "scheme": "FAST",
+          "identifier": "fst01031629",
+          "uri": "https://id.worldcat.org/fast/1031629",
+          "category": "topical"
+        },
+        {
+          "subject": "Psychoanalysis",
+          "scheme": "FAST",
+          "identifier": "fst01081235",
+          "uri": "https://id.worldcat.org/fast/1081235",
+          "category": "topical"
+        },
+        {
+          "subject": "Spiritual direction",
+          "scheme": "FAST",
+          "identifier": "fst01130070",
+          "uri": "https://id.worldcat.org/fast/1130070",
+          "category": "topical"
+        },
+        {
+          "subject": "Spirituality",
+          "scheme": "FAST",
+          "identifier": "fst01130186",
+          "uri": "https://id.worldcat.org/fast/1130186",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -765,7 +906,21 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "jacques-lacan",
+        "psychoanalysis",
+        "christian-mysticism",
+        "spiritual-direction",
+        "mystical-theology",
+        "john-of-the-cross",
+        "jouissance",
+        "desire",
+        "carl-jung",
+        "dark-night-of-the-soul",
+        "sigmund-freud",
+        "william-james",
+        "spirituality"
+      ]
     },
     "parent": {
       "access": {
@@ -787,7 +942,7 @@
       "enabled": true,
       "entries": {
         "Murphy.pdf": {
-          "size": 290591,
+          "size": 283048,
           "key": "Murphy.pdf"
         }
       }
@@ -835,10 +990,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -886,7 +1041,7 @@
       "enabled": true,
       "entries": {
         "Onishi.pdf": {
-          "size": 183891,
+          "size": 176089,
           "key": "Onishi.pdf"
         }
       }
@@ -945,10 +1100,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "Author Note: The authors of this article take the position that the Judeo-Christian heritage is dominated by the teachings of Jesus. Consequently, all Christian belief systems reflect similar ideas about the nature of reality. This Christian philosophy of life shapes attitudes that believers have about themselves, their relationship with others, and appropriate responses to crises and adversity. By analyzing the teachings of Jesus, seven main themes emerged. The authors are able to show that all of these themes are reflected in modern-day systemic therapies. The authors believe that these themes may be related to mental and physical health advantages that believers have over non-believers.",
@@ -1004,7 +1159,7 @@
       "enabled": true,
       "entries": {
         "robertsandhayden.pdf": {
-          "size": 217923,
+          "size": 218786,
           "key": "robertsandhayden.pdf"
         }
       }
@@ -1052,10 +1207,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1111,7 +1266,7 @@
       "enabled": true,
       "entries": {
         "Roberts.pdf": {
-          "size": 164914,
+          "size": 158260,
           "key": "Roberts.pdf"
         }
       }
@@ -1159,13 +1314,50 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
-      "description": ""
+      "description": "",
+      "subjects": [
+        {
+          "subject": "Deconstruction",
+          "scheme": "FAST",
+          "identifier": "fst00889137",
+          "uri": "https://id.worldcat.org/fast/889137",
+          "category": "topical"
+        },
+        {
+          "subject": "Myth",
+          "scheme": "FAST",
+          "identifier": "fst01031678",
+          "uri": "https://id.worldcat.org/fast/1031678",
+          "category": "topical"
+        },
+        {
+          "subject": "Postcolonialism",
+          "scheme": "FAST",
+          "identifier": "fst01073032",
+          "uri": "https://id.worldcat.org/fast/1073032",
+          "category": "topical"
+        },
+        {
+          "subject": "Postmodernism",
+          "scheme": "FAST",
+          "identifier": "fst01073164",
+          "uri": "https://id.worldcat.org/fast/1073164",
+          "category": "topical"
+        },
+        {
+          "subject": "Religions",
+          "scheme": "FAST",
+          "identifier": "fst01093898",
+          "uri": "https://id.worldcat.org/fast/1093898",
+          "category": "topical"
+        }
+      ]
     },
     "custom_fields": {
       "journal:journal": {
@@ -1175,7 +1367,20 @@
         "pages": "",
         "issn": "1530-5228"
       },
-      "kcr:user_defined_tags": []
+      "kcr:user_defined_tags": [
+        "comparative-religion",
+        "comparative-methodology",
+        "religious-studies",
+        "jonathan-z-smith",
+        "wendy-doniger",
+        "comparative-mythology",
+        "postcolonialism",
+        "postmodernism",
+        "mircea-eliade",
+        "myth",
+        "otherness",
+        "deconstruction"
+      ]
     },
     "parent": {
       "access": {
@@ -1197,7 +1402,7 @@
       "enabled": true,
       "entries": {
         "Roberts.pdf": {
-          "size": 164914,
+          "size": 158260,
           "key": "Roberts.pdf"
         }
       }
@@ -1245,10 +1450,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1295,7 +1500,7 @@
       "enabled": true,
       "entries": {
         "Rubenstein.pdf": {
-          "size": 215846,
+          "size": 208110,
           "key": "Rubenstein.pdf"
         }
       }
@@ -1343,10 +1548,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1395,7 +1600,7 @@
       "enabled": true,
       "entries": {
         "Ruetenik.pdf": {
-          "size": 155128,
+          "size": 147320,
           "key": "Ruetenik.pdf"
         }
       }
@@ -1443,10 +1648,10 @@
       ],
       "rights": [
         {
-          "id": "cc-by-4.0",
           "title": {
-            "en": "Creative Commons Attribution 4.0 International"
-          }
+            "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+          },
+          "link": "https://jcrt.org/copyright/"
         }
       ],
       "description": "",
@@ -1501,7 +1706,7 @@
       "enabled": true,
       "entries": {
         "Tarleton.pdf": {
-          "size": 313435,
+          "size": 305529,
           "key": "Tarleton.pdf"
         }
       }

@@ -6,12 +6,13 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCE = path.resolve(ROOT, "..", "jcrt-v2", "content", "archives");
-const FILES = path.resolve(ROOT, "..", "jcrt-files", "archives");
+const FILES = path.join(ROOT, "archives");
 const OUT = path.join(ROOT, "metadata", "archives");
 const require = createRequire(path.join(ROOT, "..", "jcrt-v2", "package.json"));
 const yaml = require("js-yaml");
 const check = process.argv.includes("--check");
-const NON_ARTICLES = new Set(["index", "bios", "author-bios", "table-of-contents", "abstracts"]);
+const RIGHTS_TEXT = "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.";
+const RIGHTS_URL = "https://jcrt.org/copyright/";
 
 const owner = {
   access: {
@@ -76,19 +77,19 @@ function subjects(value) {
 }
 
 function pdfEntry(issue, pdf) {
-  if (!pdf || /^https?:\/\//i.test(String(pdf))) return null;
-  const key = String(pdf).replace(/^\/+/, "");
-  const local = path.join(FILES, issue, key);
-  return fs.existsSync(local) ? { [key]: { size: fs.statSync(local).size, key } } : { [key]: { key } };
+	if (/^https?:\/\//i.test(String(pdf))) return null;
+	const key = String(pdf).replace(/^\/+/, "");
+	const local = path.join(FILES, issue, key);
+	if (!fs.existsSync(local)) throw new Error(`Missing PDF: ${local}`);
+	return { [key]: { size: fs.statSync(local).size, key } };
 }
 
 function record(issue, file) {
   const data = frontMatter(file);
   if (data.published === false) return null;
-  if (!data.nanoid) throw new Error(`Missing nanoid: ${file}`);
-  const slug = path.basename(file, ".md");
-  if (NON_ARTICLES.has(slug.toLowerCase())) return null;
-  const pdf = typeof data.pdf === "string" ? data.pdf.trim() : "";
+	if (!data.nanoid) throw new Error(`Missing nanoid: ${file}`);
+	const slug = path.basename(file, ".md");
+	const pdf = typeof data.pdf === "string" && data.pdf.trim() ? data.pdf.trim() : `${slug}.pdf`;
   const identifiers = [
     { identifier: String(data.nanoid), scheme: "import-recid" },
     { identifier: "1530-5228", scheme: "issn" },
@@ -103,7 +104,7 @@ function record(issue, file) {
     publication_date: date(data.date, data.year),
     languages: [{ id: "eng" }],
     identifiers,
-    rights: [{ id: "cc-by-4.0", title: { en: "Creative Commons Attribution 4.0 International" } }],
+		rights: [{ title: { en: RIGHTS_TEXT }, link: RIGHTS_URL }],
     description: String(data.description || data.abstract || ""),
   };
   const controlled = subjects(data.subjects);
@@ -121,10 +122,10 @@ function record(issue, file) {
       "kcr:user_defined_tags": Array.isArray(data.keywords) ? data.keywords : [],
     },
     parent: owner,
-    files: { enabled: Boolean(pdf) },
-  };
-  const entries = pdfEntry(issue, pdf);
-  if (entries) result.files.entries = entries;
+		files: { enabled: true },
+	};
+	const entries = pdfEntry(issue, pdf);
+	result.files.entries = entries;
   return result;
 }
 
