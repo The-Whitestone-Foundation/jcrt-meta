@@ -1,18 +1,19 @@
 #!/usr/bin/env node
 import fs from "node:fs";
 import path from "node:path";
+import { spawnSync } from "node:child_process";
 import { createRequire } from "node:module";
 import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCE = path.resolve(ROOT, "..", "jcrt-v2", "content", "archives");
-const FILES = path.join(ROOT, "archives");
-const OUT = path.join(ROOT, "metadata", "archives");
+const ARCHIVES = path.join(ROOT, "archives");
 const require = createRequire(path.join(ROOT, "..", "jcrt-v2", "package.json"));
 const yaml = require("js-yaml");
 const check = process.argv.includes("--check");
 const RIGHTS_TEXT = "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.";
 const RIGHTS_URL = "https://jcrt.org/copyright/";
+const zipEntries = new Map();
 
 const owner = {
   access: {
@@ -79,9 +80,18 @@ function subjects(value) {
 function pdfEntry(issue, pdf) {
 	if (/^https?:\/\//i.test(String(pdf))) return null;
 	const key = String(pdf).replace(/^\/+/, "");
-	const local = path.join(FILES, issue, key);
-	if (!fs.existsSync(local)) throw new Error(`Missing PDF: ${local}`);
-	return { [key]: { size: fs.statSync(local).size, key } };
+	const archive = path.join(ARCHIVES, `${issue}.zip`);
+	if (!fs.existsSync(archive)) throw new Error(`Missing ZIP: ${archive}`);
+	if (!zipEntries.has(issue)) {
+		const listed = spawnSync("unzip", ["-Z1", archive], { encoding: "utf8" });
+		if (listed.status !== 0) throw new Error(`Cannot read ZIP: ${archive}`);
+		zipEntries.set(issue, listed.stdout.trim().split("\n").filter(Boolean));
+	}
+	const entry = zipEntries.get(issue).find((name) => name === key) || zipEntries.get(issue).find((name) => name.toLowerCase() === key.toLowerCase());
+	if (!entry) throw new Error(`Missing PDF in ZIP: ${archive}:${key}`);
+	const result = spawnSync("unzip", ["-p", archive, entry], { encoding: null, maxBuffer: 256 * 1024 * 1024 });
+	if (result.status !== 0) throw new Error(`Missing PDF in ZIP: ${archive}:${key}`);
+	return { [key]: { size: result.stdout.length, key } };
 }
 
 function record(issue, file) {
@@ -137,6 +147,7 @@ const issues = fs.readdirSync(SOURCE, { withFileTypes: true })
 let articles = 0;
 let controlled = 0;
 let changed = 0;
+const expected = new Set();
 for (const issue of issues) {
   const dir = path.join(SOURCE, issue);
   const records = fs.readdirSync(dir)
@@ -146,17 +157,21 @@ for (const issue of issues) {
     .filter(Boolean);
   articles += records.length;
   controlled += records.reduce((sum, item) => sum + (item.metadata.subjects?.length || 0), 0);
+  if (!records.length) continue;
   const output = `${JSON.stringify(records, null, 2)}\n`;
-  const target = path.join(OUT, issue, "metadata.json");
+  const target = path.join(ARCHIVES, `${issue}.metadata.json`);
+  expected.add(path.basename(target));
   const current = fs.existsSync(target) ? fs.readFileSync(target, "utf8") : "";
   if (current !== output) {
     changed += 1;
-    if (!check) {
-      fs.mkdirSync(path.dirname(target), { recursive: true });
-      fs.writeFileSync(target, output);
-    }
+    if (!check) fs.writeFileSync(target, output);
   }
 }
 
-console.log(`${issues.length} issues, ${articles} articles, ${controlled} controlled subjects, ${changed} ${check ? "outdated" : "written"}`);
+for (const name of fs.readdirSync(ARCHIVES).filter((name) => name.endsWith(".metadata.json") && !expected.has(name))) {
+  changed += 1;
+  if (!check) fs.unlinkSync(path.join(ARCHIVES, name));
+}
+
+console.log(`${expected.size} published issues, ${articles} articles, ${controlled} controlled subjects, ${changed} ${check ? "outdated" : "written"}`);
 if (check && changed) process.exitCode = 1;

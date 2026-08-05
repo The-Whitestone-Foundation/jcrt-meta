@@ -1,7 +1,8 @@
 # JCRT metadata
 
-Generated KCWorks import metadata for JCRT. Each numbered archive issue has one
-`metadata/archives/<issue>/metadata.json` array containing its article records.
+Generated KCWorks import metadata and PDF ZIPs for JCRT. `archives/` contains
+one `<issue>.zip` and one `<issue>.metadata.json` array for every published issue.
+Expanded PDFs are build artifacts and are not committed.
 
 Run `npm run generate` after changing archive front matter in `../jcrt-v2`.
 Run `npm run check` to verify that committed metadata is current and valid.
@@ -13,9 +14,12 @@ authority category from the source front matter.
 ## Rebuilding the archive metadata
 
 1. Update the numbered issue content in `../jcrt-v2/content/archives/`.
-2. Run `npm run generate` to regenerate every issue-level metadata file.
+2. Run `npm run generate` to regenerate every published issue's metadata sidecar from its ZIP.
 3. Run `npm run check` to confirm the committed JSON is current.
 4. Review the changed files, then commit and push them to GitHub.
+
+Run `npm run archives:build` to rebuild ZIPs and sidecars together. Validation
+commands extract ZIPs into a temporary directory, so `archives/` remains flat.
 
 The generator omits unpublished records and known non-article files such as
 `index`, `bios`, `author-bios`, `table-of-contents`, and `abstracts`. Records

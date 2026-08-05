@@ -9,7 +9,7 @@
     "check": "node scripts/generate-archives.mjs --check",
     "archives:build": "node scripts/build-archive-assets.mjs",
     "archives:check": "node scripts/build-archive-assets.mjs --check",
-    "pdf:ua:check": "verapdf -f ua1 --format text --processes 4 -r archives",
+    "pdf:ua:check": "node scripts/build-archive-assets.mjs --pdf-ua-check",
     "article:build": "sh templates/jcrt-journal-article/build-article.sh"
   }
 }

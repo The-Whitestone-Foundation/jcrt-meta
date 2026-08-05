@@ -7,9 +7,9 @@ How to generate accessible (PDF/UA) journal-article PDFs for the JCRT archive fr
 - **Source:** `../jcrt-v2/content/archives/<issue>/<article>.md` (YAML frontmatter + Markdown body).
 - **Builder:** `templates/jcrt-journal-article/build-article.sh <input.md> [output_dir]` — emits both a `.pdf` and a `.docx`.
 - **Engine:** Pandoc drives **LuaLaTeX** (`--pdf-engine=lualatex`) with the `jcrt-journal-article.tex` template, the `docx-accessibility.lua` filter, and `--citeproc`.
-- **Output:** committed PDFs live under `archives/<issue>/<article>.pdf`.
+- **Output:** committed PDFs live only inside `archives/<issue>.zip`; the build uses temporary expanded directories.
 
-> Note: `scripts/generate-archives.mjs` does **not** build PDFs — it only generates KCWorks import metadata JSON under `metadata/archives/`. PDF generation is `build-article.sh` only.
+> Note: `scripts/generate-archives.mjs` does **not** build PDFs — it generates `archives/<issue>.metadata.json` from the existing ZIPs. Use `npm run archives:build` to rebuild the complete archive.
 
 ## Dependencies
 
@@ -31,8 +31,8 @@ Run from the repo root (`jcrt-meta/`), because the template/filter/logo paths ar
 cd /path/to/jcrt-meta
 templates/jcrt-journal-article/build-article.sh \
   ../jcrt-v2/content/archives/01.1/crockett.md \
-  archives/01.1
-# -> archives/01.1/crockett.pdf  (and crockett.docx)
+  output/01.1
+# -> output/01.1/crockett.pdf  (and crockett.docx)
 ```
 
 - Arg 1 (required): the source `.md`.
@@ -65,7 +65,7 @@ T=templates/jcrt-journal-article
 for md in ../jcrt-v2/content/archives/0[1-4].*/*.md; do
   issue=$(basename "$(dirname "$md")")
   stem=$(basename "${md%.md}")
-  out="archives/$issue"; mkdir -p "$out"
+  out="output/$issue"; mkdir -p "$out"
   TEXMFVAR="${TMPDIR:-/tmp}/jcrt-luatex-cache" pandoc "$md" \
     --from markdown --shift-heading-level-by=-1 \
     --lua-filter "$T/docx-accessibility.lua" --template "$T/jcrt-journal-article.tex" \
@@ -106,7 +106,8 @@ Approx. 15 s per file. Builds can be parallelized (e.g. `xargs -P 4`); the LuaLa
 ## Validation
 
 ```sh
-qpdf --check archives/<issue>/<article>.pdf
+unzip -p archives/<issue>.zip <article>.pdf > /tmp/<article>.pdf
+qpdf --check /tmp/<article>.pdf
 ```
 
 All committed archive PDFs are expected to be valid tagged (PDF/UA) documents.

@@ -5,6 +5,11 @@ All notable changes to this project are documented in this file.
 Each version below records one Git commit, in chronological order. Commit hashes
 link to the corresponding repository diff.
 
+## Unreleased — flat archive artifacts
+
+- Flattened `archives/` to one `<issue>.zip` and one `<issue>.metadata.json` per published issue; removed committed expanded PDFs and the separate `metadata/archives/` tree.
+- Archive generation, build, validation, and PDF/UA checks now use ZIPs plus temporary extraction directories.
+
 ## [0.0.8] - 2026-07-19 — full-archive keywords + FAST subjects, article PDFs, cover template
 
 Extended metadata to the ENTIRE archive (68 issue folders, 821 `.md`), built article PDFs for volumes 1–4, fixed migration data issues, and updated the PDF cover template. Source `.md` under `jcrt-v2/content/archives/`; PDFs + template under this repo.

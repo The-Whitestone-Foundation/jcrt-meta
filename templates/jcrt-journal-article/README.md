@@ -3,7 +3,8 @@
 
 [](https://github.com/the-Whitestone-Foundation/jcrt-meta#jcrt-metadata)
 
-Generated KCWorks import metadata for JCRT. Each numbered archive issue has one `metadata/archives/<issue>/metadata.json` array containing its article records.
+Generated KCWorks import metadata for JCRT. Each published issue has one
+`archives/<issue>.metadata.json` array beside `archives/<issue>.zip`.
 
 Run `npm run generate` after changing archive front matter in `../jcrt-v2`. Run `npm run check` to verify that committed metadata is current and valid.
 
