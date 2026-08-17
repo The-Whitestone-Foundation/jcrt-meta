@@ -31,10 +31,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/22.1/auer/",
           "scheme": "url"
         }
@@ -50,60 +46,44 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/858327",
           "subject": "Choice (Psychology)",
-          "scheme": "FAST",
-          "identifier": "fst00858327",
-          "uri": "https://id.worldcat.org/fast/858327",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/888613",
           "subject": "Death",
-          "scheme": "FAST",
-          "identifier": "fst00888613",
-          "uri": "https://id.worldcat.org/fast/888613",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/952743",
           "subject": "Health",
-          "scheme": "FAST",
-          "identifier": "fst00952743",
-          "uri": "https://id.worldcat.org/fast/952743",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1015007",
           "subject": "Medicine Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01015007",
-          "uri": "https://id.worldcat.org/fast/1015007",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060766",
           "subject": "Philosophical anthropology",
-          "scheme": "FAST",
-          "identifier": "fst01060766",
-          "uri": "https://id.worldcat.org/fast/1060766",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1085009",
           "subject": "Quality of life",
-          "scheme": "FAST",
-          "identifier": "fst01085009",
-          "uri": "https://id.worldcat.org/fast/1085009",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1098146",
           "subject": "Risk assessment",
-          "scheme": "FAST",
-          "identifier": "fst01098146",
-          "uri": "https://id.worldcat.org/fast/1098146",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1122498",
           "subject": "Social history",
-          "scheme": "FAST",
-          "identifier": "fst01122498",
-          "uri": "https://id.worldcat.org/fast/1122498",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -149,7 +129,7 @@
       "enabled": true,
       "entries": {
         "Auer.pdf": {
-          "size": 324222,
+          "size": 324235,
           "key": "Auer.pdf"
         }
       }
@@ -187,10 +167,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/22.1/edlinger/",
           "scheme": "url"
         }
@@ -206,11 +182,9 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1079199",
           "subject": "Prophecy",
-          "scheme": "FAST",
-          "identifier": "fst01079199",
-          "uri": "https://id.worldcat.org/fast/1079199",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -247,7 +221,7 @@
       "enabled": true,
       "entries": {
         "Edlinger.pdf": {
-          "size": 523602,
+          "size": 523157,
           "key": "Edlinger.pdf"
         }
       }
@@ -285,10 +259,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/22.1/gaetano/",
           "scheme": "url"
         }
@@ -304,60 +274,44 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/821658",
           "subject": "Authority Religious aspects",
-          "scheme": "FAST",
-          "identifier": "fst00821658",
-          "uri": "https://id.worldcat.org/fast/821658",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/967585",
           "subject": "Imagination",
-          "scheme": "FAST",
-          "identifier": "fst00967585",
-          "uri": "https://id.worldcat.org/fast/967585",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/975799",
           "subject": "Intellectuals",
-          "scheme": "FAST",
-          "identifier": "fst00975799",
-          "uri": "https://id.worldcat.org/fast/975799",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060766",
           "subject": "Philosophical anthropology",
-          "scheme": "FAST",
-          "identifier": "fst01060766",
-          "uri": "https://id.worldcat.org/fast/1060766",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1069819",
           "subject": "Political science Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01069819",
-          "uri": "https://id.worldcat.org/fast/1069819",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1079199",
           "subject": "Prophecy",
-          "scheme": "FAST",
-          "identifier": "fst01079199",
-          "uri": "https://id.worldcat.org/fast/1079199",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1093828",
           "subject": "Religion and ethics",
-          "scheme": "FAST",
-          "identifier": "fst01093828",
-          "uri": "https://id.worldcat.org/fast/1093828",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1093794",
           "subject": "Religion Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01093794",
-          "uri": "https://id.worldcat.org/fast/1093794",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -406,7 +360,7 @@
       "enabled": true,
       "entries": {
         "Degaetano.pdf": {
-          "size": 307394,
+          "size": 307084,
           "key": "Degaetano.pdf"
         }
       }
@@ -444,10 +398,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/22.1/grane/",
           "scheme": "url"
         }
@@ -463,74 +413,54 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/868456",
           "subject": "Colonies",
-          "scheme": "FAST",
-          "identifier": "fst00868456",
-          "uri": "https://id.worldcat.org/fast/868456",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/955776",
           "subject": "Heterosexism",
-          "scheme": "FAST",
-          "identifier": "fst00955776",
-          "uri": "https://id.worldcat.org/fast/955776",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/959727",
           "subject": "Homophobia",
-          "scheme": "FAST",
-          "identifier": "fst00959727",
-          "uri": "https://id.worldcat.org/fast/959727",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/968126",
           "subject": "Imperialism",
-          "scheme": "FAST",
-          "identifier": "fst00968126",
-          "uri": "https://id.worldcat.org/fast/968126",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1741391",
           "subject": "Male domination (Social structure)",
-          "scheme": "FAST",
-          "identifier": "fst01741391",
-          "uri": "https://id.worldcat.org/fast/1741391",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1055082",
           "subject": "Patriarchy",
-          "scheme": "FAST",
-          "identifier": "fst01055082",
-          "uri": "https://id.worldcat.org/fast/1055082",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1079199",
           "subject": "Prophecy",
-          "scheme": "FAST",
-          "identifier": "fst01079199",
-          "uri": "https://id.worldcat.org/fast/1079199",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1114376",
           "subject": "Sex discrimination against women",
-          "scheme": "FAST",
-          "identifier": "fst01114376",
-          "uri": "https://id.worldcat.org/fast/1114376",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1774314",
           "subject": "Statutes and codes",
-          "scheme": "FAST",
-          "identifier": "fst01774314",
-          "uri": "https://id.worldcat.org/fast/1774314",
-          "category": "form-genre"
+          "scheme": "FAST-formgenre"
         },
         {
+          "id": "http://id.worldcat.org/fast/1178818",
           "subject": "Women's rights",
-          "scheme": "FAST",
-          "identifier": "fst01178818",
-          "uri": "https://id.worldcat.org/fast/1178818",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -577,9 +507,9 @@
     "files": {
       "enabled": true,
       "entries": {
-        "Grane.pdf": {
+        "grane.pdf": {
           "size": 713573,
-          "key": "Grane.pdf"
+          "key": "grane.pdf"
         }
       }
     }
@@ -616,10 +546,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/22.1/hujing/",
           "scheme": "url"
         }
@@ -635,46 +561,34 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/885075",
           "subject": "Culture Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst00885075",
-          "uri": "https://id.worldcat.org/fast/885075",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/933968",
           "subject": "Free will and determinism",
-          "scheme": "FAST",
-          "identifier": "fst00933968",
-          "uri": "https://id.worldcat.org/fast/933968",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060766",
           "subject": "Philosophical anthropology",
-          "scheme": "FAST",
-          "identifier": "fst01060766",
-          "uri": "https://id.worldcat.org/fast/1060766",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1093763",
           "subject": "Religion",
-          "scheme": "FAST",
-          "identifier": "fst01093763",
-          "uri": "https://id.worldcat.org/fast/1093763",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1110732",
           "subject": "Secularism",
-          "scheme": "FAST",
-          "identifier": "fst01110732",
-          "uri": "https://id.worldcat.org/fast/1110732",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1153957",
           "subject": "Tradition (Philosophy)",
-          "scheme": "FAST",
-          "identifier": "fst01153957",
-          "uri": "https://id.worldcat.org/fast/1153957",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -718,7 +632,7 @@
       "enabled": true,
       "entries": {
         "Hujing.pdf": {
-          "size": 253035,
+          "size": 253049,
           "key": "Hujing.pdf"
         }
       }
@@ -756,10 +670,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/22.1/magnasco/",
           "scheme": "url"
         }
@@ -775,67 +685,49 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/859599",
           "subject": "Christianity",
-          "scheme": "FAST",
-          "identifier": "fst00859599",
-          "uri": "https://id.worldcat.org/fast/859599",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/942628",
           "subject": "Gifts",
-          "scheme": "FAST",
-          "identifier": "fst00942628",
-          "uri": "https://id.worldcat.org/fast/942628",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/952697",
           "subject": "Healers",
-          "scheme": "FAST",
-          "identifier": "fst00952697",
-          "uri": "https://id.worldcat.org/fast/952697",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/952704",
           "subject": "Healing",
-          "scheme": "FAST",
-          "identifier": "fst00952704",
-          "uri": "https://id.worldcat.org/fast/952704",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1013693",
           "subject": "Medical anthropology",
-          "scheme": "FAST",
-          "identifier": "fst01013693",
-          "uri": "https://id.worldcat.org/fast/1013693",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1018304",
           "subject": "Metaphysics",
-          "scheme": "FAST",
-          "identifier": "fst01018304",
-          "uri": "https://id.worldcat.org/fast/1018304",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1751969",
           "subject": "Pentecostalism Catholic Church",
-          "scheme": "FAST",
-          "identifier": "fst01751969",
-          "uri": "https://id.worldcat.org/fast/1751969",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060766",
           "subject": "Philosophical anthropology",
-          "scheme": "FAST",
-          "identifier": "fst01060766",
-          "uri": "https://id.worldcat.org/fast/1060766",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1108336",
           "subject": "Science Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01108336",
-          "uri": "https://id.worldcat.org/fast/1108336",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -884,7 +776,7 @@
       "enabled": true,
       "entries": {
         "Magnasco.pdf": {
-          "size": 241237,
+          "size": 241266,
           "key": "Magnasco.pdf"
         }
       }
@@ -922,10 +814,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/22.1/patry/",
           "scheme": "url"
         }
@@ -941,18 +829,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/531720",
           "subject": "Catholic Church",
-          "scheme": "FAST",
-          "identifier": "fst00531720",
-          "uri": "https://id.worldcat.org/fast/531720",
-          "category": "corporate"
+          "scheme": "FAST-corporate"
         },
         {
+          "id": "http://id.worldcat.org/fast/859518",
           "subject": "Christian sects",
-          "scheme": "FAST",
-          "identifier": "fst00859518",
-          "uri": "https://id.worldcat.org/fast/859518",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1027,10 +911,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/22.1/quell/",
           "scheme": "url"
         }
@@ -1046,60 +926,44 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/867354",
           "subject": "Collective behavior",
-          "scheme": "FAST",
-          "identifier": "fst00867354",
-          "uri": "https://id.worldcat.org/fast/867354",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/884278",
           "subject": "Crowds",
-          "scheme": "FAST",
-          "identifier": "fst00884278",
-          "uri": "https://id.worldcat.org/fast/884278",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/890077",
           "subject": "Democracy",
-          "scheme": "FAST",
-          "identifier": "fst00890077",
-          "uri": "https://id.worldcat.org/fast/890077",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1069819",
           "subject": "Political science Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01069819",
-          "uri": "https://id.worldcat.org/fast/1069819",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1094941",
           "subject": "Representative government and representation",
-          "scheme": "FAST",
-          "identifier": "fst01094941",
-          "uri": "https://id.worldcat.org/fast/1094941",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1095066",
           "subject": "Republicanism",
-          "scheme": "FAST",
-          "identifier": "fst01095066",
-          "uri": "https://id.worldcat.org/fast/1095066",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1122816",
           "subject": "Social psychology",
-          "scheme": "FAST",
-          "identifier": "fst01122816",
-          "uri": "https://id.worldcat.org/fast/1122816",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1122940",
           "subject": "Social sciences Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01122940",
-          "uri": "https://id.worldcat.org/fast/1122940",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1181,10 +1045,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/22.1/sedmak/",
           "scheme": "url"
         }
@@ -1200,39 +1060,29 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1765182",
           "subject": "Continental philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01765182",
-          "uri": "https://id.worldcat.org/fast/1765182",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060522",
           "subject": "Phenomenology",
-          "scheme": "FAST",
-          "identifier": "fst01060522",
-          "uri": "https://id.worldcat.org/fast/1060522",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1095857",
           "subject": "Responsibility",
-          "scheme": "FAST",
-          "identifier": "fst01095857",
-          "uri": "https://id.worldcat.org/fast/1095857",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1136568",
           "subject": "Subjectivity",
-          "scheme": "FAST",
-          "identifier": "fst01136568",
-          "uri": "https://id.worldcat.org/fast/1136568",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1137151",
           "subject": "Suffering",
-          "scheme": "FAST",
-          "identifier": "fst01137151",
-          "uri": "https://id.worldcat.org/fast/1137151",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1278,7 +1128,7 @@
       "enabled": true,
       "entries": {
         "Sedmak.pdf": {
-          "size": 486635,
+          "size": 486339,
           "key": "Sedmak.pdf"
         }
       }
@@ -1327,10 +1177,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/22.1/westin_sedmak/",
           "scheme": "url"
         }
@@ -1346,39 +1192,29 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/977644",
           "subject": "Interviews",
-          "scheme": "FAST",
-          "identifier": "fst00977644",
-          "uri": "https://id.worldcat.org/fast/977644",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060766",
           "subject": "Philosophical anthropology",
-          "scheme": "FAST",
-          "identifier": "fst01060766",
-          "uri": "https://id.worldcat.org/fast/1060766",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1062357",
           "subject": "Physical anthropology",
-          "scheme": "FAST",
-          "identifier": "fst01062357",
-          "uri": "https://id.worldcat.org/fast/1062357",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081217",
           "subject": "Psychic trauma",
-          "scheme": "FAST",
-          "identifier": "fst01081217",
-          "uri": "https://id.worldcat.org/fast/1081217",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081495",
           "subject": "Psychology Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01081495",
-          "uri": "https://id.worldcat.org/fast/1081495",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1458,10 +1294,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/22.1/wurts/",
           "scheme": "url"
         }
@@ -1477,11 +1309,9 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/859599",
           "subject": "Christianity",
-          "scheme": "FAST",
-          "identifier": "fst00859599",
-          "uri": "https://id.worldcat.org/fast/859599",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },

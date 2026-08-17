@@ -1,13 +1,16 @@
 #!/bin/sh
 set -eu
 
-if [ "$#" -lt 1 ] || [ "$#" -gt 2 ]; then
-  echo "Usage: $0 ARTICLE.md [OUTPUT_DIR]" >&2
+if [ "$#" -lt 1 ]; then
+  echo "Usage: $0 ARTICLE.md [OUTPUT_DIR] [PANDOC_ARG...]" >&2
   exit 2
 fi
 
 input=$1
 output_dir=${2:-$(dirname "$input")}
+# Remaining arguments pass straight to both Pandoc runs, so a caller can supply
+# per-article metadata the front matter does not carry (url, license).
+if [ "$#" -ge 2 ]; then shift 2; else shift 1; fi
 name=$(basename "$input")
 stem=${name%.*}
 template_dir=$(CDPATH= cd -- "$(dirname "$0")" && pwd)
@@ -31,6 +34,7 @@ pandoc "$input" \
   --metadata logo="$template_dir/jcrt-logo.pdf" \
   --pdf-engine=lualatex \
   --citeproc \
+  "$@" \
   --output "$output_dir/$stem.pdf"
 
 pandoc "$input" \
@@ -40,6 +44,7 @@ pandoc "$input" \
   --lua-filter "$template_dir/docx-accessibility.lua" \
   --reference-doc "$template_dir/jcrt-reference.docx" \
   --citeproc \
+  "$@" \
   --output "$output_dir/$stem.docx"
 
 printf '%s\n' "$output_dir/$stem.pdf" "$output_dir/$stem.docx"

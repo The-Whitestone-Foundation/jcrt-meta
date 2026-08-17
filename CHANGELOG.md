@@ -5,6 +5,48 @@ All notable changes to this project are documented in this file.
 Each version below records one Git commit, in chronological order. Commit hashes
 link to the corresponding repository diff.
 
+## Unreleased — KCWorks subject/ISSN shape, PDF rebuild, import preflight
+
+KCWorks review of a sampling of the deposit metadata flagged two deviations from
+the [metadata spec](https://mesh-research.github.io/knowledge-commons-works/reference/metadata.html);
+both are fixed in the generator, leaving `jcrt-v2` front matter untouched.
+
+### Subjects — KCWorks shape
+- `metadata.subjects` entries are now `{ id, subject, scheme }`. The `identifier`, `uri`, and `category` properties are gone: `uri` becomes the required `id`, `label` becomes `subject`, and `category` folds into the scheme as `FAST-<facet>` (`FAST-topical`, `FAST-formgenre`, `FAST-personal`, …). The `fstNNNNNNN` form is no longer exported.
+- Ids are normalized to the forms KCWorks' vocabularies key on: FAST `https:` → `http://id.worldcat.org/fast/<n>`, and Homosaurus `/v5/` → `https://homosaurus.org/v3/<term>` (all 5 distinct Homosaurus terms in use resolve identically under both versions). An unrecognized category or URI now throws instead of emitting an unmatchable id.
+- 3,537 subjects across 819 records: 3,340 `FAST-topical`, 65 `FAST-title`, 40 `FAST-personal`, 39 `FAST-geographic`, 19 `FAST-corporate`, 18 `FAST-formgenre`, 2 `FAST-event`, 2 `FAST-chronological`, 12 `Homosaurus`.
+
+### ISSN
+- Dropped `{ "identifier": "1530-5228", "scheme": "issn" }` from `metadata.identifiers`. The ISSN identifies the journal, not the article, so it lives only in `custom_fields["journal:journal"].issn`. Article identifiers are now `import-recid` + `url` (+ `doi` once populated).
+
+### Markdown-derived PDF rebuild
+- `npm run archives:rebuild` (`build-archive-assets.mjs --rebuild`) discards every PDF with no scan in `../jcrt-files` from the build workspace so Pandoc regenerates it. `archives:build` seeds that workspace from the committed ZIPs and skips anything already present, so the 103 Markdown-derived PDFs could never be refreshed once built.
+- Regenerated all 103 against the August archival-restoration edits in `jcrt-v2` (`e00a7446`, `5c8c7725`, `c256d102`, `cdbec3ad` — restored numbered-paragraph structure, un-mangled block quotes, removed duplicated passages). Covers `01.1`–`04.2` plus `18.3/bios`.
+
+### Build-path fixes the rebuild exposed
+The committed volume 1–4 PDFs were produced by the ad-hoc 0.0.8 batch recipe, not by `build-archive-assets.mjs`, so running the automated path for the first time surfaced three defects that would have silently degraded all 103 covers:
+
+- `build-article.sh` never passed `url`, `license`, or `license-url`, so rebuilt covers lost the "Read this article on JCRT" link and printed the generic "Rights: JCRT copyright policy" instead of the "Licensed under CC BY 4.0" line every committed archive PDF carries. The wrapper now forwards trailing arguments to both Pandoc runs, and `build-archive-assets.mjs` supplies the canonical URL plus CC BY 4.0 per article.
+- `url` is also a Pandoc LaTeX-writer variable, set to the boolean `true` by any bare autolink in the body — the template rendered that as `Read this article on JCRT → true`. 9 of the 103 articles trip it; passing `--metadata url=…` overrides it.
+- `\providecommand{\pandocbounded}` lacked `\leavevmode`, so an image opening a paragraph left LaTeX in vertical mode and a following Markdown hard break failed with "There's no line here to end".
+
+### WebP figures
+- `02.3/magee.md`'s three figures returned to jcrt.org after the archive PDFs were built. Neither LuaLaTeX nor Word reads WebP, and Pandoc forwards the undecoded bytes under a `.png` name, which fails as `! Dimension too large`. `docx-accessibility.lua` now drops WebP images, along with any paragraph left holding nothing but dropped images. This keeps magee consistent with the rest of the corpus, in which every PDF has zero embedded images.
+
+### File-entry filenames
+- `pdfEntry()` keyed `files.entries` on the name the front matter asked for, while its lookup falls back to a case-insensitive ZIP match. `22.1/grane.md` requests `Grane.pdf` and the file is `grane.pdf` everywhere, so that record declared a file the package does not contain — KCWorks pairs uploads to entries by exact filename, so the attachment would have failed. Entries are now keyed on the real ZIP entry.
+
+### Known corpus gaps (not fixed here)
+- `07.1/zizek-taylor-intro.pdf` and `24.2/table-of-contents.pdf` sit in `../jcrt-files` with no published Markdown behind them (24.2's source is the disabled `table-of-contents.md.x`), so both land in their issue ZIP while no deposit record claims them. `import:preflight` fails those two issues until either a record or the file goes away.
+- 677 of the 785 archive PDFs fail veraPDF `ua1`; all of them are legacy scans from `../jcrt-files`. Of the 103 built from Markdown, 99 pass and the same 4 (`02.1/halpern`, `02.1/lambert`, `02.1/reinhard_lupton`, `04.1/index2`) failed before this rebuild too. `npm run pdf:ua:check` reports these but exits 0, since veraPDF itself returns 0 on validation failures.
+
+### Import preflight
+- Vendored `scripts/kcworks_api_importer.py` from MESH-Research/knowledge-commons-works (commit `f25a0d1`, 2026-02-06); needs Python 3.9+ and `requests`.
+- Added `npm run import:preflight -- <issue>`, which expands the issue ZIP into the gitignored `import/<issue>/` and checks the sidecar against the KCWorks contract before upload. The upstream importer has no dry-run mode, so this is the only local gate.
+
+### Documentation
+- `README.md` described subjects as preserving the front matter's identifier/URI/category, and claimed the generator skips `index`/`bios`/`author-bios`/`table-of-contents`/`abstracts`. The first is now obsolete; the latter never matched the code, which skips only `published: false`. Both corrected, and the rebuild and import workflows documented.
+
 ## Unreleased — flat archive artifacts
 
 - Flattened `archives/` to one `<issue>.zip` and one `<issue>.metadata.json` per published issue; removed committed expanded PDFs and the separate `metadata/archives/` tree.

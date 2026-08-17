@@ -31,10 +31,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/03.1/anderson/",
           "scheme": "url"
         }
@@ -50,46 +46,34 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1738842",
           "subject": "Anthropology of religion",
-          "scheme": "FAST",
-          "identifier": "fst01738842",
-          "uri": "https://id.worldcat.org/fast/1738842",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1018722",
           "subject": "Methodology",
-          "scheme": "FAST",
-          "identifier": "fst01018722",
-          "uri": "https://id.worldcat.org/fast/1018722",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1073032",
           "subject": "Postcolonialism",
-          "scheme": "FAST",
-          "identifier": "fst01073032",
-          "uri": "https://id.worldcat.org/fast/1073032",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1093898",
           "subject": "Religions",
-          "scheme": "FAST",
-          "identifier": "fst01093898",
-          "uri": "https://id.worldcat.org/fast/1093898",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1115159",
           "subject": "Shamanism",
-          "scheme": "FAST",
-          "identifier": "fst01115159",
-          "uri": "https://id.worldcat.org/fast/1115159",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1141119",
           "subject": "Syncretism (Religion)",
-          "scheme": "FAST",
-          "identifier": "fst01141119",
-          "uri": "https://id.worldcat.org/fast/1141119",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -137,7 +121,7 @@
       "enabled": true,
       "entries": {
         "anderson.pdf": {
-          "size": 53084,
+          "size": 79160,
           "key": "anderson.pdf"
         }
       }
@@ -175,10 +159,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/03.1/dean/",
           "scheme": "url"
         }
@@ -194,32 +174,24 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1060522",
           "subject": "Phenomenology",
-          "scheme": "FAST",
-          "identifier": "fst01060522",
-          "uri": "https://id.worldcat.org/fast/1060522",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060855",
           "subject": "Philosophy, American",
-          "scheme": "FAST",
-          "identifier": "fst01060855",
-          "uri": "https://id.worldcat.org/fast/1060855",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1074582",
           "subject": "Pragmatism",
-          "scheme": "FAST",
-          "identifier": "fst01074582",
-          "uri": "https://id.worldcat.org/fast/1074582",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1078048",
           "subject": "Process philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01078048",
-          "uri": "https://id.worldcat.org/fast/1078048",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -268,7 +240,7 @@
       "enabled": true,
       "entries": {
         "dean.pdf": {
-          "size": 50038,
+          "size": 69752,
           "key": "dean.pdf"
         }
       }
@@ -306,10 +278,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/03.1/gooch/",
           "scheme": "url"
         }
@@ -325,39 +293,29 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/908819",
           "subject": "Emotions",
-          "scheme": "FAST",
-          "identifier": "fst00908819",
-          "uri": "https://id.worldcat.org/fast/908819",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/918383",
           "subject": "Experience (Religion)",
-          "scheme": "FAST",
-          "identifier": "fst00918383",
-          "uri": "https://id.worldcat.org/fast/918383",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/919959",
           "subject": "Faith and reason",
-          "scheme": "FAST",
-          "identifier": "fst00919959",
-          "uri": "https://id.worldcat.org/fast/919959",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/988194",
           "subject": "Knowledge, Theory of",
-          "scheme": "FAST",
-          "identifier": "fst00988194",
-          "uri": "https://id.worldcat.org/fast/988194",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060522",
           "subject": "Phenomenology",
-          "scheme": "FAST",
-          "identifier": "fst01060522",
-          "uri": "https://id.worldcat.org/fast/1060522",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -407,7 +365,7 @@
       "enabled": true,
       "entries": {
         "gooch.pdf": {
-          "size": 143424,
+          "size": 472334,
           "key": "gooch.pdf"
         }
       }
@@ -445,10 +403,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/03.1/keuss/",
           "scheme": "url"
         }
@@ -464,39 +418,29 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1352288",
           "subject": "Christology",
-          "scheme": "FAST",
-          "identifier": "fst01352288",
-          "uri": "https://id.worldcat.org/fast/1352288",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/889137",
           "subject": "Deconstruction",
-          "scheme": "FAST",
-          "identifier": "fst00889137",
-          "uri": "https://id.worldcat.org/fast/889137",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1357782",
           "subject": "Nicene Creed",
-          "scheme": "FAST",
-          "identifier": "fst01357782",
-          "uri": "https://id.worldcat.org/fast/1357782",
-          "category": "title"
+          "scheme": "FAST-title"
         },
         {
+          "id": "http://id.worldcat.org/fast/1067682",
           "subject": "Poetics",
-          "scheme": "FAST",
-          "identifier": "fst01067682",
-          "uri": "https://id.worldcat.org/fast/1067682",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1073163",
           "subject": "Postmodern theology",
-          "scheme": "FAST",
-          "identifier": "fst01073163",
-          "uri": "https://id.worldcat.org/fast/1073163",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -546,7 +490,7 @@
       "enabled": true,
       "entries": {
         "keuss.pdf": {
-          "size": 161371,
+          "size": 354148,
           "key": "keuss.pdf"
         }
       }
@@ -584,10 +528,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/03.1/maccammon/",
           "scheme": "url"
         }
@@ -603,60 +543,44 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/915833",
           "subject": "Ethics",
-          "scheme": "FAST",
-          "identifier": "fst00915833",
-          "uri": "https://id.worldcat.org/fast/915833",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/932854",
           "subject": "Forgiveness",
-          "scheme": "FAST",
-          "identifier": "fst00932854",
-          "uri": "https://id.worldcat.org/fast/932854",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/955492",
           "subject": "Hermeneutics",
-          "scheme": "FAST",
-          "identifier": "fst00955492",
-          "uri": "https://id.worldcat.org/fast/955492",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/985122",
           "subject": "Justice",
-          "scheme": "FAST",
-          "identifier": "fst00985122",
-          "uri": "https://id.worldcat.org/fast/985122",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060522",
           "subject": "Phenomenology",
-          "scheme": "FAST",
-          "identifier": "fst01060522",
-          "uri": "https://id.worldcat.org/fast/1060522",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1091509",
           "subject": "Reconciliation",
-          "scheme": "FAST",
-          "identifier": "fst01091509",
-          "uri": "https://id.worldcat.org/fast/1091509",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1095857",
           "subject": "Responsibility",
-          "scheme": "FAST",
-          "identifier": "fst01095857",
-          "uri": "https://id.worldcat.org/fast/1095857",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1096476",
           "subject": "Revenge",
-          "scheme": "FAST",
-          "identifier": "fst01096476",
-          "uri": "https://id.worldcat.org/fast/1096476",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -705,7 +629,7 @@
       "enabled": true,
       "entries": {
         "maccammon.pdf": {
-          "size": 75273,
+          "size": 118856,
           "key": "maccammon.pdf"
         }
       }
@@ -743,10 +667,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/03.1/raschke/",
           "scheme": "url"
         }
@@ -762,32 +682,24 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/889137",
           "subject": "Deconstruction",
-          "scheme": "FAST",
-          "identifier": "fst00889137",
-          "uri": "https://id.worldcat.org/fast/889137",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1073164",
           "subject": "Postmodernism",
-          "scheme": "FAST",
-          "identifier": "fst01073164",
-          "uri": "https://id.worldcat.org/fast/1073164",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1112351",
           "subject": "Semiotics",
-          "scheme": "FAST",
-          "identifier": "fst01112351",
-          "uri": "https://id.worldcat.org/fast/1112351",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1149559",
           "subject": "Theology",
-          "scheme": "FAST",
-          "identifier": "fst01149559",
-          "uri": "https://id.worldcat.org/fast/1149559",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -837,7 +749,7 @@
       "enabled": true,
       "entries": {
         "raschke.pdf": {
-          "size": 53116,
+          "size": 158521,
           "key": "raschke.pdf"
         }
       }
@@ -875,10 +787,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/03.1/stone/",
           "scheme": "url"
         }
@@ -894,25 +802,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/531720",
           "subject": "Catholic Church",
-          "scheme": "FAST",
-          "identifier": "fst00531720",
-          "uri": "https://id.worldcat.org/fast/531720",
-          "category": "corporate"
+          "scheme": "FAST-corporate"
         },
         {
+          "id": "http://id.worldcat.org/fast/1093858",
           "subject": "Religion and sociology",
-          "scheme": "FAST",
-          "identifier": "fst01093858",
-          "uri": "https://id.worldcat.org/fast/1093858",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1122657",
           "subject": "Social movements",
-          "scheme": "FAST",
-          "identifier": "fst01122657",
-          "uri": "https://id.worldcat.org/fast/1122657",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -962,7 +864,7 @@
       "enabled": true,
       "entries": {
         "stone.pdf": {
-          "size": 111930,
+          "size": 262667,
           "key": "stone.pdf"
         }
       }

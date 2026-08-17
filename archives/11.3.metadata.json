@@ -31,10 +31,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/11.3/cfp-design/",
           "scheme": "url"
         }
@@ -50,25 +46,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/891253",
           "subject": "Design",
-          "scheme": "FAST",
-          "identifier": "fst00891253",
-          "uri": "https://id.worldcat.org/fast/891253",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1013617",
           "subject": "Mediation",
-          "scheme": "FAST",
-          "identifier": "fst01013617",
-          "uri": "https://id.worldcat.org/fast/1013617",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/2027038",
           "subject": "Posthumanism",
-          "scheme": "FAST",
-          "identifier": "fst02027038",
-          "uri": "https://id.worldcat.org/fast/2027038",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -115,7 +105,7 @@
       "enabled": true,
       "entries": {
         "cfp-design.pdf": {
-          "size": 33124,
+          "size": 33125,
           "key": "cfp-design.pdf"
         }
       }
@@ -153,10 +143,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/11.3/dalton/",
           "scheme": "url"
         }
@@ -172,46 +158,34 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/891351",
           "subject": "Desire",
-          "scheme": "FAST",
-          "identifier": "fst00891351",
-          "uri": "https://id.worldcat.org/fast/891351",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/915842",
           "subject": "Ethics Methodology",
-          "scheme": "FAST",
-          "identifier": "fst00915842",
-          "uri": "https://id.worldcat.org/fast/915842",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/972421",
           "subject": "Infinite",
-          "scheme": "FAST",
-          "identifier": "fst00972421",
-          "uri": "https://id.worldcat.org/fast/972421",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/977397",
           "subject": "Interpersonal relations",
-          "scheme": "FAST",
-          "identifier": "fst00977397",
-          "uri": "https://id.worldcat.org/fast/977397",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1018304",
           "subject": "Metaphysics",
-          "scheme": "FAST",
-          "identifier": "fst01018304",
-          "uri": "https://id.worldcat.org/fast/1018304",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1048904",
           "subject": "Other (Philosophy)",
-          "scheme": "FAST",
-          "identifier": "fst01048904",
-          "uri": "https://id.worldcat.org/fast/1048904",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -256,7 +230,7 @@
       "enabled": true,
       "entries": {
         "dalton.pdf": {
-          "size": 267043,
+          "size": 267050,
           "key": "dalton.pdf"
         }
       }
@@ -305,10 +279,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/11.3/de-vries/",
           "scheme": "url"
         }
@@ -324,88 +294,64 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/870421",
           "subject": "Communism",
-          "scheme": "FAST",
-          "identifier": "fst00870421",
-          "uri": "https://id.worldcat.org/fast/870421",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1937862",
           "subject": "Everyman's library. Theology & philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01937862",
-          "uri": "https://id.worldcat.org/fast/1937862",
-          "category": "title"
+          "scheme": "FAST-title"
         },
         {
+          "id": "http://id.worldcat.org/fast/933734",
           "subject": "Frankfurt school of sociology",
-          "scheme": "FAST",
-          "identifier": "fst00933734",
-          "uri": "https://id.worldcat.org/fast/933734",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/975769",
           "subject": "Intellectual life",
-          "scheme": "FAST",
-          "identifier": "fst00975769",
-          "uri": "https://id.worldcat.org/fast/975769",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1204034",
           "subject": "Netherlands",
-          "scheme": "FAST",
-          "identifier": "fst01204034",
-          "uri": "https://id.worldcat.org/fast/1204034",
-          "category": "geographic"
+          "scheme": "FAST-geographic"
         },
         {
+          "id": "http://id.worldcat.org/fast/1919741",
           "subject": "Politics and government",
-          "scheme": "FAST",
-          "identifier": "fst01919741",
-          "uri": "https://id.worldcat.org/fast/1919741",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1073231",
           "subject": "Poststructuralism",
-          "scheme": "FAST",
-          "identifier": "fst01073231",
-          "uri": "https://id.worldcat.org/fast/1073231",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1074582",
           "subject": "Pragmatism",
-          "scheme": "FAST",
-          "identifier": "fst01074582",
-          "uri": "https://id.worldcat.org/fast/1074582",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1749826",
           "subject": "Public theology",
-          "scheme": "FAST",
-          "identifier": "fst01749826",
-          "uri": "https://id.worldcat.org/fast/1749826",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1093807",
           "subject": "Religion Study and teaching",
-          "scheme": "FAST",
-          "identifier": "fst01093807",
-          "uri": "https://id.worldcat.org/fast/1093807",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1122310",
           "subject": "Social change",
-          "scheme": "FAST",
-          "identifier": "fst01122310",
-          "uri": "https://id.worldcat.org/fast/1122310",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1123637",
           "subject": "Socialism",
-          "scheme": "FAST",
-          "identifier": "fst01123637",
-          "uri": "https://id.worldcat.org/fast/1123637",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -460,7 +406,7 @@
       "enabled": true,
       "entries": {
         "de-vries.pdf": {
-          "size": 231421,
+          "size": 231437,
           "key": "de-vries.pdf"
         }
       }
@@ -498,10 +444,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/11.3/kolozova/",
           "scheme": "url"
         }
@@ -517,46 +459,34 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/805264",
           "subject": "Alienation (Philosophy)",
-          "scheme": "FAST",
-          "identifier": "fst00805264",
-          "uri": "https://id.worldcat.org/fast/805264",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060766",
           "subject": "Philosophical anthropology",
-          "scheme": "FAST",
-          "identifier": "fst01060766",
-          "uri": "https://id.worldcat.org/fast/1060766",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081235",
           "subject": "Psychoanalysis",
-          "scheme": "FAST",
-          "identifier": "fst01081235",
-          "uri": "https://id.worldcat.org/fast/1081235",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1111454",
           "subject": "Self (Philosophy)",
-          "scheme": "FAST",
-          "identifier": "fst01111454",
-          "uri": "https://id.worldcat.org/fast/1111454",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1134317",
           "subject": "Strangers",
-          "scheme": "FAST",
-          "identifier": "fst01134317",
-          "uri": "https://id.worldcat.org/fast/1134317",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1136568",
           "subject": "Subjectivity",
-          "scheme": "FAST",
-          "identifier": "fst01136568",
-          "uri": "https://id.worldcat.org/fast/1136568",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -601,7 +531,7 @@
       "enabled": true,
       "entries": {
         "kolozova.pdf": {
-          "size": 174622,
+          "size": 174626,
           "key": "kolozova.pdf"
         }
       }
@@ -639,10 +569,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/11.3/mccullough/",
           "scheme": "url"
         }
@@ -658,32 +584,24 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/809563",
           "subject": "Animals (Philosophy)",
-          "scheme": "FAST",
-          "identifier": "fst00809563",
-          "uri": "https://id.worldcat.org/fast/809563",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1041151",
           "subject": "Nudity",
-          "scheme": "FAST",
-          "identifier": "fst01041151",
-          "uri": "https://id.worldcat.org/fast/1041151",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060766",
           "subject": "Philosophical anthropology",
-          "scheme": "FAST",
-          "identifier": "fst01060766",
-          "uri": "https://id.worldcat.org/fast/1060766",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1167852",
           "subject": "Vision",
-          "scheme": "FAST",
-          "identifier": "fst01167852",
-          "uri": "https://id.worldcat.org/fast/1167852",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -727,7 +645,7 @@
       "enabled": true,
       "entries": {
         "mccullough.pdf": {
-          "size": 159547,
+          "size": 159549,
           "key": "mccullough.pdf"
         }
       }
@@ -765,10 +683,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/11.3/sealey/",
           "scheme": "url"
         }
@@ -784,60 +698,44 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/891351",
           "subject": "Desire",
-          "scheme": "FAST",
-          "identifier": "fst00891351",
-          "uri": "https://id.worldcat.org/fast/891351",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1652358",
           "subject": "Jean Paul",
-          "scheme": "FAST",
-          "identifier": "fst01652358",
-          "uri": "https://id.worldcat.org/fast/1652358",
-          "category": "personal"
+          "scheme": "FAST-personal"
         },
         {
+          "id": "http://id.worldcat.org/fast/1002769",
           "subject": "Love",
-          "scheme": "FAST",
-          "identifier": "fst01002769",
-          "uri": "https://id.worldcat.org/fast/1002769",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1018304",
           "subject": "Metaphysics",
-          "scheme": "FAST",
-          "identifier": "fst01018304",
-          "uri": "https://id.worldcat.org/fast/1018304",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1035416",
           "subject": "Need (Psychology)",
-          "scheme": "FAST",
-          "identifier": "fst01035416",
-          "uri": "https://id.worldcat.org/fast/1035416",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1048904",
           "subject": "Other (Philosophy)",
-          "scheme": "FAST",
-          "identifier": "fst01048904",
-          "uri": "https://id.worldcat.org/fast/1048904",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1111454",
           "subject": "Self (Philosophy)",
-          "scheme": "FAST",
-          "identifier": "fst01111454",
-          "uri": "https://id.worldcat.org/fast/1111454",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1136447",
           "subject": "Subject (Philosophy)",
-          "scheme": "FAST",
-          "identifier": "fst01136447",
-          "uri": "https://id.worldcat.org/fast/1136447",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -889,7 +787,7 @@
       "enabled": true,
       "entries": {
         "sealey.pdf": {
-          "size": 236376,
+          "size": 236381,
           "key": "sealey.pdf"
         }
       }
@@ -927,10 +825,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/11.3/simmons/",
           "scheme": "url"
         }
@@ -946,53 +840,39 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/891351",
           "subject": "Desire",
-          "scheme": "FAST",
-          "identifier": "fst00891351",
-          "uri": "https://id.worldcat.org/fast/891351",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/944097",
           "subject": "God Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst00944097",
-          "uri": "https://id.worldcat.org/fast/944097",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1002769",
           "subject": "Love",
-          "scheme": "FAST",
-          "identifier": "fst01002769",
-          "uri": "https://id.worldcat.org/fast/1002769",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1048904",
           "subject": "Other (Philosophy)",
-          "scheme": "FAST",
-          "identifier": "fst01048904",
-          "uri": "https://id.worldcat.org/fast/1048904",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060522",
           "subject": "Phenomenology",
-          "scheme": "FAST",
-          "identifier": "fst01060522",
-          "uri": "https://id.worldcat.org/fast/1060522",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1093794",
           "subject": "Religion Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01093794",
-          "uri": "https://id.worldcat.org/fast/1093794",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1096460",
           "subject": "Revelation",
-          "scheme": "FAST",
-          "identifier": "fst01096460",
-          "uri": "https://id.worldcat.org/fast/1096460",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1047,7 +927,7 @@
       "enabled": true,
       "entries": {
         "simmons.pdf": {
-          "size": 186294,
+          "size": 186302,
           "key": "simmons.pdf"
         }
       }
@@ -1085,10 +965,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/11.3/simmonsintro/",
           "scheme": "url"
         }
@@ -1104,25 +980,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/891351",
           "subject": "Desire",
-          "scheme": "FAST",
-          "identifier": "fst00891351",
-          "uri": "https://id.worldcat.org/fast/891351",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/915833",
           "subject": "Ethics",
-          "scheme": "FAST",
-          "identifier": "fst00915833",
-          "uri": "https://id.worldcat.org/fast/915833",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060522",
           "subject": "Phenomenology",
-          "scheme": "FAST",
-          "identifier": "fst01060522",
-          "uri": "https://id.worldcat.org/fast/1060522",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1169,7 +1039,7 @@
       "enabled": true,
       "entries": {
         "simmonsintro.pdf": {
-          "size": 196796,
+          "size": 196795,
           "key": "simmonsintro.pdf"
         }
       }

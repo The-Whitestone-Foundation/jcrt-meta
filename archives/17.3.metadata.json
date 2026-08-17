@@ -31,10 +31,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/17.3/backman/",
           "scheme": "url"
         }
@@ -50,18 +46,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1746483",
           "subject": "Christian philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01746483",
-          "uri": "https://id.worldcat.org/fast/1746483",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1018304",
           "subject": "Metaphysics",
-          "scheme": "FAST",
-          "identifier": "fst01018304",
-          "uri": "https://id.worldcat.org/fast/1018304",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -99,7 +91,7 @@
       "enabled": true,
       "entries": {
         "Backman.pdf": {
-          "size": 202363,
+          "size": 202369,
           "key": "Backman.pdf"
         }
       }
@@ -137,10 +129,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/17.3/beddard/",
           "scheme": "url"
         }
@@ -156,25 +144,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/860740",
           "subject": "Church history",
-          "scheme": "FAST",
-          "identifier": "fst00860740",
-          "uri": "https://id.worldcat.org/fast/860740",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/963659",
           "subject": "Humanity",
-          "scheme": "FAST",
-          "identifier": "fst00963659",
-          "uri": "https://id.worldcat.org/fast/963659",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1737382",
           "subject": "Neoliberalism",
-          "scheme": "FAST",
-          "identifier": "fst01737382",
-          "uri": "https://id.worldcat.org/fast/1737382",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -212,7 +194,7 @@
       "enabled": true,
       "entries": {
         "Beddard.pdf": {
-          "size": 140847,
+          "size": 140854,
           "key": "Beddard.pdf"
         }
       }
@@ -250,10 +232,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/17.3/datar/",
           "scheme": "url"
         }
@@ -269,25 +247,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1060746",
           "subject": "Philosophers",
-          "scheme": "FAST",
-          "identifier": "fst01060746",
-          "uri": "https://id.worldcat.org/fast/1060746",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/2010609",
           "subject": "Public sphere",
-          "scheme": "FAST",
-          "identifier": "fst02010609",
-          "uri": "https://id.worldcat.org/fast/2010609",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1110732",
           "subject": "Secularism",
-          "scheme": "FAST",
-          "identifier": "fst01110732",
-          "uri": "https://id.worldcat.org/fast/1110732",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -363,10 +335,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/17.3/davis/",
           "scheme": "url"
         }
@@ -382,18 +350,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1202283",
           "subject": "Hegemony",
-          "scheme": "FAST",
-          "identifier": "fst01202283",
-          "uri": "https://id.worldcat.org/fast/1202283",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1090275",
           "subject": "Rationalism",
-          "scheme": "FAST",
-          "identifier": "fst01090275",
-          "uri": "https://id.worldcat.org/fast/1090275",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -431,7 +395,7 @@
       "enabled": true,
       "entries": {
         "Davis.pdf": {
-          "size": 149955,
+          "size": 149963,
           "key": "Davis.pdf"
         }
       }
@@ -469,10 +433,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/17.3/green/",
           "scheme": "url"
         }
@@ -488,11 +448,9 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1112351",
           "subject": "Semiotics",
-          "scheme": "FAST",
-          "identifier": "fst01112351",
-          "uri": "https://id.worldcat.org/fast/1112351",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -532,7 +490,7 @@
       "enabled": true,
       "entries": {
         "Green.pdf": {
-          "size": 259107,
+          "size": 259120,
           "key": "Green.pdf"
         }
       }
@@ -570,10 +528,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/17.3/kavoulakos/",
           "scheme": "url"
         }
@@ -589,18 +543,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/810196",
           "subject": "Anthropology",
-          "scheme": "FAST",
-          "identifier": "fst00810196",
-          "uri": "https://id.worldcat.org/fast/810196",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060777",
           "subject": "Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01060777",
-          "uri": "https://id.worldcat.org/fast/1060777",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -637,7 +587,7 @@
       "enabled": true,
       "entries": {
         "Kavoulakos.pdf": {
-          "size": 118734,
+          "size": 118738,
           "key": "Kavoulakos.pdf"
         }
       }
@@ -675,10 +625,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/17.3/lawrence/",
           "scheme": "url"
         }
@@ -694,18 +640,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/975769",
           "subject": "Intellectual life",
-          "scheme": "FAST",
-          "identifier": "fst00975769",
-          "uri": "https://id.worldcat.org/fast/975769",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1069977",
           "subject": "Politics, Practical",
-          "scheme": "FAST",
-          "identifier": "fst01069977",
-          "uri": "https://id.worldcat.org/fast/1069977",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -742,7 +684,7 @@
       "enabled": true,
       "entries": {
         "Lawrence.pdf": {
-          "size": 238268,
+          "size": 238354,
           "key": "Lawrence.pdf"
         }
       }
@@ -780,10 +722,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/17.3/rhodes/",
           "scheme": "url"
         }
@@ -799,18 +737,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/870421",
           "subject": "Communism",
-          "scheme": "FAST",
-          "identifier": "fst00870421",
-          "uri": "https://id.worldcat.org/fast/870421",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1069977",
           "subject": "Politics, Practical",
-          "scheme": "FAST",
-          "identifier": "fst01069977",
-          "uri": "https://id.worldcat.org/fast/1069977",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -847,7 +781,7 @@
       "enabled": true,
       "entries": {
         "Rhodes.pdf": {
-          "size": 475927,
+          "size": 476005,
           "key": "Rhodes.pdf"
         }
       }
@@ -885,10 +819,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/17.3/schmidt/",
           "scheme": "url"
         }
@@ -904,18 +834,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/915831",
           "subject": "Ethicists",
-          "scheme": "FAST",
-          "identifier": "fst00915831",
-          "uri": "https://id.worldcat.org/fast/915831",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081447",
           "subject": "Psychology",
-          "scheme": "FAST",
-          "identifier": "fst01081447",
-          "uri": "https://id.worldcat.org/fast/1081447",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -953,7 +879,7 @@
       "enabled": true,
       "entries": {
         "Schmidt.pdf": {
-          "size": 168132,
+          "size": 168140,
           "key": "Schmidt.pdf"
         }
       }
@@ -991,10 +917,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/17.3/soni/",
           "scheme": "url"
         }
@@ -1010,25 +932,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1090275",
           "subject": "Rationalism",
-          "scheme": "FAST",
-          "identifier": "fst01090275",
-          "uri": "https://id.worldcat.org/fast/1090275",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1432095",
           "subject": "Scholarships",
-          "scheme": "FAST",
-          "identifier": "fst01432095",
-          "uri": "https://id.worldcat.org/fast/1432095",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1149559",
           "subject": "Theology",
-          "scheme": "FAST",
-          "identifier": "fst01149559",
-          "uri": "https://id.worldcat.org/fast/1149559",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1105,10 +1021,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/17.3/tutt/",
           "scheme": "url"
         }
@@ -1124,18 +1036,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1045995",
           "subject": "Ontology",
-          "scheme": "FAST",
-          "identifier": "fst01045995",
-          "uri": "https://id.worldcat.org/fast/1045995",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081235",
           "subject": "Psychoanalysis",
-          "scheme": "FAST",
-          "identifier": "fst01081235",
-          "uri": "https://id.worldcat.org/fast/1081235",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1172,7 +1080,7 @@
       "enabled": true,
       "entries": {
         "Tutt.pdf": {
-          "size": 288769,
+          "size": 288783,
           "key": "Tutt.pdf"
         }
       }
@@ -1210,10 +1118,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/17.3/yonker/",
           "scheme": "url"
         }
@@ -1229,18 +1133,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/914456",
           "subject": "Equality",
-          "scheme": "FAST",
-          "identifier": "fst00914456",
-          "uri": "https://id.worldcat.org/fast/914456",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/922816",
           "subject": "Feminist theory",
-          "scheme": "FAST",
-          "identifier": "fst00922816",
-          "uri": "https://id.worldcat.org/fast/922816",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1277,7 +1177,7 @@
       "enabled": true,
       "entries": {
         "Yonker.pdf": {
-          "size": 104831,
+          "size": 104834,
           "key": "Yonker.pdf"
         }
       }

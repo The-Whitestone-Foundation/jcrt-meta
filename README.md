@@ -8,8 +8,17 @@ Run `npm run generate` after changing archive front matter in `../jcrt-v2`.
 Run `npm run check` to verify that committed metadata is current and valid.
 
 The archive nanoid is exported as an `import-recid` identifier. Controlled
-subjects preserve the FAST or Homosaurus label, identifier, URI, scheme, and
-authority category from the source front matter.
+subjects are emitted in the KCWorks shape — `id`, `subject`, `scheme` — with the
+front matter's `category` folded into the scheme as `FAST-<facet>` (for example
+`FAST-topical`, `FAST-formgenre`). Because KCWorks keys its authority
+vocabularies on exact id strings, the generator normalizes the front matter
+`uri` on the way out: FAST URIs become `http://id.worldcat.org/fast/<n>` and
+Homosaurus URIs become `https://homosaurus.org/v3/<term>`. An unrecognized
+category or URI fails the build rather than emitting an id KCWorks cannot
+match. The `fstNNNNNNN` form is not exported.
+
+The ISSN is a journal identifier, not an article identifier, so it appears only
+in `custom_fields["journal:journal"].issn` — never in `metadata.identifiers`.
 
 ## Rebuilding the archive metadata
 
@@ -21,9 +30,46 @@ authority category from the source front matter.
 Run `npm run archives:build` to rebuild ZIPs and sidecars together. Validation
 commands extract ZIPs into a temporary directory, so `archives/` remains flat.
 
-The generator omits unpublished records and known non-article files such as
-`index`, `bios`, `author-bios`, `table-of-contents`, and `abstracts`. Records
-without an author use `JCRT Editors` as a fallback creator.
+Articles with no scanned PDF in `../jcrt-files` have theirs built from Markdown
+by Pandoc. `archives:build` seeds its workspace from the committed ZIPs and
+skips any PDF that already exists, so those generated PDFs go stale when their
+Markdown is edited. Run `npm run archives:rebuild` to discard and regenerate
+them; it takes roughly 15 seconds per article.
+
+The generator omits records marked `published: false` in the source front
+matter. Everything else in a numbered issue directory is deposited, including
+`bios`, `table-of-contents`, and other front-matter pages. Records without an
+author fall back to `JCRT Editors` as the creator.
+
+## Importing an issue into KCWorks
+
+`scripts/kcworks_api_importer.py` is vendored from
+[MESH-Research/knowledge-commons-works](https://github.com/MESH-Research/knowledge-commons-works)
+and needs Python 3.9+ with `requests`. It takes a metadata JSON array plus loose
+file paths — not a ZIP — so expand the issue first:
+
+```sh
+npm run import:preflight -- 25.1
+```
+
+That extracts `archives/25.1.zip` into the gitignored `import/25.1/`, checks the
+sidecar against the KCWorks contract (EDTF dates, structured creators, record
+owner, controlled subject ids and schemes, no ISSN among the article
+identifiers, and a ZIP entry of matching size for every declared file), and
+prints the importer command to run next:
+
+```sh
+KCWORKS_IMPORT_API_KEY=... python3 scripts/kcworks_api_importer.py \
+  --collection-id <collection-slug> \
+  --metadata archives/25.1.metadata.json \
+  --files import/25.1/*.pdf \
+  --output import/25.1/import-response.json
+```
+
+The importer has no dry-run mode, so the preflight is the only local check. Test
+against a throwaway collection first, and pick a name you will not want again —
+a collection slug cannot be reused even after the collection is deleted.
+`--notify-record-owners` is off by default; leave it off for test imports.
 
 See [CHANGELOG.md](CHANGELOG.md) for the complete `0.0.1` development record.
 

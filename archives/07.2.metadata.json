@@ -31,10 +31,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/07.2/bain-selbo/",
           "scheme": "url"
         }
@@ -50,25 +46,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/862624",
           "subject": "Civil religion",
-          "scheme": "FAST",
-          "identifier": "fst00862624",
-          "uri": "https://id.worldcat.org/fast/862624",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1071344",
           "subject": "Popular culture",
-          "scheme": "FAST",
-          "identifier": "fst01071344",
-          "uri": "https://id.worldcat.org/fast/1071344",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1093763",
           "subject": "Religion",
-          "scheme": "FAST",
-          "identifier": "fst01093763",
-          "uri": "https://id.worldcat.org/fast/1093763",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -113,7 +103,7 @@
       "enabled": true,
       "entries": {
         "bain-selbo.pdf": {
-          "size": 87412,
+          "size": 87414,
           "key": "bain-selbo.pdf"
         }
       }
@@ -151,10 +141,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/07.2/dahlgren/",
           "scheme": "url"
         }
@@ -170,32 +156,24 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/854835",
           "subject": "Children",
-          "scheme": "FAST",
-          "identifier": "fst00854835",
-          "uri": "https://id.worldcat.org/fast/854835",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1198505",
           "subject": "Life",
-          "scheme": "FAST",
-          "identifier": "fst01198505",
-          "uri": "https://id.worldcat.org/fast/1198505",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060788",
           "subject": "Philosophy History",
-          "scheme": "FAST",
-          "identifier": "fst01060788",
-          "uri": "https://id.worldcat.org/fast/1060788",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1069819",
           "subject": "Political science Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01069819",
-          "uri": "https://id.worldcat.org/fast/1069819",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -240,7 +218,7 @@
       "enabled": true,
       "entries": {
         "dahlgren.pdf": {
-          "size": 175172,
+          "size": 175184,
           "key": "dahlgren.pdf"
         }
       }
@@ -278,10 +256,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/07.2/heltzel/",
           "scheme": "url"
         }
@@ -297,39 +271,29 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1765182",
           "subject": "Continental philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01765182",
-          "uri": "https://id.worldcat.org/fast/1765182",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/889137",
           "subject": "Deconstruction",
-          "scheme": "FAST",
-          "identifier": "fst00889137",
-          "uri": "https://id.worldcat.org/fast/889137",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/987680",
           "subject": "Kingdom of God",
-          "scheme": "FAST",
-          "identifier": "fst00987680",
-          "uri": "https://id.worldcat.org/fast/987680",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1073163",
           "subject": "Postmodern theology",
-          "scheme": "FAST",
-          "identifier": "fst01073163",
-          "uri": "https://id.worldcat.org/fast/1073163",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1149559",
           "subject": "Theology",
-          "scheme": "FAST",
-          "identifier": "fst01149559",
-          "uri": "https://id.worldcat.org/fast/1149559",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -374,7 +338,7 @@
       "enabled": true,
       "entries": {
         "heltzel.pdf": {
-          "size": 82413,
+          "size": 82417,
           "key": "heltzel.pdf"
         }
       }
@@ -412,10 +376,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/07.2/kolarov/",
           "scheme": "url"
         }
@@ -431,46 +391,34 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/805516",
           "subject": "Allegory",
-          "scheme": "FAST",
-          "identifier": "fst00805516",
-          "uri": "https://id.worldcat.org/fast/805516",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/921911",
           "subject": "Fathers in literature",
-          "scheme": "FAST",
-          "identifier": "fst00921911",
-          "uri": "https://id.worldcat.org/fast/921911",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/939558",
           "subject": "Gems",
-          "scheme": "FAST",
-          "identifier": "fst00939558",
-          "uri": "https://id.worldcat.org/fast/939558",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/998285",
           "subject": "Life in literature",
-          "scheme": "FAST",
-          "identifier": "fst00998285",
-          "uri": "https://id.worldcat.org/fast/998285",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1027013",
           "subject": "Mothers in literature",
-          "scheme": "FAST",
-          "identifier": "fst01027013",
-          "uri": "https://id.worldcat.org/fast/1027013",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081235",
           "subject": "Psychoanalysis",
-          "scheme": "FAST",
-          "identifier": "fst01081235",
-          "uri": "https://id.worldcat.org/fast/1081235",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -529,7 +477,7 @@
       "enabled": true,
       "entries": {
         "kolarov.pdf": {
-          "size": 177235,
+          "size": 177249,
           "key": "kolarov.pdf"
         }
       }
@@ -567,10 +515,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/07.2/lupton/",
           "scheme": "url"
         }
@@ -586,46 +530,34 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1198505",
           "subject": "Life",
-          "scheme": "FAST",
-          "identifier": "fst01198505",
-          "uri": "https://id.worldcat.org/fast/1198505",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060777",
           "subject": "Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01060777",
-          "uri": "https://id.worldcat.org/fast/1060777",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1069819",
           "subject": "Political science Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01069819",
-          "uri": "https://id.worldcat.org/fast/1069819",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081235",
           "subject": "Psychoanalysis",
-          "scheme": "FAST",
-          "identifier": "fst01081235",
-          "uri": "https://id.worldcat.org/fast/1081235",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1094518",
           "subject": "Renaissance",
-          "scheme": "FAST",
-          "identifier": "fst01094518",
-          "uri": "https://id.worldcat.org/fast/1094518",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1114160",
           "subject": "Sex",
-          "scheme": "FAST",
-          "identifier": "fst01114160",
-          "uri": "https://id.worldcat.org/fast/1114160",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -675,7 +607,7 @@
       "enabled": true,
       "entries": {
         "lupton.pdf": {
-          "size": 134405,
+          "size": 134416,
           "key": "lupton.pdf"
         }
       }
@@ -713,10 +645,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/07.2/miller/",
           "scheme": "url"
         }
@@ -732,32 +660,24 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1050382",
           "subject": "Pain",
-          "scheme": "FAST",
-          "identifier": "fst01050382",
-          "uri": "https://id.worldcat.org/fast/1050382",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1069819",
           "subject": "Political science Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01069819",
-          "uri": "https://id.worldcat.org/fast/1069819",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1092797",
           "subject": "Refugees",
-          "scheme": "FAST",
-          "identifier": "fst01092797",
-          "uri": "https://id.worldcat.org/fast/1092797",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "https://homosaurus.org/v3/homoit0000560",
           "subject": "Gender",
-          "scheme": "Homosaurus",
-          "identifier": "homoit0000560",
-          "uri": "https://homosaurus.org/v5/homoit0000560",
-          "category": "topical"
+          "scheme": "Homosaurus"
         }
       ]
     },
@@ -806,7 +726,7 @@
       "enabled": true,
       "entries": {
         "miller.pdf": {
-          "size": 199075,
+          "size": 199088,
           "key": "miller.pdf"
         }
       }
@@ -844,10 +764,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/07.2/robbins/",
           "scheme": "url"
         }
@@ -863,25 +779,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/825018",
           "subject": "Baccalaureate addresses",
-          "scheme": "FAST",
-          "identifier": "fst00825018",
-          "uri": "https://id.worldcat.org/fast/825018",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/883692",
           "subject": "Critical thinking",
-          "scheme": "FAST",
-          "identifier": "fst00883692",
-          "uri": "https://id.worldcat.org/fast/883692",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1122778",
           "subject": "Social problems",
-          "scheme": "FAST",
-          "identifier": "fst01122778",
-          "uri": "https://id.worldcat.org/fast/1122778",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -921,7 +831,7 @@
       "enabled": true,
       "entries": {
         "robbins.pdf": {
-          "size": 97885,
+          "size": 97888,
           "key": "robbins.pdf"
         }
       }
@@ -959,10 +869,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/07.2/saldino/",
           "scheme": "url"
         }
@@ -978,39 +884,29 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/915833",
           "subject": "Ethics",
-          "scheme": "FAST",
-          "identifier": "fst00915833",
-          "uri": "https://id.worldcat.org/fast/915833",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/983278",
           "subject": "Jews Identity",
-          "scheme": "FAST",
-          "identifier": "fst00983278",
-          "uri": "https://id.worldcat.org/fast/983278",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/984280",
           "subject": "Judaism",
-          "scheme": "FAST",
-          "identifier": "fst00984280",
-          "uri": "https://id.worldcat.org/fast/984280",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1031629",
           "subject": "Mysticism",
-          "scheme": "FAST",
-          "identifier": "fst01031629",
-          "uri": "https://id.worldcat.org/fast/1031629",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1110644",
           "subject": "Secrecy",
-          "scheme": "FAST",
-          "identifier": "fst01110644",
-          "uri": "https://id.worldcat.org/fast/1110644",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1055,7 +951,7 @@
       "enabled": true,
       "entries": {
         "saldino.pdf": {
-          "size": 112277,
+          "size": 112281,
           "key": "saldino.pdf"
         }
       }
@@ -1093,10 +989,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/07.2/siebers/",
           "scheme": "url"
         }
@@ -1112,25 +1004,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/815307",
           "subject": "Art Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst00815307",
-          "uri": "https://id.worldcat.org/fast/815307",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1896063",
           "subject": "Human figure in art",
-          "scheme": "FAST",
-          "identifier": "fst01896063",
-          "uri": "https://id.worldcat.org/fast/1896063",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1057361",
           "subject": "People with disabilities and the arts",
-          "scheme": "FAST",
-          "identifier": "fst01057361",
-          "uri": "https://id.worldcat.org/fast/1057361",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1211,10 +1097,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/07.2/simmons/",
           "scheme": "url"
         }
@@ -1230,25 +1112,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/915833",
           "subject": "Ethics",
-          "scheme": "FAST",
-          "identifier": "fst00915833",
-          "uri": "https://id.worldcat.org/fast/915833",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1095857",
           "subject": "Responsibility",
-          "scheme": "FAST",
-          "identifier": "fst01095857",
-          "uri": "https://id.worldcat.org/fast/1095857",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1136568",
           "subject": "Subjectivity",
-          "scheme": "FAST",
-          "identifier": "fst01136568",
-          "uri": "https://id.worldcat.org/fast/1136568",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1293,7 +1169,7 @@
       "enabled": true,
       "entries": {
         "simmons.pdf": {
-          "size": 117055,
+          "size": 117059,
           "key": "simmons.pdf"
         }
       }
@@ -1342,10 +1218,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/07.2/taylor/",
           "scheme": "url"
         }
@@ -1361,25 +1233,19 @@
       "description": "This conversation with Jean-Luc Marion took place at The Johns Hopkins University Humanities Center in the Spring of 2005. The JCRT editors express their thanks to Hent de Vries for arranging the meeting and to Jean-Luc Marion for generously agreeing to join our conversation.",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1060522",
           "subject": "Phenomenology",
-          "scheme": "FAST",
-          "identifier": "fst01060522",
-          "uri": "https://id.worldcat.org/fast/1060522",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1093794",
           "subject": "Religion Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01093794",
-          "uri": "https://id.worldcat.org/fast/1093794",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1149559",
           "subject": "Theology",
-          "scheme": "FAST",
-          "identifier": "fst01149559",
-          "uri": "https://id.worldcat.org/fast/1149559",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1422,7 +1288,7 @@
       "enabled": true,
       "entries": {
         "taylor.pdf": {
-          "size": 87514,
+          "size": 87518,
           "key": "taylor.pdf"
         }
       }
@@ -1460,10 +1326,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/07.2/turner/",
           "scheme": "url"
         }
@@ -1479,39 +1341,29 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/889137",
           "subject": "Deconstruction",
-          "scheme": "FAST",
-          "identifier": "fst00889137",
-          "uri": "https://id.worldcat.org/fast/889137",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/955492",
           "subject": "Hermeneutics",
-          "scheme": "FAST",
-          "identifier": "fst00955492",
-          "uri": "https://id.worldcat.org/fast/955492",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1073163",
           "subject": "Postmodern theology",
-          "scheme": "FAST",
-          "identifier": "fst01073163",
-          "uri": "https://id.worldcat.org/fast/1073163",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1364487",
           "subject": "Reformation texts with translation (1350-1650). Biblical studies",
-          "scheme": "FAST",
-          "identifier": "fst01364487",
-          "uri": "https://id.worldcat.org/fast/1364487",
-          "category": "title"
+          "scheme": "FAST-title"
         },
         {
+          "id": "http://id.worldcat.org/fast/1093763",
           "subject": "Religion",
-          "scheme": "FAST",
-          "identifier": "fst01093763",
-          "uri": "https://id.worldcat.org/fast/1093763",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1556,7 +1408,7 @@
       "enabled": true,
       "entries": {
         "turner.pdf": {
-          "size": 101536,
+          "size": 101698,
           "key": "turner.pdf"
         }
       }

@@ -9,7 +9,10 @@
 \usepackage[letterpaper,margin=1in]{geometry}
 \usepackage{fontspec}
 \usepackage{graphicx}
-\providecommand{\pandocbounded}[1]{{\setbox0=\hbox{#1}\ifdim\wd0>\linewidth\resizebox{\linewidth}{!}{#1}\else\box0\fi}}
+% \leavevmode: \setbox does not start a paragraph, so without it an image that
+% opens a paragraph leaves LaTeX in vertical mode and a following \\ (a Markdown
+% hard break between stacked figures) fails with "There's no line here to end".
+\providecommand{\pandocbounded}[1]{\leavevmode{\setbox0=\hbox{#1}\ifdim\wd0>\linewidth\resizebox{\linewidth}{!}{#1}\else\box0\fi}}
 \usepackage{microtype}
 \usepackage{xurl}
 \usepackage{hyperref}

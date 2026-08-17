@@ -31,10 +31,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/04.1/bennett-carpenter/",
           "scheme": "url"
         }
@@ -50,39 +46,29 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/889137",
           "subject": "Deconstruction",
-          "scheme": "FAST",
-          "identifier": "fst00889137",
-          "uri": "https://id.worldcat.org/fast/889137",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/977562",
           "subject": "Intertextuality",
-          "scheme": "FAST",
-          "identifier": "fst00977562",
-          "uri": "https://id.worldcat.org/fast/977562",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1086126",
           "subject": "Quotation",
-          "scheme": "FAST",
-          "identifier": "fst01086126",
-          "uri": "https://id.worldcat.org/fast/1086126",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1094941",
           "subject": "Representative government and representation",
-          "scheme": "FAST",
-          "identifier": "fst01094941",
-          "uri": "https://id.worldcat.org/fast/1094941",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1112351",
           "subject": "Semiotics",
-          "scheme": "FAST",
-          "identifier": "fst01112351",
-          "uri": "https://id.worldcat.org/fast/1112351",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -131,7 +117,7 @@
       "enabled": true,
       "entries": {
         "bennett-carpenter.pdf": {
-          "size": 104468,
+          "size": 319483,
           "key": "bennett-carpenter.pdf"
         }
       }
@@ -169,10 +155,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/04.1/blundell/",
           "scheme": "url"
         }
@@ -188,18 +170,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/915833",
           "subject": "Ethics",
-          "scheme": "FAST",
-          "identifier": "fst00915833",
-          "uri": "https://id.worldcat.org/fast/915833",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1136568",
           "subject": "Subjectivity",
-          "scheme": "FAST",
-          "identifier": "fst01136568",
-          "uri": "https://id.worldcat.org/fast/1136568",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -246,7 +224,7 @@
       "enabled": true,
       "entries": {
         "blundell.pdf": {
-          "size": 55869,
+          "size": 93336,
           "key": "blundell.pdf"
         }
       }
@@ -284,10 +262,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/04.1/egginton/",
           "scheme": "url"
         }
@@ -303,67 +277,49 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/811469",
           "subject": "Aporia",
-          "scheme": "FAST",
-          "identifier": "fst00811469",
-          "uri": "https://id.worldcat.org/fast/811469",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/859599",
           "subject": "Christianity",
-          "scheme": "FAST",
-          "identifier": "fst00859599",
-          "uri": "https://id.worldcat.org/fast/859599",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/889137",
           "subject": "Deconstruction",
-          "scheme": "FAST",
-          "identifier": "fst00889137",
-          "uri": "https://id.worldcat.org/fast/889137",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/915833",
           "subject": "Ethics",
-          "scheme": "FAST",
-          "identifier": "fst00915833",
-          "uri": "https://id.worldcat.org/fast/915833",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1198492",
           "subject": "Faith",
-          "scheme": "FAST",
-          "identifier": "fst01198492",
-          "uri": "https://id.worldcat.org/fast/1198492",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1013617",
           "subject": "Mediation",
-          "scheme": "FAST",
-          "identifier": "fst01013617",
-          "uri": "https://id.worldcat.org/fast/1013617",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1035499",
           "subject": "Negative theology",
-          "scheme": "FAST",
-          "identifier": "fst01035499",
-          "uri": "https://id.worldcat.org/fast/1035499",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081235",
           "subject": "Psychoanalysis",
-          "scheme": "FAST",
-          "identifier": "fst01081235",
-          "uri": "https://id.worldcat.org/fast/1081235",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1119208",
           "subject": "Sin, Original",
-          "scheme": "FAST",
-          "identifier": "fst01119208",
-          "uri": "https://id.worldcat.org/fast/1119208",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -413,7 +369,7 @@
       "enabled": true,
       "entries": {
         "egginton.pdf": {
-          "size": 323006,
+          "size": 323278,
           "key": "egginton.pdf"
         }
       }
@@ -456,10 +412,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/04.1/hamner/",
           "scheme": "url"
         }
@@ -475,39 +427,29 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/922657",
           "subject": "Femininity",
-          "scheme": "FAST",
-          "identifier": "fst00922657",
-          "uri": "https://id.worldcat.org/fast/922657",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/922671",
           "subject": "Feminism",
-          "scheme": "FAST",
-          "identifier": "fst00922671",
-          "uri": "https://id.worldcat.org/fast/922671",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1026907",
           "subject": "Motherhood",
-          "scheme": "FAST",
-          "identifier": "fst01026907",
-          "uri": "https://id.worldcat.org/fast/1026907",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081235",
           "subject": "Psychoanalysis",
-          "scheme": "FAST",
-          "identifier": "fst01081235",
-          "uri": "https://id.worldcat.org/fast/1081235",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1198950",
           "subject": "Revolt",
-          "scheme": "FAST",
-          "identifier": "fst01198950",
-          "uri": "https://id.worldcat.org/fast/1198950",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -554,7 +496,7 @@
       "enabled": true,
       "entries": {
         "hamner.pdf": {
-          "size": 178575,
+          "size": 178625,
           "key": "hamner.pdf"
         }
       }
@@ -592,10 +534,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/04.1/index2/",
           "scheme": "url"
         }
@@ -611,18 +549,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/851404",
           "subject": "Ceremonial exchange",
-          "scheme": "FAST",
-          "identifier": "fst00851404",
-          "uri": "https://id.worldcat.org/fast/851404",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/889137",
           "subject": "Deconstruction",
-          "scheme": "FAST",
-          "identifier": "fst00889137",
-          "uri": "https://id.worldcat.org/fast/889137",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -668,7 +602,7 @@
       "enabled": true,
       "entries": {
         "index2.pdf": {
-          "size": 56795,
+          "size": 56813,
           "key": "index2.pdf"
         }
       }
@@ -706,10 +640,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/04.1/kosky/",
           "scheme": "url"
         }
@@ -725,53 +655,39 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/821342",
           "subject": "Aura",
-          "scheme": "FAST",
-          "identifier": "fst00821342",
-          "uri": "https://id.worldcat.org/fast/821342",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/863073",
           "subject": "Civilization, Modern",
-          "scheme": "FAST",
-          "identifier": "fst00863073",
-          "uri": "https://id.worldcat.org/fast/863073",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1764553",
           "subject": "Invisibility",
-          "scheme": "FAST",
-          "identifier": "fst01764553",
-          "uri": "https://id.worldcat.org/fast/1764553",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1058877",
           "subject": "Perspective",
-          "scheme": "FAST",
-          "identifier": "fst01058877",
-          "uri": "https://id.worldcat.org/fast/1058877",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060522",
           "subject": "Phenomenology",
-          "scheme": "FAST",
-          "identifier": "fst01060522",
-          "uri": "https://id.worldcat.org/fast/1060522",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1094941",
           "subject": "Representative government and representation",
-          "scheme": "FAST",
-          "identifier": "fst01094941",
-          "uri": "https://id.worldcat.org/fast/1094941",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1136568",
           "subject": "Subjectivity",
-          "scheme": "FAST",
-          "identifier": "fst01136568",
-          "uri": "https://id.worldcat.org/fast/1136568",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -820,7 +736,7 @@
       "enabled": true,
       "entries": {
         "kosky.pdf": {
-          "size": 78865,
+          "size": 382134,
           "key": "kosky.pdf"
         }
       }
@@ -858,10 +774,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/04.1/lokensgard/",
           "scheme": "url"
         }
@@ -877,39 +789,29 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/833864",
           "subject": "Blackfoot",
-          "scheme": "FAST",
-          "identifier": "fst00833864",
-          "uri": "https://id.worldcat.org/fast/833864",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/917649",
           "subject": "Exchange",
-          "scheme": "FAST",
-          "identifier": "fst00917649",
-          "uri": "https://id.worldcat.org/fast/917649",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1015165",
           "subject": "Medicine bundles",
-          "scheme": "FAST",
-          "identifier": "fst01015165",
-          "uri": "https://id.worldcat.org/fast/1015165",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1045995",
           "subject": "Ontology",
-          "scheme": "FAST",
-          "identifier": "fst01045995",
-          "uri": "https://id.worldcat.org/fast/1045995",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1091400",
           "subject": "Reciprocity",
-          "scheme": "FAST",
-          "identifier": "fst01091400",
-          "uri": "https://id.worldcat.org/fast/1091400",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -958,7 +860,7 @@
       "enabled": true,
       "entries": {
         "lokensgard.pdf": {
-          "size": 71471,
+          "size": 218080,
           "key": "lokensgard.pdf"
         }
       }
@@ -996,10 +898,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/04.1/markmanolopoulos/",
           "scheme": "url"
         }
@@ -1015,39 +913,29 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/814376",
           "subject": "Arianism",
-          "scheme": "FAST",
-          "identifier": "fst00814376",
-          "uri": "https://id.worldcat.org/fast/814376",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/889137",
           "subject": "Deconstruction",
-          "scheme": "FAST",
-          "identifier": "fst00889137",
-          "uri": "https://id.worldcat.org/fast/889137",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/896231",
           "subject": "Dogmatism",
-          "scheme": "FAST",
-          "identifier": "fst00896231",
-          "uri": "https://id.worldcat.org/fast/896231",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1198492",
           "subject": "Faith",
-          "scheme": "FAST",
-          "identifier": "fst01198492",
-          "uri": "https://id.worldcat.org/fast/1198492",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1035499",
           "subject": "Negative theology",
-          "scheme": "FAST",
-          "identifier": "fst01035499",
-          "uri": "https://id.worldcat.org/fast/1035499",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1095,7 +983,7 @@
       "enabled": true,
       "entries": {
         "markmanolopoulos.pdf": {
-          "size": 68222,
+          "size": 226677,
           "key": "markmanolopoulos.pdf"
         }
       }
@@ -1133,10 +1021,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/04.1/mcgrath/",
           "scheme": "url"
         }
@@ -1152,32 +1036,24 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/800380",
           "subject": "Agitation (Psychology)",
-          "scheme": "FAST",
-          "identifier": "fst00800380",
-          "uri": "https://id.worldcat.org/fast/800380",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/810950",
           "subject": "Anxiety",
-          "scheme": "FAST",
-          "identifier": "fst00810950",
-          "uri": "https://id.worldcat.org/fast/810950",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1035884",
           "subject": "Neoplatonism",
-          "scheme": "FAST",
-          "identifier": "fst01035884",
-          "uri": "https://id.worldcat.org/fast/1035884",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1106919",
           "subject": "Scholasticism",
-          "scheme": "FAST",
-          "identifier": "fst01106919",
-          "uri": "https://id.worldcat.org/fast/1106919",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1226,7 +1102,7 @@
       "enabled": true,
       "entries": {
         "mcgrath.pdf": {
-          "size": 211878,
+          "size": 211873,
           "key": "mcgrath.pdf"
         }
       }
@@ -1264,10 +1140,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/04.1/raschke/",
           "scheme": "url"
         }
@@ -1283,53 +1155,39 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/889137",
           "subject": "Deconstruction",
-          "scheme": "FAST",
-          "identifier": "fst00889137",
-          "uri": "https://id.worldcat.org/fast/889137",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/892486",
           "subject": "Dialogue",
-          "scheme": "FAST",
-          "identifier": "fst00892486",
-          "uri": "https://id.worldcat.org/fast/892486",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/915833",
           "subject": "Ethics",
-          "scheme": "FAST",
-          "identifier": "fst00915833",
-          "uri": "https://id.worldcat.org/fast/915833",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1198492",
           "subject": "Faith",
-          "scheme": "FAST",
-          "identifier": "fst01198492",
-          "uri": "https://id.worldcat.org/fast/1198492",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/972421",
           "subject": "Infinite",
-          "scheme": "FAST",
-          "identifier": "fst00972421",
-          "uri": "https://id.worldcat.org/fast/972421",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1073164",
           "subject": "Postmodernism",
-          "scheme": "FAST",
-          "identifier": "fst01073164",
-          "uri": "https://id.worldcat.org/fast/1073164",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1136568",
           "subject": "Subjectivity",
-          "scheme": "FAST",
-          "identifier": "fst01136568",
-          "uri": "https://id.worldcat.org/fast/1136568",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1379,7 +1237,7 @@
       "enabled": true,
       "entries": {
         "raschke.pdf": {
-          "size": 59931,
+          "size": 256989,
           "key": "raschke.pdf"
         }
       }

@@ -16,6 +16,9 @@ const require = createRequire(path.join(V2, "package.json"));
 const yaml = require("js-yaml");
 const check = process.argv.includes("--check");
 const pdfUaCheck = process.argv.includes("--pdf-ua-check");
+const rebuild = process.argv.includes("--rebuild");
+const LICENSE = "Licensed under CC BY 4.0";
+const LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/";
 
 function run(command, args, options = {}) {
 	const result = spawnSync(command, args, { cwd: ROOT, encoding: options.binary ? null : "utf8", maxBuffer: 256 * 1024 * 1024, stdio: options.capture ? "pipe" : "inherit" });
@@ -96,7 +99,31 @@ function validate(work) {
 	console.log(`Validated ${pdfs.length} PDFs, ${publishedIssues.length} ZIP/metadata pairs, and ${records} records.`);
 }
 
+function articlePdf(name, data) {
+	return data.pdf ? path.basename(String(data.pdf)) : `${path.basename(name, ".md")}.pdf`;
+}
+
+// Markdown-derived PDFs are the ones with no scan in jcrt-files. extractArchives
+// seeds the workdir from the committed ZIPs, so without this they would never be
+// rebuilt when their Markdown source changes.
+function dropDerivedPdfs(work) {
+	let dropped = 0;
+	for (const issue of publishedIssues) {
+		for (const { name, data } of publishedFiles(issue)) {
+			const pdf = articlePdf(name, data);
+			if (fs.existsSync(path.join(FILES, "archives", issue, pdf))) continue;
+			const stale = path.join(work, issue, pdf);
+			if (!fs.existsSync(stale)) continue;
+			fs.unlinkSync(stale);
+			dropped += 1;
+		}
+	}
+	console.log(`Rebuilding ${dropped} Markdown-derived PDFs.`);
+}
+
 function build(work) {
+	if (rebuild) dropDerivedPdfs(work);
+
 	for (const issue of fs.readdirSync(path.join(FILES, "archives"), { withFileTypes: true }).filter((entry) => entry.isDirectory()).map((entry) => entry.name)) {
 		const source = path.join(FILES, "archives", issue);
 		const target = path.join(work, issue);
@@ -108,9 +135,19 @@ function build(work) {
 		const target = path.join(work, issue);
 		fs.mkdirSync(target, { recursive: true });
 		for (const { name, data } of publishedFiles(issue)) {
-			const pdf = data.pdf ? path.basename(String(data.pdf)) : `${path.basename(name, ".md")}.pdf`;
+			const pdf = articlePdf(name, data);
 			if (fs.existsSync(path.join(target, pdf))) continue;
-			run("sh", [path.join(ROOT, "templates", "jcrt-journal-article", "build-article.sh"), path.join(SOURCE, issue, name), target]);
+			// The front matter carries neither the canonical URL nor the license, and
+			// "url" collides with the LaTeX writer's own variable (any bare autolink in
+			// the body sets it to true), so pass both explicitly.
+			run("sh", [
+				path.join(ROOT, "templates", "jcrt-journal-article", "build-article.sh"),
+				path.join(SOURCE, issue, name),
+				target,
+				"--metadata", `url=https://jcrt.org/archives/${issue}/${path.basename(name, ".md")}/`,
+				"--metadata", `license=${LICENSE}`,
+				"--metadata", `license-url=${LICENSE_URL}`,
+			]);
 			const docx = path.join(target, `${path.basename(name, ".md")}.docx`);
 			if (fs.existsSync(docx)) fs.unlinkSync(docx);
 		}

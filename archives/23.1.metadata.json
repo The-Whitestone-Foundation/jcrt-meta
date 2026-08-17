@@ -31,10 +31,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/23.1/bios/",
           "scheme": "url"
         }
@@ -50,11 +46,9 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1093763",
           "subject": "Religion",
-          "scheme": "FAST",
-          "identifier": "fst01093763",
-          "uri": "https://id.worldcat.org/fast/1093763",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -88,7 +82,7 @@
       "enabled": true,
       "entries": {
         "bios.pdf": {
-          "size": 134273,
+          "size": 134274,
           "key": "bios.pdf"
         }
       }
@@ -126,10 +120,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/23.1/durante/",
           "scheme": "url"
         }
@@ -145,18 +135,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/913104",
           "subject": "Environmental justice",
-          "scheme": "FAST",
-          "identifier": "fst00913104",
-          "uri": "https://id.worldcat.org/fast/913104",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1198492",
           "subject": "Faith",
-          "scheme": "FAST",
-          "identifier": "fst01198492",
-          "uri": "https://id.worldcat.org/fast/1198492",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -193,7 +179,7 @@
       "enabled": true,
       "entries": {
         "Durante.pdf": {
-          "size": 162260,
+          "size": 162274,
           "key": "Durante.pdf"
         }
       }
@@ -231,10 +217,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/23.1/grane/",
           "scheme": "url"
         }
@@ -250,18 +232,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1198492",
           "subject": "Faith",
-          "scheme": "FAST",
-          "identifier": "fst01198492",
-          "uri": "https://id.worldcat.org/fast/1198492",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1140836",
           "subject": "Sympathy",
-          "scheme": "FAST",
-          "identifier": "fst01140836",
-          "uri": "https://id.worldcat.org/fast/1140836",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -298,7 +276,7 @@
       "enabled": true,
       "entries": {
         "Grane.pdf": {
-          "size": 195056,
+          "size": 195070,
           "key": "Grane.pdf"
         }
       }
@@ -336,10 +314,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/23.1/hujing/",
           "scheme": "url"
         }
@@ -355,18 +329,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/912877",
           "subject": "Environmental degradation",
-          "scheme": "FAST",
-          "identifier": "fst00912877",
-          "uri": "https://id.worldcat.org/fast/912877",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/924607",
           "subject": "Financial crises",
-          "scheme": "FAST",
-          "identifier": "fst00924607",
-          "uri": "https://id.worldcat.org/fast/924607",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -403,7 +373,7 @@
       "enabled": true,
       "entries": {
         "Hujing.pdf": {
-          "size": 176651,
+          "size": 176667,
           "key": "Hujing.pdf"
         }
       }
@@ -441,10 +411,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/23.1/johnson/",
           "scheme": "url"
         }
@@ -460,95 +426,69 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/804245",
           "subject": "Alchemy",
-          "scheme": "FAST",
-          "identifier": "fst00804245",
-          "uri": "https://id.worldcat.org/fast/804245",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/859599",
           "subject": "Christianity",
-          "scheme": "FAST",
-          "identifier": "fst00859599",
-          "uri": "https://id.worldcat.org/fast/859599",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/859625",
           "subject": "Christianity Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst00859625",
-          "uri": "https://id.worldcat.org/fast/859625",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/912979",
           "subject": "Environmental ethics",
-          "scheme": "FAST",
-          "identifier": "fst00912979",
-          "uri": "https://id.worldcat.org/fast/912979",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/913543",
           "subject": "Environmentalism",
-          "scheme": "FAST",
-          "identifier": "fst00913543",
-          "uri": "https://id.worldcat.org/fast/913543",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1002561",
           "subject": "Lord's Supper Real presence",
-          "scheme": "FAST",
-          "identifier": "fst01002561",
-          "uri": "https://id.worldcat.org/fast/1002561",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1018304",
           "subject": "Metaphysics",
-          "scheme": "FAST",
-          "identifier": "fst01018304",
-          "uri": "https://id.worldcat.org/fast/1018304",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1020301",
           "subject": "Middle Ages",
-          "scheme": "FAST",
-          "identifier": "fst01020301",
-          "uri": "https://id.worldcat.org/fast/1020301",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1034534",
           "subject": "Naturalism",
-          "scheme": "FAST",
-          "identifier": "fst01034534",
-          "uri": "https://id.worldcat.org/fast/1034534",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060777",
           "subject": "Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01060777",
-          "uri": "https://id.worldcat.org/fast/1060777",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1079920",
           "subject": "Protestantism",
-          "scheme": "FAST",
-          "identifier": "fst01079920",
-          "uri": "https://id.worldcat.org/fast/1079920",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1154551",
           "subject": "Transcendentalism (New England)",
-          "scheme": "FAST",
-          "identifier": "fst01154551",
-          "uri": "https://id.worldcat.org/fast/1154551",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1155448",
           "subject": "Transubstantiation",
-          "scheme": "FAST",
-          "identifier": "fst01155448",
-          "uri": "https://id.worldcat.org/fast/1155448",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -599,7 +539,7 @@
       "enabled": true,
       "entries": {
         "Johnson.pdf": {
-          "size": 186619,
+          "size": 186641,
           "key": "Johnson.pdf"
         }
       }
@@ -637,10 +577,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/23.1/kaur/",
           "scheme": "url"
         }
@@ -656,46 +592,34 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/889494",
           "subject": "Deep ecology",
-          "scheme": "FAST",
-          "identifier": "fst00889494",
-          "uri": "https://id.worldcat.org/fast/889494",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/901514",
           "subject": "Ecology Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst00901514",
-          "uri": "https://id.worldcat.org/fast/901514",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/913543",
           "subject": "Environmentalism",
-          "scheme": "FAST",
-          "identifier": "fst00913543",
-          "uri": "https://id.worldcat.org/fast/913543",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1052088",
           "subject": "Panentheism",
-          "scheme": "FAST",
-          "identifier": "fst01052088",
-          "uri": "https://id.worldcat.org/fast/1052088",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1074531",
           "subject": "Practice (Philosophy)",
-          "scheme": "FAST",
-          "identifier": "fst01074531",
-          "uri": "https://id.worldcat.org/fast/1074531",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1118426",
           "subject": "Sikhism Sacred books",
-          "scheme": "FAST",
-          "identifier": "fst01118426",
-          "uri": "https://id.worldcat.org/fast/1118426",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -776,10 +700,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/23.1/massaro/",
           "scheme": "url"
         }
@@ -795,74 +715,54 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/531720",
           "subject": "Catholic Church",
-          "scheme": "FAST",
-          "identifier": "fst00531720",
-          "uri": "https://id.worldcat.org/fast/531720",
-          "category": "corporate"
+          "scheme": "FAST-corporate"
         },
         {
+          "id": "http://id.worldcat.org/fast/859599",
           "subject": "Christianity",
-          "scheme": "FAST",
-          "identifier": "fst00859599",
-          "uri": "https://id.worldcat.org/fast/859599",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/864229",
           "subject": "Climatic changes",
-          "scheme": "FAST",
-          "identifier": "fst00864229",
-          "uri": "https://id.worldcat.org/fast/864229",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/912979",
           "subject": "Environmental ethics",
-          "scheme": "FAST",
-          "identifier": "fst00912979",
-          "uri": "https://id.worldcat.org/fast/912979",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/913543",
           "subject": "Environmentalism",
-          "scheme": "FAST",
-          "identifier": "fst00913543",
-          "uri": "https://id.worldcat.org/fast/913543",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/943506",
           "subject": "Global warming",
-          "scheme": "FAST",
-          "identifier": "fst00943506",
-          "uri": "https://id.worldcat.org/fast/943506",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/976251",
           "subject": "Intergenerational relations",
-          "scheme": "FAST",
-          "identifier": "fst00976251",
-          "uri": "https://id.worldcat.org/fast/976251",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/997211",
           "subject": "Liberation theology",
-          "scheme": "FAST",
-          "identifier": "fst00997211",
-          "uri": "https://id.worldcat.org/fast/997211",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1145253",
           "subject": "Technology and civilization",
-          "scheme": "FAST",
-          "identifier": "fst01145253",
-          "uri": "https://id.worldcat.org/fast/1145253",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1145171",
           "subject": "Technology Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01145171",
-          "uri": "https://id.worldcat.org/fast/1145171",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -909,7 +809,7 @@
       "enabled": true,
       "entries": {
         "Massaro.pdf": {
-          "size": 177734,
+          "size": 177744,
           "key": "Massaro.pdf"
         }
       }
@@ -947,10 +847,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/23.1/mather/",
           "scheme": "url"
         }
@@ -966,88 +862,64 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1239786",
           "subject": "America",
-          "scheme": "FAST",
-          "identifier": "fst01239786",
-          "uri": "https://id.worldcat.org/fast/1239786",
-          "category": "geographic"
+          "scheme": "FAST-geographic"
         },
         {
+          "id": "http://id.worldcat.org/fast/864229",
           "subject": "Climatic changes",
-          "scheme": "FAST",
-          "identifier": "fst00864229",
-          "uri": "https://id.worldcat.org/fast/864229",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/912877",
           "subject": "Environmental degradation",
-          "scheme": "FAST",
-          "identifier": "fst00912877",
-          "uri": "https://id.worldcat.org/fast/912877",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/912979",
           "subject": "Environmental ethics",
-          "scheme": "FAST",
-          "identifier": "fst00912979",
-          "uri": "https://id.worldcat.org/fast/912979",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/913443",
           "subject": "Environmental responsibility",
-          "scheme": "FAST",
-          "identifier": "fst00913443",
-          "uri": "https://id.worldcat.org/fast/913443",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1026058",
           "subject": "Moral education",
-          "scheme": "FAST",
-          "identifier": "fst01026058",
-          "uri": "https://id.worldcat.org/fast/1026058",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1033330",
           "subject": "National characteristics",
-          "scheme": "FAST",
-          "identifier": "fst01033330",
-          "uri": "https://id.worldcat.org/fast/1033330",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1069286",
           "subject": "Political ethics",
-          "scheme": "FAST",
-          "identifier": "fst01069286",
-          "uri": "https://id.worldcat.org/fast/1069286",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1069819",
           "subject": "Political science Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01069819",
-          "uri": "https://id.worldcat.org/fast/1069819",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1093842",
           "subject": "Religion and politics",
-          "scheme": "FAST",
-          "identifier": "fst01093842",
-          "uri": "https://id.worldcat.org/fast/1093842",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1095066",
           "subject": "Republicanism",
-          "scheme": "FAST",
-          "identifier": "fst01095066",
-          "uri": "https://id.worldcat.org/fast/1095066",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1167724",
           "subject": "Virtues",
-          "scheme": "FAST",
-          "identifier": "fst01167724",
-          "uri": "https://id.worldcat.org/fast/1167724",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1097,7 +969,7 @@
       "enabled": true,
       "entries": {
         "Mather.pdf": {
-          "size": 186573,
+          "size": 186597,
           "key": "Mather.pdf"
         }
       }
@@ -1135,10 +1007,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/23.1/mckanan/",
           "scheme": "url"
         }
@@ -1154,95 +1022,69 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/850521",
           "subject": "Cemeteries",
-          "scheme": "FAST",
-          "identifier": "fst00850521",
-          "uri": "https://id.worldcat.org/fast/850521",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/864229",
           "subject": "Climatic changes",
-          "scheme": "FAST",
-          "identifier": "fst00864229",
-          "uri": "https://id.worldcat.org/fast/864229",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/875502",
           "subject": "Conservation of natural resources",
-          "scheme": "FAST",
-          "identifier": "fst00875502",
-          "uri": "https://id.worldcat.org/fast/875502",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/889763",
           "subject": "Deforestation",
-          "scheme": "FAST",
-          "identifier": "fst00889763",
-          "uri": "https://id.worldcat.org/fast/889763",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/913104",
           "subject": "Environmental justice",
-          "scheme": "FAST",
-          "identifier": "fst00913104",
-          "uri": "https://id.worldcat.org/fast/913104",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/932451",
           "subject": "Forest reserves",
-          "scheme": "FAST",
-          "identifier": "fst00932451",
-          "uri": "https://id.worldcat.org/fast/932451",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/976251",
           "subject": "Intergenerational relations",
-          "scheme": "FAST",
-          "identifier": "fst00976251",
-          "uri": "https://id.worldcat.org/fast/976251",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1015903",
           "subject": "Memorials",
-          "scheme": "FAST",
-          "identifier": "fst01015903",
-          "uri": "https://id.worldcat.org/fast/1015903",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1033642",
           "subject": "National parks and reserves",
-          "scheme": "FAST",
-          "identifier": "fst01033642",
-          "uri": "https://id.worldcat.org/fast/1033642",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1241913",
           "subject": "New England",
-          "scheme": "FAST",
-          "identifier": "fst01241913",
-          "uri": "https://id.worldcat.org/fast/1241913",
-          "category": "geographic"
+          "scheme": "FAST-geographic"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060766",
           "subject": "Philosophical anthropology",
-          "scheme": "FAST",
-          "identifier": "fst01060766",
-          "uri": "https://id.worldcat.org/fast/1060766",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1082573",
           "subject": "Public lands",
-          "scheme": "FAST",
-          "identifier": "fst01082573",
-          "uri": "https://id.worldcat.org/fast/1082573",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1733718",
           "subject": "Urban ecology (Sociology)",
-          "scheme": "FAST",
-          "identifier": "fst01733718",
-          "uri": "https://id.worldcat.org/fast/1733718",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1294,7 +1136,7 @@
       "enabled": true,
       "entries": {
         "McKanan.pdf": {
-          "size": 197653,
+          "size": 197679,
           "key": "McKanan.pdf"
         }
       }
@@ -1332,10 +1174,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/23.1/monson/",
           "scheme": "url"
         }
@@ -1351,74 +1189,54 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/799558",
           "subject": "African Americans",
-          "scheme": "FAST",
-          "identifier": "fst00799558",
-          "uri": "https://id.worldcat.org/fast/799558",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/833880",
           "subject": "Black people",
-          "scheme": "FAST",
-          "identifier": "fst00833880",
-          "uri": "https://id.worldcat.org/fast/833880",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/833791",
           "subject": "Black theology",
-          "scheme": "FAST",
-          "identifier": "fst00833791",
-          "uri": "https://id.worldcat.org/fast/833791",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/894633",
           "subject": "Disabilities",
-          "scheme": "FAST",
-          "identifier": "fst00894633",
-          "uri": "https://id.worldcat.org/fast/894633",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/895100",
           "subject": "Discrimination in justice administration",
-          "scheme": "FAST",
-          "identifier": "fst00895100",
-          "uri": "https://id.worldcat.org/fast/895100",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/913104",
           "subject": "Environmental justice",
-          "scheme": "FAST",
-          "identifier": "fst00913104",
-          "uri": "https://id.worldcat.org/fast/913104",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/985122",
           "subject": "Justice",
-          "scheme": "FAST",
-          "identifier": "fst00985122",
-          "uri": "https://id.worldcat.org/fast/985122",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1353950",
           "subject": "Passion of Jesus Christ",
-          "scheme": "FAST",
-          "identifier": "fst01353950",
-          "uri": "https://id.worldcat.org/fast/1353950",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1057326",
           "subject": "People with disabilities Religious life",
-          "scheme": "FAST",
-          "identifier": "fst01057326",
-          "uri": "https://id.worldcat.org/fast/1057326",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060766",
           "subject": "Philosophical anthropology",
-          "scheme": "FAST",
-          "identifier": "fst01060766",
-          "uri": "https://id.worldcat.org/fast/1060766",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1466,7 +1284,7 @@
       "enabled": true,
       "entries": {
         "Monson.pdf": {
-          "size": 182973,
+          "size": 182989,
           "key": "Monson.pdf"
         }
       }
@@ -1504,10 +1322,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/23.1/pope/",
           "scheme": "url"
         }
@@ -1523,137 +1337,99 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/801533",
           "subject": "Agriculture History",
-          "scheme": "FAST",
-          "identifier": "fst00801533",
-          "uri": "https://id.worldcat.org/fast/801533",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/859599",
           "subject": "Christianity",
-          "scheme": "FAST",
-          "identifier": "fst00859599",
-          "uri": "https://id.worldcat.org/fast/859599",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/862898",
           "subject": "Civilization",
-          "scheme": "FAST",
-          "identifier": "fst00862898",
-          "uri": "https://id.worldcat.org/fast/862898",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/863073",
           "subject": "Civilization, Modern",
-          "scheme": "FAST",
-          "identifier": "fst00863073",
-          "uri": "https://id.worldcat.org/fast/863073",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/864229",
           "subject": "Climatic changes",
-          "scheme": "FAST",
-          "identifier": "fst00864229",
-          "uri": "https://id.worldcat.org/fast/864229",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/885075",
           "subject": "Culture Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst00885075",
-          "uri": "https://id.worldcat.org/fast/885075",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/902429",
           "subject": "Eden",
-          "scheme": "FAST",
-          "identifier": "fst00902429",
-          "uri": "https://id.worldcat.org/fast/902429",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/913104",
           "subject": "Environmental justice",
-          "scheme": "FAST",
-          "identifier": "fst00913104",
-          "uri": "https://id.worldcat.org/fast/913104",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/937852",
           "subject": "Gardening",
-          "scheme": "FAST",
-          "identifier": "fst00937852",
-          "uri": "https://id.worldcat.org/fast/937852",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/943506",
           "subject": "Global warming",
-          "scheme": "FAST",
-          "identifier": "fst00943506",
-          "uri": "https://id.worldcat.org/fast/943506",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/947703",
           "subject": "Greenhouse gas mitigation",
-          "scheme": "FAST",
-          "identifier": "fst00947703",
-          "uri": "https://id.worldcat.org/fast/947703",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/963659",
           "subject": "Humanity",
-          "scheme": "FAST",
-          "identifier": "fst00963659",
-          "uri": "https://id.worldcat.org/fast/963659",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1432055",
           "subject": "Image of God",
-          "scheme": "FAST",
-          "identifier": "fst01432055",
-          "uri": "https://id.worldcat.org/fast/1432055",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/991472",
           "subject": "Land use",
-          "scheme": "FAST",
-          "identifier": "fst00991472",
-          "uri": "https://id.worldcat.org/fast/991472",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1047368",
           "subject": "Order (Philosophy)",
-          "scheme": "FAST",
-          "identifier": "fst01047368",
-          "uri": "https://id.worldcat.org/fast/1047368",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060766",
           "subject": "Philosophical anthropology",
-          "scheme": "FAST",
-          "identifier": "fst01060766",
-          "uri": "https://id.worldcat.org/fast/1060766",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1124293",
           "subject": "Soil conservation",
-          "scheme": "FAST",
-          "identifier": "fst01124293",
-          "uri": "https://id.worldcat.org/fast/1124293",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1431587",
           "subject": "Theological anthropology",
-          "scheme": "FAST",
-          "identifier": "fst01431587",
-          "uri": "https://id.worldcat.org/fast/1431587",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1168466",
           "subject": "Vocation",
-          "scheme": "FAST",
-          "identifier": "fst01168466",
-          "uri": "https://id.worldcat.org/fast/1168466",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1710,7 +1486,7 @@
       "enabled": true,
       "entries": {
         "Pope.pdf": {
-          "size": 212499,
+          "size": 212529,
           "key": "Pope.pdf"
         }
       }
@@ -1748,10 +1524,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/23.1/prewitt_davis/",
           "scheme": "url"
         }
@@ -1767,60 +1539,44 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/859599",
           "subject": "Christianity",
-          "scheme": "FAST",
-          "identifier": "fst00859599",
-          "uri": "https://id.worldcat.org/fast/859599",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1034632",
           "subject": "Nature conservation",
-          "scheme": "FAST",
-          "identifier": "fst01034632",
-          "uri": "https://id.worldcat.org/fast/1034632",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1041386",
           "subject": "Nuns",
-          "scheme": "FAST",
-          "identifier": "fst01041386",
-          "uri": "https://id.worldcat.org/fast/1041386",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1093848",
           "subject": "Religion and science",
-          "scheme": "FAST",
-          "identifier": "fst01093848",
-          "uri": "https://id.worldcat.org/fast/1093848",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1094570",
           "subject": "Renewable energy sources",
-          "scheme": "FAST",
-          "identifier": "fst01094570",
-          "uri": "https://id.worldcat.org/fast/1094570",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1124984",
           "subject": "Solar energy",
-          "scheme": "FAST",
-          "identifier": "fst01124984",
-          "uri": "https://id.worldcat.org/fast/1124984",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1177787",
           "subject": "Women in Christianity",
-          "scheme": "FAST",
-          "identifier": "fst01177787",
-          "uri": "https://id.worldcat.org/fast/1177787",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1176921",
           "subject": "Women Religious life",
-          "scheme": "FAST",
-          "identifier": "fst01176921",
-          "uri": "https://id.worldcat.org/fast/1176921",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1869,7 +1625,7 @@
       "enabled": true,
       "entries": {
         "Prewitt-Davis.pdf": {
-          "size": 177614,
+          "size": 177628,
           "key": "Prewitt-Davis.pdf"
         }
       }

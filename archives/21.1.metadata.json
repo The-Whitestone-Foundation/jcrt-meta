@@ -31,10 +31,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/21.1/bakker/",
           "scheme": "url"
         }
@@ -50,11 +46,9 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/2027038",
           "subject": "Posthumanism",
-          "scheme": "FAST",
-          "identifier": "fst02027038",
-          "uri": "https://id.worldcat.org/fast/2027038",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -130,10 +124,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/21.1/bios/",
           "scheme": "url"
         }
@@ -149,39 +139,29 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/799755",
           "subject": "African diaspora",
-          "scheme": "FAST",
-          "identifier": "fst00799755",
-          "uri": "https://id.worldcat.org/fast/799755",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1765182",
           "subject": "Continental philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01765182",
-          "uri": "https://id.worldcat.org/fast/1765182",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/889137",
           "subject": "Deconstruction",
-          "scheme": "FAST",
-          "identifier": "fst00889137",
-          "uri": "https://id.worldcat.org/fast/889137",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/997211",
           "subject": "Liberation theology",
-          "scheme": "FAST",
-          "identifier": "fst00997211",
-          "uri": "https://id.worldcat.org/fast/997211",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060522",
           "subject": "Phenomenology",
-          "scheme": "FAST",
-          "identifier": "fst01060522",
-          "uri": "https://id.worldcat.org/fast/1060522",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -266,10 +246,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/21.1/boulting/",
           "scheme": "url"
         }
@@ -285,11 +261,9 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1060777",
           "subject": "Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01060777",
-          "uri": "https://id.worldcat.org/fast/1060777",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -366,10 +340,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/21.1/burkette/",
           "scheme": "url"
         }
@@ -385,18 +355,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1198492",
           "subject": "Faith",
-          "scheme": "FAST",
-          "identifier": "fst01198492",
-          "uri": "https://id.worldcat.org/fast/1198492",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1149559",
           "subject": "Theology",
-          "scheme": "FAST",
-          "identifier": "fst01149559",
-          "uri": "https://id.worldcat.org/fast/1149559",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -471,10 +437,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/21.1/marinho/",
           "scheme": "url"
         }
@@ -490,46 +452,34 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1206830",
           "subject": "Brazil",
-          "scheme": "FAST",
-          "identifier": "fst01206830",
-          "uri": "https://id.worldcat.org/fast/1206830",
-          "category": "geographic"
+          "scheme": "FAST-geographic"
         },
         {
+          "id": "http://id.worldcat.org/fast/893760",
           "subject": "Dignity",
-          "scheme": "FAST",
-          "identifier": "fst00893760",
-          "uri": "https://id.worldcat.org/fast/893760",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/965439",
           "subject": "Hylomorphism",
-          "scheme": "FAST",
-          "identifier": "fst00965439",
-          "uri": "https://id.worldcat.org/fast/965439",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1106919",
           "subject": "Scholasticism",
-          "scheme": "FAST",
-          "identifier": "fst01106919",
-          "uri": "https://id.worldcat.org/fast/1106919",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1431587",
           "subject": "Theological anthropology",
-          "scheme": "FAST",
-          "identifier": "fst01431587",
-          "uri": "https://id.worldcat.org/fast/1431587",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1765220",
           "subject": "Thomism",
-          "scheme": "FAST",
-          "identifier": "fst01765220",
-          "uri": "https://id.worldcat.org/fast/1765220",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -614,10 +564,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/21.1/raubach/",
           "scheme": "url"
         }
@@ -633,25 +579,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/863073",
           "subject": "Civilization, Modern",
-          "scheme": "FAST",
-          "identifier": "fst00863073",
-          "uri": "https://id.worldcat.org/fast/863073",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1069286",
           "subject": "Political ethics",
-          "scheme": "FAST",
-          "identifier": "fst01069286",
-          "uri": "https://id.worldcat.org/fast/1069286",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1100524",
           "subject": "Roses",
-          "scheme": "FAST",
-          "identifier": "fst01100524",
-          "uri": "https://id.worldcat.org/fast/1100524",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -690,7 +630,7 @@
       "enabled": true,
       "entries": {
         "Raubach.pdf": {
-          "size": 251054,
+          "size": 251169,
           "key": "Raubach.pdf"
         }
       }
@@ -728,10 +668,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/21.1/sirota/",
           "scheme": "url"
         }
@@ -747,39 +683,29 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/821634",
           "subject": "Authenticity (Philosophy)",
-          "scheme": "FAST",
-          "identifier": "fst00821634",
-          "uri": "https://id.worldcat.org/fast/821634",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1198492",
           "subject": "Faith",
-          "scheme": "FAST",
-          "identifier": "fst01198492",
-          "uri": "https://id.worldcat.org/fast/1198492",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/992193",
           "subject": "Language and languages Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst00992193",
-          "uri": "https://id.worldcat.org/fast/992193",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1069819",
           "subject": "Political science Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01069819",
-          "uri": "https://id.worldcat.org/fast/1069819",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1093794",
           "subject": "Religion Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01093794",
-          "uri": "https://id.worldcat.org/fast/1093794",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -828,7 +754,7 @@
       "enabled": true,
       "entries": {
         "Sirota.pdf": {
-          "size": 207895,
+          "size": 207927,
           "key": "Sirota.pdf"
         }
       }
@@ -866,10 +792,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/21.1/skof/",
           "scheme": "url"
         }
@@ -885,25 +807,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1026221",
           "subject": "Latter Day Saint churches",
-          "scheme": "FAST",
-          "identifier": "fst01026221",
-          "uri": "https://id.worldcat.org/fast/1026221",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1052088",
           "subject": "Panentheism",
-          "scheme": "FAST",
-          "identifier": "fst01052088",
-          "uri": "https://id.worldcat.org/fast/1052088",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1895138",
           "subject": "Quantum entanglement",
-          "scheme": "FAST",
-          "identifier": "fst01895138",
-          "uri": "https://id.worldcat.org/fast/1895138",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },

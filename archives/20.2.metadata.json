@@ -31,10 +31,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/20.2/bios/",
           "scheme": "url"
         }
@@ -50,39 +46,29 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1011758",
           "subject": "Materialism",
-          "scheme": "FAST",
-          "identifier": "fst01011758",
-          "uri": "https://id.worldcat.org/fast/1011758",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1017438",
           "subject": "Messianism",
-          "scheme": "FAST",
-          "identifier": "fst01017438",
-          "uri": "https://id.worldcat.org/fast/1017438",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1737382",
           "subject": "Neoliberalism",
-          "scheme": "FAST",
-          "identifier": "fst01737382",
-          "uri": "https://id.worldcat.org/fast/1737382",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1069899",
           "subject": "Political theology",
-          "scheme": "FAST",
-          "identifier": "fst01069899",
-          "uri": "https://id.worldcat.org/fast/1069899",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1073164",
           "subject": "Postmodernism",
-          "scheme": "FAST",
-          "identifier": "fst01073164",
-          "uri": "https://id.worldcat.org/fast/1073164",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -233,10 +219,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/20.2/praise/",
           "scheme": "url"
         }
@@ -252,11 +234,9 @@
       "description": "This edition of  JCRT is a full translation from the German of the book Preis der Sterblichkeit: Christentum und Neuer Humanismus (Freiburg im Breisgau, Germany: Verlag Herder, 2015) Kurt Appel, Editor; Jakob Deibl; Isabella Guanzini; Alex Skinner; Natalie Eder; Carl A. Raschke; Rachel Thomas (Translators)",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1093763",
           "subject": "Religion",
-          "scheme": "FAST",
-          "identifier": "fst01093763",
-          "uri": "https://id.worldcat.org/fast/1093763",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -292,7 +272,7 @@
       "enabled": true,
       "entries": {
         "Praise.pdf": {
-          "size": 2767190,
+          "size": 2765854,
           "key": "Praise.pdf"
         }
       }

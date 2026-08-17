@@ -37,7 +37,23 @@ templates/jcrt-journal-article/build-article.sh \
 
 - Arg 1 (required): the source `.md`.
 - Arg 2 (optional): output dir (defaults to the source file's directory — always pass an explicit dir so you don't write into the `jcrt-v2` content tree).
+- Any further arguments pass straight through to both Pandoc runs.
 - Output filename = input basename with the extension swapped.
+
+The archive front matter carries neither the canonical article URL nor the
+license, so `scripts/build-archive-assets.mjs` supplies both per article:
+
+```sh
+templates/jcrt-journal-article/build-article.sh \
+  ../jcrt-v2/content/archives/01.1/crockett.md output/01.1 \
+  --metadata url="https://jcrt.org/archives/01.1/crockett/" \
+  --metadata license="Licensed under CC BY 4.0" \
+  --metadata license-url="https://creativecommons.org/licenses/by/4.0/"
+```
+
+Omit them and the cover loses its "Read this article on JCRT" link and prints
+the generic "Rights: JCRT copyright policy" instead of the CC BY 4.0 line that
+every committed archive PDF carries.
 
 ## Build PDF only (skip the DOCX)
 
@@ -89,7 +105,7 @@ Approx. 15 s per file. Builds can be parallelized (e.g. `xargs -P 4`); the LuaLa
 | `doi` | PDF metadata + cover (if present) |
 | `abstract` (falls back to `description`) | PDF subject + cover Abstract block |
 | `keywords` (list) | PDF keywords + cover "Keywords:" line |
-| `url` | cover "Read this article on JCRT" link |
+| `url` | cover "Read this article on JCRT" link — **always pass this explicitly** (see gotchas) |
 | `season` | cover `volume.issue | season` line |
 | defaults | publisher "Whitestone Publications", ISSN 1530-5228, author-held copyright with the JCRT policy URL, lang en-US (all overridable) |
 
@@ -116,5 +132,7 @@ All committed archive PDFs are expected to be valid tagged (PDF/UA) documents.
 
 - **Run from the repo root.** The `--template`, `--lua-filter`, and relative logo paths assume `cwd = jcrt-meta/`.
 - **04.3 articles are frontmatter-only stubs** (no Markdown body). Building them yields contentless cover-only PDFs, so they are **not** generated from Markdown — their real source PDFs live in `../jcrt-files/archives/04.3/`.
+- **`url` is also a Pandoc LaTeX-writer variable.** The writer sets it to the boolean `true` whenever the body contains a bare autolink, which the template then renders as `Read this article on JCRT → true`. 9 of the 103 Markdown-built articles trip this. Passing `--metadata url=…` overrides it, which is why the build always supplies the canonical URL rather than relying on front matter.
+- **WebP figures are dropped.** Neither LuaLaTeX nor Word reads WebP, and Pandoc passes the undecoded bytes through under a `.png` name, which makes LuaTeX fail with `! Dimension too large`. `docx-accessibility.lua` removes WebP images, and any paragraph left holding nothing but dropped images (a bare `\\` otherwise). `02.3/magee.md` is the article this affects; its three figures came back online at jcrt.org after the archive PDFs were first built.
 - The wrapper emits a `.docx` alongside each `.pdf`; use the PDF-only Pandoc call above if you only want PDFs.
 - `samples/crockett.{md,pdf,docx}` is the golden reference build used to validate the toolchain.

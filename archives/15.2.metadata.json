@@ -31,10 +31,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/15.2/aldinger/",
           "scheme": "url"
         }
@@ -50,11 +46,9 @@
       "description": "The article critiques the film",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1130688",
           "subject": "Sports injuries",
-          "scheme": "FAST",
-          "identifier": "fst01130688",
-          "uri": "https://id.worldcat.org/fast/1130688",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -94,7 +88,7 @@
       "enabled": true,
       "entries": {
         "aldinger.pdf": {
-          "size": 250536,
+          "size": 250548,
           "key": "aldinger.pdf"
         }
       }
@@ -132,10 +126,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/15.2/betcher/",
           "scheme": "url"
         }
@@ -151,32 +141,24 @@
       "description": "The article offers the author's insights regarding the Crip/tography or the disability theology in the ruins of God and mentions its nostalgia for Jesus as Healer.",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/894633",
           "subject": "Disabilities",
-          "scheme": "FAST",
-          "identifier": "fst00894633",
-          "uri": "https://id.worldcat.org/fast/894633",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/40116",
           "subject": "Jesus Christ",
-          "scheme": "FAST",
-          "identifier": "fst00040116",
-          "uri": "https://id.worldcat.org/fast/40116",
-          "category": "personal"
+          "scheme": "FAST-personal"
         },
         {
+          "id": "http://id.worldcat.org/fast/1039536",
           "subject": "Nostalgia",
-          "scheme": "FAST",
-          "identifier": "fst01039536",
-          "uri": "https://id.worldcat.org/fast/1039536",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1093763",
           "subject": "Religion",
-          "scheme": "FAST",
-          "identifier": "fst01093763",
-          "uri": "https://id.worldcat.org/fast/1093763",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -215,7 +197,7 @@
       "enabled": true,
       "entries": {
         "betcher.pdf": {
-          "size": 326368,
+          "size": 326385,
           "key": "betcher.pdf"
         }
       }
@@ -253,10 +235,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/15.2/fox/",
           "scheme": "url"
         }
@@ -272,18 +250,14 @@
       "description": "An essay is presented on feminist disability studies focusing on the sculpture",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/922831",
           "subject": "Feminists",
-          "scheme": "FAST",
-          "identifier": "fst00922831",
-          "uri": "https://id.worldcat.org/fast/922831",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1109483",
           "subject": "Sculpture",
-          "scheme": "FAST",
-          "identifier": "fst01109483",
-          "uri": "https://id.worldcat.org/fast/1109483",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -322,7 +296,7 @@
       "enabled": true,
       "entries": {
         "fox.pdf": {
-          "size": 769765,
+          "size": 769780,
           "key": "fox.pdf"
         }
       }
@@ -371,10 +345,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/15.2/intro/",
           "scheme": "url"
         }
@@ -390,32 +360,24 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/798702",
           "subject": "Aesthetics",
-          "scheme": "FAST",
-          "identifier": "fst00798702",
-          "uri": "https://id.worldcat.org/fast/798702",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/822484",
           "subject": "Autism",
-          "scheme": "FAST",
-          "identifier": "fst00822484",
-          "uri": "https://id.worldcat.org/fast/822484",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/894656",
           "subject": "Disability studies",
-          "scheme": "FAST",
-          "identifier": "fst00894656",
-          "uri": "https://id.worldcat.org/fast/894656",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1079519",
           "subject": "Prosthesis",
-          "scheme": "FAST",
-          "identifier": "fst01079519",
-          "uri": "https://id.worldcat.org/fast/1079519",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -462,7 +424,7 @@
       "enabled": true,
       "entries": {
         "intro.pdf": {
-          "size": 100199,
+          "size": 100200,
           "key": "intro.pdf"
         }
       }
@@ -500,10 +462,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/15.2/reid/",
           "scheme": "url"
         }
@@ -519,18 +477,14 @@
       "description": "An essay is presented on related to neoclassical pattern design grottesche which was featured in the science fiction novel",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1035771",
           "subject": "Neoclassicism (Art)",
-          "scheme": "FAST",
-          "identifier": "fst01035771",
-          "uri": "https://id.worldcat.org/fast/1035771",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1173723",
           "subject": "Wells",
-          "scheme": "FAST",
-          "identifier": "fst01173723",
-          "uri": "https://id.worldcat.org/fast/1173723",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -571,7 +525,7 @@
       "enabled": true,
       "entries": {
         "reid.pdf": {
-          "size": 325882,
+          "size": 325898,
           "key": "reid.pdf"
         }
       }
@@ -609,10 +563,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/15.2/sanchez/",
           "scheme": "url"
         }
@@ -628,11 +578,9 @@
       "description": "An essay is presented on the representations of crip futurity in the novel",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1057245",
           "subject": "People with disabilities",
-          "scheme": "FAST",
-          "identifier": "fst01057245",
-          "uri": "https://id.worldcat.org/fast/1057245",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -672,7 +620,7 @@
       "enabled": true,
       "entries": {
         "sanchez.pdf": {
-          "size": 204053,
+          "size": 204064,
           "key": "sanchez.pdf"
         }
       }
@@ -710,10 +658,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/15.2/siebers/",
           "scheme": "url"
         }
@@ -729,11 +673,9 @@
       "description": "The author discusses how arts captures women with mental disability and the aesthetics of human disqualification based on the",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/817797",
           "subject": "Arts Psychology",
-          "scheme": "FAST",
-          "identifier": "fst00817797",
-          "uri": "https://id.worldcat.org/fast/817797",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -771,7 +713,7 @@
       "enabled": true,
       "entries": {
         "siebers.pdf": {
-          "size": 1611675,
+          "size": 1611048,
           "key": "siebers.pdf"
         }
       }
@@ -809,10 +751,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/15.2/valente/",
           "scheme": "url"
         }
@@ -828,11 +766,9 @@
       "description": "The author discusses how culture can sentimentalize autism as disabled stereotype, as liberal myth of individualism, and as the after image of ego ideal.",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/822484",
           "subject": "Autism",
-          "scheme": "FAST",
-          "identifier": "fst00822484",
-          "uri": "https://id.worldcat.org/fast/822484",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -870,7 +806,7 @@
       "enabled": true,
       "entries": {
         "valente.pdf": {
-          "size": 245864,
+          "size": 245877,
           "key": "valente.pdf"
         }
       }
@@ -908,10 +844,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/15.2/valente2/",
           "scheme": "url"
         }
@@ -927,11 +859,9 @@
       "description": "The article critiques the film",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/822484",
           "subject": "Autism",
-          "scheme": "FAST",
-          "identifier": "fst00822484",
-          "uri": "https://id.worldcat.org/fast/822484",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -971,7 +901,7 @@
       "enabled": true,
       "entries": {
         "valente2.pdf": {
-          "size": 140146,
+          "size": 140150,
           "key": "valente2.pdf"
         }
       }

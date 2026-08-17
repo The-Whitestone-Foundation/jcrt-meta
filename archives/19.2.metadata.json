@@ -31,10 +31,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/19.2/bios/",
           "scheme": "url"
         }
@@ -50,53 +46,39 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/819974",
           "subject": "Atheism",
-          "scheme": "FAST",
-          "identifier": "fst00819974",
-          "uri": "https://id.worldcat.org/fast/819974",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1765182",
           "subject": "Continental philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01765182",
-          "uri": "https://id.worldcat.org/fast/1765182",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/889115",
           "subject": "Decolonization",
-          "scheme": "FAST",
-          "identifier": "fst00889115",
-          "uri": "https://id.worldcat.org/fast/889115",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1031629",
           "subject": "Mysticism",
-          "scheme": "FAST",
-          "identifier": "fst01031629",
-          "uri": "https://id.worldcat.org/fast/1031629",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060522",
           "subject": "Phenomenology",
-          "scheme": "FAST",
-          "identifier": "fst01060522",
-          "uri": "https://id.worldcat.org/fast/1060522",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1069899",
           "subject": "Political theology",
-          "scheme": "FAST",
-          "identifier": "fst01069899",
-          "uri": "https://id.worldcat.org/fast/1069899",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1073163",
           "subject": "Postmodern theology",
-          "scheme": "FAST",
-          "identifier": "fst01073163",
-          "uri": "https://id.worldcat.org/fast/1073163",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -143,7 +125,7 @@
       "enabled": true,
       "entries": {
         "bios.pdf": {
-          "size": 61148,
+          "size": 61150,
           "key": "bios.pdf"
         }
       }
@@ -181,10 +163,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/19.2/green/",
           "scheme": "url"
         }
@@ -200,18 +178,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1893315",
           "subject": "Commodification",
-          "scheme": "FAST",
-          "identifier": "fst01893315",
-          "uri": "https://id.worldcat.org/fast/1893315",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1430323",
           "subject": "Essentialism (Philosophy)",
-          "scheme": "FAST",
-          "identifier": "fst01430323",
-          "uri": "https://id.worldcat.org/fast/1430323",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -250,7 +224,7 @@
       "enabled": true,
       "entries": {
         "Green.pdf": {
-          "size": 370929,
+          "size": 370921,
           "key": "Green.pdf"
         }
       }
@@ -288,10 +262,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/19.2/hackett/",
           "scheme": "url"
         }
@@ -307,18 +277,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1052088",
           "subject": "Panentheism",
-          "scheme": "FAST",
-          "identifier": "fst01052088",
-          "uri": "https://id.worldcat.org/fast/1052088",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060522",
           "subject": "Phenomenology",
-          "scheme": "FAST",
-          "identifier": "fst01060522",
-          "uri": "https://id.worldcat.org/fast/1060522",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -358,7 +324,7 @@
       "enabled": true,
       "entries": {
         "Hackett.pdf": {
-          "size": 378029,
+          "size": 378025,
           "key": "Hackett.pdf"
         }
       }
@@ -396,10 +362,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/19.2/hurley/",
           "scheme": "url"
         }
@@ -415,11 +377,9 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/960387",
           "subject": "Horror tales",
-          "scheme": "FAST",
-          "identifier": "fst00960387",
-          "uri": "https://id.worldcat.org/fast/960387",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -458,7 +418,7 @@
       "enabled": true,
       "entries": {
         "Hurley.pdf": {
-          "size": 314303,
+          "size": 314311,
           "key": "Hurley.pdf"
         }
       }
@@ -496,10 +456,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/19.2/hyman/",
           "scheme": "url"
         }
@@ -515,25 +471,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1018304",
           "subject": "Metaphysics",
-          "scheme": "FAST",
-          "identifier": "fst01018304",
-          "uri": "https://id.worldcat.org/fast/1018304",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1100524",
           "subject": "Roses",
-          "scheme": "FAST",
-          "identifier": "fst01100524",
-          "uri": "https://id.worldcat.org/fast/1100524",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1149517",
           "subject": "Theologians",
-          "scheme": "FAST",
-          "identifier": "fst01149517",
-          "uri": "https://id.worldcat.org/fast/1149517",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -572,7 +522,7 @@
       "enabled": true,
       "entries": {
         "Hyman.pdf": {
-          "size": 377855,
+          "size": 377845,
           "key": "Hyman.pdf"
         }
       }
@@ -610,10 +560,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/19.2/maltby/",
           "scheme": "url"
         }
@@ -629,18 +575,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/859135",
           "subject": "Christian fiction",
-          "scheme": "FAST",
-          "identifier": "fst00859135",
-          "uri": "https://id.worldcat.org/fast/859135",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/859222",
           "subject": "Christian literature",
-          "scheme": "FAST",
-          "identifier": "fst00859222",
-          "uri": "https://id.worldcat.org/fast/859222",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -718,10 +660,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/19.2/marion/",
           "scheme": "url"
         }
@@ -737,18 +675,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/2040698",
           "subject": "Faith (Christianity)",
-          "scheme": "FAST",
-          "identifier": "fst02040698",
-          "uri": "https://id.worldcat.org/fast/2040698",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1149559",
           "subject": "Theology",
-          "scheme": "FAST",
-          "identifier": "fst01149559",
-          "uri": "https://id.worldcat.org/fast/1149559",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -786,7 +720,7 @@
       "enabled": true,
       "entries": {
         "Marion.pdf": {
-          "size": 249458,
+          "size": 249467,
           "key": "Marion.pdf"
         }
       }
@@ -824,10 +758,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/19.2/mcavan/",
           "scheme": "url"
         }
@@ -843,25 +773,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1746988",
           "subject": "Abrahamic religions",
-          "scheme": "FAST",
-          "identifier": "fst01746988",
-          "uri": "https://id.worldcat.org/fast/1746988",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/936186",
           "subject": "Fundamentalism",
-          "scheme": "FAST",
-          "identifier": "fst00936186",
-          "uri": "https://id.worldcat.org/fast/936186",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1028836",
           "subject": "Multiculturalism",
-          "scheme": "FAST",
-          "identifier": "fst01028836",
-          "uri": "https://id.worldcat.org/fast/1028836",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -899,7 +823,7 @@
       "enabled": true,
       "entries": {
         "McAvan.pdf": {
-          "size": 268707,
+          "size": 268717,
           "key": "McAvan.pdf"
         }
       }
@@ -937,10 +861,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/19.2/molla/",
           "scheme": "url"
         }
@@ -956,25 +876,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/868483",
           "subject": "Colonization",
-          "scheme": "FAST",
-          "identifier": "fst00868483",
-          "uri": "https://id.worldcat.org/fast/868483",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/915906",
           "subject": "Ethiopians",
-          "scheme": "FAST",
-          "identifier": "fst00915906",
-          "uri": "https://id.worldcat.org/fast/915906",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081235",
           "subject": "Psychoanalysis",
-          "scheme": "FAST",
-          "identifier": "fst01081235",
-          "uri": "https://id.worldcat.org/fast/1081235",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1012,7 +926,7 @@
       "enabled": true,
       "entries": {
         "Molla.pdf": {
-          "size": 182398,
+          "size": 182408,
           "key": "Molla.pdf"
         }
       }
@@ -1050,10 +964,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/19.2/murphy/",
           "scheme": "url"
         }
@@ -1069,18 +979,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/959009",
           "subject": "Holy Spirit",
-          "scheme": "FAST",
-          "identifier": "fst00959009",
-          "uri": "https://id.worldcat.org/fast/959009",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081235",
           "subject": "Psychoanalysis",
-          "scheme": "FAST",
-          "identifier": "fst01081235",
-          "uri": "https://id.worldcat.org/fast/1081235",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1120,7 +1026,7 @@
       "enabled": true,
       "entries": {
         "Murphy.pdf": {
-          "size": 232504,
+          "size": 232510,
           "key": "Murphy.pdf"
         }
       }
@@ -1158,10 +1064,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/19.2/rosen/",
           "scheme": "url"
         }
@@ -1177,25 +1079,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/699014",
           "subject": "Ejército Zapatista de Liberación Nacional (Mexico)",
-          "scheme": "FAST",
-          "identifier": "fst00699014",
-          "uri": "https://id.worldcat.org/fast/699014",
-          "category": "corporate"
+          "scheme": "FAST-corporate"
         },
         {
+          "id": "http://id.worldcat.org/fast/1737382",
           "subject": "Neoliberalism",
-          "scheme": "FAST",
-          "identifier": "fst01737382",
-          "uri": "https://id.worldcat.org/fast/1737382",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1069386",
           "subject": "Political participation",
-          "scheme": "FAST",
-          "identifier": "fst01069386",
-          "uri": "https://id.worldcat.org/fast/1069386",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1233,7 +1129,7 @@
       "enabled": true,
       "entries": {
         "Rosen.pdf": {
-          "size": 323789,
+          "size": 323801,
           "key": "Rosen.pdf"
         }
       }
@@ -1282,10 +1178,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/19.2/tinker/",
           "scheme": "url"
         }
@@ -1301,11 +1193,9 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/868483",
           "subject": "Colonization",
-          "scheme": "FAST",
-          "identifier": "fst00868483",
-          "uri": "https://id.worldcat.org/fast/868483",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1344,7 +1234,7 @@
       "enabled": true,
       "entries": {
         "Tinker.pdf": {
-          "size": 316262,
+          "size": 316307,
           "key": "Tinker.pdf"
         }
       }

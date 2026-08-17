@@ -8,8 +8,10 @@
     "generate": "node scripts/generate-archives.mjs",
     "check": "node scripts/generate-archives.mjs --check",
     "archives:build": "node scripts/build-archive-assets.mjs",
+    "archives:rebuild": "node scripts/build-archive-assets.mjs --rebuild",
     "archives:check": "node scripts/build-archive-assets.mjs --check",
     "pdf:ua:check": "node scripts/build-archive-assets.mjs --pdf-ua-check",
+    "import:preflight": "node scripts/preflight-import.mjs",
     "article:build": "sh templates/jcrt-journal-article/build-article.sh"
   }
 }

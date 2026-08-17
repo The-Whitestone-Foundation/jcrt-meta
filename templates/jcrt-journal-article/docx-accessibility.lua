@@ -23,6 +23,19 @@ local function heading(level, content, identifier)
   return pandoc.Header(level, type(content) == "string" and {pandoc.Str(content)} or content, pandoc.Attr(identifier or ""))
 end
 
+-- Neither LuaLaTeX nor Word reads WebP, and Pandoc hands the undecoded bytes on
+-- under a .png name, which LuaTeX then measures as "Dimension too large". Some
+-- jcrt.org article figures are WebP, so drop them instead of emitting a broken
+-- graphic; the surrounding prose and links are untouched.
+function Image(img)
+  if img.src:lower():match("%.webp$") then return {} end
+end
+
+local function is_blank(block)
+  if block.t ~= "Para" and block.t ~= "Plain" then return false end
+  return text(block.content):match("^%s*$") ~= nil
+end
+
 function Pandoc(doc)
   local meta = doc.meta
   local title = text(meta.title)
@@ -31,7 +44,8 @@ function Pandoc(doc)
   for _, block in ipairs(doc.blocks) do
     local is_duplicate_title = block.t == "Header"
       and text(block.content):lower():gsub("%s+", " "):gsub("^%s+", ""):gsub("%s+$", "") == normalized_title
-    if not is_duplicate_title then blocks[#blocks + 1] = block end
+    -- A paragraph holding nothing but dropped images would emit a bare \\.
+    if not is_duplicate_title and not is_blank(block) then blocks[#blocks + 1] = block end
   end
   doc.blocks = blocks
 

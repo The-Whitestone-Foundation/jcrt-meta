@@ -31,10 +31,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/24.1/abstracts/",
           "scheme": "url"
         }
@@ -50,11 +46,9 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1093763",
           "subject": "Religion",
-          "scheme": "FAST",
-          "identifier": "fst01093763",
-          "uri": "https://id.worldcat.org/fast/1093763",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -88,7 +82,7 @@
       "enabled": true,
       "entries": {
         "abstracts.pdf": {
-          "size": 179751,
+          "size": 179752,
           "key": "abstracts.pdf"
         }
       }
@@ -126,10 +120,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/24.1/bios/",
           "scheme": "url"
         }
@@ -145,11 +135,9 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1093763",
           "subject": "Religion",
-          "scheme": "FAST",
-          "identifier": "fst01093763",
-          "uri": "https://id.worldcat.org/fast/1093763",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -183,7 +171,7 @@
       "enabled": true,
       "entries": {
         "bios.pdf": {
-          "size": 66747,
+          "size": 66746,
           "key": "bios.pdf"
         }
       }
@@ -232,10 +220,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/24.1/daga/",
           "scheme": "url"
         }
@@ -251,60 +235,44 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/801935",
           "subject": "Ahiṃsā",
-          "scheme": "FAST",
-          "identifier": "fst00801935",
-          "uri": "https://id.worldcat.org/fast/801935",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/818425",
           "subject": "Asceticism",
-          "scheme": "FAST",
-          "identifier": "fst00818425",
-          "uri": "https://id.worldcat.org/fast/818425",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/888613",
           "subject": "Death",
-          "scheme": "FAST",
-          "identifier": "fst00888613",
-          "uri": "https://id.worldcat.org/fast/888613",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/921717",
           "subject": "Fasting",
-          "scheme": "FAST",
-          "identifier": "fst00921717",
-          "uri": "https://id.worldcat.org/fast/921717",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/981169",
           "subject": "Jaina ethics",
-          "scheme": "FAST",
-          "identifier": "fst00981169",
-          "uri": "https://id.worldcat.org/fast/981169",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/981236",
           "subject": "Jainism",
-          "scheme": "FAST",
-          "identifier": "fst00981236",
-          "uri": "https://id.worldcat.org/fast/981236",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1039027",
           "subject": "Nonviolence",
-          "scheme": "FAST",
-          "identifier": "fst01039027",
-          "uri": "https://id.worldcat.org/fast/1039027",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1104071",
           "subject": "Sallekhanā",
-          "scheme": "FAST",
-          "identifier": "fst01104071",
-          "uri": "https://id.worldcat.org/fast/1104071",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -350,7 +318,7 @@
       "enabled": true,
       "entries": {
         "Daga.pdf": {
-          "size": 411424,
+          "size": 411402,
           "key": "Daga.pdf"
         }
       }
@@ -388,10 +356,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/24.1/durante/",
           "scheme": "url"
         }
@@ -407,46 +371,34 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/832038",
           "subject": "Bioethics",
-          "scheme": "FAST",
-          "identifier": "fst00832038",
-          "uri": "https://id.worldcat.org/fast/832038",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1014081",
           "subject": "Medical ethics",
-          "scheme": "FAST",
-          "identifier": "fst01014081",
-          "uri": "https://id.worldcat.org/fast/1014081",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1067392",
           "subject": "Pluralism",
-          "scheme": "FAST",
-          "identifier": "fst01067392",
-          "uri": "https://id.worldcat.org/fast/1067392",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1074582",
           "subject": "Pragmatism",
-          "scheme": "FAST",
-          "identifier": "fst01074582",
-          "uri": "https://id.worldcat.org/fast/1074582",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1093842",
           "subject": "Religion and politics",
-          "scheme": "FAST",
-          "identifier": "fst01093842",
-          "uri": "https://id.worldcat.org/fast/1093842",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1110732",
           "subject": "Secularism",
-          "scheme": "FAST",
-          "identifier": "fst01110732",
-          "uri": "https://id.worldcat.org/fast/1110732",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -529,10 +481,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/24.1/godazgar/",
           "scheme": "url"
         }
@@ -548,53 +496,39 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/819130",
           "subject": "Assisted suicide",
-          "scheme": "FAST",
-          "identifier": "fst00819130",
-          "uri": "https://id.worldcat.org/fast/819130",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/916915",
           "subject": "Euthanasia",
-          "scheme": "FAST",
-          "identifier": "fst00916915",
-          "uri": "https://id.worldcat.org/fast/916915",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/979776",
           "subject": "Islam",
-          "scheme": "FAST",
-          "identifier": "fst00979776",
-          "uri": "https://id.worldcat.org/fast/979776",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1014081",
           "subject": "Medical ethics",
-          "scheme": "FAST",
-          "identifier": "fst01014081",
-          "uri": "https://id.worldcat.org/fast/1014081",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1015038",
           "subject": "Medicine Religious aspects",
-          "scheme": "FAST",
-          "identifier": "fst01015038",
-          "uri": "https://id.worldcat.org/fast/1015038",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1748939",
           "subject": "Social constructionism",
-          "scheme": "FAST",
-          "identifier": "fst01748939",
-          "uri": "https://id.worldcat.org/fast/1748939",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1147835",
           "subject": "Terminal care",
-          "scheme": "FAST",
-          "identifier": "fst01147835",
-          "uri": "https://id.worldcat.org/fast/1147835",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -677,10 +611,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/24.1/grammenou/",
           "scheme": "url"
         }
@@ -696,32 +626,24 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/832668",
           "subject": "Biopolitics",
-          "scheme": "FAST",
-          "identifier": "fst00832668",
-          "uri": "https://id.worldcat.org/fast/832668",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/888613",
           "subject": "Death",
-          "scheme": "FAST",
-          "identifier": "fst00888613",
-          "uri": "https://id.worldcat.org/fast/888613",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1938420",
           "subject": "Medicalization",
-          "scheme": "FAST",
-          "identifier": "fst01938420",
-          "uri": "https://id.worldcat.org/fast/1938420",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1137151",
           "subject": "Suffering",
-          "scheme": "FAST",
-          "identifier": "fst01137151",
-          "uri": "https://id.worldcat.org/fast/1137151",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -767,7 +689,7 @@
       "enabled": true,
       "entries": {
         "Grammenou.pdf": {
-          "size": 252147,
+          "size": 252157,
           "key": "Grammenou.pdf"
         }
       }
@@ -805,10 +727,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/24.1/grane/",
           "scheme": "url"
         }
@@ -824,60 +742,44 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/832038",
           "subject": "Bioethics",
-          "scheme": "FAST",
-          "identifier": "fst00832038",
-          "uri": "https://id.worldcat.org/fast/832038",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1198492",
           "subject": "Faith",
-          "scheme": "FAST",
-          "identifier": "fst01198492",
-          "uri": "https://id.worldcat.org/fast/1198492",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/939593",
           "subject": "Gender identity",
-          "scheme": "FAST",
-          "identifier": "fst00939593",
-          "uri": "https://id.worldcat.org/fast/939593",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/2070480",
           "subject": "Gender-affirming care",
-          "scheme": "FAST",
-          "identifier": "fst02070480",
-          "uri": "https://id.worldcat.org/fast/2070480",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1014081",
           "subject": "Medical ethics",
-          "scheme": "FAST",
-          "identifier": "fst01014081",
-          "uri": "https://id.worldcat.org/fast/1014081",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1791005",
           "subject": "Religion and gender",
-          "scheme": "FAST",
-          "identifier": "fst01791005",
-          "uri": "https://id.worldcat.org/fast/1791005",
-          "category": "title"
+          "scheme": "FAST-title"
         },
         {
+          "id": "http://id.worldcat.org/fast/1094052",
           "subject": "Religious ethics",
-          "scheme": "FAST",
-          "identifier": "fst01094052",
-          "uri": "https://id.worldcat.org/fast/1094052",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1743062",
           "subject": "Transgender youth",
-          "scheme": "FAST",
-          "identifier": "fst01743062",
-          "uri": "https://id.worldcat.org/fast/1743062",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -922,7 +824,7 @@
       "enabled": true,
       "entries": {
         "Grane.pdf": {
-          "size": 476401,
+          "size": 476425,
           "key": "Grane.pdf"
         }
       }
@@ -960,10 +862,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/24.1/harwood/",
           "scheme": "url"
         }
@@ -979,53 +877,39 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/797076",
           "subject": "Adoption",
-          "scheme": "FAST",
-          "identifier": "fst00797076",
-          "uri": "https://id.worldcat.org/fast/797076",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/832038",
           "subject": "Bioethics",
-          "scheme": "FAST",
-          "identifier": "fst00832038",
-          "uri": "https://id.worldcat.org/fast/832038",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/920147",
           "subject": "Family",
-          "scheme": "FAST",
-          "identifier": "fst00920147",
-          "uri": "https://id.worldcat.org/fast/920147",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/940117",
           "subject": "Genetics",
-          "scheme": "FAST",
-          "identifier": "fst00940117",
-          "uri": "https://id.worldcat.org/fast/940117",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/987769",
           "subject": "Kinship",
-          "scheme": "FAST",
-          "identifier": "fst00987769",
-          "uri": "https://id.worldcat.org/fast/987769",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1053396",
           "subject": "Parenthood",
-          "scheme": "FAST",
-          "identifier": "fst01053396",
-          "uri": "https://id.worldcat.org/fast/1053396",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1095008",
           "subject": "Reproductive technology",
-          "scheme": "FAST",
-          "identifier": "fst01095008",
-          "uri": "https://id.worldcat.org/fast/1095008",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1070,7 +954,7 @@
       "enabled": true,
       "entries": {
         "Harwood.pdf": {
-          "size": 294635,
+          "size": 294581,
           "key": "Harwood.pdf"
         }
       }
@@ -1108,10 +992,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/24.1/phelps/",
           "scheme": "url"
         }
@@ -1127,11 +1007,9 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1093763",
           "subject": "Religion",
-          "scheme": "FAST",
-          "identifier": "fst01093763",
-          "uri": "https://id.worldcat.org/fast/1093763",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1216,10 +1094,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/24.1/ruan/",
           "scheme": "url"
         }
@@ -1235,53 +1109,39 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/857192",
           "subject": "Chinese History",
-          "scheme": "FAST",
-          "identifier": "fst00857192",
-          "uri": "https://id.worldcat.org/fast/857192",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/863569",
           "subject": "Classification",
-          "scheme": "FAST",
-          "identifier": "fst00863569",
-          "uri": "https://id.worldcat.org/fast/863569",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/915833",
           "subject": "Ethics",
-          "scheme": "FAST",
-          "identifier": "fst00915833",
-          "uri": "https://id.worldcat.org/fast/915833",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1010904",
           "subject": "Martyrdom",
-          "scheme": "FAST",
-          "identifier": "fst01010904",
-          "uri": "https://id.worldcat.org/fast/1010904",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1111926",
           "subject": "Self-sacrifice",
-          "scheme": "FAST",
-          "identifier": "fst01111926",
-          "uri": "https://id.worldcat.org/fast/1111926",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1137578",
           "subject": "Suicide",
-          "scheme": "FAST",
-          "identifier": "fst01137578",
-          "uri": "https://id.worldcat.org/fast/1137578",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "https://homosaurus.org/v3/homoit0000560",
           "subject": "Gender",
-          "scheme": "Homosaurus",
-          "identifier": "homoit0000560",
-          "uri": "https://homosaurus.org/v5/homoit0000560",
-          "category": "topical"
+          "scheme": "Homosaurus"
         }
       ]
     },
@@ -1328,7 +1188,7 @@
       "enabled": true,
       "entries": {
         "Ruan.pdf": {
-          "size": 341728,
+          "size": 341704,
           "key": "Ruan.pdf"
         }
       }
@@ -1366,10 +1226,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/24.1/silverstein/",
           "scheme": "url"
         }
@@ -1385,60 +1241,44 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/832038",
           "subject": "Bioethics",
-          "scheme": "FAST",
-          "identifier": "fst00832038",
-          "uri": "https://id.worldcat.org/fast/832038",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/923145",
           "subject": "Fertility",
-          "scheme": "FAST",
-          "identifier": "fst00923145",
-          "uri": "https://id.worldcat.org/fast/923145",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/947883",
           "subject": "Grief",
-          "scheme": "FAST",
-          "identifier": "fst00947883",
-          "uri": "https://id.worldcat.org/fast/947883",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1204236",
           "subject": "Israel",
-          "scheme": "FAST",
-          "identifier": "fst01204236",
-          "uri": "https://id.worldcat.org/fast/1204236",
-          "category": "geographic"
+          "scheme": "FAST-geographic"
         },
         {
+          "id": "http://id.worldcat.org/fast/982801",
           "subject": "Jewish law",
-          "scheme": "FAST",
-          "identifier": "fst00982801",
-          "uri": "https://id.worldcat.org/fast/982801",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/984280",
           "subject": "Judaism",
-          "scheme": "FAST",
-          "identifier": "fst00984280",
-          "uri": "https://id.worldcat.org/fast/984280",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1014081",
           "subject": "Medical ethics",
-          "scheme": "FAST",
-          "identifier": "fst01014081",
-          "uri": "https://id.worldcat.org/fast/1014081",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1095008",
           "subject": "Reproductive technology",
-          "scheme": "FAST",
-          "identifier": "fst01095008",
-          "uri": "https://id.worldcat.org/fast/1095008",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },

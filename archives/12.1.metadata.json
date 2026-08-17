@@ -31,10 +31,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/12.1/dicken/",
           "scheme": "url"
         }
@@ -50,53 +46,39 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1919896",
           "subject": "Biographies",
-          "scheme": "FAST",
-          "identifier": "fst01919896",
-          "uri": "https://id.worldcat.org/fast/1919896",
-          "category": "form-genre"
+          "scheme": "FAST-formgenre"
         },
         {
+          "id": "http://id.worldcat.org/fast/945846",
           "subject": "Graffiti",
-          "scheme": "FAST",
-          "identifier": "fst00945846",
-          "uri": "https://id.worldcat.org/fast/945846",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/40116",
           "subject": "Jesus Christ",
-          "scheme": "FAST",
-          "identifier": "fst00040116",
-          "uri": "https://id.worldcat.org/fast/40116",
-          "category": "personal"
+          "scheme": "FAST-personal"
         },
         {
+          "id": "http://id.worldcat.org/fast/1033061",
           "subject": "Narrative theology",
-          "scheme": "FAST",
-          "identifier": "fst01033061",
-          "uri": "https://id.worldcat.org/fast/1033061",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060773",
           "subject": "Philosophical theology",
-          "scheme": "FAST",
-          "identifier": "fst01060773",
-          "uri": "https://id.worldcat.org/fast/1060773",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1149559",
           "subject": "Theology",
-          "scheme": "FAST",
-          "identifier": "fst01149559",
-          "uri": "https://id.worldcat.org/fast/1149559",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1149580",
           "subject": "Theology Methodology",
-          "scheme": "FAST",
-          "identifier": "fst01149580",
-          "uri": "https://id.worldcat.org/fast/1149580",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -149,7 +131,7 @@
       "enabled": true,
       "entries": {
         "dicken.pdf": {
-          "size": 307922,
+          "size": 307939,
           "key": "dicken.pdf"
         }
       }
@@ -187,10 +169,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/12.1/kessler/",
           "scheme": "url"
         }
@@ -206,46 +184,34 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/811532",
           "subject": "Appearance (Philosophy)",
-          "scheme": "FAST",
-          "identifier": "fst00811532",
-          "uri": "https://id.worldcat.org/fast/811532",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/883735",
           "subject": "Criticism",
-          "scheme": "FAST",
-          "identifier": "fst00883735",
-          "uri": "https://id.worldcat.org/fast/883735",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/984280",
           "subject": "Judaism",
-          "scheme": "FAST",
-          "identifier": "fst00984280",
-          "uri": "https://id.worldcat.org/fast/984280",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/984302",
           "subject": "Judaism Doctrines",
-          "scheme": "FAST",
-          "identifier": "fst00984302",
-          "uri": "https://id.worldcat.org/fast/984302",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060777",
           "subject": "Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01060777",
-          "uri": "https://id.worldcat.org/fast/1060777",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1110732",
           "subject": "Secularism",
-          "scheme": "FAST",
-          "identifier": "fst01110732",
-          "uri": "https://id.worldcat.org/fast/1110732",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -297,7 +263,7 @@
       "enabled": true,
       "entries": {
         "kessler.pdf": {
-          "size": 298328,
+          "size": 298342,
           "key": "kessler.pdf"
         }
       }
@@ -335,10 +301,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/12.1/kornbluh/",
           "scheme": "url"
         }
@@ -354,32 +316,24 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/810950",
           "subject": "Anxiety",
-          "scheme": "FAST",
-          "identifier": "fst00810950",
-          "uri": "https://id.worldcat.org/fast/810950",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1919741",
           "subject": "Politics and government",
-          "scheme": "FAST",
-          "identifier": "fst01919741",
-          "uri": "https://id.worldcat.org/fast/1919741",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081235",
           "subject": "Psychoanalysis",
-          "scheme": "FAST",
-          "identifier": "fst01081235",
-          "uri": "https://id.worldcat.org/fast/1081235",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1127379",
           "subject": "Sovereignty",
-          "scheme": "FAST",
-          "identifier": "fst01127379",
-          "uri": "https://id.worldcat.org/fast/1127379",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -429,7 +383,7 @@
       "enabled": true,
       "entries": {
         "kornbluh.pdf": {
-          "size": 289447,
+          "size": 289446,
           "key": "kornbluh.pdf"
         }
       }
@@ -478,10 +432,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/12.1/lupton.gordon/",
           "scheme": "url"
         }
@@ -497,32 +447,24 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/832668",
           "subject": "Biopolitics",
-          "scheme": "FAST",
-          "identifier": "fst00832668",
-          "uri": "https://id.worldcat.org/fast/832668",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1069899",
           "subject": "Political theology",
-          "scheme": "FAST",
-          "identifier": "fst01069899",
-          "uri": "https://id.worldcat.org/fast/1069899",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081235",
           "subject": "Psychoanalysis",
-          "scheme": "FAST",
-          "identifier": "fst01081235",
-          "uri": "https://id.worldcat.org/fast/1081235",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1127379",
           "subject": "Sovereignty",
-          "scheme": "FAST",
-          "identifier": "fst01127379",
-          "uri": "https://id.worldcat.org/fast/1127379",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -569,7 +511,7 @@
       "enabled": true,
       "entries": {
         "lupton.gordon.pdf": {
-          "size": 194350,
+          "size": 194353,
           "key": "lupton.gordon.pdf"
         }
       }
@@ -607,10 +549,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/12.1/maltby/",
           "scheme": "url"
         }
@@ -626,88 +564,64 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/798702",
           "subject": "Aesthetics",
-          "scheme": "FAST",
-          "identifier": "fst00798702",
-          "uri": "https://id.worldcat.org/fast/798702",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/815432",
           "subject": "Art and society",
-          "scheme": "FAST",
-          "identifier": "fst00815432",
-          "uri": "https://id.worldcat.org/fast/815432",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/815312",
           "subject": "Art Prices",
-          "scheme": "FAST",
-          "identifier": "fst00815312",
-          "uri": "https://id.worldcat.org/fast/815312",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/876455",
           "subject": "Consumption (Economics)",
-          "scheme": "FAST",
-          "identifier": "fst00876455",
-          "uri": "https://id.worldcat.org/fast/876455",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/885075",
           "subject": "Culture Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst00885075",
-          "uri": "https://id.worldcat.org/fast/885075",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/987956",
           "subject": "Kitsch",
-          "scheme": "FAST",
-          "identifier": "fst00987956",
-          "uri": "https://id.worldcat.org/fast/987956",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1899801",
           "subject": "Landscapes in art",
-          "scheme": "FAST",
-          "identifier": "fst01899801",
-          "uri": "https://id.worldcat.org/fast/1899801",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1042786",
           "subject": "Object (Philosophy)",
-          "scheme": "FAST",
-          "identifier": "fst01042786",
-          "uri": "https://id.worldcat.org/fast/1042786",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1052838",
           "subject": "Paradise in art",
-          "scheme": "FAST",
-          "identifier": "fst01052838",
-          "uri": "https://id.worldcat.org/fast/1052838",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1073164",
           "subject": "Postmodernism",
-          "scheme": "FAST",
-          "identifier": "fst01073164",
-          "uri": "https://id.worldcat.org/fast/1073164",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1109483",
           "subject": "Sculpture",
-          "scheme": "FAST",
-          "identifier": "fst01109483",
-          "uri": "https://id.worldcat.org/fast/1109483",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1110732",
           "subject": "Secularism",
-          "scheme": "FAST",
-          "identifier": "fst01110732",
-          "uri": "https://id.worldcat.org/fast/1110732",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -800,10 +714,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/12.1/mciver/",
           "scheme": "url"
         }
@@ -819,53 +729,39 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/798702",
           "subject": "Aesthetics",
-          "scheme": "FAST",
-          "identifier": "fst00798702",
-          "uri": "https://id.worldcat.org/fast/798702",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1024455",
           "subject": "Modernism (Literature)",
-          "scheme": "FAST",
-          "identifier": "fst01024455",
-          "uri": "https://id.worldcat.org/fast/1024455",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1062957",
           "subject": "Physicians in literature",
-          "scheme": "FAST",
-          "identifier": "fst01062957",
-          "uri": "https://id.worldcat.org/fast/1062957",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1919741",
           "subject": "Politics and government",
-          "scheme": "FAST",
-          "identifier": "fst01919741",
-          "uri": "https://id.worldcat.org/fast/1919741",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1354514",
           "subject": "Revolution (France : 1789-1799)",
-          "scheme": "FAST",
-          "identifier": "fst01354514",
-          "uri": "https://id.worldcat.org/fast/1354514",
-          "category": "event"
+          "scheme": "FAST-event"
         },
         {
+          "id": "http://id.worldcat.org/fast/1115183",
           "subject": "Shame",
-          "scheme": "FAST",
-          "identifier": "fst01115183",
-          "uri": "https://id.worldcat.org/fast/1115183",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1127379",
           "subject": "Sovereignty",
-          "scheme": "FAST",
-          "identifier": "fst01127379",
-          "uri": "https://id.worldcat.org/fast/1127379",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -913,7 +809,7 @@
       "enabled": true,
       "entries": {
         "mciver.pdf": {
-          "size": 247701,
+          "size": 247797,
           "key": "mciver.pdf"
         }
       }
@@ -951,10 +847,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/12.1/miller/",
           "scheme": "url"
         }
@@ -970,25 +862,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1919741",
           "subject": "Politics and government",
-          "scheme": "FAST",
-          "identifier": "fst01919741",
-          "uri": "https://id.worldcat.org/fast/1919741",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081280",
           "subject": "Psychoanalysis and religion",
-          "scheme": "FAST",
-          "identifier": "fst01081280",
-          "uri": "https://id.worldcat.org/fast/1081280",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1093842",
           "subject": "Religion and politics",
-          "scheme": "FAST",
-          "identifier": "fst01093842",
-          "uri": "https://id.worldcat.org/fast/1093842",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1040,7 +926,7 @@
       "enabled": true,
       "entries": {
         "miller.pdf": {
-          "size": 203492,
+          "size": 203496,
           "key": "miller.pdf"
         }
       }
@@ -1078,10 +964,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/12.1/nelson/",
           "scheme": "url"
         }
@@ -1097,39 +979,29 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/815177",
           "subject": "Art",
-          "scheme": "FAST",
-          "identifier": "fst00815177",
-          "uri": "https://id.worldcat.org/fast/815177",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/825145",
           "subject": "Bacon",
-          "scheme": "FAST",
-          "identifier": "fst00825145",
-          "uri": "https://id.worldcat.org/fast/825145",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1896063",
           "subject": "Human figure in art",
-          "scheme": "FAST",
-          "identifier": "fst01896063",
-          "uri": "https://id.worldcat.org/fast/1896063",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1919741",
           "subject": "Politics and government",
-          "scheme": "FAST",
-          "identifier": "fst01919741",
-          "uri": "https://id.worldcat.org/fast/1919741",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1127379",
           "subject": "Sovereignty",
-          "scheme": "FAST",
-          "identifier": "fst01127379",
-          "uri": "https://id.worldcat.org/fast/1127379",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1186,7 +1058,7 @@
       "enabled": true,
       "entries": {
         "nelson.pdf": {
-          "size": 242854,
+          "size": 242860,
           "key": "nelson.pdf"
         }
       }
@@ -1224,10 +1096,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/12.1/rust/",
           "scheme": "url"
         }
@@ -1243,32 +1111,24 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/948442",
           "subject": "Group identity",
-          "scheme": "FAST",
-          "identifier": "fst00948442",
-          "uri": "https://id.worldcat.org/fast/948442",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1069480",
           "subject": "Political plays",
-          "scheme": "FAST",
-          "identifier": "fst01069480",
-          "uri": "https://id.worldcat.org/fast/1069480",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1069819",
           "subject": "Political science Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01069819",
-          "uri": "https://id.worldcat.org/fast/1069819",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1919741",
           "subject": "Politics and government",
-          "scheme": "FAST",
-          "identifier": "fst01919741",
-          "uri": "https://id.worldcat.org/fast/1919741",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1321,7 +1181,7 @@
       "enabled": true,
       "entries": {
         "rust.pdf": {
-          "size": 234967,
+          "size": 234970,
           "key": "rust.pdf"
         }
       }
@@ -1359,10 +1219,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/12.1/santner/",
           "scheme": "url"
         }
@@ -1378,25 +1234,19 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/914677",
           "subject": "Ericas",
-          "scheme": "FAST",
-          "identifier": "fst00914677",
-          "uri": "https://id.worldcat.org/fast/914677",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1919741",
           "subject": "Politics and government",
-          "scheme": "FAST",
-          "identifier": "fst01919741",
-          "uri": "https://id.worldcat.org/fast/1919741",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1127379",
           "subject": "Sovereignty",
-          "scheme": "FAST",
-          "identifier": "fst01127379",
-          "uri": "https://id.worldcat.org/fast/1127379",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1457,7 +1307,7 @@
       "enabled": true,
       "entries": {
         "santner.pdf": {
-          "size": 319618,
+          "size": 319627,
           "key": "santner.pdf"
         }
       }
@@ -1495,10 +1345,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/12.1/schulman/",
           "scheme": "url"
         }
@@ -1514,32 +1360,24 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1069819",
           "subject": "Political science Philosophy",
-          "scheme": "FAST",
-          "identifier": "fst01069819",
-          "uri": "https://id.worldcat.org/fast/1069819",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1919741",
           "subject": "Politics and government",
-          "scheme": "FAST",
-          "identifier": "fst01919741",
-          "uri": "https://id.worldcat.org/fast/1919741",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1074219",
           "subject": "Power (Social sciences)",
-          "scheme": "FAST",
-          "identifier": "fst01074219",
-          "uri": "https://id.worldcat.org/fast/1074219",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1127379",
           "subject": "Sovereignty",
-          "scheme": "FAST",
-          "identifier": "fst01127379",
-          "uri": "https://id.worldcat.org/fast/1127379",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1590,7 +1428,7 @@
       "enabled": true,
       "entries": {
         "schulman.pdf": {
-          "size": 209903,
+          "size": 209905,
           "key": "schulman.pdf"
         }
       }
@@ -1628,10 +1466,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/12.1/vahanian/",
           "scheme": "url"
         }
@@ -1647,32 +1481,24 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/810769",
           "subject": "Antisemitism",
-          "scheme": "FAST",
-          "identifier": "fst00810769",
-          "uri": "https://id.worldcat.org/fast/810769",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/983106",
           "subject": "Jewish-Arab relations",
-          "scheme": "FAST",
-          "identifier": "fst00983106",
-          "uri": "https://id.worldcat.org/fast/983106",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/984439",
           "subject": "Judaism and politics",
-          "scheme": "FAST",
-          "identifier": "fst00984439",
-          "uri": "https://id.worldcat.org/fast/984439",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1184468",
           "subject": "Zionism",
-          "scheme": "FAST",
-          "identifier": "fst01184468",
-          "uri": "https://id.worldcat.org/fast/1184468",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1716,7 +1542,7 @@
       "enabled": true,
       "entries": {
         "vahanian.pdf": {
-          "size": 217216,
+          "size": 217224,
           "key": "vahanian.pdf"
         }
       }
@@ -1754,10 +1580,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/12.1/weitzman/",
           "scheme": "url"
         }
@@ -1773,39 +1595,29 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/869083",
           "subject": "Comedy",
-          "scheme": "FAST",
-          "identifier": "fst00869083",
-          "uri": "https://id.worldcat.org/fast/869083",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1060766",
           "subject": "Philosophical anthropology",
-          "scheme": "FAST",
-          "identifier": "fst01060766",
-          "uri": "https://id.worldcat.org/fast/1060766",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1919741",
           "subject": "Politics and government",
-          "scheme": "FAST",
-          "identifier": "fst01919741",
-          "uri": "https://id.worldcat.org/fast/1919741",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1896084",
           "subject": "Politics in literature",
-          "scheme": "FAST",
-          "identifier": "fst01896084",
-          "uri": "https://id.worldcat.org/fast/1896084",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1127379",
           "subject": "Sovereignty",
-          "scheme": "FAST",
-          "identifier": "fst01127379",
-          "uri": "https://id.worldcat.org/fast/1127379",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1856,7 +1668,7 @@
       "enabled": true,
       "entries": {
         "weitzman.pdf": {
-          "size": 279709,
+          "size": 279713,
           "key": "weitzman.pdf"
         }
       }

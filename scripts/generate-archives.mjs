@@ -67,14 +67,40 @@ function date(value, year) {
   return text.match(/^\d{4}-\d{2}-\d{2}/)?.[0] || text.match(/^\d{4}/)?.[0] || "";
 }
 
-function subjects(value) {
-  return (Array.isArray(value) ? value : []).map(({ label, scheme, identifier, uri, category }) => ({
-    subject: label,
-    scheme,
-    identifier,
-    uri,
-    category,
-  }));
+const FAST_FACETS = new Map([
+  ["topical", "FAST-topical"],
+  ["geographic", "FAST-geographic"],
+  ["corporate", "FAST-corporate"],
+  ["form-genre", "FAST-formgenre"],
+  ["event", "FAST-event"],
+  ["meeting", "FAST-meeting"],
+  ["personal", "FAST-personal"],
+  ["title", "FAST-title"],
+  ["chronological", "FAST-chronological"],
+]);
+
+// KCWorks keys its authority vocabularies on exact id strings: FAST on
+// http://id.worldcat.org/fast/<n> and Homosaurus on the v3 URI. The front
+// matter stores https FAST URIs and v5 Homosaurus URIs, so normalize here
+// rather than rewriting 821 source files.
+function subjectId(uri, file) {
+  const fast = String(uri || "").match(/^https?:\/\/id\.worldcat\.org\/fast\/(\d+)$/);
+  if (fast) return `http://id.worldcat.org/fast/${fast[1]}`;
+  const homosaurus = String(uri || "").match(/^https?:\/\/homosaurus\.org\/v\d+\/(homoit\d+)$/);
+  if (homosaurus) return `https://homosaurus.org/v3/${homosaurus[1]}`;
+  throw new Error(`Unrecognized subject URI (${uri}): ${file}`);
+}
+
+function subjects(value, file) {
+  return (Array.isArray(value) ? value : []).map(({ label, scheme, uri, category }) => {
+    const facet = FAST_FACETS.get(String(category || ""));
+    if (scheme === "FAST" && !facet) throw new Error(`Unrecognized FAST category (${category}): ${file}`);
+    return {
+      id: subjectId(uri, file),
+      subject: label,
+      scheme: scheme === "FAST" ? facet : scheme,
+    };
+  });
 }
 
 function pdfEntry(issue, pdf) {
@@ -91,7 +117,10 @@ function pdfEntry(issue, pdf) {
 	if (!entry) throw new Error(`Missing PDF in ZIP: ${archive}:${key}`);
 	const result = spawnSync("unzip", ["-p", archive, entry], { encoding: null, maxBuffer: 256 * 1024 * 1024 });
 	if (result.status !== 0) throw new Error(`Missing PDF in ZIP: ${archive}:${key}`);
-	return { [key]: { size: result.stdout.length, key } };
+	// Key on the real ZIP entry, not the requested name: the lookup above falls
+	// back to a case-insensitive match, and KCWorks pairs uploaded files to
+	// entries by exact filename (22.1/grane.md asks for Grane.pdf, file is grane.pdf).
+	return { [entry]: { size: result.stdout.length, key: entry } };
 }
 
 function record(issue, file) {
@@ -102,7 +131,6 @@ function record(issue, file) {
 	const pdf = typeof data.pdf === "string" && data.pdf.trim() ? data.pdf.trim() : `${slug}.pdf`;
   const identifiers = [
     { identifier: String(data.nanoid), scheme: "import-recid" },
-    { identifier: "1530-5228", scheme: "issn" },
     { identifier: `https://jcrt.org/archives/${issue}/${slug}/`, scheme: "url" },
   ];
   if (data.doi) identifiers.push({ identifier: String(data.doi), scheme: "doi" });
@@ -117,7 +145,7 @@ function record(issue, file) {
 		rights: [{ title: { en: RIGHTS_TEXT }, link: RIGHTS_URL }],
     description: String(data.description || data.abstract || ""),
   };
-  const controlled = subjects(data.subjects);
+  const controlled = subjects(data.subjects, file);
   if (controlled.length) metadata.subjects = controlled;
   const result = {
     metadata,

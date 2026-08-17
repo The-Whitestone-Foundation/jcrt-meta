@@ -31,10 +31,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/10.2/bibb/",
           "scheme": "url"
         }
@@ -50,53 +46,39 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1355886",
           "subject": "1939-1945",
-          "scheme": "FAST",
-          "identifier": "fst01355886",
-          "uri": "https://id.worldcat.org/fast/1355886",
-          "category": "chronological"
+          "scheme": "FAST-chronological"
         },
         {
+          "id": "http://id.worldcat.org/fast/883735",
           "subject": "Criticism",
-          "scheme": "FAST",
-          "identifier": "fst00883735",
-          "uri": "https://id.worldcat.org/fast/883735",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1053030",
           "subject": "Paranoia",
-          "scheme": "FAST",
-          "identifier": "fst01053030",
-          "uri": "https://id.worldcat.org/fast/1053030",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1067682",
           "subject": "Poetics",
-          "scheme": "FAST",
-          "identifier": "fst01067682",
-          "uri": "https://id.worldcat.org/fast/1067682",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1067691",
           "subject": "Poetry",
-          "scheme": "FAST",
-          "identifier": "fst01067691",
-          "uri": "https://id.worldcat.org/fast/1067691",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081273",
           "subject": "Psychoanalysis and literature",
-          "scheme": "FAST",
-          "identifier": "fst01081273",
-          "uri": "https://id.worldcat.org/fast/1081273",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1130170",
           "subject": "Spiritualism",
-          "scheme": "FAST",
-          "identifier": "fst01130170",
-          "uri": "https://id.worldcat.org/fast/1130170",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -145,7 +127,7 @@
       "enabled": true,
       "entries": {
         "bibb.pdf": {
-          "size": 221720,
+          "size": 221735,
           "key": "bibb.pdf"
         }
       }
@@ -183,10 +165,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/10.2/borsuk/",
           "scheme": "url"
         }
@@ -202,67 +180,49 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/815441",
           "subject": "Art and technology",
-          "scheme": "FAST",
-          "identifier": "fst00815441",
-          "uri": "https://id.worldcat.org/fast/815441",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/936730",
           "subject": "Future life",
-          "scheme": "FAST",
-          "identifier": "fst00936730",
-          "uri": "https://id.worldcat.org/fast/936730",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1027285",
           "subject": "Motion pictures",
-          "scheme": "FAST",
-          "identifier": "fst01027285",
-          "uri": "https://id.worldcat.org/fast/1027285",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1061714",
           "subject": "Photography",
-          "scheme": "FAST",
-          "identifier": "fst01061714",
-          "uri": "https://id.worldcat.org/fast/1061714",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1067682",
           "subject": "Poetics",
-          "scheme": "FAST",
-          "identifier": "fst01067682",
-          "uri": "https://id.worldcat.org/fast/1067682",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081235",
           "subject": "Psychoanalysis",
-          "scheme": "FAST",
-          "identifier": "fst01081235",
-          "uri": "https://id.worldcat.org/fast/1081235",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081447",
           "subject": "Psychology",
-          "scheme": "FAST",
-          "identifier": "fst01081447",
-          "uri": "https://id.worldcat.org/fast/1081447",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1130170",
           "subject": "Spiritualism",
-          "scheme": "FAST",
-          "identifier": "fst01130170",
-          "uri": "https://id.worldcat.org/fast/1130170",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1167915",
           "subject": "Visions in literature",
-          "scheme": "FAST",
-          "identifier": "fst01167915",
-          "uri": "https://id.worldcat.org/fast/1167915",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -312,7 +272,7 @@
       "enabled": true,
       "entries": {
         "borsuk.pdf": {
-          "size": 236544,
+          "size": 236559,
           "key": "borsuk.pdf"
         }
       }
@@ -350,10 +310,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/10.2/cole/",
           "scheme": "url"
         }
@@ -369,46 +325,34 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/891351",
           "subject": "Desire",
-          "scheme": "FAST",
-          "identifier": "fst00891351",
-          "uri": "https://id.worldcat.org/fast/891351",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/897886",
           "subject": "Dream interpretation",
-          "scheme": "FAST",
-          "identifier": "fst00897886",
-          "uri": "https://id.worldcat.org/fast/897886",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/958221",
           "subject": "Historiography",
-          "scheme": "FAST",
-          "identifier": "fst00958221",
-          "uri": "https://id.worldcat.org/fast/958221",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1067682",
           "subject": "Poetics",
-          "scheme": "FAST",
-          "identifier": "fst01067682",
-          "uri": "https://id.worldcat.org/fast/1067682",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081235",
           "subject": "Psychoanalysis",
-          "scheme": "FAST",
-          "identifier": "fst01081235",
-          "uri": "https://id.worldcat.org/fast/1081235",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1167909",
           "subject": "Visions",
-          "scheme": "FAST",
-          "identifier": "fst01167909",
-          "uri": "https://id.worldcat.org/fast/1167909",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -454,7 +398,7 @@
       "enabled": true,
       "entries": {
         "cole.pdf": {
-          "size": 207153,
+          "size": 207168,
           "key": "cole.pdf"
         }
       }
@@ -503,10 +447,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/10.2/duncan-transcription/",
           "scheme": "url"
         }
@@ -522,18 +462,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1919895",
           "subject": "Bibliographies",
-          "scheme": "FAST",
-          "identifier": "fst01919895",
-          "uri": "https://id.worldcat.org/fast/1919895",
-          "category": "form-genre"
+          "scheme": "FAST-formgenre"
         },
         {
+          "id": "http://id.worldcat.org/fast/1000096",
           "subject": "Literature and society",
-          "scheme": "FAST",
-          "identifier": "fst01000096",
-          "uri": "https://id.worldcat.org/fast/1000096",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -572,7 +508,7 @@
       "enabled": true,
       "entries": {
         "duncan-transcription.pdf": {
-          "size": 162659,
+          "size": 162666,
           "key": "duncan-transcription.pdf"
         }
       }
@@ -610,10 +546,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/10.2/duncan/",
           "scheme": "url"
         }
@@ -629,18 +561,14 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1919895",
           "subject": "Bibliographies",
-          "scheme": "FAST",
-          "identifier": "fst01919895",
-          "uri": "https://id.worldcat.org/fast/1919895",
-          "category": "form-genre"
+          "scheme": "FAST-formgenre"
         },
         {
+          "id": "http://id.worldcat.org/fast/1000096",
           "subject": "Literature and society",
-          "scheme": "FAST",
-          "identifier": "fst01000096",
-          "uri": "https://id.worldcat.org/fast/1000096",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -679,7 +607,7 @@
       "enabled": true,
       "entries": {
         "scans.pdf": {
-          "size": 1073076,
+          "size": 1072347,
           "key": "scans.pdf"
         }
       }
@@ -717,10 +645,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/10.2/evans/",
           "scheme": "url"
         }
@@ -736,11 +660,9 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1067691",
           "subject": "Poetry",
-          "scheme": "FAST",
-          "identifier": "fst01067691",
-          "uri": "https://id.worldcat.org/fast/1067691",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -782,7 +704,7 @@
       "enabled": true,
       "entries": {
         "duncan-transcription.pdf": {
-          "size": 162659,
+          "size": 162666,
           "key": "duncan-transcription.pdf"
         }
       }
@@ -820,10 +742,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/10.2/mcnellis/",
           "scheme": "url"
         }
@@ -839,67 +757,49 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1355886",
           "subject": "1939-1945",
-          "scheme": "FAST",
-          "identifier": "fst01355886",
-          "uri": "https://id.worldcat.org/fast/1355886",
-          "category": "chronological"
+          "scheme": "FAST-chronological"
         },
         {
+          "id": "http://id.worldcat.org/fast/1015465",
           "subject": "Mediums",
-          "scheme": "FAST",
-          "identifier": "fst01015465",
-          "uri": "https://id.worldcat.org/fast/1015465",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1043123",
           "subject": "Occultism",
-          "scheme": "FAST",
-          "identifier": "fst01043123",
-          "uri": "https://id.worldcat.org/fast/1043123",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1046988",
           "subject": "Oracles",
-          "scheme": "FAST",
-          "identifier": "fst01046988",
-          "uri": "https://id.worldcat.org/fast/1046988",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1067682",
           "subject": "Poetics",
-          "scheme": "FAST",
-          "identifier": "fst01067682",
-          "uri": "https://id.worldcat.org/fast/1067682",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081235",
           "subject": "Psychoanalysis",
-          "scheme": "FAST",
-          "identifier": "fst01081235",
-          "uri": "https://id.worldcat.org/fast/1081235",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1111441",
           "subject": "Self",
-          "scheme": "FAST",
-          "identifier": "fst01111441",
-          "uri": "https://id.worldcat.org/fast/1111441",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1130170",
           "subject": "Spiritualism",
-          "scheme": "FAST",
-          "identifier": "fst01130170",
-          "uri": "https://id.worldcat.org/fast/1130170",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1154483",
           "subject": "Trance",
-          "scheme": "FAST",
-          "identifier": "fst01154483",
-          "uri": "https://id.worldcat.org/fast/1154483",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -951,7 +851,7 @@
       "enabled": true,
       "entries": {
         "mcnellis.pdf": {
-          "size": 204332,
+          "size": 204347,
           "key": "mcnellis.pdf"
         }
       }
@@ -989,10 +889,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/10.2/mcrae/",
           "scheme": "url"
         }
@@ -1008,67 +904,49 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/862898",
           "subject": "Civilization",
-          "scheme": "FAST",
-          "identifier": "fst00862898",
-          "uri": "https://id.worldcat.org/fast/862898",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/891351",
           "subject": "Desire",
-          "scheme": "FAST",
-          "identifier": "fst00891351",
-          "uri": "https://id.worldcat.org/fast/891351",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/922671",
           "subject": "Feminism",
-          "scheme": "FAST",
-          "identifier": "fst00922671",
-          "uri": "https://id.worldcat.org/fast/922671",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/939593",
           "subject": "Gender identity",
-          "scheme": "FAST",
-          "identifier": "fst00939593",
-          "uri": "https://id.worldcat.org/fast/939593",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1024455",
           "subject": "Modernism (Literature)",
-          "scheme": "FAST",
-          "identifier": "fst01024455",
-          "uri": "https://id.worldcat.org/fast/1024455",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1067682",
           "subject": "Poetics",
-          "scheme": "FAST",
-          "identifier": "fst01067682",
-          "uri": "https://id.worldcat.org/fast/1067682",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1067691",
           "subject": "Poetry",
-          "scheme": "FAST",
-          "identifier": "fst01067691",
-          "uri": "https://id.worldcat.org/fast/1067691",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081273",
           "subject": "Psychoanalysis and literature",
-          "scheme": "FAST",
-          "identifier": "fst01081273",
-          "uri": "https://id.worldcat.org/fast/1081273",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1111462",
           "subject": "Self in literature",
-          "scheme": "FAST",
-          "identifier": "fst01111462",
-          "uri": "https://id.worldcat.org/fast/1111462",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1119,7 +997,7 @@
       "enabled": true,
       "entries": {
         "mcrae.pdf": {
-          "size": 165508,
+          "size": 165521,
           "key": "mcrae.pdf"
         }
       }
@@ -1157,10 +1035,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/10.2/reid/",
           "scheme": "url"
         }
@@ -1176,60 +1050,44 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/883735",
           "subject": "Criticism",
-          "scheme": "FAST",
-          "identifier": "fst00883735",
-          "uri": "https://id.worldcat.org/fast/883735",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/897886",
           "subject": "Dream interpretation",
-          "scheme": "FAST",
-          "identifier": "fst00897886",
-          "uri": "https://id.worldcat.org/fast/897886",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/966872",
           "subject": "Identification (Religion)",
-          "scheme": "FAST",
-          "identifier": "fst00966872",
-          "uri": "https://id.worldcat.org/fast/966872",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1067691",
           "subject": "Poetry",
-          "scheme": "FAST",
-          "identifier": "fst01067691",
-          "uri": "https://id.worldcat.org/fast/1067691",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1081273",
           "subject": "Psychoanalysis and literature",
-          "scheme": "FAST",
-          "identifier": "fst01081273",
-          "uri": "https://id.worldcat.org/fast/1081273",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1108517",
           "subject": "Science and civilization",
-          "scheme": "FAST",
-          "identifier": "fst01108517",
-          "uri": "https://id.worldcat.org/fast/1108517",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1130170",
           "subject": "Spiritualism",
-          "scheme": "FAST",
-          "identifier": "fst01130170",
-          "uri": "https://id.worldcat.org/fast/1130170",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1177198",
           "subject": "Women authors",
-          "scheme": "FAST",
-          "identifier": "fst01177198",
-          "uri": "https://id.worldcat.org/fast/1177198",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1277,7 +1135,7 @@
       "enabled": true,
       "entries": {
         "reid.pdf": {
-          "size": 109102,
+          "size": 109105,
           "key": "reid.pdf"
         }
       }
@@ -1315,10 +1173,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/10.2/scans/",
           "scheme": "url"
         }
@@ -1334,53 +1188,39 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/807348",
           "subject": "American poetry",
-          "scheme": "FAST",
-          "identifier": "fst00807348",
-          "uri": "https://id.worldcat.org/fast/807348",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/813991",
           "subject": "Archival materials",
-          "scheme": "FAST",
-          "identifier": "fst00813991",
-          "uri": "https://id.worldcat.org/fast/813991",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1008230",
           "subject": "Manuscripts",
-          "scheme": "FAST",
-          "identifier": "fst01008230",
-          "uri": "https://id.worldcat.org/fast/1008230",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1031629",
           "subject": "Mysticism",
-          "scheme": "FAST",
-          "identifier": "fst01031629",
-          "uri": "https://id.worldcat.org/fast/1031629",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1039597",
           "subject": "Notebooks",
-          "scheme": "FAST",
-          "identifier": "fst01039597",
-          "uri": "https://id.worldcat.org/fast/1039597",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1067682",
           "subject": "Poetics",
-          "scheme": "FAST",
-          "identifier": "fst01067682",
-          "uri": "https://id.worldcat.org/fast/1067682",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1067691",
           "subject": "Poetry",
-          "scheme": "FAST",
-          "identifier": "fst01067691",
-          "uri": "https://id.worldcat.org/fast/1067691",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1426,7 +1266,7 @@
       "enabled": true,
       "entries": {
         "scans.pdf": {
-          "size": 1073076,
+          "size": 1072347,
           "key": "scans.pdf"
         }
       }
@@ -1464,10 +1304,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/10.2/simon/",
           "scheme": "url"
         }
@@ -1483,53 +1319,39 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/536918",
           "subject": "British Museum",
-          "scheme": "FAST",
-          "identifier": "fst00536918",
-          "uri": "https://id.worldcat.org/fast/536918",
-          "category": "corporate"
+          "scheme": "FAST-corporate"
         },
         {
+          "id": "http://id.worldcat.org/fast/862898",
           "subject": "Civilization",
-          "scheme": "FAST",
-          "identifier": "fst00862898",
-          "uri": "https://id.worldcat.org/fast/862898",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/917564",
           "subject": "Excavations (Archaeology)",
-          "scheme": "FAST",
-          "identifier": "fst00917564",
-          "uri": "https://id.worldcat.org/fast/917564",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/918097",
           "subject": "Exhibitions",
-          "scheme": "FAST",
-          "identifier": "fst00918097",
-          "uri": "https://id.worldcat.org/fast/918097",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1025892",
           "subject": "Monuments",
-          "scheme": "FAST",
-          "identifier": "fst01025892",
-          "uri": "https://id.worldcat.org/fast/1025892",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1067682",
           "subject": "Poetics",
-          "scheme": "FAST",
-          "identifier": "fst01067682",
-          "uri": "https://id.worldcat.org/fast/1067682",
-          "category": "topical"
+          "scheme": "FAST-topical"
         },
         {
+          "id": "http://id.worldcat.org/fast/1067691",
           "subject": "Poetry",
-          "scheme": "FAST",
-          "identifier": "fst01067691",
-          "uri": "https://id.worldcat.org/fast/1067691",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1625,10 +1447,6 @@
           "scheme": "import-recid"
         },
         {
-          "identifier": "1530-5228",
-          "scheme": "issn"
-        },
-        {
           "identifier": "https://jcrt.org/archives/10.2/transcription.notes/",
           "scheme": "url"
         }
@@ -1644,11 +1462,9 @@
       "description": "",
       "subjects": [
         {
+          "id": "http://id.worldcat.org/fast/1067691",
           "subject": "Poetry",
-          "scheme": "FAST",
-          "identifier": "fst01067691",
-          "uri": "https://id.worldcat.org/fast/1067691",
-          "category": "topical"
+          "scheme": "FAST-topical"
         }
       ]
     },
@@ -1690,7 +1506,7 @@
       "enabled": true,
       "entries": {
         "transcription.notes.pdf": {
-          "size": 60644,
+          "size": 60643,
           "key": "transcription.notes.pdf"
         }
       }
