@@ -1,0 +1,82 @@
+\documentclass[11pt]{article}
+
+\usepackage[letterpaper,margin=0.75in]{geometry}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{xurl}
+\usepackage{hyperref}
+
+\IfFontExistsTF{Book Antiqua}{
+  \setmainfont{Book Antiqua}
+}{
+  \setmainfont{TeX Gyre Pagella}
+}
+
+\definecolor{jcrtred}{HTML}{BF232E}
+\definecolor{muted}{HTML}{555555}
+\hypersetup{colorlinks=true,urlcolor=muted,pdftitle={$title$},pdfauthor={$for(author)$$author$$sep$; $endfor$}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\pagestyle{empty}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\newcommand{\flyfield}[2]{\textbf{#1:} #2\par\vspace{0.09in}}
+
+\begin{document}
+
+\noindent
+\includegraphics[width=0.78in]{$if(jcrt-logo)$$jcrt-logo$$else$templates/jcrt-flyleaf/jcrt-logo.pdf$endif$}
+\hspace{0.18in}
+\raisebox{0.24in}{\begin{minipage}{5.1in}
+  {\Large Journal for Cultural and Religious Theory\par}
+  \vspace{0.04in}{\small\color{muted}ISSN 1530-5228\par}
+\end{minipage}}
+
+\vspace{0.12in}\hrule\vspace{0.22in}
+
+{\large\bfseries\color{jcrtred}$if(type)$$type$$else$Article$endif$\par}
+\vspace{0.30in}
+
+\flyfield{Title}{$title$}
+\flyfield{Author(s)}{$for(author)$$author$$sep$, $endfor$}
+\flyfield{Source}{$if(source)$$source$$else$Journal for Cultural and Religious Theory (JCRT)$endif$}
+\flyfield{Published by}{$if(publisher)$$publisher$$else$Whitestone Publications$endif$}
+\textbf{Stable URL:}
+$if(stable-url)$\href{$stable-url$}{\nolinkurl{$stable-url$}}
+$elseif(doi)$\href{https://doi.org/$doi$}{\nolinkurl{https://doi.org/$doi$}}
+$elseif(url)$\href{$url$}{\nolinkurl{$url$}}
+$else$[permalink or DOI]$endif$
+
+\vspace{0.16in}\hrule\vspace{0.22in}
+
+{\small
+\href{https://jcrt.org/}{The Journal for Cultural and Religious Theory (JCRT)} is an online, peer-reviewed, academic publication published by \href{http://thewhitestonefoundation.org/}{The Whitestone Foundation}, a 501c3 corporation located in Boulder, Colorado. ISSN 1530-5228.
+
+\vspace{0.13in}
+Copyright \textcopyright{} held by the author(s). All rights reserved. This text may be used and shared in accordance with the fair-use provisions of U.S. copyright law. Any use of this text in other ways requires the consent of the author and the publisher, the \emph{Journal for Cultural and Religious Theory}, and must cite publication in this journal.
+
+\vspace{0.13in}
+\href{https://jcrt.org/copyright/}{\nolinkurl{https://jcrt.org/copyright/}}
+}
+
+\vfill
+\color{black!20}\hrule\color{black}
+\vspace{0.12in}
+\noindent
+\includegraphics[width=0.72in]{$if(whitestone-logo)$$whitestone-logo$$else$templates/jcrt-flyleaf/whitestone-logo.pdf$endif$}
+\hspace{0.16in}
+\raisebox{0.20in}{\begin{minipage}{5.2in}
+  {\large\bfseries WHITESTONE PUBLICATIONS\par}
+  \vspace{0.04in}{\small Publisher of the Journal for Cultural and Religious Theory\par}
+\end{minipage}}
+
+\begin{center}{\scriptsize\color{muted}jcrt.org \textbar{} ISSN 1530-5228}\end{center}
+
+$if(body)$
+\clearpage
+\pagestyle{plain}
+$body$
+$endif$
+
+\end{document}
