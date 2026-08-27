@@ -4,12 +4,16 @@ import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { createRequire } from "node:module";
 import { fileURLToPath } from "node:url";
+// Titles may carry inline markdown (e.g. *Confessions*). Deposit records are
+// plain text, so reuse the jcrt-v2 helper rather than keeping a second rule here.
+import { stripMarkdown } from "../../jcrt-v2/_config/markdownTitle.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCE = path.resolve(ROOT, "..", "jcrt-v2", "content", "archives");
 const ARCHIVES = path.join(ROOT, "archives");
 const require = createRequire(path.join(ROOT, "..", "jcrt-v2", "package.json"));
 const yaml = require("js-yaml");
+
 const check = process.argv.includes("--check");
 const RIGHTS_TEXT = "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.";
 const RIGHTS_URL = "https://jcrt.org/copyright/";
@@ -137,7 +141,7 @@ function record(issue, file) {
   const metadata = {
     resource_type: { id: "textDocument-journalArticle" },
     creators: authors(data.author || data.authors, data.affiliation),
-    title: String(data.title || slug),
+    title: stripMarkdown(String(data.title || slug)),
     publisher: "Whitestone Publications",
     publication_date: date(data.date, data.year),
     languages: [{ id: "eng" }],

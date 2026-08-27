@@ -61,7 +61,7 @@ function extractArchives(work) {
 }
 
 function validate(work) {
-	if (publishedIssues.length !== 66) throw new Error(`Expected 66 published issues, found ${publishedIssues.length}`);
+	if (publishedIssues.length !== 67) throw new Error(`Expected 67 published issues, found ${publishedIssues.length}`);
 	const expected = new Set(publishedIssues.flatMap((issue) => [`${issue}.zip`, `${issue}.metadata.json`]));
 	const unexpected = fs.readdirSync(ARCHIVES).filter((name) => !expected.has(name));
 	const missing = [...expected].filter((name) => !fs.existsSync(path.join(ARCHIVES, name)));
@@ -70,7 +70,7 @@ function validate(work) {
 	const pdfs = publishedIssues.flatMap((issue) => fs.readdirSync(path.join(work, issue))
 		.filter((name) => name.endsWith(".pdf"))
 		.map((name) => path.join(work, issue, name)));
-	if (pdfs.length !== 785) throw new Error(`Expected 785 PDFs, found ${pdfs.length}`);
+	if (pdfs.length !== 795) throw new Error(`Expected 795 PDFs, found ${pdfs.length}`);
 	run("python3", [path.join(ROOT, "scripts", "check_pdf_accessibility.py"), work]);
 	for (const pdf of pdfs) {
 		run("qpdf", ["--check", pdf], { capture: true });
@@ -95,7 +95,7 @@ function validate(work) {
 		}
 	}
 	const records = publishedIssues.reduce((sum, issue) => sum + JSON.parse(fs.readFileSync(path.join(ARCHIVES, `${issue}.metadata.json`))).length, 0);
-	if (records !== 819) throw new Error(`Expected 819 metadata records, found ${records}`);
+	if (records !== 829) throw new Error(`Expected 829 metadata records, found ${records}`);
 	console.log(`Validated ${pdfs.length} PDFs, ${publishedIssues.length} ZIP/metadata pairs, and ${records} records.`);
 }
 
