@@ -36,16 +36,25 @@ function frontMatter(file) {
   return yaml.load(match[1]) || {};
 }
 
+const NAME_SUFFIXES = new Set(["jr", "sr", "ii", "iii", "iv", "v"]);
+
 function authors(value, affiliation) {
   const names = (Array.isArray(value) ? value : String(value || "").split(/\s*;\s*|\s+and\s+/)).filter(Boolean);
   const creators = names.map((name) => {
     const parts = String(name).trim().split(/\s+/);
+    // A generational suffix is not the family name: "John B. Cobb Jr." must
+    // deposit as Cobb / John B., not as family_name "Jr.".
+    let suffix = "";
+    if (parts.length > 2 && NAME_SUFFIXES.has(parts[parts.length - 1].replace(/\.$/, "").toLowerCase())) {
+      suffix = parts.pop();
+    }
     const family_name = parts.pop() || "";
     const given_name = parts.join(" ");
+    const inverted = given_name ? `${family_name}, ${given_name}` : family_name;
     const creator = {
       person_or_org: {
         type: "personal",
-        name: given_name ? `${family_name}, ${given_name}` : family_name,
+        name: suffix ? `${inverted}, ${suffix}` : inverted,
         given_name,
         family_name,
       },
