@@ -5,6 +5,9 @@
   "license": "AGPL-3.0-only",
   "type": "module",
   "scripts": {
+    "prepare": "git config core.hooksPath .githooks || true",
+    "changelog": "node scripts/update-changelog.mjs",
+    "changelog:check": "node scripts/update-changelog.mjs --check",
     "generate": "node scripts/generate-archives.mjs",
     "check": "node scripts/generate-archives.mjs --check",
     "archives:build": "node scripts/build-archive-assets.mjs",
