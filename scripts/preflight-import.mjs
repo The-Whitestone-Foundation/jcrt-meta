@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Expand one issue's ZIP and check its metadata sidecar against the KCWorks
-// import contract before handing both to scripts/kcworks_api_importer.py.
+// import contract before handing both to kcworks_api_importer.py.
 // The upstream importer has no dry-run mode, so this is the last chance to
 // catch a bad payload locally.
 import fs from "node:fs";
@@ -94,9 +94,4 @@ if (problems.length) {
 }
 
 console.log(`${records.length} records, ${extracted.length} PDFs, ${records.reduce((sum, record) => sum + (record.metadata.subjects?.length || 0), 0)} subjects — ready.`);
-console.log(`\nExtracted to ${OUT}\n\nImport with:\n`);
-console.log(`  KCWORKS_IMPORT_API_KEY=... python3 scripts/kcworks_api_importer.py \\
-    --collection-id <throwaway-slug> \\
-    --metadata ${path.relative(ROOT, sidecar)} \\
-    --files ${path.relative(ROOT, OUT)}/*.pdf \\
-    --output ${path.relative(ROOT, path.join(OUT, "import-response.json"))}\n`);
+console.log(`Extracted to ${OUT}`);

@@ -43,33 +43,33 @@ author fall back to `JCRT Editors` as the creator.
 
 ## Importing an issue into KCWorks
 
-`scripts/kcworks_api_importer.py` is vendored from
+`kcworks_api_importer.py` is vendored from
 [MESH-Research/knowledge-commons-works](https://github.com/MESH-Research/knowledge-commons-works)
-and needs Python 3.9+ with `requests`. It takes a metadata JSON array plus loose
-file paths — not a ZIP — so expand the issue first:
+and needs Python 3.9+ with `requests`. Keep the token and output pattern in the
+gitignored `.env`:
 
 ```sh
-npm run import:preflight -- 25.1
+python3 -m venv .venv
+.venv/bin/pip install requests
+KCWORKS_IMPORT_API_KEY=...
+KCWORKS_IMPORT_OUTPUT_PATH=_logs/{issue}.log
 ```
 
-That extracts `archives/25.1.zip` into the gitignored `import/25.1/`, checks the
-sidecar against the KCWorks contract (EDTF dates, structured creators, record
-owner, controlled subject ids and schemes, no ISSN among the article
-identifiers, and a ZIP entry of matching size for every declared file), and
-prints the importer command to run next:
+Use the interactive wrapper one issue at a time:
 
 ```sh
-KCWORKS_IMPORT_API_KEY=... python3 scripts/kcworks_api_importer.py \
-  --collection-id <collection-slug> \
-  --metadata archives/25.1.metadata.json \
-  --files import/25.1/*.pdf \
-  --output import/25.1/import-response.json
+./import.sh --check 25.1
+./import.sh 25.1
 ```
 
-The importer has no dry-run mode, so the preflight is the only local check. Test
-against a throwaway collection first, and pick a name you will not want again —
-a collection slug cannot be reused even after the collection is deleted.
-`--notify-record-owners` is off by default; leave it off for test imports.
+The wrapper creates `JCRT <issue>` at `jcrt-<issue-without-dot>`, tags the
+collection as `Journal`, generates and validates its profile PNG, runs the
+existing preflight, sets the token user as a public owner, and pauses for
+approval before collection creation, image upload, and import. API responses go
+to `_logs/<issue>.log`; successful imports then copy each KC Works DOI into the
+matching `../jcrt-v2/content/archives/<issue>/*.md` front matter. Recover that
+last step alone with `./import.sh --sync-dois <issue>`. A collection slug cannot
+be reused after deletion; `--notify-record-owners` remains off.
 
 See [CHANGELOG.md](CHANGELOG.md) for the complete `0.0.1` development record.
 
