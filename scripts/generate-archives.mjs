@@ -10,6 +10,7 @@ import { stripMarkdown } from "../../jcrt-v2/_config/markdownTitle.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCE = path.resolve(ROOT, "..", "jcrt-v2", "content", "archives");
+const AUTHOR_SOURCE = path.resolve(ROOT, "..", "jcrt-v2", "content", "authors");
 const ARCHIVES = path.join(ROOT, "archives");
 const require = createRequire(path.join(ROOT, "..", "jcrt-v2", "package.json"));
 const yaml = require("js-yaml");
@@ -36,6 +37,23 @@ function frontMatter(file) {
   return yaml.load(match[1]) || {};
 }
 
+function nameKey(value) {
+  return String(value || "").normalize("NFKD").toLowerCase().replace(/[^a-z0-9]+/g, "");
+}
+
+const authorIdentifiers = new Map();
+for (const name of fs.readdirSync(AUTHOR_SOURCE).filter((name) => name.endsWith(".md"))) {
+  const data = frontMatter(path.join(AUTHOR_SOURCE, name));
+  const identifiers = [];
+  const orcid = String(data.orcid || "").match(/(?:orcid\.org\/)?(\d{4}-\d{4}-\d{4}-\d{3}[\dX])/i)?.[1];
+  if (orcid) identifiers.push({ identifier: orcid, scheme: "orcid" });
+  for (const value of Array.isArray(data.sameAs) ? data.sameAs : []) {
+    const isni = String(value).match(/isni\.org\/isni\/([\dX]+)/i)?.[1];
+    if (isni) identifiers.push({ identifier: isni, scheme: "isni" });
+  }
+  if (identifiers.length && data.name) authorIdentifiers.set(nameKey(data.name), identifiers);
+}
+
 const NAME_SUFFIXES = new Set(["jr", "sr", "ii", "iii", "iv", "v"]);
 
 function authors(value, affiliation) {
@@ -60,6 +78,8 @@ function authors(value, affiliation) {
       },
       role: { id: "author" },
     };
+    const identifiers = authorIdentifiers.get(nameKey(name));
+    if (identifiers) creator.person_or_org.identifiers = identifiers;
     if (affiliation) creator.affiliations = [{ name: String(affiliation) }];
     return creator;
   });

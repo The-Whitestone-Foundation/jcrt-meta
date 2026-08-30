@@ -52,6 +52,11 @@ records.forEach((record, index) => {
 	if (!metadata.creators?.length) fail("metadata.creators is empty");
 	for (const creator of metadata.creators || []) {
 		if (!creator.person_or_org?.name) fail("creator without person_or_org.name");
+		for (const identifier of creator.person_or_org?.identifiers || []) {
+			if (identifier.scheme === "orcid" && !/^\d{4}-\d{4}-\d{4}-\d{3}[\dX]$/.test(identifier.identifier || "")) fail(`invalid creator ORCID: ${identifier.identifier}`);
+			if (identifier.scheme === "isni" && !/^\d{15}[\dX]$/.test(identifier.identifier || "")) fail(`invalid creator ISNI: ${identifier.identifier}`);
+			if (!["orcid", "isni", "kc_username"].includes(identifier.scheme)) fail(`unknown creator identifier scheme: ${identifier.scheme}`);
+		}
 	}
 	if (!record.parent?.access?.owned_by?.length) fail("parent.access.owned_by is missing");
 
