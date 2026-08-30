@@ -558,6 +558,8 @@ def import_works(
                     output_file.write(response.text)
                 print(f"\nResponse saved to: {output_path}")
             sys.exit(1)
+        if response.status_code != 201:
+            sys.exit(1)
     except requests.exceptions.RequestException as e:
         _print_error(f"✗ Request failed", str(e))
         sys.exit(1)
