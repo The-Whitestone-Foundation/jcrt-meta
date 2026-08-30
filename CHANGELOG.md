@@ -8,69 +8,61 @@ Generated and kept current by `npm run changelog` — do not renumber by hand.
 Hand-written notes added under an entry are preserved; the generator only ever
 appends entries for commits that are not yet listed.
 
-## [00.00.23] — 2026-08-30
-Update CHANGELOG.md
-- Notes: Update CHANGELOG.md.
-
-## [00.00.22] — 2026-08-30
+## [00.00.21] — 2026-08-30
 edit: adding dois
 - Notes: edit: adding dois.
 
-## [00.00.21] — 2026-08-30
+## [00.00.20] — 2026-08-30
 feat: complete KC Works issue imports
 - Notes: feat: complete KC Works issue imports.
 
-## [00.00.20] — 2026-08-30
+## [00.00.19] — 2026-08-30
 KC Works import
 - Notes: KC Works import.
 
-## [00.00.19] — 2026-08-30
+## [00.00.18] — 2026-08-30
 edit: prepping for KCWorks import
 - Notes: edit: prepping for KCWorks import.
 
-## [00.00.18] — 2026-08-26
+## [00.00.17] — 2026-08-26
 metadata update
 - Notes: metadata update.
 
-## [00.00.17] — 2026-08-26
+## [00.00.16] — 2026-08-26
 jcrt metadata update
 - Notes: jcrt metadata update.
 
-## [00.00.16] — 2026-08-25
+## [00.00.15] — 2026-08-25
 Update jcrt-flyleaf.docx
 - Notes: Update jcrt-flyleaf.docx.
 
-## [00.00.15] — 2026-08-19
+## [00.00.14] — 2026-08-19
 adding template
 - Notes: adding template.
 
-## [00.00.14] — 2026-08-17
+## [00.00.13] — 2026-08-17
 edit: metadata patch
 - Notes: edit: metadata patch.
 
-## [00.00.13] — 2026-08-05
+## [00.00.12] — 2026-08-05
 repo cleanup
 - Notes: repo cleanup.
 
-## [00.00.12] — 2026-08-05
+## [00.00.11] — 2026-08-05
 edit: updating categories
 - Notes: edit: updating categories.
 
-## [00.00.11] — 2026-07-19
+## [00.00.10] — 2026-07-19
 edit: updating the pdfs for the metadata project
 - Notes: edit: updating the pdfs for the metadata project.
 
-## [00.00.10] — 2026-07-19
+## [00.00.09] — 2026-07-19
 edit: updating generated pdfs
 - Notes: edit: updating generated pdfs.
 
-## [00.00.09] — 2026-07-19
+## [00.00.08] — 2026-07-19
 Create RECIPE.md
 - Notes: Create RECIPE.md.
-
-## [00.00.08] — 2026-07-19
-Update CHANGELOG.md
-- Notes: Update CHANGELOG.md.
 
 ## [00.00.07] — 2026-07-19
 edit: pdf validation and cleanup
