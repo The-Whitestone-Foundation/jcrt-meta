@@ -8,6 +8,10 @@ Generated and kept current by `npm run changelog` — do not renumber by hand.
 Hand-written notes added under an entry are preserved; the generator only ever
 appends entries for commits that are not yet listed.
 
+## [00.00.23] — 2026-08-30
+Update CHANGELOG.md
+- Notes: Update CHANGELOG.md.
+
 ## [00.00.22] — 2026-08-30
 edit: adding dois
 - Notes: edit: adding dois.
