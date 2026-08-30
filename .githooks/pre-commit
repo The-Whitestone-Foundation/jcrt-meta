@@ -1,0 +1,27 @@
+#!/bin/sh
+# Log every commit that exists so far into CHANGELOG.md and stage it, so the
+# changelog rides along with this commit instead of needing one of its own.
+#
+# It must be pre-commit: `git add` from prepare-commit-msg does NOT reach the
+# commit — the file just sits staged afterwards, which is exactly the wasted
+# commit this is meant to prevent. Verified, do not move it.
+#
+# Consequence: the entry for the commit you are making now lands with your NEXT
+# commit, because a commit's subject is not knowable before it exists. One entry
+# behind, never an extra commit. Amends add nothing (the count is unchanged).
+
+if command -v node >/dev/null 2>&1; then
+	NODE_BIN="$(command -v node)"
+elif [ -s "$HOME/.nvm/nvm.sh" ]; then
+	. "$HOME/.nvm/nvm.sh"
+	NODE_BIN="$(command -v node 2>/dev/null)"
+elif [ -x "/opt/homebrew/bin/node" ]; then
+	NODE_BIN="/opt/homebrew/bin/node"
+elif [ -x "/usr/local/bin/node" ]; then
+	NODE_BIN="/usr/local/bin/node"
+fi
+[ -z "$NODE_BIN" ] && exit 0
+
+"$NODE_BIN" "$(git rev-parse --show-toplevel)/scripts/update-changelog.mjs" >/dev/null 2>&1 \
+	&& git add "$(git rev-parse --show-toplevel)/CHANGELOG.md" 2>/dev/null
+exit 0
