@@ -8,6 +8,10 @@ Generated and kept current by `npm run changelog` — do not renumber by hand.
 Hand-written notes added under an entry are preserved; the generator only ever
 appends entries for commits that are not yet listed.
 
+## [00.00.25] — 2026-08-31
+edit: adding documentation
+- Notes: edit: adding documentation.
+
 ## [00.00.24] — 2026-08-31
 edit: adding documentation
 - Notes: edit: adding documentation.

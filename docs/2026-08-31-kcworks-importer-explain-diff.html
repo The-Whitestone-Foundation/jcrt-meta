@@ -31,6 +31,7 @@
       font: 17px/1.65 Georgia, "Times New Roman", serif;
     }
     a { color: var(--green); text-underline-offset: .16em; }
+    a, p, li, :not(pre) > code { overflow-wrap: anywhere; }
     code, pre, .eyebrow, nav, button, .label, .status, .file {
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
     }
@@ -123,8 +124,9 @@
     .risk .status { display: inline-block; margin-bottom: .45rem; font-size: .7rem; color: var(--red); }
     .risk b { display: block; line-height: 1.25; }
     .file-list { display: grid; gap: .6rem; margin: 1.2rem 0; }
-    .file-row { display: grid; grid-template-columns: minmax(190px, 1fr) 2fr; gap: 1rem; padding: .85rem 1rem; border-bottom: 1px solid var(--line); }
-    .file { font-size: .8rem; color: var(--blue); }
+    .file-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 1rem; padding: .85rem 1rem; border-bottom: 1px solid var(--line); }
+    .file-row > * { min-width: 0; }
+    .file { font-size: .8rem; color: var(--blue); overflow-wrap: anywhere; word-break: break-word; }
     .quiz { display: grid; gap: 1.2rem; }
     .question { padding: 1.2rem; border: 1px solid var(--line); border-radius: 14px; background: var(--panel); }
     .question h3 { margin: 0 0 .85rem; font-size: 1.05rem; letter-spacing: 0; }
