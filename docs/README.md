@@ -12,8 +12,9 @@ behind it.
   fragile runtime dependency.
 - [Importer explain-diff](kcworks-api-importer-explain-diff.md) — audit and
   annotated changes to the vendored importer.
+- [Interactive importer explain-diff](2026-08-31-kcworks-importer-explain-diff.html)
+  — illustrated background, code walkthrough, behavior matrix, and quiz.
 
 The repository scripts are the authority for executable behavior. These pages
 explain that behavior and the operational decisions around it. External API
 claims were checked against the KCWorks 0.8.2 documentation on 2026-08-31.
-

@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Why the JCRT KCWorks importer now fails safely</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17211d;
+      --muted: #5d6a64;
+      --paper: #f6f3eb;
+      --panel: #fffdf7;
+      --line: #d8d3c7;
+      --green: #176b50;
+      --green-soft: #dcefe7;
+      --red: #a03932;
+      --red-soft: #f8e2de;
+      --amber: #9a5b08;
+      --amber-soft: #f7ead1;
+      --blue: #235a80;
+      --blue-soft: #e0edf6;
+      --shadow: 0 12px 32px rgba(23, 33, 29, .08);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 17px/1.65 Georgia, "Times New Roman", serif;
+    }
+    a { color: var(--green); text-underline-offset: .16em; }
+    code, pre, .eyebrow, nav, button, .label, .status, .file {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+    pre {
+      margin: 0;
+      padding: 1rem;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      background: #19231f;
+      color: #f8f5eb;
+      border-radius: 10px;
+      font-size: .84rem;
+      line-height: 1.55;
+    }
+    .shell {
+      display: grid;
+      grid-template-columns: minmax(190px, 240px) minmax(0, 820px);
+      gap: clamp(2rem, 5vw, 5rem);
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 2rem clamp(1rem, 4vw, 3rem) 5rem;
+    }
+    nav {
+      position: sticky;
+      top: 1.25rem;
+      align-self: start;
+      font-size: .78rem;
+      line-height: 1.4;
+    }
+    nav strong { display: block; margin-bottom: .7rem; color: var(--muted); }
+    nav a {
+      display: block;
+      padding: .48rem .65rem;
+      border-left: 2px solid var(--line);
+      color: var(--ink);
+      text-decoration: none;
+    }
+    nav a:hover, nav a:focus { border-color: var(--green); background: var(--green-soft); }
+    main { min-width: 0; }
+    header { padding: 4rem 0 2.5rem; }
+    .eyebrow { color: var(--green); font-size: .77rem; letter-spacing: .12em; text-transform: uppercase; }
+    h1, h2, h3 { line-height: 1.12; letter-spacing: -.025em; }
+    h1 { max-width: 720px; margin: .65rem 0 1.1rem; font-size: clamp(2.6rem, 7vw, 5.5rem); font-weight: 500; }
+    h2 { margin: 4.5rem 0 1.3rem; padding-top: .5rem; font-size: clamp(2rem, 4vw, 3.1rem); font-weight: 500; }
+    h3 { margin: 2.5rem 0 .75rem; font-size: 1.35rem; }
+    .lede { max-width: 680px; color: var(--muted); font-size: 1.2rem; }
+    .meta { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: 1.5rem; }
+    .pill { border: 1px solid var(--line); border-radius: 999px; padding: .3rem .7rem; background: var(--panel); font: .75rem ui-monospace, monospace; }
+    .callout {
+      margin: 1.6rem 0;
+      padding: 1rem 1.15rem;
+      border-left: 5px solid var(--amber);
+      background: var(--amber-soft);
+      border-radius: 0 10px 10px 0;
+    }
+    .callout strong { display: block; margin-bottom: .2rem; }
+    .diagram {
+      margin: 2rem 0;
+      padding: clamp(1rem, 3vw, 1.6rem);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+    .flow { display: grid; grid-template-columns: repeat(4, 1fr); gap: .7rem; align-items: stretch; }
+    .node { position: relative; padding: 1rem; border: 1px solid var(--line); border-radius: 11px; background: white; }
+    .node:not(:last-child)::after {
+      content: "→";
+      position: absolute;
+      right: -.62rem;
+      top: 42%;
+      z-index: 2;
+      width: 1.15rem;
+      text-align: center;
+      background: var(--panel);
+      color: var(--green);
+      font-weight: 700;
+    }
+    .node .label { color: var(--muted); font-size: .68rem; text-transform: uppercase; letter-spacing: .08em; }
+    .node b { display: block; margin: .3rem 0; line-height: 1.25; }
+    .node small { color: var(--muted); }
+    .split { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.25rem 0; }
+    .code-card { min-width: 0; }
+    .code-card h4 { margin: 0; padding: .55rem .75rem; border-radius: 10px 10px 0 0; font: .75rem ui-monospace, monospace; }
+    .code-card pre { border-radius: 0 0 10px 10px; height: 100%; }
+    .before h4 { color: var(--red); background: var(--red-soft); }
+    .after h4 { color: var(--green); background: var(--green-soft); }
+    .risk-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: .8rem; margin: 1.5rem 0; }
+    .risk { padding: 1rem; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; }
+    .risk .status { display: inline-block; margin-bottom: .45rem; font-size: .7rem; color: var(--red); }
+    .risk b { display: block; line-height: 1.25; }
+    .file-list { display: grid; gap: .6rem; margin: 1.2rem 0; }
+    .file-row { display: grid; grid-template-columns: minmax(190px, 1fr) 2fr; gap: 1rem; padding: .85rem 1rem; border-bottom: 1px solid var(--line); }
+    .file { font-size: .8rem; color: var(--blue); }
+    .quiz { display: grid; gap: 1.2rem; }
+    .question { padding: 1.2rem; border: 1px solid var(--line); border-radius: 14px; background: var(--panel); }
+    .question h3 { margin: 0 0 .85rem; font-size: 1.05rem; letter-spacing: 0; }
+    .choices { display: grid; gap: .5rem; }
+    button.choice {
+      width: 100%;
+      padding: .75rem .85rem;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: white;
+      color: var(--ink);
+      text-align: left;
+      cursor: pointer;
+      font-size: .82rem;
+    }
+    button.choice:hover, button.choice:focus { border-color: var(--green); outline: 2px solid transparent; }
+    button.choice.correct { background: var(--green-soft); border-color: var(--green); }
+    button.choice.wrong { background: var(--red-soft); border-color: var(--red); }
+    .feedback { min-height: 1.7rem; margin: .65rem 0 0; color: var(--muted); font-size: .9rem; }
+    footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+    @media (max-width: 800px) {
+      .shell { display: block; }
+      nav { position: static; margin-bottom: 1rem; }
+      nav a { display: inline-block; border-left: 0; border-bottom: 2px solid var(--line); }
+      header { padding-top: 2rem; }
+      .flow, .risk-grid { grid-template-columns: 1fr 1fr; }
+      .node:not(:last-child)::after { display: none; }
+    }
+    @media (max-width: 560px) {
+      body { font-size: 16px; }
+      .flow, .risk-grid, .split, .file-row { grid-template-columns: 1fr; }
+      .code-card pre { max-height: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <nav aria-label="Table of contents">
+      <strong>On this page</strong>
+      <a href="#summary">Summary</a>
+      <a href="#background">Background</a>
+      <a href="#intuition">Intuition</a>
+      <a href="#code">Code walkthrough</a>
+      <a href="#behavior">Behavior matrix</a>
+      <a href="#verification">Verification</a>
+      <a href="#quiz">Quiz</a>
+    </nav>
+
+    <main>
+      <header id="summary">
+        <div class="eyebrow">Explain diff · 2026-08-31</div>
+        <h1>Why the JCRT KCWorks importer now fails safely</h1>
+        <p class="lede">The change does not redesign the importer. It makes one copy canonical, gives a long upload a finite boundary, preserves evidence, and ensures that “anything except complete success” stops the surrounding publication workflow.</p>
+        <div class="meta">
+          <span class="pill">Python 3.9+</span>
+          <span class="pill">requests</span>
+          <span class="pill">HTTP 201 = success</span>
+          <span class="pill">6 focused tests</span>
+        </div>
+      </header>
+
+      <section id="background">
+        <h2>Background</h2>
+        <h3>The beginner’s model: a deposit is a consequential POST</h3>
+        <p>JCRT stores each article as Markdown plus front matter in <code>jcrt-v2</code>. A generator in <code>jcrt-meta</code> turns one issue into a JSON metadata array and a ZIP of PDFs. The wrapper then sends both to the KCWorks streamlined import endpoint. KCWorks may create public records and mint DOIs, so this POST is not an operation that can be repeated casually.</p>
+
+        <p>KCWorks is built on <a href="https://inveniosoftware.org/products/rdm/">InvenioRDM</a> and adds a streamlined bulk-import workflow documented in the <a href="https://mesh-research.github.io/knowledge-commons-works/reference/api.html">KCWorks API reference</a>. The former explains the repository platform; the latter is the contract this importer follows.</p>
+
+        <div class="diagram" aria-label="JCRT import data flow">
+          <div class="flow">
+            <div class="node"><span class="label">source</span><b>Markdown</b><small><code>nanoid: T4s4RL</code></small></div>
+            <div class="node"><span class="label">derived</span><b>JSON + ZIP</b><small><code>import-recid: T4s4RL</code></small></div>
+            <div class="node"><span class="label">remote</span><b>KCWorks</b><small>record + DOI</small></div>
+            <div class="node"><span class="label">return</span><b>Front matter</b><small><code>doi: 10.17613/…</code></small></div>
+          </div>
+        </div>
+
+        <p>The shell wrapper continues to DOI synchronization only when the Python process exits successfully. That makes the importer’s exit code part of the data-integrity boundary: a false zero can make a partial or failed remote operation look complete.</p>
+
+        <h3>The narrow problem: the old client had six sharp edges</h3>
+        <div class="risk-grid">
+          <div class="risk"><span class="status">HIGH</span><b>207 and 500 could exit zero</b><span>The wrapper could continue after partial or total failure.</span></div>
+          <div class="risk"><span class="status">HIGH</span><b>No timeout</b><span>A stalled request could wait indefinitely.</span></div>
+          <div class="risk"><span class="status">HIGH</span><b>URL override disabled TLS checks</b><span>An HTTPS test or alternate endpoint silently lost certificate verification.</span></div>
+          <div class="risk"><span class="status">MEDIUM</span><b>Boundary JSON was trusted</b><span>Bad input reached the server; non-object output could crash formatting.</span></div>
+          <div class="risk"><span class="status">MEDIUM</span><b>Two importer copies</b><span>The wrapper and documentation could drift to different behavior.</span></div>
+          <div class="risk"><span class="status">LOW</span><b>Spinner thread</b><span>Cosmetic output added concurrency and cleanup code.</span></div>
+        </div>
+
+        <div class="callout"><strong>Key term: ambiguous outcome</strong>A client timeout says only that the client stopped waiting. The server might have failed, might still be working, or might already have created records. Therefore timeout handling must say “reconcile before retrying,” not “safe to retry.”</div>
+      </section>
+
+      <section id="intuition">
+        <h2>Intuition</h2>
+        <p>Imagine depositing three articles: A, B, and C. The only green path is a response that says all three were created and arrives as HTTP 201. Every other path must preserve what the server said and stop.</p>
+
+        <div class="diagram" aria-label="Import outcome decision diagram">
+          <div class="flow">
+            <div class="node"><span class="label">request</span><b>A + B + C</b><small>one multipart POST</small></div>
+            <div class="node"><span class="label">evidence</span><b>Save response</b><small>data, errors, IDs</small></div>
+            <div class="node"><span class="label">decision</span><b>Exactly 201?</b><small>not “JSON parsed?”</small></div>
+            <div class="node"><span class="label">next step</span><b>Sync or stop</b><small>zero or nonzero exit</small></div>
+          </div>
+        </div>
+
+        <p>A toy 207 response might report A and B as created while C failed validation. Retrying A, B, and C can duplicate A and B. The correct response is to save the result, stop automation, and reconcile each stable <code>import-recid</code>. The same caution applies when the client times out before receiving any response.</p>
+
+        <p>The implementation follows one simple rule:</p>
+        <div class="callout"><strong>Preserve first, decide second.</strong>Parse or retain the response body, write it to the requested output path, display the useful message, and only then return success for HTTP 201 or failure for everything else.</div>
+      </section>
+
+      <section id="code">
+        <h2>Code walkthrough</h2>
+
+        <h3>1. One canonical importer</h3>
+        <p>The repository had a root copy and an attributed copy under <code>scripts/</code>. The root copy had already diverged. The wrapper now calls the script copy and the duplicate is deleted.</p>
+        <div class="split">
+          <div class="code-card before"><h4>Before</h4><pre><code>"$python" kcworks_api_importer.py \
+  --collection-id "$slug" ...</code></pre></div>
+          <div class="code-card after"><h4>After</h4><pre><code>"$python" scripts/kcworks_api_importer.py \
+  --collection-id "$slug" ...</code></pre></div>
+        </div>
+
+        <h3>2. Validate local metadata before network access</h3>
+        <p>The API requires an array of record objects. The importer now checks JSON syntax and the array root locally, before it opens the network boundary.</p>
+        <div class="split">
+          <div class="code-card before"><h4>Before</h4><pre><code>with open(metadata_path) as metadata_file:
+    metadata_json = metadata_file.read()
+
+# Sent without parsing</code></pre></div>
+          <div class="code-card after"><h4>After</h4><pre><code>with open(metadata_path, encoding="utf-8") as metadata_file:
+    metadata_json = metadata_file.read()
+try:
+    metadata = json.loads(metadata_json)
+except json.JSONDecodeError as error:
+    _print_error("Metadata is not valid JSON", str(error))
+    sys.exit(1)
+if not isinstance(metadata, list):
+    _print_error("Metadata JSON must contain an array at its root")
+    sys.exit(1)</code></pre></div>
+        </div>
+
+        <h3>3. Bound the request without pretending it is idempotent</h3>
+        <p><code>requests</code> accepts a pair of timeout values. Connection establishment gets 10 seconds; reading the potentially slow import response gets 600 seconds by default and can be changed with <code>--timeout</code> or <code>KCWORKS_IMPORT_TIMEOUT</code>.</p>
+        <pre><code>response = requests.post(
+    api_url,
+    headers=headers,
+    files=files,
+    data=data,
+    verify=not testing,
+    timeout=(DEFAULT_CONNECT_TIMEOUT, timeout),
+)</code></pre>
+        <p>A timeout exits nonzero with an explicit warning that the server outcome is unknown. There is no automatic POST retry.</p>
+
+        <h3>4. Keep TLS verification tied to explicit test mode</h3>
+        <p>Previously, merely setting <code>KCWORKS_IMPORT_API_URL</code> disabled verification. Now endpoint selection and transport security are separate decisions: a URL override changes the destination; only <code>--testing</code> changes <code>verify</code> to false.</p>
+        <div class="split">
+          <div class="code-card before"><h4>Before</h4><pre><code>if api_url_env:
+    api_url = ...
+    verify_ssl = False</code></pre></div>
+          <div class="code-card after"><h4>After</h4><pre><code>api_root = api_url_env or default_api_root
+api_url = f"{api_root.rstrip('/')}/{collection_id}"
+
+# In requests.post(...)
+verify=not testing</code></pre></div>
+        </div>
+
+        <h3>5. Save evidence, then enforce the 201 contract</h3>
+        <p>JSON is not automatically trustworthy because it parsed. The formatter expects an object, so lists, strings, and other JSON roots now take the same safe path as malformed JSON: save the raw body and fail cleanly. For an object response, the full JSON is written before the status is judged.</p>
+        <pre><code>if output_path:
+    with open(output_path, "w", encoding="utf-8") as output_file:
+        json.dump(response_json, output_file, indent=2)
+    print(f"\nFull response saved to: {output_path}")
+if response.status_code != 201:
+    sys.exit(1)</code></pre>
+
+        <h3>6. Remove cosmetic concurrency and make ownership lexical</h3>
+        <p>The spinner thread did not make the upload faster or safer. A static progress line replaces it. <code>ExitStack</code> owns every open upload file and closes them together when the request scope ends, including exceptional paths.</p>
+        <div class="split">
+          <div class="code-card before"><h4>Before</h4><pre><code>file_handles = []
+stop_spinner = threading.Event()
+spinner_thread = threading.Thread(...)
+...
+finally:
+    for file_handle in file_handles:
+        file_handle.close()</code></pre></div>
+          <div class="code-card after"><h4>After</h4><pre><code>with ExitStack() as stack:
+    files = [
+        ("files", (name,
+          stack.enter_context(open(path, "rb")), mime))
+        for path in files_paths
+    ]
+    print("\nImporting records...")
+    response = requests.post(...)</code></pre></div>
+        </div>
+
+        <h3>Cross-file impact</h3>
+        <div class="file-list">
+          <div class="file-row"><span class="file">import.sh</span><span>Routes the production workflow to the canonical script.</span></div>
+          <div class="file-row"><span class="file">scripts/kcworks_api_importer.py</span><span>Owns validation, TLS, timeout, response preservation, and exit semantics.</span></div>
+          <div class="file-row"><span class="file">kcworks_api_importer.py</span><span>Deleted; no second implementation remains.</span></div>
+          <div class="file-row"><span class="file">scripts/test_kcworks_api_importer.py</span><span>Mocks the network and locks down the six safety behaviors.</span></div>
+          <div class="file-row"><span class="file">README.md + docs/</span><span>Point operators at the canonical path and explain reconciliation.</span></div>
+        </div>
+      </section>
+
+      <section id="behavior">
+        <h2>Behavior matrix</h2>
+        <div class="diagram">
+          <div class="file-list">
+            <div class="file-row"><span class="file">HTTP 201 + object JSON</span><span>Print and save response; exit 0; wrapper may synchronize DOIs.</span></div>
+            <div class="file-row"><span class="file">HTTP 207 / 4xx / 5xx</span><span>Print and save response; exit 1; reconcile before further action.</span></div>
+            <div class="file-row"><span class="file">Client timeout</span><span>Exit 1; outcome unknown; inspect submitted <code>import-recid</code> values before retrying.</span></div>
+            <div class="file-row"><span class="file">Malformed metadata</span><span>Exit 1 before calling <code>requests.post</code>.</span></div>
+            <div class="file-row"><span class="file">Non-object response</span><span>Save raw body when an output path exists; exit 1 without formatter crash.</span></div>
+            <div class="file-row"><span class="file">HTTPS URL override</span><span>Certificate verification remains enabled unless explicit test mode is active.</span></div>
+          </div>
+        </div>
+
+        <p>Three observed HTTP 500 responses carried diagnostic IDs <code>e54e719e13cc441ba699b26e40e5acd4</code>, <code>80e109ecb7cf4f099744e780d42f6395</code>, and <code>91058a2074ed423fa81be180fe15c203</code>. Those were server responses, not client-side timeout exceptions. Keeping the categories separate is essential because one has a response body to preserve while the other has an unknown outcome to reconcile.</p>
+
+        <div class="callout"><strong>Deliberately absent</strong>No retry decorator, batching framework, duplicate detector, or local copy of the full KCWorks schema was added. Retries require idempotency; batch recovery requires JCRT-specific reconciliation; KCWorks remains authoritative for its schema.</div>
+      </section>
+
+      <section id="verification">
+        <h2>Verification</h2>
+        <p>The check suite makes no live KCWorks requests. A mocked response object exercises the important branches while the existing issue preflight verifies the wrapper path and generated payload.</p>
+        <pre><code>python3 -m py_compile scripts/kcworks_api_importer.py
+.venv/bin/python -m unittest discover \
+  -s scripts -p 'test_kcworks_api_importer.py'
+.venv/bin/python scripts/kcworks_api_importer.py --help
+./import.sh --check 25.1
+rg -n 'kcworks_api_importer\.py' README.md import.sh scripts CHANGELOG.md
+git diff --check</code></pre>
+        <p>The six focused tests cover HTTP 201, HTTP 207 and 500, timeout warnings, invalid metadata before request, malformed or non-object responses, and TLS verification for an overridden HTTPS endpoint.</p>
+      </section>
+
+      <section id="quiz">
+        <h2>Quiz</h2>
+        <p>Choose one answer for each question. Feedback appears immediately.</p>
+        <div class="quiz">
+          <article class="question" data-explanation="A 207 can contain records that were created. Retrying the entire set may duplicate those successes.">
+            <h3>1. Why does HTTP 207 cause a nonzero exit?</h3>
+            <div class="choices">
+              <button class="choice" type="button">Because 207 is not valid HTTP</button>
+              <button class="choice" type="button" data-correct="true">Because partial creation requires reconciliation before another action</button>
+              <button class="choice" type="button">Because JSON cannot accompany 207</button>
+            </div><p class="feedback" aria-live="polite"></p>
+          </article>
+
+          <article class="question" data-explanation="The read timeout limits waiting, but it cannot prove whether the server completed the POST after the client stopped waiting.">
+            <h3>2. What does a client-side timeout prove?</h3>
+            <div class="choices">
+              <button class="choice" type="button">The server rolled back every record</button>
+              <button class="choice" type="button">The request never reached KCWorks</button>
+              <button class="choice" type="button" data-correct="true">Only that the client did not receive a conclusive response in time</button>
+            </div><p class="feedback" aria-live="polite"></p>
+          </article>
+
+          <article class="question" data-explanation="The endpoint override selects a destination. Certificate verification changes only in explicit testing mode.">
+            <h3>3. When is TLS certificate verification disabled?</h3>
+            <div class="choices">
+              <button class="choice" type="button">Whenever KCWORKS_IMPORT_API_URL is set</button>
+              <button class="choice" type="button" data-correct="true">Only when the explicit --testing mode is used</button>
+              <button class="choice" type="button">Whenever the read timeout exceeds 600 seconds</button>
+            </div><p class="feedback" aria-live="polite"></p>
+          </article>
+
+          <article class="question" data-explanation="The stable source identifier links an import result back to exactly one Markdown record even if titles or filenames change.">
+            <h3>4. Why is <code>import-recid</code> central to recovery?</h3>
+            <div class="choices">
+              <button class="choice" type="button">It controls the HTTP timeout</button>
+              <button class="choice" type="button">It contains the generated DOI</button>
+              <button class="choice" type="button" data-correct="true">It provides a stable cross-system key for reconciliation</button>
+            </div><p class="feedback" aria-live="polite"></p>
+          </article>
+
+          <article class="question" data-explanation="The body may contain error IDs and per-record outcomes. It is saved before the process exits on a non-201 status.">
+            <h3>5. Why is the response written before checking for HTTP 201?</h3>
+            <div class="choices">
+              <button class="choice" type="button" data-correct="true">To retain diagnostic and reconciliation evidence even on failure</button>
+              <button class="choice" type="button">To convert every status into success</button>
+              <button class="choice" type="button">To make the spinner stop</button>
+            </div><p class="feedback" aria-live="polite"></p>
+          </article>
+        </div>
+      </section>
+
+      <footer>
+        <p>Scope: the uncommitted JCRT KCWorks importer consolidation and safety hardening. Archive metadata and ZIP changes are intentionally excluded. References: <a href="https://inveniosoftware.org/products/rdm/">InvenioRDM</a> and the <a href="https://mesh-research.github.io/knowledge-commons-works/reference/api.html">KCWorks API</a>. Detailed repository notes: <a href="kcworks-api-importer-explain-diff.md">Markdown explain-diff</a>.</p>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    document.querySelectorAll('.question').forEach((question) => {
+      const feedback = question.querySelector('.feedback');
+      const explanation = question.dataset.explanation;
+      question.querySelectorAll('.choice').forEach((choice) => {
+        choice.addEventListener('click', () => {
+          question.querySelectorAll('.choice').forEach((button) => {
+            button.classList.remove('correct', 'wrong');
+            button.removeAttribute('aria-pressed');
+          });
+          const correct = choice.dataset.correct === 'true';
+          choice.classList.add(correct ? 'correct' : 'wrong');
+          choice.setAttribute('aria-pressed', 'true');
+          feedback.textContent = `${correct ? 'Correct.' : 'Not quite.'} ${explanation}`;
+        });
+      });
+    });
+  </script>
+</body>
+</html>
