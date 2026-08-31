@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-# Vendored, unmodified apart from this header, from MESH-Research/knowledge-commons-works:
+# Vendored from MESH-Research/knowledge-commons-works and hardened for JCRT:
 #   scripts/user_resources/kcworks_api_importer.py
 #   https://github.com/MESH-Research/knowledge-commons-works
 #   commit f25a0d192b10c931dcf64d752c8acf37a7cb5633 (2026-02-06)
-# Requires Python 3.9+ and the `requests` package. See README.md for JCRT usage.
+# Requires Python 3.9+ and `requests`. See docs/kcworks-api-importer-explain-diff.md.
 r"""Import works to a KCWorks collection via the import API.
 
 This script provides a command-line interface for importing works (records)
@@ -36,6 +36,9 @@ Command-Line Arguments:
         KCWORKS_IMPORT_OUTPUT_PATH environment variable, or prompts interactively
         (can be skipped by pressing Enter).
 
+    --timeout SECONDS
+        Maximum time to wait while reading the import response. Defaults to 600.
+
 Environment Variables:
     KCWORKS_IMPORT_API_KEY
         API key for authentication (alternative to --api-key)
@@ -54,11 +57,13 @@ Environment Variables:
 
     KCWORKS_IMPORT_API_URL
         Override the import API base URL (e.g. http://127.0.0.1:8000/api/import).
-        Used for testing. When set, SSL verification is disabled.
+
+    KCWORKS_IMPORT_TIMEOUT
+        Override the default 600-second response read timeout.
 
 Usage Examples:
     # Basic usage with all arguments
-    python scripts/user_resources/kcworks_api_importer.py \\
+    python scripts/kcworks_api_importer.py \\
         --api-key "your-api-key" \\
         --collection-id "my-collection" \\
         --metadata "metadata.json" \\
@@ -70,13 +75,13 @@ Usage Examples:
     export KCWORKS_IMPORT_COLLECTION_ID="my-collection"
     export KCWORKS_IMPORT_METADATA_PATH="metadata.json"
     export KCWORKS_IMPORT_FILES_PATH="file1.pdf file2.docx"
-    python scripts/user_resources/kcworks_api_importer.py --output "response.json"
+    python scripts/kcworks_api_importer.py --output "response.json"
 
     # Interactive mode (will prompt for missing values)
-    python scripts/user_resources/kcworks_api_importer.py
+    python scripts/kcworks_api_importer.py
 
     # Single file upload
-    python scripts/user_resources/kcworks_api_importer.py \\
+    python scripts/kcworks_api_importer.py \\
         --api-key "your-api-key" \\
         --collection-id "my-collection" \\
         --metadata "metadata.json" \\
@@ -101,11 +106,11 @@ Exit Codes:
 from __future__ import annotations
 
 import argparse
+from contextlib import ExitStack
 import json
 import mimetypes
 import os
 import sys
-import threading
 from typing import Any, Optional
 
 # Check Python version
@@ -120,6 +125,20 @@ if sys.version_info < (3, 9):  # noqa: PLR2004, SIM108
     sys.exit(1)
 
 import requests
+
+DEFAULT_CONNECT_TIMEOUT = 10.0
+DEFAULT_READ_TIMEOUT = 600.0
+
+
+def _positive_float(value: str) -> float:
+    """Parse a positive timeout value for argparse."""
+    try:
+        number = float(value)
+    except ValueError as error:
+        raise argparse.ArgumentTypeError("timeout must be a number") from error
+    if number <= 0:
+        raise argparse.ArgumentTypeError("timeout must be greater than zero")
+    return number
 
 
 def _get_api_key(args: argparse.Namespace) -> str:
@@ -453,6 +472,7 @@ def import_works(
     output_path: Optional[str] = None,  # noqa: UP007
     testing: bool = False,
     notify_owners: bool = False,
+    timeout: float = DEFAULT_READ_TIMEOUT,
 ) -> None:
     """Import works to the collection.
 
@@ -466,6 +486,7 @@ def import_works(
             instead of the production instance. (Defaults to False)
         notify_owners: Optional flag to enable email notification of
             users identified as record owners.
+        timeout: Maximum seconds to wait while reading the import response.
 
     Exits:
         SystemExit: If request fails with a network error.
@@ -473,103 +494,90 @@ def import_works(
     api_url_env = os.getenv("KCWORKS_IMPORT_API_URL")
     # Used with test server in automated testing that
     # assigns an arbitrary port.
-    if api_url_env:
-        api_url = f"{api_url_env.rstrip('/')}/{collection_id}"
-        verify_ssl = False
-    else:
-        api_url = f"https://works.hcommons.org/api/import/{collection_id}"
-        if testing:  # in manual testing
-            api_url = f"https://localhost/api/import/{collection_id}"
-        verify_ssl = not testing
+    api_root = api_url_env or (
+        "https://localhost/api/import"
+        if testing
+        else "https://works.hcommons.org/api/import"
+    )
+    api_url = f"{api_root.rstrip('/')}/{collection_id}"
 
     headers = {"Accept": "application/json", "Authorization": f"Bearer {api_key}"}
 
-    # Load metadata from JSON file as a string
-    with open(metadata_path) as metadata_file:
+    # Load and minimally validate metadata before making a remote request.
+    with open(metadata_path, encoding="utf-8") as metadata_file:
         metadata_json = metadata_file.read()
-
-    # Open all files and prepare file list
-    file_handles = []
-    files = []
+    try:
+        metadata = json.loads(metadata_json)
+    except json.JSONDecodeError as error:
+        _print_error("Metadata is not valid JSON", str(error))
+        sys.exit(1)
+    if not isinstance(metadata, list):
+        _print_error("Metadata JSON must contain an array at its root")
+        sys.exit(1)
 
     try:
-        for file_path in files_paths:
-            file_handle = open(file_path, "rb")
-            file_handles.append(file_handle)
-
-            # Get filename from path
-            filename = os.path.basename(file_path)
-            mime_type = _get_mime_type(file_path)
-
-            files.append(("files", (filename, file_handle, mime_type)))
-
-        data = {
-            "metadata": metadata_json,
-            "notify_record_owners": str(notify_owners).lower(),
-        }
-
-        def _run_spinner(
-            stop: threading.Event, message: str = "Importing records..."
-        ) -> None:
-            chars = ["|", "/", "-", "\\"]
-            i = 0
-            while not stop.is_set():
-                sys.stdout.write(f"\r{message} {chars[i % len(chars)]}")
-                sys.stdout.flush()
-                i += 1
-                stop.wait(0.1)
-
-        print(" ")
-        stop_spinner = threading.Event()
-        spinner_thread = threading.Thread(
-            target=_run_spinner, args=(stop_spinner,), daemon=True
-        )
-        spinner_thread.start()
-        try:
+        with ExitStack() as stack:
+            files = [
+                (
+                    "files",
+                    (
+                        os.path.basename(file_path),
+                        stack.enter_context(open(file_path, "rb")),
+                        _get_mime_type(file_path),
+                    ),
+                )
+                for file_path in files_paths
+            ]
+            data = {
+                "metadata": metadata_json,
+                "notify_record_owners": str(notify_owners).lower(),
+            }
+            print("\nImporting records...")
             response = requests.post(
-                api_url, headers=headers, files=files, data=data, verify=verify_ssl
+                api_url,
+                headers=headers,
+                files=files,
+                data=data,
+                verify=not testing,
+                timeout=(DEFAULT_CONNECT_TIMEOUT, timeout),
             )
-        finally:
-            stop_spinner.set()
-            spinner_thread.join()
-            sys.stdout.write("\r" + " " * 30 + "\r")
-            sys.stdout.flush()
-
-        print("=" * 70)
-        print("Import Result")
-        print("=" * 70)
-
-        # Try to parse as JSON
-        try:
-            response_json = response.json()
-
-            # Print human-readable message
-            message = _format_response_message(response_json, response.status_code)
-            print(message)
-
-            # Save to output file if provided
-            if output_path:
-                with open(output_path, "w") as output_file:
-                    json.dump(response_json, output_file, indent=2)
-                print(f"\nFull response saved to: {output_path}")
-        except ValueError:
-            # Response is not JSON, handle as text
-            _print_error(
-                f"Request failed with status {response.status_code}", response.text
-            )
-            # If output path is provided but response isn't JSON, save as text
-            if output_path:
-                with open(output_path, "w") as output_file:
-                    output_file.write(response.text)
-                print(f"\nResponse saved to: {output_path}")
-            sys.exit(1)
-    except requests.exceptions.RequestException as e:
-        _print_error(f"✗ Request failed", str(e))
+    except requests.exceptions.Timeout as error:
+        _print_error(
+            "Request timed out; the server outcome is unknown",
+            f"{error}. Reconcile submitted import-recid values before retrying.",
+        )
         sys.exit(1)
-    finally:
-        # Close all file handles
-        for file_handle in file_handles:
-            file_handle.close()
+    except requests.exceptions.RequestException as e:
+        _print_error("Request failed", str(e))
+        sys.exit(1)
+
+    print("=" * 70)
+    print("Import Result")
+    print("=" * 70)
+
+    try:
+        response_json = response.json()
+    except ValueError:
+        response_json = None
+
+    if not isinstance(response_json, dict):
+        _print_error(
+            f"Request failed with status {response.status_code}",
+            "Response body was not a JSON object.",
+        )
+        if output_path:
+            with open(output_path, "w", encoding="utf-8") as output_file:
+                output_file.write(response.text)
+            print(f"\nResponse saved to: {output_path}")
+        sys.exit(1)
+
+    print(_format_response_message(response_json, response.status_code))
+    if output_path:
+        with open(output_path, "w", encoding="utf-8") as output_file:
+            json.dump(response_json, output_file, indent=2)
+        print(f"\nFull response saved to: {output_path}")
+    if response.status_code != 201:
+        sys.exit(1)
 
 
 def _print_startup_info(
@@ -648,6 +656,15 @@ def main() -> None:
             "record owners. (Defaults to False)"
         ),
     )
+    parser.add_argument(
+        "--timeout",
+        type=_positive_float,
+        default=os.getenv("KCWORKS_IMPORT_TIMEOUT", str(DEFAULT_READ_TIMEOUT)),
+        help=(
+            "Read timeout in seconds "
+            "(or set KCWORKS_IMPORT_TIMEOUT; defaults to 600)"
+        ),
+    )
 
     args = parser.parse_args()
 
@@ -673,6 +690,7 @@ def main() -> None:
         output_path,
         args.testing,
         args.notify_record_owners,
+        args.timeout,
     )
 
 

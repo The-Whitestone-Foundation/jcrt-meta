@@ -174,7 +174,7 @@ fi
 read -r -p "Import this metadata set and ZIP into $title now? [y/N] " answer
 [[ $answer =~ ^([Yy]|[Yy][Ee][Ss])$ ]] || exit 0
 KCWORKS_IMPORT_API_KEY=$api_key KCWORKS_IMPORT_OUTPUT_PATH=$output \
-	"$python" kcworks_api_importer.py \
+	"$python" scripts/kcworks_api_importer.py \
 		--collection-id "$slug" --metadata "$metadata" --files "$archive"
 
 printf '\nSyncing KC Works DOIs to jcrt-v2...\n'

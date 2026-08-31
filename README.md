@@ -20,6 +20,9 @@ match. The `fstNNNNNNN` form is not exported.
 The ISSN is a journal identifier, not an article identifier, so it appears only
 in `custom_fields["journal:journal"].issn` — never in `metadata.identifiers`.
 
+Detailed operator and integration documentation is indexed in
+[`docs/README.md`](docs/README.md).
+
 ## Rebuilding the archive metadata
 
 1. Update the numbered issue content in `../jcrt-v2/content/archives/`.
@@ -43,7 +46,7 @@ author fall back to `JCRT Editors` as the creator.
 
 ## Importing an issue into KCWorks
 
-`kcworks_api_importer.py` is vendored from
+`scripts/kcworks_api_importer.py` is vendored from
 [MESH-Research/knowledge-commons-works](https://github.com/MESH-Research/knowledge-commons-works)
 and needs Python 3.9+ with `requests`. Keep the token and output pattern in the
 gitignored `.env`:
@@ -53,6 +56,7 @@ python3 -m venv .venv
 .venv/bin/pip install requests
 KCWORKS_IMPORT_API_KEY=...
 KCWORKS_IMPORT_OUTPUT_PATH=_logs/{issue}.log
+KCWORKS_IMPORT_TIMEOUT=600
 ```
 
 Use the interactive wrapper one issue at a time:
