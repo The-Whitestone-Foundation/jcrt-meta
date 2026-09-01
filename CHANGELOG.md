@@ -8,6 +8,10 @@ Generated and kept current by `npm run changelog` — do not renumber by hand.
 Hand-written notes added under an entry are preserved; the generator only ever
 appends entries for commits that are not yet listed.
 
+## [00.00.30] — 2026-09-01
+cahce optimization
+- Notes: cahce optimization.
+
 ## [00.00.29] — 2026-09-01
 fix: support KC Works nanoid migration
 - Notes: fix: support KC Works nanoid migration.
