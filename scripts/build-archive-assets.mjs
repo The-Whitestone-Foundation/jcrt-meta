@@ -14,6 +14,7 @@ const SOURCE = path.join(V2, "content", "archives");
 const ARCHIVES = path.join(ROOT, "archives");
 const require = createRequire(path.join(V2, "package.json"));
 const yaml = require("js-yaml");
+const python = [path.resolve(ROOT, "..", ".venv", "bin", "python"), path.join(ROOT, ".venv", "bin", "python"), "python3"].find((candidate) => candidate === "python3" || fs.existsSync(candidate));
 const check = process.argv.includes("--check");
 const pdfUaCheck = process.argv.includes("--pdf-ua-check");
 const rebuild = process.argv.includes("--rebuild");
@@ -70,8 +71,10 @@ function validate(work) {
 	const pdfs = publishedIssues.flatMap((issue) => fs.readdirSync(path.join(work, issue))
 		.filter((name) => name.endsWith(".pdf"))
 		.map((name) => path.join(work, issue, name)));
-	if (pdfs.length !== 795) throw new Error(`Expected 795 PDFs, found ${pdfs.length}`);
-	run("python3", [path.join(ROOT, "scripts", "check_pdf_accessibility.py"), work]);
+	if (pdfs.length !== 831) throw new Error(`Expected 831 PDFs, found ${pdfs.length}`);
+	const referenced = new Set(publishedIssues.flatMap((issue) => JSON.parse(fs.readFileSync(path.join(ARCHIVES, `${issue}.metadata.json`)))
+		.flatMap((record) => Object.keys(record.files?.entries || {}).map((name) => `${issue}/${name}`))));
+	run(python, [path.join(ROOT, "scripts", "check_pdf_accessibility.py"), work]);
 	for (const pdf of pdfs) {
 		run("qpdf", ["--check", pdf], { capture: true });
 		const info = run("pdfinfo", [pdf], { capture: true });
@@ -79,6 +82,8 @@ function validate(work) {
 			if (!expectedValue.test(info)) throw new Error(`PDF metadata check failed (${expectedValue}): ${pdf}`);
 		}
 		if (!run("pdftotext", [pdf, "-"], { capture: true }).trim()) throw new Error(`PDF has no extractable text: ${pdf}`);
+		const relative = path.relative(work, pdf);
+		if (referenced.has(relative) && !/DOI \(newest version\):\s*10\.17613\/[a-z0-9-]+/i.test(run("pdftotext", ["-f", "1", "-l", "1", pdf, "-"], { capture: true }))) throw new Error(`Stable parent DOI missing from flyleaf: ${pdf}`);
 	}
 	for (const issue of publishedIssues) {
 		const dir = path.join(work, issue);
@@ -156,7 +161,7 @@ function build(work) {
 			run("ocrmypdf", ["--mode", "skip", "--output-type", "pdf", "--optimize", "1", pdf, pdf]);
 		}
 		const citations = path.join(FILES, "citations", "archives", issue);
-		run("python3", [
+		run(python, [
 			path.join(FILES, "scripts", "update_pdf_metadata.py"),
 			"--updates-dir", target,
 			"--archive-dir", target,
@@ -164,7 +169,17 @@ function build(work) {
 			"--content-dir", path.join(SOURCE, issue),
 			"--archive-base-url", `https://jcrt.org/archives/${issue}`,
 			...(fs.existsSync(citations) ? ["--citations-dir", citations] : []),
+			"--flyleaf-script", path.join(V2, "scripts", "create-jcrt-flyleaf.py"),
+			"--replace-flyleaf",
 		]);
+	}
+
+	for (const issue of publishedIssues) {
+		const target = path.join(FILES, "archives", issue);
+		fs.mkdirSync(target, { recursive: true });
+		for (const name of fs.readdirSync(path.join(work, issue)).filter((name) => name.endsWith(".pdf"))) {
+			fs.copyFileSync(path.join(work, issue, name), path.join(target, name));
+		}
 	}
 
 	for (const issue of publishedIssues) {
