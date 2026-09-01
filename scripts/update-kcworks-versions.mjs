@@ -12,10 +12,12 @@ const API = process.env.KCWORKS_API_ROOT || "https://works.hcommons.org/api";
 const TOKEN = process.env.KCWORKS_IMPORT_API_KEY;
 const dryRun = process.argv.includes("--dry-run");
 const only = process.argv.find((arg) => arg.startsWith("--only="))?.slice(7);
+const previousNanoid = process.argv.find((arg) => arg.startsWith("--previous-nanoid="))?.slice(18);
 const limit = Number(process.argv.find((arg) => arg.startsWith("--limit="))?.slice(8) || Infinity);
 const STATE_FILE = path.join(ROOT, "_logs", "version-updates.json");
 const pause = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
 if (!dryRun && !TOKEN) throw new Error("Set KCWORKS_IMPORT_API_KEY before updating KC Works");
+if (previousNanoid && !only) throw new Error("--previous-nanoid requires --only=<new-nanoid>");
 
 const headers = { Accept: "application/json", ...(TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}) };
 async function request(method, url, options = {}) {
@@ -66,7 +68,9 @@ for (const name of fs.readdirSync(path.join(ROOT, "archives")).filter((name) => 
 }
 const usage = new Map();
 for (const { issue, filename } of deposits.values()) usage.set(`${issue}/${filename}`,(usage.get(`${issue}/${filename}`) || 0) + 1);
-let queue = mappings.filter((item) => !only || item.nanoid === only);
+let queue = mappings
+	.map((item) => previousNanoid && item.nanoid === previousNanoid ? { ...item, nanoid: only, lookup_nanoid: previousNanoid } : item)
+	.filter((item) => !only || item.nanoid === only);
 if (!isNewPolis) {
 	const shared = queue.filter((item) => { const d = deposits.get(item.nanoid); return usage.get(`${d.issue}/${d.filename}`) > 1; });
 	queue = queue.filter((item) => !shared.includes(item));
@@ -88,9 +92,10 @@ for (const [index, item] of queue.entries()) {
 		console.log(`[${index + 1}/${queue.length}] ${item.nanoid}: audit-log current (${state[item.nanoid].record_id})`);
 		continue;
 	}
-	const current = await latest(item.nanoid, item.parent_doi);
+	const current = await latest(item.lookup_nanoid || item.nanoid, item.parent_doi);
 	const remoteFiles = Object.values(current.files?.entries || {});
-	if (remoteFiles.length === 1 && remoteFiles[0].key === deposit.filename && remoteFiles[0].checksum === checksum) {
+	const remoteNanoid = current.metadata?.identifiers?.find((identifier) => identifier.scheme === "import-recid")?.identifier;
+	if (remoteNanoid === item.nanoid && remoteFiles.length === 1 && remoteFiles[0].key === deposit.filename && remoteFiles[0].checksum === checksum) {
 		console.log(`[${index + 1}/${queue.length}] ${item.nanoid}: already current (${current.id})`);
 		state[item.nanoid] = { status: "published", record_id: current.id, parent_doi: item.parent_doi, checksum };
 		saveState(state);
@@ -111,7 +116,9 @@ for (const [index, item] of queue.entries()) {
 		saveState(state);
 	}
 	const draftUrl = `${API}/records/${draft.id}/draft`;
-	draft = await request("PUT", draftUrl, { json: { metadata: current.metadata, custom_fields: current.custom_fields, access: draft.access, files: draft.files } });
+	const metadata = structuredClone(current.metadata);
+	metadata.identifiers = (metadata.identifiers || []).map((identifier) => identifier.scheme === "import-recid" ? { ...identifier, identifier: item.nanoid } : identifier);
+	draft = await request("PUT", draftUrl, { json: { metadata, custom_fields: current.custom_fields, access: draft.access, files: draft.files } });
 	let files = await request("GET", `${draftUrl}/files`);
 	let entry = files.entries?.find?.(({ key }) => key === deposit.filename);
 	if (!entry) {
@@ -126,6 +133,7 @@ for (const [index, item] of queue.entries()) {
 	const published = await request("POST", draft.links?.publish || `${draftUrl}/actions/publish`);
 	const publishedParentDoi = parentDoi(published);
 	if (!published.versions?.is_latest || publishedParentDoi !== item.parent_doi || Object.values(published.files?.entries || {})[0]?.checksum !== checksum) throw new Error(`${item.nanoid}: published version verification failed`);
+	if (!published.metadata?.identifiers?.some((identifier) => identifier.scheme === "import-recid" && identifier.identifier === item.nanoid)) throw new Error(`${item.nanoid}: published import-recid verification failed`);
 	state[item.nanoid] = { status: "published", record_id: published.id, version: published.versions.index, version_doi: published.pids?.doi?.identifier, parent_doi: publishedParentDoi, checksum };
 	saveState(state);
 	updated++;

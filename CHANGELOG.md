@@ -8,6 +8,10 @@ Generated and kept current by `npm run changelog` — do not renumber by hand.
 Hand-written notes added under an entry are preserved; the generator only ever
 appends entries for commits that are not yet listed.
 
+## [00.00.28] — 2026-09-01
+feat: add stable DOI version update workflow
+- Notes: feat: add stable DOI version update workflow.
+
 ## [00.00.27] — 2026-08-31
 fix: rebuild Raschke deposit archive
 - Notes: fix: rebuild Raschke deposit archive.
