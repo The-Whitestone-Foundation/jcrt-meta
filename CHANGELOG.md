@@ -8,6 +8,10 @@ Generated and kept current by `npm run changelog` — do not renumber by hand.
 Hand-written notes added under an entry are preserved; the generator only ever
 appends entries for commits that are not yet listed.
 
+## [00.00.32] — 2026-09-01
+putting the zip files on a diet
+- Notes: putting the zip files on a diet.
+
 ## [00.00.31] — 2026-09-01
 updated zips and metadatas
 - Notes: updated zips and metadatas.
