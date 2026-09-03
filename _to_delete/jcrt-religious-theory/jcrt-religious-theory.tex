@@ -1,0 +1,227 @@
+\DocumentMetadata{
+  lang=$if(lang)$$lang$$else$en-US$endif$,
+  pdfstandard=ua-1,
+  pdfversion=1.7,
+  testphase={phase-III}
+}
+\documentclass[11pt]{article}
+
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{fontspec}
+\usepackage{graphicx}
+% \leavevmode: \setbox does not start a paragraph, so without it an image that
+% opens a paragraph leaves LaTeX in vertical mode and a following \\ (a Markdown
+% hard break between stacked figures) fails with "There's no line here to end".
+\providecommand{\pandocbounded}[1]{\leavevmode{\setbox0=\hbox{#1}\ifdim\wd0>\linewidth\resizebox{\linewidth}{!}{#1}\else\box0\fi}}
+\usepackage{microtype}
+\usepackage{xurl}
+\usepackage{hyperref}
+\usepackage{hyperxmp}
+\usepackage{bookmark}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{xcolor}
+
+\IfFontExistsTF{Book Antiqua}{
+  \setmainfont{Book Antiqua}
+  \setsansfont{Book Antiqua}
+}{
+  \setmainfont{texgyrepagella-regular.otf}[
+    BoldFont=texgyrepagella-bold.otf,
+    ItalicFont=texgyrepagella-italic.otf,
+    BoldItalicFont=texgyrepagella-bolditalic.otf
+  ]
+  \setsansfont{texgyrepagella-regular.otf}[
+    BoldFont=texgyrepagella-bold.otf,
+    ItalicFont=texgyrepagella-italic.otf,
+    BoldItalicFont=texgyrepagella-bolditalic.otf
+  ]
+}
+\definecolor{jcrtred}{HTML}{BF232E}
+\definecolor{jcrtnavy}{HTML}{003366}
+\setlength{\parindent}{0.25in}
+\setlength{\parskip}{0pt}
+\setcounter{secnumdepth}{0}
+\setlist{nosep}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+$if(lang)$
+\usepackage[$lang$]{babel}
+$endif$
+
+$if(csl-refs)$
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+\let\@cite@ofmt\@firstofone
+\def\@biblabel#1{}
+\def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2]
+ {\section{$if(reference-section-title)$$reference-section-title$$else$References$endif$}
+  \begin{list}{}{\setlength{\itemindent}{0pt}
+                  \setlength{\leftmargin}{0pt}
+                  \setlength{\parsep}{0pt}
+                  \ifodd #1
+                  \setlength{\leftmargin}{\cslhangindent}
+                  \setlength{\itemindent}{-1\cslhangindent}
+                  \fi
+                  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+$endif$
+
+\hypersetup{
+  pdfdisplaydoctitle=true,
+  colorlinks=false,
+  pdfborderstyle={/S/U/W 1},
+  linkbordercolor=jcrtnavy,
+  citebordercolor=jcrtnavy,
+  urlbordercolor=jcrtnavy,
+  bookmarksopen=true,
+  bookmarksnumbered=false,
+  pdftitle={{$title$}},
+  pdfauthor={$for(author)$$author$$sep$; $endfor$},
+$if(abstract)$
+  pdfsubject={{$abstract$}},
+$elseif(description)$
+  pdfsubject={{$description$}},
+$elseif(subject)$
+  pdfsubject={{$subject$}},
+$endif$
+$if(keywords)$
+  pdfkeywords={$for(keywords)$$keywords$$sep$, $endfor$},
+$endif$
+  pdfcreator={Pandoc},
+  pdfproducer={LuaLaTeX},
+$if(url)$
+  pdfurl={{$url$}},
+$endif$
+$if(doi)$
+  pdfdoi={{$doi$}},
+$endif$
+  pdfissn={$if(issn)$$issn$$else$1530-5228$endif$},
+$if(rights)$
+  pdfcopyright={$rights$},
+$elseif(copyright)$
+  pdfcopyright={$copyright$},
+$else$
+  pdfcopyright={Copyright $if(copyright-year)$$copyright-year$$elseif(year)$$year$$endif$ $for(author)$$author$$sep$, $endfor$},
+$endif$
+$if(license-url)$
+  pdflicenseurl={$license-url$}
+$else$
+  pdflicenseurl={https://jcrt.org/copyright/}
+$endif$
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\textit{Religious Theory} \textbar{} JCRT}
+\fancyhead[R]{\footnotesize $if(running-title)$$running-title$$else$Religious Theory$endif$}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+
+\begin{document}
+
+\thispagestyle{empty}
+\pdfbookmark[0]{Cover: $title$}{jcrt-cover}
+\noindent\includegraphics[width=0.9in,alt={a 2x2 grid with alternating black and red squares the letters JCRT. one letter per square in high contrast.}]{$if(logo)$$logo$$else$templates/jcrt-journal-article/jcrt-logo.pdf$endif$}
+
+\vspace{0.1in}
+
+\begin{center}
+  {\LARGE\bfseries The Journal for Cultural and Religious Theory (JCRT)\par}
+  \vspace{0.18in}
+  {\Large\bfseries Religious Theory \textbar{} An Editorial Review Blog\par}
+$if(published)$
+  \vspace{0.06in}
+  {\large $published$\par}
+$endif$
+
+  \vfill
+
+  \begingroup
+  \centering
+  \section*{\Large $title$}
+  \endgroup
+  \vspace{0.12in}
+  {\Large $for(author)$$author$$sep$; $endfor$\par}
+$if(affiliation)$
+  \vspace{0.08in}
+  {\large\itshape $affiliation$\par}
+$endif$
+$if(url)$
+  \vspace{0.12in}
+  {\normalsize\href{$url$}{Read this review on JCRT}\\[0.04in]
+  \nolinkurl{$url$}\par}
+$endif$
+$if(doi)$
+  \vspace{0.08in}
+  {\normalsize DOI: \href{https://doi.org/$doi$}{\nolinkurl{https://doi.org/$doi$}}\par}
+$endif$
+
+  \vfill
+
+$if(abstract)$
+  \begin{minipage}{0.92\textwidth}
+    {\large\bfseries Abstract\par}
+    \vspace{0.06in}
+    {\footnotesize $abstract$\par}
+$if(keywords)$
+    \par\vspace{0.12in}
+    {\footnotesize\itshape Keywords: $for(keywords)$$keywords$$sep$, $endfor$\par}
+$endif$
+  \end{minipage}
+$elseif(description)$
+  \begin{minipage}{0.92\textwidth}
+    {\large\bfseries Abstract\par}
+    \vspace{0.06in}
+    {\footnotesize $description$\par}
+$if(keywords)$
+    \par\vspace{0.12in}
+    {\footnotesize\itshape Keywords: $for(keywords)$$keywords$$sep$, $endfor$\par}
+$endif$
+  \end{minipage}
+$endif$
+
+  \vfill
+  \rule{\textwidth}{0.4pt}
+  \vspace{0.08in}
+
+  {\small
+  $if(copyright)$
+    $copyright$
+  $else$
+    \textcopyright{} $if(copyright-year)$$copyright-year$$elseif(year)$$year$$endif$
+    $if(rights-holder)$$rights-holder$$else$$for(author)$$author$$sep$, $endfor$$endif$.
+  $endif$
+$if(url)$
+  \\[0.04in]{\ttfamily\nolinkurl{$url$}}\\[0.04in]
+$endif$
+  Published by $if(publisher)$$publisher$$else$Whitestone Publications$endif$.
+  ISSN $if(issn)$$issn$$else$1530-5228$endif$.
+  $if(license)$
+    \href{$if(license-url)$$license-url$$else$https://jcrt.org/copyright/$endif$}{$license$}.
+  $else$
+    Rights: \href{$if(license-url)$$license-url$$else$https://jcrt.org/copyright/$endif$}{JCRT copyright policy}.
+  $endif$
+  }
+\end{center}
+
+\clearpage
+
+\pdfbookmark[0]{Article}{jcrt-article}
+$body$
+
+\end{document}
