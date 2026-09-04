@@ -1,0 +1,303 @@
+{
+  "data": [
+    {
+      "collection_id": "dc29e55b-39a2-4914-9808-18c69d7e082f",
+      "errors": [],
+      "files": {
+        "rodkey.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:52:18.151523+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "9"
+          },
+          "kcr:user_defined_tags": [
+            "mark-millar",
+            "chosen",
+            "comic-books",
+            "second-coming-of-christ",
+            "heresy",
+            "apocalyptic-christianity",
+            "popular-culture",
+            "radical-theology",
+            "thomas-altizer",
+            "william-blake",
+            "catholicism",
+            "sacred-and-profane"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "rodkey.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:e1ec36889378645050717761b08f0c82",
+              "ext": "pdf",
+              "id": "561f2c93-5bed-4208-968c-b1f81a66f040",
+              "key": "rodkey.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/3dkc5-37m91/files/rodkey.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:3dkc5-37m91:rodkey.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:3dkc5-37m91:rodkey.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:3dkc5-37m91/canvas/rodkey.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:3dkc5-37m91:rodkey.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/3dkc5-37m91/files/rodkey.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 262692,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 262692
+        },
+        "id": "3dkc5-37m91",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/3dkc5-37m91/access",
+          "access_grants": "https://works.hcommons.org/api/records/3dkc5-37m91/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/3dkc5-37m91/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/3dkc5-37m91/access/links",
+          "access_request": "https://works.hcommons.org/api/records/3dkc5-37m91/access/request",
+          "access_users": "https://works.hcommons.org/api/records/3dkc5-37m91/access/users",
+          "archive": "https://works.hcommons.org/api/records/3dkc5-37m91/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/3dkc5-37m91/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/3dkc5-37m91/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/3dkc5-37m91/communities-suggestions",
+          "doi": "https://doi.org/10.17613/3dkc5-37m91",
+          "draft": "https://works.hcommons.org/api/records/3dkc5-37m91/draft",
+          "files": "https://works.hcommons.org/api/records/3dkc5-37m91/files",
+          "latest": "https://works.hcommons.org/api/records/3dkc5-37m91/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/3dkc5-37m91/latest",
+          "media_files": "https://works.hcommons.org/api/records/3dkc5-37m91/media-files",
+          "parent": "https://works.hcommons.org/api/records/hd24z-pnk05",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/hd24z-pnk05",
+          "parent_html": "https://works.hcommons.org/records/hd24z-pnk05",
+          "requests": "https://works.hcommons.org/api/records/3dkc5-37m91/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/3dkc5-37m91/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/3dkc5-37m91",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/3dkc5-37m91",
+          "self_html": "https://works.hcommons.org/records/3dkc5-37m91",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:3dkc5-37m91/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:3dkc5-37m91/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/3dkc5-37m91/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Rodkey",
+                "given_name": "Christopher D",
+                "name": "Rodkey, Christopher D",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "GIa3LQ",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/09.2/rodkey/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2008",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/955449",
+              "scheme": "FAST-topical",
+              "subject": "Heresy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1206434",
+              "scheme": "FAST-geographic",
+              "subject": "Korea"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1071344",
+              "scheme": "FAST-topical",
+              "subject": "Popular culture"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1110547",
+              "scheme": "FAST-topical",
+              "subject": "Second Advent"
+            }
+          ],
+          "title": "Chosen"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "dc29e55b-39a2-4914-9808-18c69d7e082f",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:50:57.105033+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "dc29e55b-39a2-4914-9808-18c69d7e082f",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 09.2",
+                  "title": "JCRT 09.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/09.2/"
+                },
+                "revision_id": 4,
+                "slug": "jcrt-092",
+                "updated": "2026-08-30T10:52:05.029276+00:00"
+              }
+            ],
+            "ids": [
+              "dc29e55b-39a2-4914-9808-18c69d7e082f"
+            ]
+          },
+          "id": "hd24z-pnk05",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/hd24z-pnk05",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/3dkc5-37m91",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:3dkc5-37m91",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:52:18.634944+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "3dkc5-37m91",
+      "record_url": "https://works.hcommons.org/records/3dkc5-37m91",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

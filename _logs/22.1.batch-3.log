@@ -1,0 +1,890 @@
+{
+  "data": [
+    {
+      "collection_id": "a4ca13db-3e12-49ab-830e-f59bf87949fc",
+      "errors": [],
+      "files": {
+        "Sedmak.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:12:03.249035+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "22"
+          },
+          "kcr:user_defined_tags": [
+            "trauma",
+            "emmanuel-levinas",
+            "embodiment",
+            "ethics-of-alterity",
+            "phenomenology",
+            "subjectivity",
+            "the-body",
+            "responsibility",
+            "the-other",
+            "suffering",
+            "continental-philosophy"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Sedmak.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:42ad98139632551dfa8bab527afcac6e",
+              "ext": "pdf",
+              "id": "867c9951-6e80-498d-af59-8933d3aec8d5",
+              "key": "Sedmak.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/arnw2-qcg34/files/Sedmak.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:arnw2-qcg34:Sedmak.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:arnw2-qcg34:Sedmak.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:arnw2-qcg34/canvas/Sedmak.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:arnw2-qcg34:Sedmak.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/arnw2-qcg34/files/Sedmak.pdf"
+              },
+              "metadata": null,
+              "mimetype": "application/pdf",
+              "size": 704518,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 704518
+        },
+        "id": "arnw2-qcg34",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/arnw2-qcg34/access",
+          "access_grants": "https://works.hcommons.org/api/records/arnw2-qcg34/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/arnw2-qcg34/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/arnw2-qcg34/access/links",
+          "access_request": "https://works.hcommons.org/api/records/arnw2-qcg34/access/request",
+          "access_users": "https://works.hcommons.org/api/records/arnw2-qcg34/access/users",
+          "archive": "https://works.hcommons.org/api/records/arnw2-qcg34/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/arnw2-qcg34/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/arnw2-qcg34/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/arnw2-qcg34/communities-suggestions",
+          "doi": "https://doi.org/10.17613/arnw2-qcg34",
+          "draft": "https://works.hcommons.org/api/records/arnw2-qcg34/draft",
+          "files": "https://works.hcommons.org/api/records/arnw2-qcg34/files",
+          "latest": "https://works.hcommons.org/api/records/arnw2-qcg34/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/arnw2-qcg34/latest",
+          "media_files": "https://works.hcommons.org/api/records/arnw2-qcg34/media-files",
+          "parent": "https://works.hcommons.org/api/records/k3z8d-62p39",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/k3z8d-62p39",
+          "parent_html": "https://works.hcommons.org/records/k3z8d-62p39",
+          "requests": "https://works.hcommons.org/api/records/arnw2-qcg34/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/arnw2-qcg34/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/arnw2-qcg34",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/arnw2-qcg34",
+          "self_html": "https://works.hcommons.org/records/arnw2-qcg34",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:arnw2-qcg34/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:arnw2-qcg34/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/arnw2-qcg34/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Sedmak",
+                "given_name": "Magdalena",
+                "name": "Sedmak, Magdalena",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "VnVgRe",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/22.1/sedmak/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2023",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1765182",
+              "scheme": "FAST-topical",
+              "subject": "Continental philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060522",
+              "scheme": "FAST-topical",
+              "subject": "Phenomenology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1095857",
+              "scheme": "FAST-topical",
+              "subject": "Responsibility"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1136568",
+              "scheme": "FAST-topical",
+              "subject": "Subjectivity"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1137151",
+              "scheme": "FAST-topical",
+              "subject": "Suffering"
+            }
+          ],
+          "title": "Trauma in Emmanuel Levinas' Writing Body"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "a4ca13db-3e12-49ab-830e-f59bf87949fc",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:11:34.846595+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "a4ca13db-3e12-49ab-830e-f59bf87949fc",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 22.1",
+                  "title": "JCRT 22.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/22.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-221",
+                "updated": "2026-08-30T10:11:35.453953+00:00"
+              }
+            ],
+            "ids": [
+              "a4ca13db-3e12-49ab-830e-f59bf87949fc"
+            ]
+          },
+          "id": "k3z8d-62p39",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/k3z8d-62p39",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/arnw2-qcg34",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:arnw2-qcg34",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:12:03.551772+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "arnw2-qcg34",
+      "record_url": "https://works.hcommons.org/records/arnw2-qcg34",
+      "source_id": ""
+    },
+    {
+      "collection_id": "a4ca13db-3e12-49ab-830e-f59bf87949fc",
+      "errors": [],
+      "files": {
+        "Westin.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:12:05.499165+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "135-138",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "22"
+          },
+          "kcr:user_defined_tags": [
+            "philosophical-anthropology",
+            "psychic-trauma",
+            "interviews",
+            "body",
+            "human-philosophy",
+            "psychology-philosophy",
+            "physical-anthropology"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Westin.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:178acf75eb7d11dbb73c8b8a3684dc90",
+              "ext": "pdf",
+              "id": "44193ff3-1623-49c5-9754-949d1fb94f75",
+              "key": "Westin.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/dpb50-s8588/files/Westin.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:dpb50-s8588:Westin.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:dpb50-s8588:Westin.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:dpb50-s8588/canvas/Westin.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:dpb50-s8588:Westin.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/dpb50-s8588/files/Westin.pdf"
+              },
+              "metadata": null,
+              "mimetype": "application/pdf",
+              "size": 525787,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 525787
+        },
+        "id": "dpb50-s8588",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/dpb50-s8588/access",
+          "access_grants": "https://works.hcommons.org/api/records/dpb50-s8588/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/dpb50-s8588/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/dpb50-s8588/access/links",
+          "access_request": "https://works.hcommons.org/api/records/dpb50-s8588/access/request",
+          "access_users": "https://works.hcommons.org/api/records/dpb50-s8588/access/users",
+          "archive": "https://works.hcommons.org/api/records/dpb50-s8588/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/dpb50-s8588/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/dpb50-s8588/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/dpb50-s8588/communities-suggestions",
+          "doi": "https://doi.org/10.17613/dpb50-s8588",
+          "draft": "https://works.hcommons.org/api/records/dpb50-s8588/draft",
+          "files": "https://works.hcommons.org/api/records/dpb50-s8588/files",
+          "latest": "https://works.hcommons.org/api/records/dpb50-s8588/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/dpb50-s8588/latest",
+          "media_files": "https://works.hcommons.org/api/records/dpb50-s8588/media-files",
+          "parent": "https://works.hcommons.org/api/records/p56s0-a5p77",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/p56s0-a5p77",
+          "parent_html": "https://works.hcommons.org/records/p56s0-a5p77",
+          "requests": "https://works.hcommons.org/api/records/dpb50-s8588/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/dpb50-s8588/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/dpb50-s8588",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/dpb50-s8588",
+          "self_html": "https://works.hcommons.org/records/dpb50-s8588",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:dpb50-s8588/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:dpb50-s8588/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/dpb50-s8588/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Westin",
+                "given_name": "Anna",
+                "name": "Westin, Anna",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            },
+            {
+              "person_or_org": {
+                "family_name": "Sedmak",
+                "given_name": "Magdalena",
+                "name": "Sedmak, Magdalena",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "jjI4CB",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/22.1/westin_sedmak/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2023",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/977644",
+              "scheme": "FAST-topical",
+              "subject": "Interviews"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060766",
+              "scheme": "FAST-topical",
+              "subject": "Philosophical anthropology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1062357",
+              "scheme": "FAST-topical",
+              "subject": "Physical anthropology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1081217",
+              "scheme": "FAST-topical",
+              "subject": "Psychic trauma"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1081495",
+              "scheme": "FAST-topical",
+              "subject": "Psychology--Philosophy"
+            }
+          ],
+          "title": "Embodied Trauma and Healing"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "a4ca13db-3e12-49ab-830e-f59bf87949fc",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:11:34.846595+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "a4ca13db-3e12-49ab-830e-f59bf87949fc",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 22.1",
+                  "title": "JCRT 22.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/22.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-221",
+                "updated": "2026-08-30T10:11:35.453953+00:00"
+              }
+            ],
+            "ids": [
+              "a4ca13db-3e12-49ab-830e-f59bf87949fc"
+            ]
+          },
+          "id": "p56s0-a5p77",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/p56s0-a5p77",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/dpb50-s8588",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:dpb50-s8588",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:12:05.733945+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "dpb50-s8588",
+      "record_url": "https://works.hcommons.org/records/dpb50-s8588",
+      "source_id": ""
+    },
+    {
+      "collection_id": "a4ca13db-3e12-49ab-830e-f59bf87949fc",
+      "errors": [],
+      "files": {
+        "Wurts.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 2,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:12:07.564859+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "139-168",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "22"
+          },
+          "kcr:user_defined_tags": [
+            "christianity",
+            "1947-1994",
+            "boswell",
+            "john"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Wurts.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:9500f989156b7e4cdfa4b89683d6c802",
+              "ext": "pdf",
+              "id": "ef4aa130-d1ae-4797-a337-2e483612822d",
+              "key": "Wurts.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/86y4h-ejg48/files/Wurts.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:86y4h-ejg48:Wurts.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:86y4h-ejg48:Wurts.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:86y4h-ejg48/canvas/Wurts.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:86y4h-ejg48:Wurts.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/86y4h-ejg48/files/Wurts.pdf"
+              },
+              "metadata": null,
+              "mimetype": "application/pdf",
+              "size": 1164429,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 1164429
+        },
+        "id": "86y4h-ejg48",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/86y4h-ejg48/access",
+          "access_grants": "https://works.hcommons.org/api/records/86y4h-ejg48/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/86y4h-ejg48/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/86y4h-ejg48/access/links",
+          "access_request": "https://works.hcommons.org/api/records/86y4h-ejg48/access/request",
+          "access_users": "https://works.hcommons.org/api/records/86y4h-ejg48/access/users",
+          "archive": "https://works.hcommons.org/api/records/86y4h-ejg48/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/86y4h-ejg48/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/86y4h-ejg48/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/86y4h-ejg48/communities-suggestions",
+          "doi": "https://doi.org/10.17613/86y4h-ejg48",
+          "draft": "https://works.hcommons.org/api/records/86y4h-ejg48/draft",
+          "files": "https://works.hcommons.org/api/records/86y4h-ejg48/files",
+          "latest": "https://works.hcommons.org/api/records/86y4h-ejg48/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/86y4h-ejg48/latest",
+          "media_files": "https://works.hcommons.org/api/records/86y4h-ejg48/media-files",
+          "parent": "https://works.hcommons.org/api/records/vr9d0-ckr25",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/vr9d0-ckr25",
+          "parent_html": "https://works.hcommons.org/records/vr9d0-ckr25",
+          "requests": "https://works.hcommons.org/api/records/86y4h-ejg48/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/86y4h-ejg48/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/86y4h-ejg48",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/86y4h-ejg48",
+          "self_html": "https://works.hcommons.org/records/86y4h-ejg48",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:86y4h-ejg48/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:86y4h-ejg48/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/86y4h-ejg48/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Wurts",
+                "given_name": "Kieryn E.",
+                "name": "Wurts, Kieryn E.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "4ta38J",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/22.1/wurts/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2023",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/859599",
+              "scheme": "FAST-topical",
+              "subject": "Christianity"
+            }
+          ],
+          "title": "John Boswell's History of (Eurochristian) Sexuality and the Case for Transcendental Somatics."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "a4ca13db-3e12-49ab-830e-f59bf87949fc",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:11:34.846595+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "a4ca13db-3e12-49ab-830e-f59bf87949fc",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 22.1",
+                  "title": "JCRT 22.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/22.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-221",
+                "updated": "2026-08-30T10:11:35.453953+00:00"
+              }
+            ],
+            "ids": [
+              "a4ca13db-3e12-49ab-830e-f59bf87949fc"
+            ]
+          },
+          "id": "vr9d0-ckr25",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/vr9d0-ckr25",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/86y4h-ejg48",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:86y4h-ejg48",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:12:07.800044+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "86y4h-ejg48",
+      "record_url": "https://works.hcommons.org/records/86y4h-ejg48",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

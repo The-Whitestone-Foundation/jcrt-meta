@@ -1,0 +1,1228 @@
+{
+  "data": [
+    {
+      "collection_id": "6607b714-e670-4e73-bd77-d03947b225b8",
+      "errors": [],
+      "files": {
+        "mccullough.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:43:25.668348+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "3",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "11"
+          },
+          "kcr:user_defined_tags": [
+            "philosophical-anthropology",
+            "nudity",
+            "body",
+            "human-philosophy",
+            "jacques",
+            "1930-2004",
+            "derrida",
+            "animals-philosophy",
+            "vision"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "mccullough.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:9b2ded14268e953ecb1847e1acfdd009",
+              "ext": "pdf",
+              "id": "cd9740d8-7d68-4344-9e24-402f11e048b1",
+              "key": "mccullough.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/2vbeq-d4p65/files/mccullough.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:2vbeq-d4p65:mccullough.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:2vbeq-d4p65:mccullough.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:2vbeq-d4p65/canvas/mccullough.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:2vbeq-d4p65:mccullough.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/2vbeq-d4p65/files/mccullough.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 318948,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 318948
+        },
+        "id": "2vbeq-d4p65",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/2vbeq-d4p65/access",
+          "access_grants": "https://works.hcommons.org/api/records/2vbeq-d4p65/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/2vbeq-d4p65/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/2vbeq-d4p65/access/links",
+          "access_request": "https://works.hcommons.org/api/records/2vbeq-d4p65/access/request",
+          "access_users": "https://works.hcommons.org/api/records/2vbeq-d4p65/access/users",
+          "archive": "https://works.hcommons.org/api/records/2vbeq-d4p65/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/2vbeq-d4p65/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/2vbeq-d4p65/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/2vbeq-d4p65/communities-suggestions",
+          "doi": "https://doi.org/10.17613/2vbeq-d4p65",
+          "draft": "https://works.hcommons.org/api/records/2vbeq-d4p65/draft",
+          "files": "https://works.hcommons.org/api/records/2vbeq-d4p65/files",
+          "latest": "https://works.hcommons.org/api/records/2vbeq-d4p65/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/2vbeq-d4p65/latest",
+          "media_files": "https://works.hcommons.org/api/records/2vbeq-d4p65/media-files",
+          "parent": "https://works.hcommons.org/api/records/rt1nd-6kv37",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/rt1nd-6kv37",
+          "parent_html": "https://works.hcommons.org/records/rt1nd-6kv37",
+          "requests": "https://works.hcommons.org/api/records/2vbeq-d4p65/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/2vbeq-d4p65/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/2vbeq-d4p65",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/2vbeq-d4p65",
+          "self_html": "https://works.hcommons.org/records/2vbeq-d4p65",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:2vbeq-d4p65/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:2vbeq-d4p65/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/2vbeq-d4p65/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "McCullough",
+                "given_name": "Lissa",
+                "name": "McCullough, Lissa",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "YyS0mZ",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/11.3/mccullough/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2011",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/809563",
+              "scheme": "FAST-topical",
+              "subject": "Animals (Philosophy)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1041151",
+              "scheme": "FAST-topical",
+              "subject": "Nudity"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060766",
+              "scheme": "FAST-topical",
+              "subject": "Philosophical anthropology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1167852",
+              "scheme": "FAST-topical",
+              "subject": "Vision"
+            }
+          ],
+          "title": "Strange Animal"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "6607b714-e670-4e73-bd77-d03947b225b8",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:43:10.817230+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "6607b714-e670-4e73-bd77-d03947b225b8",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 11.3",
+                  "title": "JCRT 11.3",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/11.3/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-113",
+                "updated": "2026-08-30T10:43:11.507981+00:00"
+              }
+            ],
+            "ids": [
+              "6607b714-e670-4e73-bd77-d03947b225b8"
+            ]
+          },
+          "id": "rt1nd-6kv37",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/rt1nd-6kv37",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/2vbeq-d4p65",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:2vbeq-d4p65",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:43:25.957671+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "2vbeq-d4p65",
+      "record_url": "https://works.hcommons.org/records/2vbeq-d4p65",
+      "source_id": ""
+    },
+    {
+      "collection_id": "6607b714-e670-4e73-bd77-d03947b225b8",
+      "errors": [],
+      "files": {
+        "sealey.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:43:27.736414+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "3",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "11"
+          },
+          "kcr:user_defined_tags": [
+            "metaphysics",
+            "plato",
+            "love",
+            "other-philosophy",
+            "self-philosophy",
+            "1906-1995",
+            "emmanuel",
+            "le-vinas",
+            "1905-1980",
+            "jean-paul",
+            "sartre",
+            "subject-philosophy",
+            "dalton",
+            "desire",
+            "drew-m",
+            "need-psychology"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "sealey.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:d72c5d992a6d1a693724e89f0099e9cb",
+              "ext": "pdf",
+              "id": "520efd44-4cfc-47c1-b234-4cb9b80cc15b",
+              "key": "sealey.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/4ec78-86454/files/sealey.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:4ec78-86454:sealey.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:4ec78-86454:sealey.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:4ec78-86454/canvas/sealey.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:4ec78-86454:sealey.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/4ec78-86454/files/sealey.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 442968,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 442968
+        },
+        "id": "4ec78-86454",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/4ec78-86454/access",
+          "access_grants": "https://works.hcommons.org/api/records/4ec78-86454/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/4ec78-86454/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/4ec78-86454/access/links",
+          "access_request": "https://works.hcommons.org/api/records/4ec78-86454/access/request",
+          "access_users": "https://works.hcommons.org/api/records/4ec78-86454/access/users",
+          "archive": "https://works.hcommons.org/api/records/4ec78-86454/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/4ec78-86454/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/4ec78-86454/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/4ec78-86454/communities-suggestions",
+          "doi": "https://doi.org/10.17613/4ec78-86454",
+          "draft": "https://works.hcommons.org/api/records/4ec78-86454/draft",
+          "files": "https://works.hcommons.org/api/records/4ec78-86454/files",
+          "latest": "https://works.hcommons.org/api/records/4ec78-86454/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/4ec78-86454/latest",
+          "media_files": "https://works.hcommons.org/api/records/4ec78-86454/media-files",
+          "parent": "https://works.hcommons.org/api/records/phyxe-z4p97",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/phyxe-z4p97",
+          "parent_html": "https://works.hcommons.org/records/phyxe-z4p97",
+          "requests": "https://works.hcommons.org/api/records/4ec78-86454/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/4ec78-86454/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/4ec78-86454",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/4ec78-86454",
+          "self_html": "https://works.hcommons.org/records/4ec78-86454",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:4ec78-86454/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:4ec78-86454/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/4ec78-86454/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Sealey",
+                "given_name": "Kris",
+                "name": "Sealey, Kris",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "7N-UdO",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/11.3/sealey/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2011",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/891351",
+              "scheme": "FAST-topical",
+              "subject": "Desire"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1652358",
+              "scheme": "FAST-personal",
+              "subject": "Jean Paul"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1002769",
+              "scheme": "FAST-topical",
+              "subject": "Love"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1018304",
+              "scheme": "FAST-topical",
+              "subject": "Metaphysics"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1035416",
+              "scheme": "FAST-topical",
+              "subject": "Need (Psychology)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1048904",
+              "scheme": "FAST-topical",
+              "subject": "Other (Philosophy)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1111454",
+              "scheme": "FAST-topical",
+              "subject": "Self (Philosophy)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1136447",
+              "scheme": "FAST-topical",
+              "subject": "Subject (Philosophy)"
+            }
+          ],
+          "title": "Desire as Disruption"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "6607b714-e670-4e73-bd77-d03947b225b8",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:43:10.817230+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "6607b714-e670-4e73-bd77-d03947b225b8",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 11.3",
+                  "title": "JCRT 11.3",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/11.3/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-113",
+                "updated": "2026-08-30T10:43:11.507981+00:00"
+              }
+            ],
+            "ids": [
+              "6607b714-e670-4e73-bd77-d03947b225b8"
+            ]
+          },
+          "id": "phyxe-z4p97",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/phyxe-z4p97",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/4ec78-86454",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:4ec78-86454",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:43:28.025052+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "4ec78-86454",
+      "record_url": "https://works.hcommons.org/records/4ec78-86454",
+      "source_id": ""
+    },
+    {
+      "collection_id": "6607b714-e670-4e73-bd77-d03947b225b8",
+      "errors": [],
+      "files": {
+        "simmons.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 2,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:43:29.749577+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "3",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "11"
+          },
+          "kcr:user_defined_tags": [
+            "transcendence",
+            "god-philosophy",
+            "revelation",
+            "love",
+            "other-philosophy",
+            "jacques",
+            "religion-philosophy",
+            "1906-1995",
+            "emmanuel",
+            "le-vinas",
+            "1930-2004",
+            "derrida",
+            "phenomenology",
+            "jean-luc",
+            "marion",
+            "dalton",
+            "desire",
+            "drew-m"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "simmons.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:52dd2f70368d5dfa46cd51d1c71ba0a9",
+              "ext": "pdf",
+              "id": "f05bd70d-ff52-44d3-947c-3955a8ae2dc7",
+              "key": "simmons.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/6ejkw-7tp81/files/simmons.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:6ejkw-7tp81:simmons.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:6ejkw-7tp81:simmons.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:6ejkw-7tp81/canvas/simmons.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:6ejkw-7tp81:simmons.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/6ejkw-7tp81/files/simmons.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 410877,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 410877
+        },
+        "id": "6ejkw-7tp81",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/6ejkw-7tp81/access",
+          "access_grants": "https://works.hcommons.org/api/records/6ejkw-7tp81/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/6ejkw-7tp81/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/6ejkw-7tp81/access/links",
+          "access_request": "https://works.hcommons.org/api/records/6ejkw-7tp81/access/request",
+          "access_users": "https://works.hcommons.org/api/records/6ejkw-7tp81/access/users",
+          "archive": "https://works.hcommons.org/api/records/6ejkw-7tp81/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/6ejkw-7tp81/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/6ejkw-7tp81/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/6ejkw-7tp81/communities-suggestions",
+          "doi": "https://doi.org/10.17613/6ejkw-7tp81",
+          "draft": "https://works.hcommons.org/api/records/6ejkw-7tp81/draft",
+          "files": "https://works.hcommons.org/api/records/6ejkw-7tp81/files",
+          "latest": "https://works.hcommons.org/api/records/6ejkw-7tp81/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/6ejkw-7tp81/latest",
+          "media_files": "https://works.hcommons.org/api/records/6ejkw-7tp81/media-files",
+          "parent": "https://works.hcommons.org/api/records/h0gfe-wq608",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/h0gfe-wq608",
+          "parent_html": "https://works.hcommons.org/records/h0gfe-wq608",
+          "requests": "https://works.hcommons.org/api/records/6ejkw-7tp81/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/6ejkw-7tp81/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/6ejkw-7tp81",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/6ejkw-7tp81",
+          "self_html": "https://works.hcommons.org/records/6ejkw-7tp81",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:6ejkw-7tp81/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:6ejkw-7tp81/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/6ejkw-7tp81/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Simmons",
+                "given_name": "J Aaron",
+                "name": "Simmons, J Aaron",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "nZXrQz",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/11.3/simmons/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2011",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/891351",
+              "scheme": "FAST-topical",
+              "subject": "Desire"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/944097",
+              "scheme": "FAST-topical",
+              "subject": "God--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1002769",
+              "scheme": "FAST-topical",
+              "subject": "Love"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1048904",
+              "scheme": "FAST-topical",
+              "subject": "Other (Philosophy)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060522",
+              "scheme": "FAST-topical",
+              "subject": "Phenomenology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1093794",
+              "scheme": "FAST-topical",
+              "subject": "Religion--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1096460",
+              "scheme": "FAST-topical",
+              "subject": "Revelation"
+            }
+          ],
+          "title": "In Whom, Then, Do We Put Trust?"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "6607b714-e670-4e73-bd77-d03947b225b8",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:43:10.817230+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "6607b714-e670-4e73-bd77-d03947b225b8",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 11.3",
+                  "title": "JCRT 11.3",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/11.3/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-113",
+                "updated": "2026-08-30T10:43:11.507981+00:00"
+              }
+            ],
+            "ids": [
+              "6607b714-e670-4e73-bd77-d03947b225b8"
+            ]
+          },
+          "id": "h0gfe-wq608",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/h0gfe-wq608",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/6ejkw-7tp81",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:6ejkw-7tp81",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:43:29.980375+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "6ejkw-7tp81",
+      "record_url": "https://works.hcommons.org/records/6ejkw-7tp81",
+      "source_id": ""
+    },
+    {
+      "collection_id": "6607b714-e670-4e73-bd77-d03947b225b8",
+      "errors": [],
+      "files": {
+        "simmonsintro.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 3,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:43:32.033425+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "3",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "11"
+          },
+          "kcr:user_defined_tags": [
+            "emmanuel-levinas",
+            "drew-dalton",
+            "metaphysical-desire",
+            "alterity",
+            "longing-for-the-other",
+            "continental-philosophy-of-religion",
+            "ethics",
+            "phenomenology",
+            "desire",
+            "otherness",
+            "transcendence",
+            "symposium"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "simmonsintro.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:31f6920b9af7923f40ed7414895a1d58",
+              "ext": "pdf",
+              "id": "c27aed27-5c70-4c08-8194-604cab9bbce7",
+              "key": "simmonsintro.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/asqvk-fhc62/files/simmonsintro.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:asqvk-fhc62:simmonsintro.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:asqvk-fhc62:simmonsintro.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:asqvk-fhc62/canvas/simmonsintro.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:asqvk-fhc62:simmonsintro.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/asqvk-fhc62/files/simmonsintro.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 304630,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 304630
+        },
+        "id": "asqvk-fhc62",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/asqvk-fhc62/access",
+          "access_grants": "https://works.hcommons.org/api/records/asqvk-fhc62/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/asqvk-fhc62/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/asqvk-fhc62/access/links",
+          "access_request": "https://works.hcommons.org/api/records/asqvk-fhc62/access/request",
+          "access_users": "https://works.hcommons.org/api/records/asqvk-fhc62/access/users",
+          "archive": "https://works.hcommons.org/api/records/asqvk-fhc62/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/asqvk-fhc62/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/asqvk-fhc62/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/asqvk-fhc62/communities-suggestions",
+          "doi": "https://doi.org/10.17613/asqvk-fhc62",
+          "draft": "https://works.hcommons.org/api/records/asqvk-fhc62/draft",
+          "files": "https://works.hcommons.org/api/records/asqvk-fhc62/files",
+          "latest": "https://works.hcommons.org/api/records/asqvk-fhc62/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/asqvk-fhc62/latest",
+          "media_files": "https://works.hcommons.org/api/records/asqvk-fhc62/media-files",
+          "parent": "https://works.hcommons.org/api/records/srahn-jwt58",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/srahn-jwt58",
+          "parent_html": "https://works.hcommons.org/records/srahn-jwt58",
+          "requests": "https://works.hcommons.org/api/records/asqvk-fhc62/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/asqvk-fhc62/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/asqvk-fhc62",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/asqvk-fhc62",
+          "self_html": "https://works.hcommons.org/records/asqvk-fhc62",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:asqvk-fhc62/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:asqvk-fhc62/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/asqvk-fhc62/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Simmons",
+                "given_name": "J. Aaron",
+                "name": "Simmons, J. Aaron",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "tKZIr5",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/11.3/simmonsintro/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2011",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/891351",
+              "scheme": "FAST-topical",
+              "subject": "Desire"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/915833",
+              "scheme": "FAST-topical",
+              "subject": "Ethics"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060522",
+              "scheme": "FAST-topical",
+              "subject": "Phenomenology"
+            }
+          ],
+          "title": "Reading With Drew M. Dalton: A Constructive Review - Symposium on Longing for the Other: Levinas and Metaphysical Desire"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "6607b714-e670-4e73-bd77-d03947b225b8",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:43:10.817230+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "6607b714-e670-4e73-bd77-d03947b225b8",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 11.3",
+                  "title": "JCRT 11.3",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/11.3/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-113",
+                "updated": "2026-08-30T10:43:11.507981+00:00"
+              }
+            ],
+            "ids": [
+              "6607b714-e670-4e73-bd77-d03947b225b8"
+            ]
+          },
+          "id": "srahn-jwt58",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/srahn-jwt58",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/asqvk-fhc62",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:asqvk-fhc62",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:43:32.259787+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "asqvk-fhc62",
+      "record_url": "https://works.hcommons.org/records/asqvk-fhc62",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

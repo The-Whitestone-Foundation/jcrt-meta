@@ -1,0 +1,1288 @@
+{
+  "data": [
+    {
+      "collection_id": "ee71433f-c65c-4738-b3d1-2dcef5368f2a",
+      "errors": [],
+      "files": {
+        "blanton.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:45:21.596282+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "11"
+          },
+          "kcr:user_defined_tags": [
+            "life",
+            "power-social-sciences",
+            "foucault",
+            "saint",
+            "antonio",
+            "body",
+            "human-philosophy",
+            "1926-1984",
+            "michel",
+            "paul",
+            "the-apostle",
+            "subject-philosophy",
+            "1922-1975",
+            "1933-2023",
+            "christian-saints-in-art",
+            "hardt",
+            "michael",
+            "negri",
+            "pasolini",
+            "pier-paolo",
+            "sex-and-society"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "blanton.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:e6a049e997cc91f283fe1ed56eb0cda6",
+              "ext": "pdf",
+              "id": "34d867f8-e350-4a93-b1ce-640644c80a7f",
+              "key": "blanton.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/4bwss-mbp18/files/blanton.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:4bwss-mbp18:blanton.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:4bwss-mbp18:blanton.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:4bwss-mbp18/canvas/blanton.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:4bwss-mbp18:blanton.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/4bwss-mbp18/files/blanton.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 1218796,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 1218796
+        },
+        "id": "4bwss-mbp18",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/4bwss-mbp18/access",
+          "access_grants": "https://works.hcommons.org/api/records/4bwss-mbp18/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/4bwss-mbp18/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/4bwss-mbp18/access/links",
+          "access_request": "https://works.hcommons.org/api/records/4bwss-mbp18/access/request",
+          "access_users": "https://works.hcommons.org/api/records/4bwss-mbp18/access/users",
+          "archive": "https://works.hcommons.org/api/records/4bwss-mbp18/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/4bwss-mbp18/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/4bwss-mbp18/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/4bwss-mbp18/communities-suggestions",
+          "doi": "https://doi.org/10.17613/4bwss-mbp18",
+          "draft": "https://works.hcommons.org/api/records/4bwss-mbp18/draft",
+          "files": "https://works.hcommons.org/api/records/4bwss-mbp18/files",
+          "latest": "https://works.hcommons.org/api/records/4bwss-mbp18/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/4bwss-mbp18/latest",
+          "media_files": "https://works.hcommons.org/api/records/4bwss-mbp18/media-files",
+          "parent": "https://works.hcommons.org/api/records/mj6re-ax849",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/mj6re-ax849",
+          "parent_html": "https://works.hcommons.org/records/mj6re-ax849",
+          "requests": "https://works.hcommons.org/api/records/4bwss-mbp18/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/4bwss-mbp18/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/4bwss-mbp18",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/4bwss-mbp18",
+          "self_html": "https://works.hcommons.org/records/4bwss-mbp18",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:4bwss-mbp18/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:4bwss-mbp18/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/4bwss-mbp18/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Blanton",
+                "given_name": "Ward",
+                "name": "Blanton, Ward",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "5oirw8",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/11.1/blanton/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2010",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/859513",
+              "scheme": "FAST-topical",
+              "subject": "Christian saints in art"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1198505",
+              "scheme": "FAST-topical",
+              "subject": "Life"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1074219",
+              "scheme": "FAST-topical",
+              "subject": "Power (Social sciences)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1136447",
+              "scheme": "FAST-topical",
+              "subject": "Subject (Philosophy)"
+            }
+          ],
+          "title": "'Reappearance of Paul, 'Sick\": Foucault's Biopolitics and the Significance of Pasolini's Apostle"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "ee71433f-c65c-4738-b3d1-2dcef5368f2a",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:45:17.864932+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "ee71433f-c65c-4738-b3d1-2dcef5368f2a",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 11.1",
+                  "title": "JCRT 11.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/11.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-111",
+                "updated": "2026-08-30T10:45:18.530405+00:00"
+              }
+            ],
+            "ids": [
+              "ee71433f-c65c-4738-b3d1-2dcef5368f2a"
+            ]
+          },
+          "id": "mj6re-ax849",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/mj6re-ax849",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/4bwss-mbp18",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:4bwss-mbp18",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:45:21.823468+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "4bwss-mbp18",
+      "record_url": "https://works.hcommons.org/records/4bwss-mbp18",
+      "source_id": ""
+    },
+    {
+      "collection_id": "ee71433f-c65c-4738-b3d1-2dcef5368f2a",
+      "errors": [],
+      "files": {
+        "boever.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:45:23.563110+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "11"
+          },
+          "kcr:user_defined_tags": [
+            "law-and-gospel",
+            "bible-epistles-of-paul",
+            "power-social-sciences",
+            "foucault",
+            "political-science-philosophy",
+            "1926-1984",
+            "michel",
+            "paul",
+            "the-apostle",
+            "saint-political-and-social-views",
+            "faith-biblical-teaching",
+            "good-works-theology",
+            "life-biblical-teaching",
+            "saint-theology"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "boever.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:c45ebc57ccac8103d65c957fc1b01db4",
+              "ext": "pdf",
+              "id": "f1563bdd-5ab2-465a-a31d-567365e3d27c",
+              "key": "boever.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/vz5ys-d7250/files/boever.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:vz5ys-d7250:boever.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:vz5ys-d7250:boever.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:vz5ys-d7250/canvas/boever.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:vz5ys-d7250:boever.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/vz5ys-d7250/files/boever.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 853838,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 853838
+        },
+        "id": "vz5ys-d7250",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/vz5ys-d7250/access",
+          "access_grants": "https://works.hcommons.org/api/records/vz5ys-d7250/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/vz5ys-d7250/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/vz5ys-d7250/access/links",
+          "access_request": "https://works.hcommons.org/api/records/vz5ys-d7250/access/request",
+          "access_users": "https://works.hcommons.org/api/records/vz5ys-d7250/access/users",
+          "archive": "https://works.hcommons.org/api/records/vz5ys-d7250/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/vz5ys-d7250/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/vz5ys-d7250/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/vz5ys-d7250/communities-suggestions",
+          "doi": "https://doi.org/10.17613/vz5ys-d7250",
+          "draft": "https://works.hcommons.org/api/records/vz5ys-d7250/draft",
+          "files": "https://works.hcommons.org/api/records/vz5ys-d7250/files",
+          "latest": "https://works.hcommons.org/api/records/vz5ys-d7250/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/vz5ys-d7250/latest",
+          "media_files": "https://works.hcommons.org/api/records/vz5ys-d7250/media-files",
+          "parent": "https://works.hcommons.org/api/records/mq6rx-3cd11",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/mq6rx-3cd11",
+          "parent_html": "https://works.hcommons.org/records/mq6rx-3cd11",
+          "requests": "https://works.hcommons.org/api/records/vz5ys-d7250/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/vz5ys-d7250/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/vz5ys-d7250",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/vz5ys-d7250",
+          "self_html": "https://works.hcommons.org/records/vz5ys-d7250",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:vz5ys-d7250/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:vz5ys-d7250/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/vz5ys-d7250/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Boever",
+                "given_name": "Arne De",
+                "name": "Boever, Arne De",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "Qt4KT5",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/11.1/boever/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2010",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1808029",
+              "scheme": "FAST-title",
+              "subject": "Bible. Epistles of Paul"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/919941",
+              "scheme": "FAST-topical",
+              "subject": "Faith--Biblical teaching"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/944917",
+              "scheme": "FAST-topical",
+              "subject": "Good works (Theology)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/993910",
+              "scheme": "FAST-topical",
+              "subject": "Law and gospel"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/998165",
+              "scheme": "FAST-topical",
+              "subject": "Life--Biblical teaching"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1069819",
+              "scheme": "FAST-topical",
+              "subject": "Political science--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1074219",
+              "scheme": "FAST-topical",
+              "subject": "Power (Social sciences)"
+            }
+          ],
+          "title": "Bio-Paulitics"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "ee71433f-c65c-4738-b3d1-2dcef5368f2a",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:45:17.864932+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "ee71433f-c65c-4738-b3d1-2dcef5368f2a",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 11.1",
+                  "title": "JCRT 11.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/11.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-111",
+                "updated": "2026-08-30T10:45:18.530405+00:00"
+              }
+            ],
+            "ids": [
+              "ee71433f-c65c-4738-b3d1-2dcef5368f2a"
+            ]
+          },
+          "id": "mq6rx-3cd11",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/mq6rx-3cd11",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/vz5ys-d7250",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:vz5ys-d7250",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:45:23.800553+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "vz5ys-d7250",
+      "record_url": "https://works.hcommons.org/records/vz5ys-d7250",
+      "source_id": ""
+    },
+    {
+      "collection_id": "ee71433f-c65c-4738-b3d1-2dcef5368f2a",
+      "errors": [],
+      "files": {
+        "charles.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 2,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:45:25.683443+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "11"
+          },
+          "kcr:user_defined_tags": [
+            "criticism",
+            "sexual-ethics",
+            "bible-corinthians-i",
+            "sex-in-the-bible",
+            "power-social-sciences",
+            "christianity",
+            "foucault",
+            "etc",
+            "interpretation",
+            "1926-1984",
+            "michel",
+            "paul",
+            "the-apostle",
+            "church-authority",
+            "community-and-religion",
+            "pride-and-vanity",
+            "saint-ethics",
+            "social-status-and-religion"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "charles.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:f7bfe87a2bfa52b3a012d065c93b884d",
+              "ext": "pdf",
+              "id": "6ac408d8-2e0a-4fc4-84ad-9e95b99e319a",
+              "key": "charles.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/40fvr-j8x75/files/charles.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:40fvr-j8x75:charles.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:40fvr-j8x75:charles.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:40fvr-j8x75/canvas/charles.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:40fvr-j8x75:charles.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/40fvr-j8x75/files/charles.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 859348,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 859348
+        },
+        "id": "40fvr-j8x75",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/40fvr-j8x75/access",
+          "access_grants": "https://works.hcommons.org/api/records/40fvr-j8x75/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/40fvr-j8x75/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/40fvr-j8x75/access/links",
+          "access_request": "https://works.hcommons.org/api/records/40fvr-j8x75/access/request",
+          "access_users": "https://works.hcommons.org/api/records/40fvr-j8x75/access/users",
+          "archive": "https://works.hcommons.org/api/records/40fvr-j8x75/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/40fvr-j8x75/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/40fvr-j8x75/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/40fvr-j8x75/communities-suggestions",
+          "doi": "https://doi.org/10.17613/40fvr-j8x75",
+          "draft": "https://works.hcommons.org/api/records/40fvr-j8x75/draft",
+          "files": "https://works.hcommons.org/api/records/40fvr-j8x75/files",
+          "latest": "https://works.hcommons.org/api/records/40fvr-j8x75/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/40fvr-j8x75/latest",
+          "media_files": "https://works.hcommons.org/api/records/40fvr-j8x75/media-files",
+          "parent": "https://works.hcommons.org/api/records/3s75k-ypk13",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/3s75k-ypk13",
+          "parent_html": "https://works.hcommons.org/records/3s75k-ypk13",
+          "requests": "https://works.hcommons.org/api/records/40fvr-j8x75/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/40fvr-j8x75/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/40fvr-j8x75",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/40fvr-j8x75",
+          "self_html": "https://works.hcommons.org/records/40fvr-j8x75",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:40fvr-j8x75/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:40fvr-j8x75/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/40fvr-j8x75/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Charles",
+                "given_name": "Ronald",
+                "name": "Charles, Ronald",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "mIjUwJ",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/11.1/charles/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2010",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/859599",
+              "scheme": "FAST-topical",
+              "subject": "Christianity"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/860368",
+              "scheme": "FAST-topical",
+              "subject": "Church--Authority"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/883735",
+              "scheme": "FAST-topical",
+              "subject": "Criticism"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1074219",
+              "scheme": "FAST-topical",
+              "subject": "Power (Social sciences)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1076249",
+              "scheme": "FAST-topical",
+              "subject": "Pride and vanity"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1093857",
+              "scheme": "FAST-topical",
+              "subject": "Religion and social status"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1114487",
+              "scheme": "FAST-topical",
+              "subject": "Sex in the Bible"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1114835",
+              "scheme": "FAST-topical",
+              "subject": "Sexual ethics"
+            }
+          ],
+          "title": "The Report of 1 Corinthians 5 in Critical Dialogue with Foucault"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "ee71433f-c65c-4738-b3d1-2dcef5368f2a",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:45:17.864932+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "ee71433f-c65c-4738-b3d1-2dcef5368f2a",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 11.1",
+                  "title": "JCRT 11.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/11.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-111",
+                "updated": "2026-08-30T10:45:18.530405+00:00"
+              }
+            ],
+            "ids": [
+              "ee71433f-c65c-4738-b3d1-2dcef5368f2a"
+            ]
+          },
+          "id": "3s75k-ypk13",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/3s75k-ypk13",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/40fvr-j8x75",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:40fvr-j8x75",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:45:25.924509+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "40fvr-j8x75",
+      "record_url": "https://works.hcommons.org/records/40fvr-j8x75",
+      "source_id": ""
+    },
+    {
+      "collection_id": "ee71433f-c65c-4738-b3d1-2dcef5368f2a",
+      "errors": [],
+      "files": {
+        "chrulew.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 3,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:45:27.713956+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "11"
+          },
+          "kcr:user_defined_tags": [
+            "authority-religion",
+            "criticism",
+            "bible-epistles-of-paul",
+            "power-social-sciences",
+            "historiography",
+            "church-history",
+            "christianity",
+            "foucault",
+            "0030-600",
+            "desire-and-religion",
+            "etc",
+            "interpretation",
+            "self-philosophy",
+            "human-body-in-religion",
+            "1844-1900",
+            "friedrich-wilhelm",
+            "nietzsche",
+            "psychoanalysis-and-religion",
+            "slavoj",
+            "z-iz-ek",
+            "1926-1984",
+            "michel",
+            "paul",
+            "alain",
+            "badiou",
+            "the-apostle",
+            "saint-theology"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "chrulew.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:b44d7f2c28faa0b63c429e718e59b155",
+              "ext": "pdf",
+              "id": "66c3b711-ac29-4f09-8c43-bbb3a3c56a62",
+              "key": "chrulew.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/47eaw-3c479/files/chrulew.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:47eaw-3c479:chrulew.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:47eaw-3c479:chrulew.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:47eaw-3c479/canvas/chrulew.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:47eaw-3c479:chrulew.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/47eaw-3c479/files/chrulew.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 726241,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 726241
+        },
+        "id": "47eaw-3c479",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/47eaw-3c479/access",
+          "access_grants": "https://works.hcommons.org/api/records/47eaw-3c479/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/47eaw-3c479/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/47eaw-3c479/access/links",
+          "access_request": "https://works.hcommons.org/api/records/47eaw-3c479/access/request",
+          "access_users": "https://works.hcommons.org/api/records/47eaw-3c479/access/users",
+          "archive": "https://works.hcommons.org/api/records/47eaw-3c479/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/47eaw-3c479/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/47eaw-3c479/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/47eaw-3c479/communities-suggestions",
+          "doi": "https://doi.org/10.17613/47eaw-3c479",
+          "draft": "https://works.hcommons.org/api/records/47eaw-3c479/draft",
+          "files": "https://works.hcommons.org/api/records/47eaw-3c479/files",
+          "latest": "https://works.hcommons.org/api/records/47eaw-3c479/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/47eaw-3c479/latest",
+          "media_files": "https://works.hcommons.org/api/records/47eaw-3c479/media-files",
+          "parent": "https://works.hcommons.org/api/records/ejde1-dcf11",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/ejde1-dcf11",
+          "parent_html": "https://works.hcommons.org/records/ejde1-dcf11",
+          "requests": "https://works.hcommons.org/api/records/47eaw-3c479/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/47eaw-3c479/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/47eaw-3c479",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/47eaw-3c479",
+          "self_html": "https://works.hcommons.org/records/47eaw-3c479",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:47eaw-3c479/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:47eaw-3c479/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/47eaw-3c479/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Chrulew",
+                "given_name": "Matthew",
+                "name": "Chrulew, Matthew",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "r-_xeJ",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/11.1/chrulew/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2010",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/821658",
+              "scheme": "FAST-topical",
+              "subject": "Authority--Religious aspects"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1808029",
+              "scheme": "FAST-title",
+              "subject": "Bible. Epistles of Paul"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/859599",
+              "scheme": "FAST-topical",
+              "subject": "Christianity"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/860740",
+              "scheme": "FAST-topical",
+              "subject": "Church history"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/883735",
+              "scheme": "FAST-topical",
+              "subject": "Criticism"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1498082",
+              "scheme": "FAST-personal",
+              "subject": "Friedrich, Wilhelm"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/958221",
+              "scheme": "FAST-topical",
+              "subject": "Historiography"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1074219",
+              "scheme": "FAST-topical",
+              "subject": "Power (Social sciences)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1081280",
+              "scheme": "FAST-topical",
+              "subject": "Psychoanalysis and religion"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1111454",
+              "scheme": "FAST-topical",
+              "subject": "Self (Philosophy)"
+            }
+          ],
+          "title": "The Pauline Ellipsis in Foucault's Genealogy of Christianity"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "ee71433f-c65c-4738-b3d1-2dcef5368f2a",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:45:17.864932+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "ee71433f-c65c-4738-b3d1-2dcef5368f2a",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 11.1",
+                  "title": "JCRT 11.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/11.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-111",
+                "updated": "2026-08-30T10:45:18.530405+00:00"
+              }
+            ],
+            "ids": [
+              "ee71433f-c65c-4738-b3d1-2dcef5368f2a"
+            ]
+          },
+          "id": "ejde1-dcf11",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/ejde1-dcf11",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/47eaw-3c479",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:47eaw-3c479",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:45:27.966644+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "47eaw-3c479",
+      "record_url": "https://works.hcommons.org/records/47eaw-3c479",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

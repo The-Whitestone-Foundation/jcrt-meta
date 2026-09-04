@@ -1,5 +1,6 @@
 .DS_Store
 .env
 .venv/
-_logs/
+!_logs/
+!_logs/**
 import/

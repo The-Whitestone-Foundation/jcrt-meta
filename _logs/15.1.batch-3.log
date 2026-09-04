@@ -1,0 +1,567 @@
+{
+  "data": [
+    {
+      "collection_id": "ecb79d74-750b-4259-97d9-0242a2959804",
+      "errors": [],
+      "files": {
+        "steinbock.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:34:35.397482+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "72-89",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "15"
+          },
+          "kcr:user_defined_tags": [
+            "metaphysics",
+            "1889-1976",
+            "heidegger",
+            "martin",
+            "spiritual-gifts"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "steinbock.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:d7d9bca3d82cf563bad043c8736f0e82",
+              "ext": "pdf",
+              "id": "e3019a81-d0c0-4fb7-9ccb-73b12f7db946",
+              "key": "steinbock.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/awwst-jt253/files/steinbock.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:awwst-jt253:steinbock.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:awwst-jt253:steinbock.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:awwst-jt253/canvas/steinbock.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:awwst-jt253:steinbock.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/awwst-jt253/files/steinbock.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 2974617,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 2974617
+        },
+        "id": "awwst-jt253",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/awwst-jt253/access",
+          "access_grants": "https://works.hcommons.org/api/records/awwst-jt253/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/awwst-jt253/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/awwst-jt253/access/links",
+          "access_request": "https://works.hcommons.org/api/records/awwst-jt253/access/request",
+          "access_users": "https://works.hcommons.org/api/records/awwst-jt253/access/users",
+          "archive": "https://works.hcommons.org/api/records/awwst-jt253/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/awwst-jt253/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/awwst-jt253/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/awwst-jt253/communities-suggestions",
+          "doi": "https://doi.org/10.17613/awwst-jt253",
+          "draft": "https://works.hcommons.org/api/records/awwst-jt253/draft",
+          "files": "https://works.hcommons.org/api/records/awwst-jt253/files",
+          "latest": "https://works.hcommons.org/api/records/awwst-jt253/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/awwst-jt253/latest",
+          "media_files": "https://works.hcommons.org/api/records/awwst-jt253/media-files",
+          "parent": "https://works.hcommons.org/api/records/pbcwx-hkf29",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/pbcwx-hkf29",
+          "parent_html": "https://works.hcommons.org/records/pbcwx-hkf29",
+          "requests": "https://works.hcommons.org/api/records/awwst-jt253/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/awwst-jt253/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/awwst-jt253",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/awwst-jt253",
+          "self_html": "https://works.hcommons.org/records/awwst-jt253",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:awwst-jt253/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:awwst-jt253/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/awwst-jt253/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Steinbock",
+                "given_name": "Anthony J.",
+                "name": "Steinbock, Anthony J.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The article examines the explication by German philosopher Martin Heidegger (1889-1976) of giving and the gift in the context of overcoming metaphysics and calculative thinking and mentions topics such as machination, National Socialism, and Adolf Hitler.",
+          "identifiers": [
+            {
+              "identifier": "t6prql",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/15.1/steinbock/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2015",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/942667",
+              "scheme": "FAST-topical",
+              "subject": "Gifts, Spiritual"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1018304",
+              "scheme": "FAST-topical",
+              "subject": "Metaphysics"
+            }
+          ],
+          "title": "Heidegger, Machination, and the Jewish Question: the Problem of the Gift."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "ecb79d74-750b-4259-97d9-0242a2959804",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:34:09.550630+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "ecb79d74-750b-4259-97d9-0242a2959804",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 15.1",
+                  "title": "JCRT 15.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/15.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-151",
+                "updated": "2026-08-30T10:34:11.498635+00:00"
+              }
+            ],
+            "ids": [
+              "ecb79d74-750b-4259-97d9-0242a2959804"
+            ]
+          },
+          "id": "pbcwx-hkf29",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/pbcwx-hkf29",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/awwst-jt253",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:awwst-jt253",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:34:35.618588+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "awwst-jt253",
+      "record_url": "https://works.hcommons.org/records/awwst-jt253",
+      "source_id": ""
+    },
+    {
+      "collection_id": "ecb79d74-750b-4259-97d9-0242a2959804",
+      "errors": [],
+      "files": {
+        "welten.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:34:37.213511+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "3-15",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "15"
+          },
+          "kcr:user_defined_tags": [
+            "1905-1980",
+            "jean-paul",
+            "notebooks-for-an-ethics-book",
+            "sartre",
+            "spiritual-gifts"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "welten.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:b3e3631f519b9395d27669458ee15cb2",
+              "ext": "pdf",
+              "id": "d1eed1a1-9e08-4611-aa0a-7ab4e931ba48",
+              "key": "welten.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/hcc33-edd73/files/welten.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:hcc33-edd73:welten.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:hcc33-edd73:welten.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:hcc33-edd73/canvas/welten.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:hcc33-edd73:welten.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/hcc33-edd73/files/welten.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 2159981,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 2159981
+        },
+        "id": "hcc33-edd73",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/hcc33-edd73/access",
+          "access_grants": "https://works.hcommons.org/api/records/hcc33-edd73/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/hcc33-edd73/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/hcc33-edd73/access/links",
+          "access_request": "https://works.hcommons.org/api/records/hcc33-edd73/access/request",
+          "access_users": "https://works.hcommons.org/api/records/hcc33-edd73/access/users",
+          "archive": "https://works.hcommons.org/api/records/hcc33-edd73/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/hcc33-edd73/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/hcc33-edd73/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/hcc33-edd73/communities-suggestions",
+          "doi": "https://doi.org/10.17613/hcc33-edd73",
+          "draft": "https://works.hcommons.org/api/records/hcc33-edd73/draft",
+          "files": "https://works.hcommons.org/api/records/hcc33-edd73/files",
+          "latest": "https://works.hcommons.org/api/records/hcc33-edd73/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/hcc33-edd73/latest",
+          "media_files": "https://works.hcommons.org/api/records/hcc33-edd73/media-files",
+          "parent": "https://works.hcommons.org/api/records/qc76k-dda58",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/qc76k-dda58",
+          "parent_html": "https://works.hcommons.org/records/qc76k-dda58",
+          "requests": "https://works.hcommons.org/api/records/hcc33-edd73/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/hcc33-edd73/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/hcc33-edd73",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/hcc33-edd73",
+          "self_html": "https://works.hcommons.org/records/hcc33-edd73",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:hcc33-edd73/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:hcc33-edd73/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/hcc33-edd73/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Welten",
+                "given_name": "Ruud",
+                "name": "Welten, Ruud",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The article examines some passages on the gift as they appear in the book",
+          "identifiers": [
+            {
+              "identifier": "yMfkP7",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/15.1/welten/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2015",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/942667",
+              "scheme": "FAST-topical",
+              "subject": "Gifts, Spiritual"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1652358",
+              "scheme": "FAST-personal",
+              "subject": "Jean Paul"
+            }
+          ],
+          "title": "Jean-Paul Sartre, Notebooks for an Ethics: the Ontology of the Gift."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "ecb79d74-750b-4259-97d9-0242a2959804",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:34:09.550630+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "ecb79d74-750b-4259-97d9-0242a2959804",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 15.1",
+                  "title": "JCRT 15.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/15.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-151",
+                "updated": "2026-08-30T10:34:11.498635+00:00"
+              }
+            ],
+            "ids": [
+              "ecb79d74-750b-4259-97d9-0242a2959804"
+            ]
+          },
+          "id": "qc76k-dda58",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/qc76k-dda58",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/hcc33-edd73",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:hcc33-edd73",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:34:37.439285+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "hcc33-edd73",
+      "record_url": "https://works.hcommons.org/records/hcc33-edd73",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

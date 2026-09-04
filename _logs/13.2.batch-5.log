@@ -1,0 +1,579 @@
+{
+  "data": [
+    {
+      "collection_id": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+      "errors": [],
+      "files": {
+        "taylorandweiss.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:38:18.917802+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "i-vi",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "13"
+          },
+          "kcr:user_defined_tags": [
+            "zombie-films",
+            "dawn-of-the-dead-film",
+            "zombies-in-popular-culture"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "taylorandweiss.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:7740922354c80b22f1be87223a0ee1c2",
+              "ext": "pdf",
+              "id": "3cfc56f6-6038-4f47-b80b-11b736942f7f",
+              "key": "taylorandweiss.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/r3fhw-4w105/files/taylorandweiss.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:r3fhw-4w105:taylorandweiss.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:r3fhw-4w105:taylorandweiss.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:r3fhw-4w105/canvas/taylorandweiss.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:r3fhw-4w105:taylorandweiss.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/r3fhw-4w105/files/taylorandweiss.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 372678,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 372678
+        },
+        "id": "r3fhw-4w105",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/r3fhw-4w105/access",
+          "access_grants": "https://works.hcommons.org/api/records/r3fhw-4w105/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/r3fhw-4w105/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/r3fhw-4w105/access/links",
+          "access_request": "https://works.hcommons.org/api/records/r3fhw-4w105/access/request",
+          "access_users": "https://works.hcommons.org/api/records/r3fhw-4w105/access/users",
+          "archive": "https://works.hcommons.org/api/records/r3fhw-4w105/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/r3fhw-4w105/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/r3fhw-4w105/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/r3fhw-4w105/communities-suggestions",
+          "doi": "https://doi.org/10.17613/r3fhw-4w105",
+          "draft": "https://works.hcommons.org/api/records/r3fhw-4w105/draft",
+          "files": "https://works.hcommons.org/api/records/r3fhw-4w105/files",
+          "latest": "https://works.hcommons.org/api/records/r3fhw-4w105/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/r3fhw-4w105/latest",
+          "media_files": "https://works.hcommons.org/api/records/r3fhw-4w105/media-files",
+          "parent": "https://works.hcommons.org/api/records/0snbq-gq104",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/0snbq-gq104",
+          "parent_html": "https://works.hcommons.org/records/0snbq-gq104",
+          "requests": "https://works.hcommons.org/api/records/r3fhw-4w105/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/r3fhw-4w105/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/r3fhw-4w105",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/r3fhw-4w105",
+          "self_html": "https://works.hcommons.org/records/r3fhw-4w105",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:r3fhw-4w105/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:r3fhw-4w105/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/r3fhw-4w105/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "WEISS",
+                "given_name": "DENNIS M.",
+                "name": "WEISS, DENNIS M.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            },
+            {
+              "person_or_org": {
+                "family_name": "Taylor",
+                "given_name": "Victor",
+                "name": "Taylor, Victor",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "An introduction is presented in which the editor discusses reports within the issue including evolution of the zombie in mainstream and gay films, contrast between films",
+          "identifiers": [
+            {
+              "identifier": "dlSK6S",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/13.2/weiss_taylor/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2014",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1184593",
+              "scheme": "FAST-topical",
+              "subject": "Zombie films"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1919529",
+              "scheme": "FAST-topical",
+              "subject": "Zombies in popular culture"
+            }
+          ],
+          "title": "The Cultural UN/Life of Zombies."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:37:32.099386+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 13.2",
+                  "title": "JCRT 13.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/13.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-132",
+                "updated": "2026-08-30T10:37:33.183536+00:00"
+              }
+            ],
+            "ids": [
+              "ad381810-b1f0-477f-b591-f8df6a8a8bab"
+            ]
+          },
+          "id": "0snbq-gq104",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/0snbq-gq104",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/r3fhw-4w105",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:r3fhw-4w105",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:38:19.204742+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "r3fhw-4w105",
+      "record_url": "https://works.hcommons.org/records/r3fhw-4w105",
+      "source_id": ""
+    },
+    {
+      "collection_id": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+      "errors": [],
+      "files": {
+        "winters.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:38:20.800003+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "126-128",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "13"
+          },
+          "kcr:user_defined_tags": [
+            "religion",
+            "nonfiction",
+            "hip-hop-culture",
+            "miller",
+            "monica",
+            "religion-hip-hop-book"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "winters.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:f9b27f89078c8b111e1d622e8ff17eb5",
+              "ext": "pdf",
+              "id": "6635aefa-8e68-439f-87a3-c206319fbb16",
+              "key": "winters.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/k3ben-47832/files/winters.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:k3ben-47832:winters.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:k3ben-47832:winters.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:k3ben-47832/canvas/winters.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:k3ben-47832:winters.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/k3ben-47832/files/winters.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 253210,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 253210
+        },
+        "id": "k3ben-47832",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/k3ben-47832/access",
+          "access_grants": "https://works.hcommons.org/api/records/k3ben-47832/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/k3ben-47832/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/k3ben-47832/access/links",
+          "access_request": "https://works.hcommons.org/api/records/k3ben-47832/access/request",
+          "access_users": "https://works.hcommons.org/api/records/k3ben-47832/access/users",
+          "archive": "https://works.hcommons.org/api/records/k3ben-47832/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/k3ben-47832/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/k3ben-47832/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/k3ben-47832/communities-suggestions",
+          "doi": "https://doi.org/10.17613/k3ben-47832",
+          "draft": "https://works.hcommons.org/api/records/k3ben-47832/draft",
+          "files": "https://works.hcommons.org/api/records/k3ben-47832/files",
+          "latest": "https://works.hcommons.org/api/records/k3ben-47832/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/k3ben-47832/latest",
+          "media_files": "https://works.hcommons.org/api/records/k3ben-47832/media-files",
+          "parent": "https://works.hcommons.org/api/records/ymnpk-xs526",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/ymnpk-xs526",
+          "parent_html": "https://works.hcommons.org/records/ymnpk-xs526",
+          "requests": "https://works.hcommons.org/api/records/k3ben-47832/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/k3ben-47832/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/k3ben-47832",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/k3ben-47832",
+          "self_html": "https://works.hcommons.org/records/k3ben-47832",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:k3ben-47832/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:k3ben-47832/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/k3ben-47832/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Winters",
+                "given_name": "Joseph",
+                "name": "Winters, Joseph",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "UvQ_Bv",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/13.2/winters/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2014",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/957237",
+              "scheme": "FAST-topical",
+              "subject": "Hip-hop"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1093763",
+              "scheme": "FAST-topical",
+              "subject": "Religion"
+            }
+          ],
+          "title": "Religion and Hip Hop."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:37:32.099386+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 13.2",
+                  "title": "JCRT 13.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/13.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-132",
+                "updated": "2026-08-30T10:37:33.183536+00:00"
+              }
+            ],
+            "ids": [
+              "ad381810-b1f0-477f-b591-f8df6a8a8bab"
+            ]
+          },
+          "id": "ymnpk-xs526",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/ymnpk-xs526",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/k3ben-47832",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:k3ben-47832",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:38:21.018580+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "k3ben-47832",
+      "record_url": "https://works.hcommons.org/records/k3ben-47832",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

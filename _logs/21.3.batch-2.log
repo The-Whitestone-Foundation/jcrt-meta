@@ -1,0 +1,1196 @@
+{
+  "data": [
+    {
+      "collection_id": "c9bf029b-14ff-42ba-b248-d0c91010ae4f",
+      "errors": [],
+      "files": {
+        "Bradley6.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:13:53.341623+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "3",
+            "pages": "436-439",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "21"
+          },
+          "kcr:user_defined_tags": [
+            "deconstruction-criticism",
+            "political-science-philosophy",
+            "jacques",
+            "1892-1940",
+            "benjamin",
+            "walter",
+            "crypto-jews",
+            "1930-2004",
+            "derrida",
+            "agata",
+            "bielik-robson",
+            "violence-philosophy"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Bradley6.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:cfea9a02197df4ccc20fb2566aa9607d",
+              "ext": "pdf",
+              "id": "27a8327e-90da-4b09-9ded-c40f8bd19b7b",
+              "key": "Bradley6.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/grcdq-yn893/files/Bradley6.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:grcdq-yn893:Bradley6.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:grcdq-yn893:Bradley6.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:grcdq-yn893/canvas/Bradley6.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:grcdq-yn893:Bradley6.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/grcdq-yn893/files/Bradley6.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 478717,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 478717
+        },
+        "id": "grcdq-yn893",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/grcdq-yn893/access",
+          "access_grants": "https://works.hcommons.org/api/records/grcdq-yn893/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/grcdq-yn893/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/grcdq-yn893/access/links",
+          "access_request": "https://works.hcommons.org/api/records/grcdq-yn893/access/request",
+          "access_users": "https://works.hcommons.org/api/records/grcdq-yn893/access/users",
+          "archive": "https://works.hcommons.org/api/records/grcdq-yn893/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/grcdq-yn893/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/grcdq-yn893/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/grcdq-yn893/communities-suggestions",
+          "doi": "https://doi.org/10.17613/grcdq-yn893",
+          "draft": "https://works.hcommons.org/api/records/grcdq-yn893/draft",
+          "files": "https://works.hcommons.org/api/records/grcdq-yn893/files",
+          "latest": "https://works.hcommons.org/api/records/grcdq-yn893/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/grcdq-yn893/latest",
+          "media_files": "https://works.hcommons.org/api/records/grcdq-yn893/media-files",
+          "parent": "https://works.hcommons.org/api/records/zwweq-byt05",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/zwweq-byt05",
+          "parent_html": "https://works.hcommons.org/records/zwweq-byt05",
+          "requests": "https://works.hcommons.org/api/records/grcdq-yn893/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/grcdq-yn893/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/grcdq-yn893",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/grcdq-yn893",
+          "self_html": "https://works.hcommons.org/records/grcdq-yn893",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:grcdq-yn893/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:grcdq-yn893/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/grcdq-yn893/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Bradley",
+                "given_name": "Arthur",
+                "name": "Bradley, Arthur",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "_eBZ2y",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/21.3/bradley/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2022",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1765216",
+              "scheme": "FAST-topical",
+              "subject": "Crypto-Jews"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1069819",
+              "scheme": "FAST-topical",
+              "subject": "Political science--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1167235",
+              "scheme": "FAST-topical",
+              "subject": "Violence--Philosophy"
+            }
+          ],
+          "title": "The Beautiful Marrano: a Response to Agata Bielik-Robson"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "c9bf029b-14ff-42ba-b248-d0c91010ae4f",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:13:39.052435+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "c9bf029b-14ff-42ba-b248-d0c91010ae4f",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 21.3",
+                  "title": "JCRT 21.3",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/21.3/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-213",
+                "updated": "2026-08-30T10:13:39.653435+00:00"
+              }
+            ],
+            "ids": [
+              "c9bf029b-14ff-42ba-b248-d0c91010ae4f"
+            ]
+          },
+          "id": "zwweq-byt05",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/zwweq-byt05",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/grcdq-yn893",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:grcdq-yn893",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:13:53.547626+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "grcdq-yn893",
+      "record_url": "https://works.hcommons.org/records/grcdq-yn893",
+      "source_id": ""
+    },
+    {
+      "collection_id": "c9bf029b-14ff-42ba-b248-d0c91010ae4f",
+      "errors": [],
+      "files": {
+        "Bradley0.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:13:55.218320+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "3",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "21"
+          },
+          "kcr:user_defined_tags": [
+            "arthur-bradley",
+            "political-erasure",
+            "unbearable-life",
+            "sovereignty",
+            "political-theology",
+            "biopolitics",
+            "damnatio-memoriae",
+            "political-disappearance",
+            "political-philosophy",
+            "carl-raschke",
+            "state-violence",
+            "genealogy"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Bradley0.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:39d6ccb50984a97f60fbfa02563ef824",
+              "ext": "pdf",
+              "id": "464a2def-dd6d-41bd-8de6-9705d166a54d",
+              "key": "Bradley0.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/1s150-kjc05/files/Bradley0.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:1s150-kjc05:Bradley0.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:1s150-kjc05:Bradley0.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:1s150-kjc05/canvas/Bradley0.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:1s150-kjc05:Bradley0.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/1s150-kjc05/files/Bradley0.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 1336548,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 1336548
+        },
+        "id": "1s150-kjc05",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/1s150-kjc05/access",
+          "access_grants": "https://works.hcommons.org/api/records/1s150-kjc05/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/1s150-kjc05/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/1s150-kjc05/access/links",
+          "access_request": "https://works.hcommons.org/api/records/1s150-kjc05/access/request",
+          "access_users": "https://works.hcommons.org/api/records/1s150-kjc05/access/users",
+          "archive": "https://works.hcommons.org/api/records/1s150-kjc05/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/1s150-kjc05/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/1s150-kjc05/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/1s150-kjc05/communities-suggestions",
+          "doi": "https://doi.org/10.17613/1s150-kjc05",
+          "draft": "https://works.hcommons.org/api/records/1s150-kjc05/draft",
+          "files": "https://works.hcommons.org/api/records/1s150-kjc05/files",
+          "latest": "https://works.hcommons.org/api/records/1s150-kjc05/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/1s150-kjc05/latest",
+          "media_files": "https://works.hcommons.org/api/records/1s150-kjc05/media-files",
+          "parent": "https://works.hcommons.org/api/records/qgy4y-ks082",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/qgy4y-ks082",
+          "parent_html": "https://works.hcommons.org/records/qgy4y-ks082",
+          "requests": "https://works.hcommons.org/api/records/1s150-kjc05/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/1s150-kjc05/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/1s150-kjc05",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/1s150-kjc05",
+          "self_html": "https://works.hcommons.org/records/1s150-kjc05",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:1s150-kjc05/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:1s150-kjc05/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/1s150-kjc05/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Bradley",
+                "given_name": "Arthur",
+                "name": "Bradley, Arthur",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "8C_Skb",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/21.3/bradley0/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2022",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/832668",
+              "scheme": "FAST-topical",
+              "subject": "Biopolitics"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/939652",
+              "scheme": "FAST-topical",
+              "subject": "Genealogy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1069819",
+              "scheme": "FAST-topical",
+              "subject": "Political science--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1069899",
+              "scheme": "FAST-topical",
+              "subject": "Political theology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1127379",
+              "scheme": "FAST-topical",
+              "subject": "Sovereignty"
+            }
+          ],
+          "title": "A Critical Conversation on \"Political Erasure\""
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "c9bf029b-14ff-42ba-b248-d0c91010ae4f",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:13:39.052435+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "c9bf029b-14ff-42ba-b248-d0c91010ae4f",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 21.3",
+                  "title": "JCRT 21.3",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/21.3/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-213",
+                "updated": "2026-08-30T10:13:39.653435+00:00"
+              }
+            ],
+            "ids": [
+              "c9bf029b-14ff-42ba-b248-d0c91010ae4f"
+            ]
+          },
+          "id": "qgy4y-ks082",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/qgy4y-ks082",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/1s150-kjc05",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:1s150-kjc05",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:13:55.442419+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "1s150-kjc05",
+      "record_url": "https://works.hcommons.org/records/1s150-kjc05",
+      "source_id": ""
+    },
+    {
+      "collection_id": "c9bf029b-14ff-42ba-b248-d0c91010ae4f",
+      "errors": [],
+      "files": {
+        "Bradley1.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 2,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:13:57.084580+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "3",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "21"
+          },
+          "kcr:user_defined_tags": [
+            "arthur-bradley",
+            "unbearable-life",
+            "political-erasure",
+            "sovereignty",
+            "damnatio-memoriae",
+            "biopolitics",
+            "political-theology",
+            "michel-foucault",
+            "war-on-terror",
+            "political-disappearance",
+            "carl-schmitt",
+            "genealogy"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Bradley1.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:04898e35d1b9f05fcb9132acf85c5f20",
+              "ext": "pdf",
+              "id": "cad03071-681d-438d-b382-4fb7c6860846",
+              "key": "Bradley1.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/rk1kr-6xa63/files/Bradley1.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:rk1kr-6xa63:Bradley1.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:rk1kr-6xa63:Bradley1.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:rk1kr-6xa63/canvas/Bradley1.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:rk1kr-6xa63:Bradley1.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/rk1kr-6xa63/files/Bradley1.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 187127,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 187127
+        },
+        "id": "rk1kr-6xa63",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/rk1kr-6xa63/access",
+          "access_grants": "https://works.hcommons.org/api/records/rk1kr-6xa63/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/rk1kr-6xa63/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/rk1kr-6xa63/access/links",
+          "access_request": "https://works.hcommons.org/api/records/rk1kr-6xa63/access/request",
+          "access_users": "https://works.hcommons.org/api/records/rk1kr-6xa63/access/users",
+          "archive": "https://works.hcommons.org/api/records/rk1kr-6xa63/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/rk1kr-6xa63/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/rk1kr-6xa63/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/rk1kr-6xa63/communities-suggestions",
+          "doi": "https://doi.org/10.17613/rk1kr-6xa63",
+          "draft": "https://works.hcommons.org/api/records/rk1kr-6xa63/draft",
+          "files": "https://works.hcommons.org/api/records/rk1kr-6xa63/files",
+          "latest": "https://works.hcommons.org/api/records/rk1kr-6xa63/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/rk1kr-6xa63/latest",
+          "media_files": "https://works.hcommons.org/api/records/rk1kr-6xa63/media-files",
+          "parent": "https://works.hcommons.org/api/records/2a76r-33n52",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/2a76r-33n52",
+          "parent_html": "https://works.hcommons.org/records/2a76r-33n52",
+          "requests": "https://works.hcommons.org/api/records/rk1kr-6xa63/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/rk1kr-6xa63/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/rk1kr-6xa63",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/rk1kr-6xa63",
+          "self_html": "https://works.hcommons.org/records/rk1kr-6xa63",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:rk1kr-6xa63/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:rk1kr-6xa63/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/rk1kr-6xa63/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Bradley",
+                "given_name": "Arthur",
+                "name": "Bradley, Arthur",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "JUZbrp",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/21.3/bradley1/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2022",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/832668",
+              "scheme": "FAST-topical",
+              "subject": "Biopolitics"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/939652",
+              "scheme": "FAST-topical",
+              "subject": "Genealogy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1069899",
+              "scheme": "FAST-topical",
+              "subject": "Political theology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1127379",
+              "scheme": "FAST-topical",
+              "subject": "Sovereignty"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/2057043",
+              "scheme": "FAST-title",
+              "subject": "War on terror"
+            }
+          ],
+          "title": "Book Forum: The Poetics of Disappearance"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "c9bf029b-14ff-42ba-b248-d0c91010ae4f",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:13:39.052435+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "c9bf029b-14ff-42ba-b248-d0c91010ae4f",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 21.3",
+                  "title": "JCRT 21.3",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/21.3/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-213",
+                "updated": "2026-08-30T10:13:39.653435+00:00"
+              }
+            ],
+            "ids": [
+              "c9bf029b-14ff-42ba-b248-d0c91010ae4f"
+            ]
+          },
+          "id": "2a76r-33n52",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/2a76r-33n52",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/rk1kr-6xa63",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:rk1kr-6xa63",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:13:57.319769+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "rk1kr-6xa63",
+      "record_url": "https://works.hcommons.org/records/rk1kr-6xa63",
+      "source_id": ""
+    },
+    {
+      "collection_id": "c9bf029b-14ff-42ba-b248-d0c91010ae4f",
+      "errors": [],
+      "files": {
+        "Bradley2.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 3,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:13:59.053517+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "3",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "21"
+          },
+          "kcr:user_defined_tags": [
+            "arthur-bradley",
+            "unbearable-life",
+            "political-theology",
+            "negative-theology",
+            "negative-dialectics",
+            "deconstruction",
+            "jacques-derrida",
+            "georges-bataille",
+            "political-disappearance",
+            "philosophical-negativity",
+            "the-troubles",
+            "sovereignty"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Bradley2.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:69829d6241b44675174e2d86d19bbe37",
+              "ext": "pdf",
+              "id": "034da0bd-04fb-4f74-b741-7711197c705f",
+              "key": "Bradley2.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/rf32m-k4b76/files/Bradley2.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:rf32m-k4b76:Bradley2.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:rf32m-k4b76:Bradley2.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:rf32m-k4b76/canvas/Bradley2.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:rf32m-k4b76:Bradley2.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/rf32m-k4b76/files/Bradley2.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 235683,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 235683
+        },
+        "id": "rf32m-k4b76",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/rf32m-k4b76/access",
+          "access_grants": "https://works.hcommons.org/api/records/rf32m-k4b76/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/rf32m-k4b76/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/rf32m-k4b76/access/links",
+          "access_request": "https://works.hcommons.org/api/records/rf32m-k4b76/access/request",
+          "access_users": "https://works.hcommons.org/api/records/rf32m-k4b76/access/users",
+          "archive": "https://works.hcommons.org/api/records/rf32m-k4b76/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/rf32m-k4b76/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/rf32m-k4b76/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/rf32m-k4b76/communities-suggestions",
+          "doi": "https://doi.org/10.17613/rf32m-k4b76",
+          "draft": "https://works.hcommons.org/api/records/rf32m-k4b76/draft",
+          "files": "https://works.hcommons.org/api/records/rf32m-k4b76/files",
+          "latest": "https://works.hcommons.org/api/records/rf32m-k4b76/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/rf32m-k4b76/latest",
+          "media_files": "https://works.hcommons.org/api/records/rf32m-k4b76/media-files",
+          "parent": "https://works.hcommons.org/api/records/cvmhn-3cp72",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/cvmhn-3cp72",
+          "parent_html": "https://works.hcommons.org/records/cvmhn-3cp72",
+          "requests": "https://works.hcommons.org/api/records/rf32m-k4b76/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/rf32m-k4b76/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/rf32m-k4b76",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/rf32m-k4b76",
+          "self_html": "https://works.hcommons.org/records/rf32m-k4b76",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:rf32m-k4b76/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:rf32m-k4b76/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/rf32m-k4b76/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Bradley",
+                "given_name": "Arthur",
+                "name": "Bradley, Arthur",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "piSG8Y",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/21.3/bradley2/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2022",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/889137",
+              "scheme": "FAST-topical",
+              "subject": "Deconstruction"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1035499",
+              "scheme": "FAST-topical",
+              "subject": "Negative theology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1069899",
+              "scheme": "FAST-topical",
+              "subject": "Political theology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1127379",
+              "scheme": "FAST-topical",
+              "subject": "Sovereignty"
+            }
+          ],
+          "title": "Caveat Lector: Introduction"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "c9bf029b-14ff-42ba-b248-d0c91010ae4f",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:13:39.052435+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "c9bf029b-14ff-42ba-b248-d0c91010ae4f",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 21.3",
+                  "title": "JCRT 21.3",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/21.3/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-213",
+                "updated": "2026-08-30T10:13:39.653435+00:00"
+              }
+            ],
+            "ids": [
+              "c9bf029b-14ff-42ba-b248-d0c91010ae4f"
+            ]
+          },
+          "id": "cvmhn-3cp72",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/cvmhn-3cp72",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/rf32m-k4b76",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:rf32m-k4b76",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:13:59.283226+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "rf32m-k4b76",
+      "record_url": "https://works.hcommons.org/records/rf32m-k4b76",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

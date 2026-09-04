@@ -1,0 +1,1448 @@
+{
+  "data": [
+    {
+      "collection_id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+      "errors": [],
+      "files": {
+        "ballan.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:40:38.371032+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "174-186",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "12"
+          },
+          "kcr:user_defined_tags": [
+            "transmission-of-texts",
+            "students",
+            "religious-education",
+            "equality",
+            "reading",
+            "teacher-student-relationships",
+            "freedom-philosophy",
+            "jacques",
+            "the",
+            "religion-study-and-teaching",
+            "1804-1872",
+            "feuerbach",
+            "ludwig",
+            "rancie-re",
+            "religious-literature",
+            "teachers",
+            "education-philosophy",
+            "education-experimental-methods",
+            "1931-1994",
+            "debord",
+            "guy",
+            "spectacular"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "ballan.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:e57f465292e03c54c300da56f6d88d28",
+              "ext": "pdf",
+              "id": "f7c6eb7c-db4f-418c-a24b-d8215f327a7a",
+              "key": "ballan.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/exmbg-6kf96/files/ballan.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:exmbg-6kf96:ballan.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:exmbg-6kf96:ballan.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:exmbg-6kf96/canvas/ballan.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:exmbg-6kf96:ballan.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/exmbg-6kf96/files/ballan.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 442918,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 442918
+        },
+        "id": "exmbg-6kf96",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/exmbg-6kf96/access",
+          "access_grants": "https://works.hcommons.org/api/records/exmbg-6kf96/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/exmbg-6kf96/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/exmbg-6kf96/access/links",
+          "access_request": "https://works.hcommons.org/api/records/exmbg-6kf96/access/request",
+          "access_users": "https://works.hcommons.org/api/records/exmbg-6kf96/access/users",
+          "archive": "https://works.hcommons.org/api/records/exmbg-6kf96/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/exmbg-6kf96/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/exmbg-6kf96/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/exmbg-6kf96/communities-suggestions",
+          "doi": "https://doi.org/10.17613/exmbg-6kf96",
+          "draft": "https://works.hcommons.org/api/records/exmbg-6kf96/draft",
+          "files": "https://works.hcommons.org/api/records/exmbg-6kf96/files",
+          "latest": "https://works.hcommons.org/api/records/exmbg-6kf96/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/exmbg-6kf96/latest",
+          "media_files": "https://works.hcommons.org/api/records/exmbg-6kf96/media-files",
+          "parent": "https://works.hcommons.org/api/records/c1k76-s9x71",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/c1k76-s9x71",
+          "parent_html": "https://works.hcommons.org/records/c1k76-s9x71",
+          "requests": "https://works.hcommons.org/api/records/exmbg-6kf96/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/exmbg-6kf96/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/exmbg-6kf96",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/exmbg-6kf96",
+          "self_html": "https://works.hcommons.org/records/exmbg-6kf96",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:exmbg-6kf96/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:exmbg-6kf96/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/exmbg-6kf96/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Ballan",
+                "given_name": "Joseph",
+                "name": "Ballan, Joseph",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The author describes how the ideas set forth by philosopher Jacques Ranci\u00e8re in his book",
+          "identifiers": [
+            {
+              "identifier": "iwtdre",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/12.2/ballan/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2012",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/902632",
+              "scheme": "FAST-topical",
+              "subject": "Education--Experimental methods"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902721",
+              "scheme": "FAST-topical",
+              "subject": "Education--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/914456",
+              "scheme": "FAST-topical",
+              "subject": "Equality"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1090626",
+              "scheme": "FAST-topical",
+              "subject": "Reading"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1093807",
+              "scheme": "FAST-topical",
+              "subject": "Religion--Study and teaching"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1093997",
+              "scheme": "FAST-topical",
+              "subject": "Religious education"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1094139",
+              "scheme": "FAST-topical",
+              "subject": "Religious literature"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1136041",
+              "scheme": "FAST-topical",
+              "subject": "Students"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1144236",
+              "scheme": "FAST-topical",
+              "subject": "Teacher-student relationships"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1144248",
+              "scheme": "FAST-topical",
+              "subject": "Teachers"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1154863",
+              "scheme": "FAST-topical",
+              "subject": "Transmission of texts"
+            }
+          ],
+          "title": "The Intelligence of the Book: the Religious Studies Classroom as Translation Workshop."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:40:34.395482+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 12.2",
+                  "title": "JCRT 12.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/12.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-122",
+                "updated": "2026-08-30T10:40:35.037794+00:00"
+              }
+            ],
+            "ids": [
+              "2f9523f2-ecae-43d4-8498-32a217fe5578"
+            ]
+          },
+          "id": "c1k76-s9x71",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/c1k76-s9x71",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/exmbg-6kf96",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:exmbg-6kf96",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:40:38.612442+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "exmbg-6kf96",
+      "record_url": "https://works.hcommons.org/records/exmbg-6kf96",
+      "source_id": ""
+    },
+    {
+      "collection_id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+      "errors": [],
+      "files": {
+        "blosser.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:40:40.455841+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "196-214",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "12"
+          },
+          "kcr:user_defined_tags": [
+            "united-states",
+            "students",
+            "ethics",
+            "moral-development",
+            "universities-and-colleges",
+            "learning",
+            "teacher-student-relationships",
+            "john",
+            "paul",
+            "1913-2005",
+            "ric-ur",
+            "service-learning",
+            "education-methods",
+            "education-philosophy",
+            "1859-1952",
+            "dewey",
+            "ricoeur",
+            "student-service"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "blosser.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:2a8ca74b1a026684dffaf7395b8578a2",
+              "ext": "pdf",
+              "id": "450459ef-5b18-4ef7-acbc-3d349cfad782",
+              "key": "blosser.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/t364v-f9h94/files/blosser.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:t364v-f9h94:blosser.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:t364v-f9h94:blosser.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:t364v-f9h94/canvas/blosser.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:t364v-f9h94:blosser.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/t364v-f9h94/files/blosser.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 571416,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 571416
+        },
+        "id": "t364v-f9h94",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/t364v-f9h94/access",
+          "access_grants": "https://works.hcommons.org/api/records/t364v-f9h94/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/t364v-f9h94/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/t364v-f9h94/access/links",
+          "access_request": "https://works.hcommons.org/api/records/t364v-f9h94/access/request",
+          "access_users": "https://works.hcommons.org/api/records/t364v-f9h94/access/users",
+          "archive": "https://works.hcommons.org/api/records/t364v-f9h94/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/t364v-f9h94/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/t364v-f9h94/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/t364v-f9h94/communities-suggestions",
+          "doi": "https://doi.org/10.17613/t364v-f9h94",
+          "draft": "https://works.hcommons.org/api/records/t364v-f9h94/draft",
+          "files": "https://works.hcommons.org/api/records/t364v-f9h94/files",
+          "latest": "https://works.hcommons.org/api/records/t364v-f9h94/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/t364v-f9h94/latest",
+          "media_files": "https://works.hcommons.org/api/records/t364v-f9h94/media-files",
+          "parent": "https://works.hcommons.org/api/records/xh663-n0e92",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/xh663-n0e92",
+          "parent_html": "https://works.hcommons.org/records/xh663-n0e92",
+          "requests": "https://works.hcommons.org/api/records/t364v-f9h94/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/t364v-f9h94/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/t364v-f9h94",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/t364v-f9h94",
+          "self_html": "https://works.hcommons.org/records/t364v-f9h94",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:t364v-f9h94/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:t364v-f9h94/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/t364v-f9h94/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Blosser",
+                "given_name": "Joe",
+                "name": "Blosser, Joe",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The author calls for a re-conceptualization of the philosophical framework behind the pedagogical practice of service learning based on the theories of Paul Ricoeur, who emphasizes the role of narrative in the development of the ethical self. He argues that the preoccupation of most of the service learning literature with assessing the",
+          "identifiers": [
+            {
+              "identifier": "6jG-ba",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/12.2/blosser/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2012",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/902721",
+              "scheme": "FAST-topical",
+              "subject": "Education--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/915833",
+              "scheme": "FAST-topical",
+              "subject": "Ethics"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/994826",
+              "scheme": "FAST-topical",
+              "subject": "Learning"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1026046",
+              "scheme": "FAST-topical",
+              "subject": "Moral development"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1431330",
+              "scheme": "FAST-topical",
+              "subject": "Service learning"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1135988",
+              "scheme": "FAST-topical",
+              "subject": "Student service"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1136041",
+              "scheme": "FAST-topical",
+              "subject": "Students"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1144236",
+              "scheme": "FAST-topical",
+              "subject": "Teacher-student relationships"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1204155",
+              "scheme": "FAST-geographic",
+              "subject": "United States"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1161597",
+              "scheme": "FAST-topical",
+              "subject": "Universities and colleges"
+            }
+          ],
+          "title": "Beyond Moral Development: Re-Theorizing Ethical Practices in Service Learning."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:40:34.395482+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 12.2",
+                  "title": "JCRT 12.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/12.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-122",
+                "updated": "2026-08-30T10:40:35.037794+00:00"
+              }
+            ],
+            "ids": [
+              "2f9523f2-ecae-43d4-8498-32a217fe5578"
+            ]
+          },
+          "id": "xh663-n0e92",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/xh663-n0e92",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/t364v-f9h94",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:t364v-f9h94",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:40:40.701765+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "t364v-f9h94",
+      "record_url": "https://works.hcommons.org/records/t364v-f9h94",
+      "source_id": ""
+    },
+    {
+      "collection_id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+      "errors": [],
+      "files": {
+        "britt.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 2,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:40:42.798343+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "122-147",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "12"
+          },
+          "kcr:user_defined_tags": [
+            "psychology",
+            "bible-psalms",
+            "memory",
+            "learning-and-scholarship",
+            "christianity",
+            "bible-psalms-90-106",
+            "desire-and-religion",
+            "saint",
+            "postsecularism",
+            "analogy",
+            "biblical-scholars",
+            "recitation-education",
+            "augustine",
+            "education-methods",
+            "education-philosophy",
+            "of-hippo",
+            "354-430-philosophy",
+            "bible-liturgical-use",
+            "bible-reading",
+            "recitations",
+            "technology",
+            "technology-and-society",
+            "time-philosophy",
+            "time-in-religion"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "britt.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:f0438a75d6a052274190decb588b88ae",
+              "ext": "pdf",
+              "id": "58c25623-ad3c-4c18-b38e-42ef202e1566",
+              "key": "britt.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/prx6g-21w38/files/britt.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:prx6g-21w38:britt.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:prx6g-21w38:britt.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:prx6g-21w38/canvas/britt.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:prx6g-21w38:britt.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/prx6g-21w38/files/britt.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 734279,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 734279
+        },
+        "id": "prx6g-21w38",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/prx6g-21w38/access",
+          "access_grants": "https://works.hcommons.org/api/records/prx6g-21w38/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/prx6g-21w38/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/prx6g-21w38/access/links",
+          "access_request": "https://works.hcommons.org/api/records/prx6g-21w38/access/request",
+          "access_users": "https://works.hcommons.org/api/records/prx6g-21w38/access/users",
+          "archive": "https://works.hcommons.org/api/records/prx6g-21w38/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/prx6g-21w38/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/prx6g-21w38/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/prx6g-21w38/communities-suggestions",
+          "doi": "https://doi.org/10.17613/prx6g-21w38",
+          "draft": "https://works.hcommons.org/api/records/prx6g-21w38/draft",
+          "files": "https://works.hcommons.org/api/records/prx6g-21w38/files",
+          "latest": "https://works.hcommons.org/api/records/prx6g-21w38/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/prx6g-21w38/latest",
+          "media_files": "https://works.hcommons.org/api/records/prx6g-21w38/media-files",
+          "parent": "https://works.hcommons.org/api/records/cvkcn-3sc05",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/cvkcn-3sc05",
+          "parent_html": "https://works.hcommons.org/records/cvkcn-3sc05",
+          "requests": "https://works.hcommons.org/api/records/prx6g-21w38/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/prx6g-21w38/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/prx6g-21w38",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/prx6g-21w38",
+          "self_html": "https://works.hcommons.org/records/prx6g-21w38",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:prx6g-21w38/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:prx6g-21w38/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/prx6g-21w38/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Britt",
+                "given_name": "Brian",
+                "name": "Britt, Brian",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The author encourages Biblical scholars to take into closer consideration the traditions of recitation and reception of the Book of Psalms, especially Psalm 90, in order for them to gain a more nuanced understanding of how these psalms imagine the nature of time itself. He observes how the Psalms are an anthology arranged according to different traditions of recitation and practice, and adds that St. Augustine used psalm recitation as an analogy to describe the workings of time and memory.",
+          "identifiers": [
+            {
+              "identifier": "djRLCR",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/12.2/britt/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2012",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/808308",
+              "scheme": "FAST-topical",
+              "subject": "Analogy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1808097",
+              "scheme": "FAST-title",
+              "subject": "Bible. Psalms"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/831328",
+              "scheme": "FAST-topical",
+              "subject": "Biblical scholars"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/859599",
+              "scheme": "FAST-topical",
+              "subject": "Christianity"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902721",
+              "scheme": "FAST-topical",
+              "subject": "Education--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/994857",
+              "scheme": "FAST-topical",
+              "subject": "Learning and scholarship"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1015913",
+              "scheme": "FAST-topical",
+              "subject": "Memory"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1764747",
+              "scheme": "FAST-topical",
+              "subject": "Postsecularism"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1081447",
+              "scheme": "FAST-topical",
+              "subject": "Psychology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1091406",
+              "scheme": "FAST-topical",
+              "subject": "Recitation (Education)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1091407",
+              "scheme": "FAST-topical",
+              "subject": "Recitations"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1145078",
+              "scheme": "FAST-topical",
+              "subject": "Technology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1794163",
+              "scheme": "FAST-title",
+              "subject": "Technology and society"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1151053",
+              "scheme": "FAST-topical",
+              "subject": "Time--Philosophy"
+            }
+          ],
+          "title": "Psalm Recitation and Post-Secular Time: Augustine, the Ipod, and Psalm 90."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:40:34.395482+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 12.2",
+                  "title": "JCRT 12.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/12.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-122",
+                "updated": "2026-08-30T10:40:35.037794+00:00"
+              }
+            ],
+            "ids": [
+              "2f9523f2-ecae-43d4-8498-32a217fe5578"
+            ]
+          },
+          "id": "cvkcn-3sc05",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/cvkcn-3sc05",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/prx6g-21w38",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:prx6g-21w38",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:40:43.103331+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "prx6g-21w38",
+      "record_url": "https://works.hcommons.org/records/prx6g-21w38",
+      "source_id": ""
+    },
+    {
+      "collection_id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+      "errors": [],
+      "files": {
+        "caputo.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 3,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:40:45.076107+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "12"
+          },
+          "kcr:user_defined_tags": [
+            "religion",
+            "apophatic-theology",
+            "students",
+            "philosophical-anthropology",
+            "spiritual-formation",
+            "philosophy-and-theology",
+            "mind-and-body",
+            "foucault",
+            "education",
+            "practice-philosophy",
+            "jacques",
+            "knowledge",
+            "theory-of",
+            "1926-1984",
+            "1930-2004",
+            "derrida",
+            "michel",
+            "spiritual-exercises",
+            "caputo",
+            "cyborgs",
+            "aristotle",
+            "administration-of-education-programs",
+            "all-other-miscellaneous-schools-and-instruction",
+            "educational-support-services",
+            "and-professional-schools",
+            "colleges",
+            "universities",
+            "universities-colleges",
+            "john-d",
+            "events-philosophy",
+            "education-philosophy",
+            "educational-technology",
+            "universities-and-colleges-evaluation",
+            "battlestar-galactica-television-program-2004-2009",
+            "donna-jeanne",
+            "haraway",
+            "human-body-in-culture",
+            "organizational-sociology"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "caputo.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:c3be6900203298ea702fc835db2ad668",
+              "ext": "pdf",
+              "id": "1de750e8-8125-40c1-a25a-fdaed1f906bb",
+              "key": "caputo.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/k9kw8-5s740/files/caputo.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:k9kw8-5s740:caputo.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:k9kw8-5s740:caputo.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:k9kw8-5s740/canvas/caputo.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:k9kw8-5s740:caputo.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/k9kw8-5s740/files/caputo.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 643459,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 643459
+        },
+        "id": "k9kw8-5s740",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/k9kw8-5s740/access",
+          "access_grants": "https://works.hcommons.org/api/records/k9kw8-5s740/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/k9kw8-5s740/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/k9kw8-5s740/access/links",
+          "access_request": "https://works.hcommons.org/api/records/k9kw8-5s740/access/request",
+          "access_users": "https://works.hcommons.org/api/records/k9kw8-5s740/access/users",
+          "archive": "https://works.hcommons.org/api/records/k9kw8-5s740/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/k9kw8-5s740/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/k9kw8-5s740/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/k9kw8-5s740/communities-suggestions",
+          "doi": "https://doi.org/10.17613/k9kw8-5s740",
+          "draft": "https://works.hcommons.org/api/records/k9kw8-5s740/draft",
+          "files": "https://works.hcommons.org/api/records/k9kw8-5s740/files",
+          "latest": "https://works.hcommons.org/api/records/k9kw8-5s740/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/k9kw8-5s740/latest",
+          "media_files": "https://works.hcommons.org/api/records/k9kw8-5s740/media-files",
+          "parent": "https://works.hcommons.org/api/records/cc3gg-chw23",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/cc3gg-chw23",
+          "parent_html": "https://works.hcommons.org/records/cc3gg-chw23",
+          "requests": "https://works.hcommons.org/api/records/k9kw8-5s740/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/k9kw8-5s740/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/k9kw8-5s740",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/k9kw8-5s740",
+          "self_html": "https://works.hcommons.org/records/k9kw8-5s740",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:k9kw8-5s740/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:k9kw8-5s740/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/k9kw8-5s740/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Caputo",
+                "given_name": "John D.",
+                "name": "Caputo, John D.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            },
+            {
+              "person_or_org": {
+                "family_name": "Dickinson",
+                "given_name": "T. Wilson",
+                "name": "Dickinson, T. Wilson",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "An interview with theologian and philosopher of religion John D. Caputo is presented. Caputo proposes a new framework for education built on the concept of the",
+          "identifiers": [
+            {
+              "identifier": "iY86aF",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/12.2/caputo/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2012",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1777067",
+              "scheme": "FAST-title",
+              "subject": "Battlestar Galactica (Television program : 2004-2009)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/885806",
+              "scheme": "FAST-topical",
+              "subject": "Cyborgs"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902499",
+              "scheme": "FAST-topical",
+              "subject": "Education"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902721",
+              "scheme": "FAST-topical",
+              "subject": "Education--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/903623",
+              "scheme": "FAST-topical",
+              "subject": "Educational technology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/917152",
+              "scheme": "FAST-topical",
+              "subject": "Events (Philosophy)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1937862",
+              "scheme": "FAST-title",
+              "subject": "Everyman's library. Theology & philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1021997",
+              "scheme": "FAST-topical",
+              "subject": "Mind and body"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1035499",
+              "scheme": "FAST-topical",
+              "subject": "Negative theology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1047878",
+              "scheme": "FAST-topical",
+              "subject": "Organizational sociology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060766",
+              "scheme": "FAST-topical",
+              "subject": "Philosophical anthropology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1074531",
+              "scheme": "FAST-topical",
+              "subject": "Practice (Philosophy)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1093763",
+              "scheme": "FAST-topical",
+              "subject": "Religion"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1130077",
+              "scheme": "FAST-topical",
+              "subject": "Spiritual exercises"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1130081",
+              "scheme": "FAST-topical",
+              "subject": "Spiritual formation"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1136041",
+              "scheme": "FAST-topical",
+              "subject": "Students"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1161597",
+              "scheme": "FAST-topical",
+              "subject": "Universities and colleges"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1161730",
+              "scheme": "FAST-topical",
+              "subject": "Universities and colleges--Evaluation"
+            }
+          ],
+          "title": "Education as Event: a Conversation with John D. Caputo."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:40:34.395482+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 12.2",
+                  "title": "JCRT 12.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/12.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-122",
+                "updated": "2026-08-30T10:40:35.037794+00:00"
+              }
+            ],
+            "ids": [
+              "2f9523f2-ecae-43d4-8498-32a217fe5578"
+            ]
+          },
+          "id": "cc3gg-chw23",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/cc3gg-chw23",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/k9kw8-5s740",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:k9kw8-5s740",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:40:45.428752+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "k9kw8-5s740",
+      "record_url": "https://works.hcommons.org/records/k9kw8-5s740",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

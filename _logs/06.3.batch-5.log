@@ -1,0 +1,305 @@
+{
+  "data": [
+    {
+      "collection_id": "7d8b7b1d-9fa9-449a-a802-75635930f3ac",
+      "errors": [],
+      "files": {
+        "taylor.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T11:00:43.247134+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "3",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "6"
+          },
+          "kcr:user_defined_tags": [
+            "language-and-religion",
+            "semiotics",
+            "postmodernism",
+            "language-and-languages-philosophy",
+            "raschke",
+            "theology-methodology",
+            "carl-a",
+            "journal-for-cultural-and-religious-theory",
+            "theory-philosophy"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "taylor.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:0d6ec44a62860ac2fe52ae7b24087341",
+              "ext": "pdf",
+              "id": "86111dff-7785-4c33-89a4-532db5a95971",
+              "key": "taylor.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/wm5pz-f4w71/files/taylor.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:wm5pz-f4w71:taylor.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:wm5pz-f4w71:taylor.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:wm5pz-f4w71/canvas/taylor.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:wm5pz-f4w71:taylor.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/wm5pz-f4w71/files/taylor.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 301479,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 301479
+        },
+        "id": "wm5pz-f4w71",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/wm5pz-f4w71/access",
+          "access_grants": "https://works.hcommons.org/api/records/wm5pz-f4w71/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/wm5pz-f4w71/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/wm5pz-f4w71/access/links",
+          "access_request": "https://works.hcommons.org/api/records/wm5pz-f4w71/access/request",
+          "access_users": "https://works.hcommons.org/api/records/wm5pz-f4w71/access/users",
+          "archive": "https://works.hcommons.org/api/records/wm5pz-f4w71/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/wm5pz-f4w71/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/wm5pz-f4w71/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/wm5pz-f4w71/communities-suggestions",
+          "doi": "https://doi.org/10.17613/wm5pz-f4w71",
+          "draft": "https://works.hcommons.org/api/records/wm5pz-f4w71/draft",
+          "files": "https://works.hcommons.org/api/records/wm5pz-f4w71/files",
+          "latest": "https://works.hcommons.org/api/records/wm5pz-f4w71/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/wm5pz-f4w71/latest",
+          "media_files": "https://works.hcommons.org/api/records/wm5pz-f4w71/media-files",
+          "parent": "https://works.hcommons.org/api/records/jpq6f-a1839",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/jpq6f-a1839",
+          "parent_html": "https://works.hcommons.org/records/jpq6f-a1839",
+          "requests": "https://works.hcommons.org/api/records/wm5pz-f4w71/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/wm5pz-f4w71/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/wm5pz-f4w71",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/wm5pz-f4w71",
+          "self_html": "https://works.hcommons.org/records/wm5pz-f4w71",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:wm5pz-f4w71/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:wm5pz-f4w71/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/wm5pz-f4w71/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Taylor",
+                "given_name": "Victor",
+                "name": "Taylor, Victor",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "eOaizS",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/06.3/taylor/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2005",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/992193",
+              "scheme": "FAST-topical",
+              "subject": "Language and languages--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1073164",
+              "scheme": "FAST-topical",
+              "subject": "Postmodernism"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1112351",
+              "scheme": "FAST-topical",
+              "subject": "Semiotics"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1149580",
+              "scheme": "FAST-topical",
+              "subject": "Theology--Methodology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1149666",
+              "scheme": "FAST-topical",
+              "subject": "Theory (Philosophy)"
+            }
+          ],
+          "title": "Theorizing Religion II"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "7d8b7b1d-9fa9-449a-a802-75635930f3ac",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:59:50.332394+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "7d8b7b1d-9fa9-449a-a802-75635930f3ac",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 06.3",
+                  "title": "JCRT 06.3",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/06.3/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-063",
+                "updated": "2026-08-30T10:59:51.068227+00:00"
+              }
+            ],
+            "ids": [
+              "7d8b7b1d-9fa9-449a-a802-75635930f3ac"
+            ]
+          },
+          "id": "jpq6f-a1839",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/jpq6f-a1839",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/wm5pz-f4w71",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:wm5pz-f4w71",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T11:00:43.574251+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "wm5pz-f4w71",
+      "record_url": "https://works.hcommons.org/records/wm5pz-f4w71",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

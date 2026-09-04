@@ -1,0 +1,1326 @@
+{
+  "data": [
+    {
+      "collection_id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+      "errors": [],
+      "files": {
+        "coakley.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:40:49.864926+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "12"
+          },
+          "kcr:user_defined_tags": [
+            "united-states",
+            "silence",
+            "prayer",
+            "desire-and-religion",
+            "knowledge",
+            "spiritual-exercises",
+            "american-theologians",
+            "coakley",
+            "erotica",
+            "george",
+            "religious-educators",
+            "sarah",
+            "steiner",
+            "theory-of-religion",
+            "education-philosophy"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "coakley.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:edac567da30ae96d65e5eb3595819be2",
+              "ext": "pdf",
+              "id": "bb6e0617-615b-4baf-946f-b17b0a5cd16a",
+              "key": "coakley.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/832dk-31q24/files/coakley.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:832dk-31q24:coakley.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:832dk-31q24:coakley.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:832dk-31q24/canvas/coakley.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:832dk-31q24:coakley.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/832dk-31q24/files/coakley.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 288027,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 288027
+        },
+        "id": "832dk-31q24",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/832dk-31q24/access",
+          "access_grants": "https://works.hcommons.org/api/records/832dk-31q24/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/832dk-31q24/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/832dk-31q24/access/links",
+          "access_request": "https://works.hcommons.org/api/records/832dk-31q24/access/request",
+          "access_users": "https://works.hcommons.org/api/records/832dk-31q24/access/users",
+          "archive": "https://works.hcommons.org/api/records/832dk-31q24/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/832dk-31q24/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/832dk-31q24/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/832dk-31q24/communities-suggestions",
+          "doi": "https://doi.org/10.17613/832dk-31q24",
+          "draft": "https://works.hcommons.org/api/records/832dk-31q24/draft",
+          "files": "https://works.hcommons.org/api/records/832dk-31q24/files",
+          "latest": "https://works.hcommons.org/api/records/832dk-31q24/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/832dk-31q24/latest",
+          "media_files": "https://works.hcommons.org/api/records/832dk-31q24/media-files",
+          "parent": "https://works.hcommons.org/api/records/932s9-m3595",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/932s9-m3595",
+          "parent_html": "https://works.hcommons.org/records/932s9-m3595",
+          "requests": "https://works.hcommons.org/api/records/832dk-31q24/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/832dk-31q24/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/832dk-31q24",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/832dk-31q24",
+          "self_html": "https://works.hcommons.org/records/832dk-31q24",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:832dk-31q24/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:832dk-31q24/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/832dk-31q24/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Coakley",
+                "given_name": "Sarah",
+                "name": "Coakley, Sarah",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            },
+            {
+              "person_or_org": {
+                "family_name": "Jones",
+                "given_name": "Tamsin",
+                "name": "Jones, Tamsin",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "An interview with American theologian Sarah Coakley on how spiritual practices like silent prayer inform her pedagogical practice is presented. Coakley shares that while she tries to make time for silent prayer amidst her numerous teaching commitments, such practices must not be included as a requirement in theological courses. Citing George Steiner's comments on the eroticism inherent in the teacher-student relationship, she warns theology teachers to be on guard against self-aggrandizement.",
+          "identifiers": [
+            {
+              "identifier": "VDTtcq",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/12.2/coakley/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2012",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/902721",
+              "scheme": "FAST-topical",
+              "subject": "Education--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/915007",
+              "scheme": "FAST-topical",
+              "subject": "Erotica"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1074680",
+              "scheme": "FAST-topical",
+              "subject": "Prayer"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1094048",
+              "scheme": "FAST-topical",
+              "subject": "Religious educators"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1118516",
+              "scheme": "FAST-topical",
+              "subject": "Silence"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1130077",
+              "scheme": "FAST-topical",
+              "subject": "Spiritual exercises"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1204155",
+              "scheme": "FAST-geographic",
+              "subject": "United States"
+            }
+          ],
+          "title": "Silence, Prayer, and Desire in Pedagogical Practices: a Conversation with Sarah Coakley."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:40:34.395482+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 12.2",
+                  "title": "JCRT 12.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/12.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-122",
+                "updated": "2026-08-30T10:40:35.037794+00:00"
+              }
+            ],
+            "ids": [
+              "2f9523f2-ecae-43d4-8498-32a217fe5578"
+            ]
+          },
+          "id": "932s9-m3595",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/932s9-m3595",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/832dk-31q24",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:832dk-31q24",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:40:50.163269+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "832dk-31q24",
+      "record_url": "https://works.hcommons.org/records/832dk-31q24",
+      "source_id": ""
+    },
+    {
+      "collection_id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+      "errors": [],
+      "files": {
+        "cochrane.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:40:51.992565+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "148-162",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "12"
+          },
+          "kcr:user_defined_tags": [
+            "spiritual-formation",
+            "salvation",
+            "plato",
+            "foucault",
+            "grace-theology",
+            "saint",
+            "1926-1984",
+            "michel",
+            "soul",
+            "384-322-b-c",
+            "aristotle",
+            "jacqueline",
+            "pascal",
+            "religious-life-of-children",
+            "1625-1661",
+            "354-430-theology-grace",
+            "augustine",
+            "donald-a",
+            "education-methods",
+            "education-philosophy",
+            "jansenists-and-jansenism",
+            "monasticism-and-religious-orders-education",
+            "of-hippo",
+            "port-royal-des-champs-abbey",
+            "reflection-philosophy",
+            "scho-n"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "cochrane.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:8db7f685dc77780e3e6a44d5b102ab7e",
+              "ext": "pdf",
+              "id": "c192070f-9bd3-4883-a5af-9fbea26251f5",
+              "key": "cochrane.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/h92x0-njf97/files/cochrane.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:h92x0-njf97:cochrane.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:h92x0-njf97:cochrane.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:h92x0-njf97/canvas/cochrane.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:h92x0-njf97:cochrane.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/h92x0-njf97/files/cochrane.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 495874,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 495874
+        },
+        "id": "h92x0-njf97",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/h92x0-njf97/access",
+          "access_grants": "https://works.hcommons.org/api/records/h92x0-njf97/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/h92x0-njf97/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/h92x0-njf97/access/links",
+          "access_request": "https://works.hcommons.org/api/records/h92x0-njf97/access/request",
+          "access_users": "https://works.hcommons.org/api/records/h92x0-njf97/access/users",
+          "archive": "https://works.hcommons.org/api/records/h92x0-njf97/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/h92x0-njf97/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/h92x0-njf97/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/h92x0-njf97/communities-suggestions",
+          "doi": "https://doi.org/10.17613/h92x0-njf97",
+          "draft": "https://works.hcommons.org/api/records/h92x0-njf97/draft",
+          "files": "https://works.hcommons.org/api/records/h92x0-njf97/files",
+          "latest": "https://works.hcommons.org/api/records/h92x0-njf97/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/h92x0-njf97/latest",
+          "media_files": "https://works.hcommons.org/api/records/h92x0-njf97/media-files",
+          "parent": "https://works.hcommons.org/api/records/h1y5r-h7848",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/h1y5r-h7848",
+          "parent_html": "https://works.hcommons.org/records/h1y5r-h7848",
+          "requests": "https://works.hcommons.org/api/records/h92x0-njf97/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/h92x0-njf97/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/h92x0-njf97",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/h92x0-njf97",
+          "self_html": "https://works.hcommons.org/records/h92x0-njf97",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:h92x0-njf97/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:h92x0-njf97/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/h92x0-njf97/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Cochrane",
+                "given_name": "Rich",
+                "name": "Cochrane, Rich",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The author discusses how Aristotle's concept of hexis (commonly translated as",
+          "identifiers": [
+            {
+              "identifier": "NAjBNG",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/12.2/cochrane/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2012",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/902721",
+              "scheme": "FAST-topical",
+              "subject": "Education--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/945759",
+              "scheme": "FAST-topical",
+              "subject": "Grace (Theology)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1025136",
+              "scheme": "FAST-topical",
+              "subject": "Monasticism and religious orders--Education"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/618084",
+              "scheme": "FAST-corporate",
+              "subject": "Port-Royal des Champs (Abbey)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1092491",
+              "scheme": "FAST-topical",
+              "subject": "Reflection (Philosophy)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1104418",
+              "scheme": "FAST-topical",
+              "subject": "Salvation"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1432098",
+              "scheme": "FAST-topical",
+              "subject": "Soul"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1130081",
+              "scheme": "FAST-topical",
+              "subject": "Spiritual formation"
+            }
+          ],
+          "title": "Hexis and Grace: the Formation of Souls at Port Royal and Elsewhere."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:40:34.395482+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 12.2",
+                  "title": "JCRT 12.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/12.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-122",
+                "updated": "2026-08-30T10:40:35.037794+00:00"
+              }
+            ],
+            "ids": [
+              "2f9523f2-ecae-43d4-8498-32a217fe5578"
+            ]
+          },
+          "id": "h1y5r-h7848",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/h1y5r-h7848",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/h92x0-njf97",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:h92x0-njf97",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:40:52.257113+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "h92x0-njf97",
+      "record_url": "https://works.hcommons.org/records/h92x0-njf97",
+      "source_id": ""
+    },
+    {
+      "collection_id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+      "errors": [],
+      "files": {
+        "crockett.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 2,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:40:54.146905+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "163-173",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "12"
+          },
+          "kcr:user_defined_tags": [
+            "intellect",
+            "equality",
+            "education",
+            "jacques",
+            "the-book",
+            "administration-of-education-programs",
+            "all-other-miscellaneous-schools-and-instruction",
+            "educational-support-services",
+            "ignorant-schoolmaster-five-lessons-in-intellectual-emancipation",
+            "rancie-re",
+            "power-social-sciences",
+            "social-structure",
+            "democracy",
+            "teacher-student-relationships-religion",
+            "political-science-philosophy",
+            "catherine",
+            "malabou",
+            "political-science-history",
+            "education-methods",
+            "education-philosophy"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "crockett.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:56b691ebecdc63cac3539c59a248209e",
+              "ext": "pdf",
+              "id": "71b24203-8e48-4e4b-917b-0f01c1a55c3f",
+              "key": "crockett.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/ceac4-jgm88/files/crockett.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:ceac4-jgm88:crockett.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:ceac4-jgm88:crockett.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:ceac4-jgm88/canvas/crockett.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:ceac4-jgm88:crockett.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/ceac4-jgm88/files/crockett.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 369853,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 369853
+        },
+        "id": "ceac4-jgm88",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/ceac4-jgm88/access",
+          "access_grants": "https://works.hcommons.org/api/records/ceac4-jgm88/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/ceac4-jgm88/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/ceac4-jgm88/access/links",
+          "access_request": "https://works.hcommons.org/api/records/ceac4-jgm88/access/request",
+          "access_users": "https://works.hcommons.org/api/records/ceac4-jgm88/access/users",
+          "archive": "https://works.hcommons.org/api/records/ceac4-jgm88/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/ceac4-jgm88/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/ceac4-jgm88/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/ceac4-jgm88/communities-suggestions",
+          "doi": "https://doi.org/10.17613/ceac4-jgm88",
+          "draft": "https://works.hcommons.org/api/records/ceac4-jgm88/draft",
+          "files": "https://works.hcommons.org/api/records/ceac4-jgm88/files",
+          "latest": "https://works.hcommons.org/api/records/ceac4-jgm88/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/ceac4-jgm88/latest",
+          "media_files": "https://works.hcommons.org/api/records/ceac4-jgm88/media-files",
+          "parent": "https://works.hcommons.org/api/records/dwggf-nv333",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/dwggf-nv333",
+          "parent_html": "https://works.hcommons.org/records/dwggf-nv333",
+          "requests": "https://works.hcommons.org/api/records/ceac4-jgm88/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/ceac4-jgm88/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/ceac4-jgm88",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/ceac4-jgm88",
+          "self_html": "https://works.hcommons.org/records/ceac4-jgm88",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:ceac4-jgm88/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:ceac4-jgm88/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/ceac4-jgm88/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Crockett",
+                "given_name": "Clayton",
+                "name": "Crockett, Clayton",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "g6aPJH",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/12.2/crockett_2/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2012",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/890077",
+              "scheme": "FAST-topical",
+              "subject": "Democracy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902499",
+              "scheme": "FAST-topical",
+              "subject": "Education"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902721",
+              "scheme": "FAST-topical",
+              "subject": "Education--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/914456",
+              "scheme": "FAST-topical",
+              "subject": "Equality"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/975732",
+              "scheme": "FAST-topical",
+              "subject": "Intellect"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1069810",
+              "scheme": "FAST-topical",
+              "subject": "Political science--History"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1069819",
+              "scheme": "FAST-topical",
+              "subject": "Political science--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1074219",
+              "scheme": "FAST-topical",
+              "subject": "Power (Social sciences)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1123372",
+              "scheme": "FAST-topical",
+              "subject": "Social structure"
+            }
+          ],
+          "title": "Pedagogy and Radical Equality: Ranci\u00c8Re's Ignorant Schoolmaster"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:40:34.395482+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 12.2",
+                  "title": "JCRT 12.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/12.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-122",
+                "updated": "2026-08-30T10:40:35.037794+00:00"
+              }
+            ],
+            "ids": [
+              "2f9523f2-ecae-43d4-8498-32a217fe5578"
+            ]
+          },
+          "id": "dwggf-nv333",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/dwggf-nv333",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/ceac4-jgm88",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:ceac4-jgm88",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:40:54.376292+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "ceac4-jgm88",
+      "record_url": "https://works.hcommons.org/records/ceac4-jgm88",
+      "source_id": ""
+    },
+    {
+      "collection_id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+      "errors": [],
+      "files": {
+        "crockett.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 3,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:40:56.663692+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "163-173",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "12"
+          },
+          "kcr:user_defined_tags": [
+            "intellect",
+            "equality",
+            "education",
+            "jacques",
+            "the-book",
+            "administration-of-education-programs",
+            "all-other-miscellaneous-schools-and-instruction",
+            "educational-support-services",
+            "ignorant-schoolmaster-five-lessons-in-intellectual-emancipation",
+            "rancie-re",
+            "power-social-sciences",
+            "social-structure",
+            "democracy",
+            "teacher-student-relationships-religion",
+            "political-science-philosophy",
+            "catherine",
+            "malabou",
+            "political-science-history",
+            "education-methods",
+            "education-philosophy"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "crockett.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:56b691ebecdc63cac3539c59a248209e",
+              "ext": "pdf",
+              "id": "78640d10-f934-459f-9932-b0a59a21f366",
+              "key": "crockett.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/ac5mz-rd686/files/crockett.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:ac5mz-rd686:crockett.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:ac5mz-rd686:crockett.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:ac5mz-rd686/canvas/crockett.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:ac5mz-rd686:crockett.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/ac5mz-rd686/files/crockett.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 369853,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 369853
+        },
+        "id": "ac5mz-rd686",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/ac5mz-rd686/access",
+          "access_grants": "https://works.hcommons.org/api/records/ac5mz-rd686/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/ac5mz-rd686/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/ac5mz-rd686/access/links",
+          "access_request": "https://works.hcommons.org/api/records/ac5mz-rd686/access/request",
+          "access_users": "https://works.hcommons.org/api/records/ac5mz-rd686/access/users",
+          "archive": "https://works.hcommons.org/api/records/ac5mz-rd686/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/ac5mz-rd686/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/ac5mz-rd686/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/ac5mz-rd686/communities-suggestions",
+          "doi": "https://doi.org/10.17613/ac5mz-rd686",
+          "draft": "https://works.hcommons.org/api/records/ac5mz-rd686/draft",
+          "files": "https://works.hcommons.org/api/records/ac5mz-rd686/files",
+          "latest": "https://works.hcommons.org/api/records/ac5mz-rd686/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/ac5mz-rd686/latest",
+          "media_files": "https://works.hcommons.org/api/records/ac5mz-rd686/media-files",
+          "parent": "https://works.hcommons.org/api/records/5g69v-vs997",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/5g69v-vs997",
+          "parent_html": "https://works.hcommons.org/records/5g69v-vs997",
+          "requests": "https://works.hcommons.org/api/records/ac5mz-rd686/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/ac5mz-rd686/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/ac5mz-rd686",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/ac5mz-rd686",
+          "self_html": "https://works.hcommons.org/records/ac5mz-rd686",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:ac5mz-rd686/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:ac5mz-rd686/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/ac5mz-rd686/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Crockett",
+                "given_name": "Clayton",
+                "name": "Crockett, Clayton",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The author discusses how the idea of intellectual emancipation developed in Jacques Ranci\u00e8re's book",
+          "identifiers": [
+            {
+              "identifier": "mM5F2K",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/12.2/crockett/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2012",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/890077",
+              "scheme": "FAST-topical",
+              "subject": "Democracy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902499",
+              "scheme": "FAST-topical",
+              "subject": "Education"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902721",
+              "scheme": "FAST-topical",
+              "subject": "Education--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/914456",
+              "scheme": "FAST-topical",
+              "subject": "Equality"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/975732",
+              "scheme": "FAST-topical",
+              "subject": "Intellect"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1069810",
+              "scheme": "FAST-topical",
+              "subject": "Political science--History"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1069819",
+              "scheme": "FAST-topical",
+              "subject": "Political science--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1074219",
+              "scheme": "FAST-topical",
+              "subject": "Power (Social sciences)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1123372",
+              "scheme": "FAST-topical",
+              "subject": "Social structure"
+            }
+          ],
+          "title": "Pedagogy and Radical Equality: Ranci\u00c8Re's Ignorant Schoolmaster."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:40:34.395482+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 12.2",
+                  "title": "JCRT 12.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/12.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-122",
+                "updated": "2026-08-30T10:40:35.037794+00:00"
+              }
+            ],
+            "ids": [
+              "2f9523f2-ecae-43d4-8498-32a217fe5578"
+            ]
+          },
+          "id": "5g69v-vs997",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/5g69v-vs997",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/ac5mz-rd686",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:ac5mz-rd686",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:40:56.936992+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "ac5mz-rd686",
+      "record_url": "https://works.hcommons.org/records/ac5mz-rd686",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

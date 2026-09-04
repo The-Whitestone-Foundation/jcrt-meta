@@ -1,0 +1,292 @@
+{
+  "data": [
+    {
+      "collection_id": "d6bb5083-b50a-402d-999d-44fed1c607b2",
+      "errors": [],
+      "files": {
+        "Spickard2.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:25:39.613878+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "138-155",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "18"
+          },
+          "kcr:user_defined_tags": [
+            "ethnology",
+            "human-rights-organizations",
+            "journalism",
+            "other-social-advocacy-organizations",
+            "social-advocacy",
+            "social-advocacy-organizations"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Spickard2.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:aa6e5a87fd652325bb6ef07d8c5938b0",
+              "ext": "pdf",
+              "id": "d9202550-9eeb-4c0e-8b6a-5132f57a51c4",
+              "key": "Spickard2.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/248sy-ewh53/files/Spickard2.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:248sy-ewh53:Spickard2.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:248sy-ewh53:Spickard2.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:248sy-ewh53/canvas/Spickard2.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:248sy-ewh53:Spickard2.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/248sy-ewh53/files/Spickard2.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 702837,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 702837
+        },
+        "id": "248sy-ewh53",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/248sy-ewh53/access",
+          "access_grants": "https://works.hcommons.org/api/records/248sy-ewh53/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/248sy-ewh53/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/248sy-ewh53/access/links",
+          "access_request": "https://works.hcommons.org/api/records/248sy-ewh53/access/request",
+          "access_users": "https://works.hcommons.org/api/records/248sy-ewh53/access/users",
+          "archive": "https://works.hcommons.org/api/records/248sy-ewh53/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/248sy-ewh53/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/248sy-ewh53/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/248sy-ewh53/communities-suggestions",
+          "doi": "https://doi.org/10.17613/248sy-ewh53",
+          "draft": "https://works.hcommons.org/api/records/248sy-ewh53/draft",
+          "files": "https://works.hcommons.org/api/records/248sy-ewh53/files",
+          "latest": "https://works.hcommons.org/api/records/248sy-ewh53/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/248sy-ewh53/latest",
+          "media_files": "https://works.hcommons.org/api/records/248sy-ewh53/media-files",
+          "parent": "https://works.hcommons.org/api/records/25ffa-qp011",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/25ffa-qp011",
+          "parent_html": "https://works.hcommons.org/records/25ffa-qp011",
+          "requests": "https://works.hcommons.org/api/records/248sy-ewh53/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/248sy-ewh53/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/248sy-ewh53",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/248sy-ewh53",
+          "self_html": "https://works.hcommons.org/records/248sy-ewh53",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:248sy-ewh53/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:248sy-ewh53/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/248sy-ewh53/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Spickard",
+                "given_name": "James V.",
+                "name": "Spickard, James V.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "JhY9lR",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/18.1/spickard2/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2018",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/916106",
+              "scheme": "FAST-topical",
+              "subject": "Ethnology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/984032",
+              "scheme": "FAST-topical",
+              "subject": "Journalism"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1122271",
+              "scheme": "FAST-topical",
+              "subject": "Social advocacy"
+            }
+          ],
+          "title": "Slow Journalism? Ethnography as a Means of Understanding Religious Social Activism."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "d6bb5083-b50a-402d-999d-44fed1c607b2",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:24:39.131506+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "d6bb5083-b50a-402d-999d-44fed1c607b2",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 18.1",
+                  "title": "JCRT 18.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/18.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-181",
+                "updated": "2026-08-30T10:24:39.786644+00:00"
+              }
+            ],
+            "ids": [
+              "d6bb5083-b50a-402d-999d-44fed1c607b2"
+            ]
+          },
+          "id": "25ffa-qp011",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/25ffa-qp011",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/248sy-ewh53",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:248sy-ewh53",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:25:39.833366+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "248sy-ewh53",
+      "record_url": "https://works.hcommons.org/records/248sy-ewh53",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

@@ -1,0 +1,1061 @@
+{
+  "data": [
+    {
+      "collection_id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+      "errors": [],
+      "files": {
+        "peters.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:41:40.133203+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "215-227",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "12"
+          },
+          "kcr:user_defined_tags": [
+            "brazil",
+            "transformative-learning",
+            "1921-1997",
+            "active-learning",
+            "college-students",
+            "experiential-learning",
+            "freire",
+            "paulo",
+            "liberation-theology",
+            "culture-and-education",
+            "social-change",
+            "social-justice",
+            "moral-education",
+            "knowledge",
+            "theory-of",
+            "1921-1997",
+            "freire",
+            "paulo",
+            "education-philosophy",
+            "education-experimental-methods",
+            "educational-sociology"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "peters.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:702b070159c339107d45a6c41e6ea0e8",
+              "ext": "pdf",
+              "id": "edf29924-05ea-49d4-9831-46823ae428c7",
+              "key": "peters.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/8v2bw-hrd29/files/peters.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:8v2bw-hrd29:peters.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:8v2bw-hrd29:peters.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:8v2bw-hrd29/canvas/peters.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:8v2bw-hrd29:peters.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/8v2bw-hrd29/files/peters.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 419910,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 419910
+        },
+        "id": "8v2bw-hrd29",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/8v2bw-hrd29/access",
+          "access_grants": "https://works.hcommons.org/api/records/8v2bw-hrd29/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/8v2bw-hrd29/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/8v2bw-hrd29/access/links",
+          "access_request": "https://works.hcommons.org/api/records/8v2bw-hrd29/access/request",
+          "access_users": "https://works.hcommons.org/api/records/8v2bw-hrd29/access/users",
+          "archive": "https://works.hcommons.org/api/records/8v2bw-hrd29/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/8v2bw-hrd29/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/8v2bw-hrd29/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/8v2bw-hrd29/communities-suggestions",
+          "doi": "https://doi.org/10.17613/8v2bw-hrd29",
+          "draft": "https://works.hcommons.org/api/records/8v2bw-hrd29/draft",
+          "files": "https://works.hcommons.org/api/records/8v2bw-hrd29/files",
+          "latest": "https://works.hcommons.org/api/records/8v2bw-hrd29/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/8v2bw-hrd29/latest",
+          "media_files": "https://works.hcommons.org/api/records/8v2bw-hrd29/media-files",
+          "parent": "https://works.hcommons.org/api/records/as84d-9wj57",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/as84d-9wj57",
+          "parent_html": "https://works.hcommons.org/records/as84d-9wj57",
+          "requests": "https://works.hcommons.org/api/records/8v2bw-hrd29/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/8v2bw-hrd29/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/8v2bw-hrd29",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/8v2bw-hrd29",
+          "self_html": "https://works.hcommons.org/records/8v2bw-hrd29",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:8v2bw-hrd29/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:8v2bw-hrd29/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/8v2bw-hrd29/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Peters",
+                "given_name": "Rebecca Todd",
+                "name": "Peters, Rebecca Todd",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The author explains how she applies the principles of transformative pedagogy described in the writings of Brazilian educator Paulo Freire in teaching ethics to American college students. She relates that rather than striving to indoctrinate her students with her own values, she employs the spiral of theory and praxis to come up with experiential learning activities that will help them think about how their actions could have a positive or negative impact on the communities in which they live.",
+          "identifiers": [
+            {
+              "identifier": "djDvd_",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/12.2/peters/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2012",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/796275",
+              "scheme": "FAST-topical",
+              "subject": "Active learning"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1206830",
+              "scheme": "FAST-geographic",
+              "subject": "Brazil"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/867976",
+              "scheme": "FAST-topical",
+              "subject": "College students"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902632",
+              "scheme": "FAST-topical",
+              "subject": "Education--Experimental methods"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902721",
+              "scheme": "FAST-topical",
+              "subject": "Education--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/903334",
+              "scheme": "FAST-topical",
+              "subject": "Educational anthropology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/903596",
+              "scheme": "FAST-topical",
+              "subject": "Educational sociology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/918393",
+              "scheme": "FAST-topical",
+              "subject": "Experiential learning"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/997211",
+              "scheme": "FAST-topical",
+              "subject": "Liberation theology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1026058",
+              "scheme": "FAST-topical",
+              "subject": "Moral education"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1122310",
+              "scheme": "FAST-topical",
+              "subject": "Social change"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1122603",
+              "scheme": "FAST-topical",
+              "subject": "Social justice"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1743611",
+              "scheme": "FAST-topical",
+              "subject": "Transformative learning"
+            }
+          ],
+          "title": "Teaching for Social Justice: Creating a Context for Transformation."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:40:34.395482+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 12.2",
+                  "title": "JCRT 12.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/12.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-122",
+                "updated": "2026-08-30T10:40:35.037794+00:00"
+              }
+            ],
+            "ids": [
+              "2f9523f2-ecae-43d4-8498-32a217fe5578"
+            ]
+          },
+          "id": "as84d-9wj57",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/as84d-9wj57",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/8v2bw-hrd29",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:8v2bw-hrd29",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:41:40.374734+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "8v2bw-hrd29",
+      "record_url": "https://works.hcommons.org/records/8v2bw-hrd29",
+      "source_id": ""
+    },
+    {
+      "collection_id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+      "errors": [],
+      "files": {
+        "robert.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:41:42.743969+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "69-84",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "12"
+          },
+          "kcr:user_defined_tags": [
+            "religious-studies",
+            "jacques",
+            "1930-2004",
+            "derrida",
+            "richard",
+            "peter",
+            "1926-2016",
+            "religion-in-literature",
+            "schechner",
+            "shaffer",
+            "performative-philosophy",
+            "emotions",
+            "methodology",
+            "difference-philosophy",
+            "religions-study-and-teaching",
+            "practice-philosophy",
+            "knowledge",
+            "theory-of-religion",
+            "education-philosophy",
+            "1953-2008",
+            "bell",
+            "catherine-m",
+            "religion-and-drama"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "robert.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:1bc20543c84958b2b165871e37e571b6",
+              "ext": "pdf",
+              "id": "8447f5eb-f649-4c8e-9589-469098814afa",
+              "key": "robert.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/gg3tj-c9s76/files/robert.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:gg3tj-c9s76:robert.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:gg3tj-c9s76:robert.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:gg3tj-c9s76/canvas/robert.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:gg3tj-c9s76:robert.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/gg3tj-c9s76/files/robert.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 489407,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 489407
+        },
+        "id": "gg3tj-c9s76",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/gg3tj-c9s76/access",
+          "access_grants": "https://works.hcommons.org/api/records/gg3tj-c9s76/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/gg3tj-c9s76/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/gg3tj-c9s76/access/links",
+          "access_request": "https://works.hcommons.org/api/records/gg3tj-c9s76/access/request",
+          "access_users": "https://works.hcommons.org/api/records/gg3tj-c9s76/access/users",
+          "archive": "https://works.hcommons.org/api/records/gg3tj-c9s76/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/gg3tj-c9s76/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/gg3tj-c9s76/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/gg3tj-c9s76/communities-suggestions",
+          "doi": "https://doi.org/10.17613/gg3tj-c9s76",
+          "draft": "https://works.hcommons.org/api/records/gg3tj-c9s76/draft",
+          "files": "https://works.hcommons.org/api/records/gg3tj-c9s76/files",
+          "latest": "https://works.hcommons.org/api/records/gg3tj-c9s76/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/gg3tj-c9s76/latest",
+          "media_files": "https://works.hcommons.org/api/records/gg3tj-c9s76/media-files",
+          "parent": "https://works.hcommons.org/api/records/k2bzx-gfs16",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/k2bzx-gfs16",
+          "parent_html": "https://works.hcommons.org/records/k2bzx-gfs16",
+          "requests": "https://works.hcommons.org/api/records/gg3tj-c9s76/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/gg3tj-c9s76/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/gg3tj-c9s76",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/gg3tj-c9s76",
+          "self_html": "https://works.hcommons.org/records/gg3tj-c9s76",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:gg3tj-c9s76/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:gg3tj-c9s76/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/gg3tj-c9s76/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Robert",
+                "given_name": "William",
+                "name": "Robert, William",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The author describes how the examination of the double bind of passion and resistance as performed in Peter Shaffer's play",
+          "identifiers": [
+            {
+              "identifier": "Vm2LUd",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/12.2/robert/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2012",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/893405",
+              "scheme": "FAST-topical",
+              "subject": "Difference (Philosophy)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902721",
+              "scheme": "FAST-topical",
+              "subject": "Education--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/908819",
+              "scheme": "FAST-topical",
+              "subject": "Emotions"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1018722",
+              "scheme": "FAST-topical",
+              "subject": "Methodology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1057886",
+              "scheme": "FAST-topical",
+              "subject": "Performative (Philosophy)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1074531",
+              "scheme": "FAST-topical",
+              "subject": "Practice (Philosophy)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1093827",
+              "scheme": "FAST-topical",
+              "subject": "Religion and drama"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1732559",
+              "scheme": "FAST-topical",
+              "subject": "Religion in literature"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1093917",
+              "scheme": "FAST-topical",
+              "subject": "Religions--Study and teaching"
+            }
+          ],
+          "title": "Performing Religiously Between Passion and Resistance."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:40:34.395482+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 12.2",
+                  "title": "JCRT 12.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/12.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-122",
+                "updated": "2026-08-30T10:40:35.037794+00:00"
+              }
+            ],
+            "ids": [
+              "2f9523f2-ecae-43d4-8498-32a217fe5578"
+            ]
+          },
+          "id": "k2bzx-gfs16",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/k2bzx-gfs16",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/gg3tj-c9s76",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:gg3tj-c9s76",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:41:42.974425+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "gg3tj-c9s76",
+      "record_url": "https://works.hcommons.org/records/gg3tj-c9s76",
+      "source_id": ""
+    },
+    {
+      "collection_id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+      "errors": [],
+      "files": {
+        "taylor-kosky.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 2,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:41:44.772358+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "12"
+          },
+          "kcr:user_defined_tags": [
+            "united-states",
+            "taylor",
+            "education",
+            "higher-education",
+            "1724-1804",
+            "immanuel",
+            "kant",
+            "administration-of-education-programs",
+            "all-other-miscellaneous-schools-and-instruction",
+            "educational-support-services",
+            "and-professional-schools",
+            "colleges",
+            "educators",
+            "mark-c",
+            "universities",
+            "universities-colleges",
+            "vocation",
+            "teacher-student-relationships",
+            "knowledge",
+            "theory-of",
+            "education-philosophy",
+            "apprentices",
+            "education-finance",
+            "education-study-and-teaching",
+            "educational-technology",
+            "universities-and-colleges-evaluation"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "taylor-kosky.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:61dd8614a1209466d4cf797fac1cac28",
+              "ext": "pdf",
+              "id": "d55b9c75-74a0-49dc-8b5f-00e1229dc872",
+              "key": "taylor-kosky.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/fvqps-mz944/files/taylor-kosky.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:fvqps-mz944:taylor-kosky.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:fvqps-mz944:taylor-kosky.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:fvqps-mz944/canvas/taylor-kosky.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:fvqps-mz944:taylor-kosky.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/fvqps-mz944/files/taylor-kosky.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 538202,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 538202
+        },
+        "id": "fvqps-mz944",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/fvqps-mz944/access",
+          "access_grants": "https://works.hcommons.org/api/records/fvqps-mz944/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/fvqps-mz944/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/fvqps-mz944/access/links",
+          "access_request": "https://works.hcommons.org/api/records/fvqps-mz944/access/request",
+          "access_users": "https://works.hcommons.org/api/records/fvqps-mz944/access/users",
+          "archive": "https://works.hcommons.org/api/records/fvqps-mz944/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/fvqps-mz944/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/fvqps-mz944/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/fvqps-mz944/communities-suggestions",
+          "doi": "https://doi.org/10.17613/fvqps-mz944",
+          "draft": "https://works.hcommons.org/api/records/fvqps-mz944/draft",
+          "files": "https://works.hcommons.org/api/records/fvqps-mz944/files",
+          "latest": "https://works.hcommons.org/api/records/fvqps-mz944/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/fvqps-mz944/latest",
+          "media_files": "https://works.hcommons.org/api/records/fvqps-mz944/media-files",
+          "parent": "https://works.hcommons.org/api/records/wwk44-rgr93",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/wwk44-rgr93",
+          "parent_html": "https://works.hcommons.org/records/wwk44-rgr93",
+          "requests": "https://works.hcommons.org/api/records/fvqps-mz944/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/fvqps-mz944/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/fvqps-mz944",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/fvqps-mz944",
+          "self_html": "https://works.hcommons.org/records/fvqps-mz944",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:fvqps-mz944/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:fvqps-mz944/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/fvqps-mz944/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Taylor",
+                "given_name": "Mark C.",
+                "name": "Taylor, Mark C.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            },
+            {
+              "person_or_org": {
+                "family_name": "Kosky",
+                "given_name": "Jeffrey",
+                "name": "Kosky, Jeffrey",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "An interview with U.S. educator and philosopher of religion Mark C. Taylor on the continuing relevance of pedagogy in the 21st century is presented. Taylor observes that the existing model for university, first conceived by German philosopher Immanuel Kant, is becoming obsolete with the increasing cost of higher education. However, he believes that liberal arts education is more valuable than ever since it allows students to learn more about cultures and traditions different from their own.",
+          "identifiers": [
+            {
+              "identifier": "tGcGQO",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/12.2/taylor-kosky/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2012",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/811788",
+              "scheme": "FAST-topical",
+              "subject": "Apprentices"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902499",
+              "scheme": "FAST-topical",
+              "subject": "Education"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902637",
+              "scheme": "FAST-topical",
+              "subject": "Education--Finance"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902721",
+              "scheme": "FAST-topical",
+              "subject": "Education--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902796",
+              "scheme": "FAST-topical",
+              "subject": "Education--Study and teaching"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/903005",
+              "scheme": "FAST-topical",
+              "subject": "Education, Higher"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/903623",
+              "scheme": "FAST-topical",
+              "subject": "Educational technology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/903702",
+              "scheme": "FAST-topical",
+              "subject": "Educators"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1144236",
+              "scheme": "FAST-topical",
+              "subject": "Teacher-student relationships"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1204155",
+              "scheme": "FAST-geographic",
+              "subject": "United States"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1161597",
+              "scheme": "FAST-topical",
+              "subject": "Universities and colleges"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1161730",
+              "scheme": "FAST-topical",
+              "subject": "Universities and colleges--Evaluation"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1168466",
+              "scheme": "FAST-topical",
+              "subject": "Vocation"
+            }
+          ],
+          "title": "Recalling Our Vocation: a Conversation About Teaching with Mark C. Taylor."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:40:34.395482+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 12.2",
+                  "title": "JCRT 12.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/12.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-122",
+                "updated": "2026-08-30T10:40:35.037794+00:00"
+              }
+            ],
+            "ids": [
+              "2f9523f2-ecae-43d4-8498-32a217fe5578"
+            ]
+          },
+          "id": "wwk44-rgr93",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/wwk44-rgr93",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/fvqps-mz944",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:fvqps-mz944",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:41:45.154847+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "fvqps-mz944",
+      "record_url": "https://works.hcommons.org/records/fvqps-mz944",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

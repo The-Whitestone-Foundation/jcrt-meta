@@ -1,0 +1,1338 @@
+{
+  "data": [
+    {
+      "collection_id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+      "errors": [],
+      "files": {
+        "dickinson-intro.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:41:02.049181+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "85-105",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "12"
+          },
+          "kcr:user_defined_tags": [
+            "students",
+            "education",
+            "1813-1855",
+            "kierkegaard",
+            "s-ren",
+            "administration-of-education-programs",
+            "all-other-miscellaneous-schools-and-instruction",
+            "educational-support-services",
+            "college-teachers",
+            "fear-trembling-book-kierkegaard",
+            "paraenesis",
+            "reading",
+            "consumption-economics",
+            "knowledge",
+            "theory-of",
+            "1724-1804",
+            "immanuel",
+            "kant",
+            "education-methods",
+            "education-philosophy",
+            "biblical-patriarch",
+            "abraham",
+            "categories-philosophy",
+            "lectures-and-lecturing",
+            "thought-and-thinking"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "dickinson-intro.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:689f348db9725545a3a3838240f42fe3",
+              "ext": "pdf",
+              "id": "eface6bb-0caf-4b97-bb36-21bc96dabb37",
+              "key": "dickinson-intro.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/tef9y-1rc71/files/dickinson-intro.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:tef9y-1rc71:dickinson-intro.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:tef9y-1rc71:dickinson-intro.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:tef9y-1rc71/canvas/dickinson-intro.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:tef9y-1rc71:dickinson-intro.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/tef9y-1rc71/files/dickinson-intro.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 217002,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 217002
+        },
+        "id": "tef9y-1rc71",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/tef9y-1rc71/access",
+          "access_grants": "https://works.hcommons.org/api/records/tef9y-1rc71/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/tef9y-1rc71/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/tef9y-1rc71/access/links",
+          "access_request": "https://works.hcommons.org/api/records/tef9y-1rc71/access/request",
+          "access_users": "https://works.hcommons.org/api/records/tef9y-1rc71/access/users",
+          "archive": "https://works.hcommons.org/api/records/tef9y-1rc71/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/tef9y-1rc71/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/tef9y-1rc71/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/tef9y-1rc71/communities-suggestions",
+          "doi": "https://doi.org/10.17613/tef9y-1rc71",
+          "draft": "https://works.hcommons.org/api/records/tef9y-1rc71/draft",
+          "files": "https://works.hcommons.org/api/records/tef9y-1rc71/files",
+          "latest": "https://works.hcommons.org/api/records/tef9y-1rc71/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/tef9y-1rc71/latest",
+          "media_files": "https://works.hcommons.org/api/records/tef9y-1rc71/media-files",
+          "parent": "https://works.hcommons.org/api/records/zx6z9-mmc02",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/zx6z9-mmc02",
+          "parent_html": "https://works.hcommons.org/records/zx6z9-mmc02",
+          "requests": "https://works.hcommons.org/api/records/tef9y-1rc71/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/tef9y-1rc71/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/tef9y-1rc71",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/tef9y-1rc71",
+          "self_html": "https://works.hcommons.org/records/tef9y-1rc71",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:tef9y-1rc71/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:tef9y-1rc71/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/tef9y-1rc71/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Dickinson",
+                "given_name": "T. Wilson",
+                "name": "Dickinson, T. Wilson",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The author suggests that teaching Danish philosopher S\u00f8ren Kierkegaard's 1832 book",
+          "identifiers": [
+            {
+              "identifier": "V6DFn9",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/12.2/dickinson-intro/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2012",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/849003",
+              "scheme": "FAST-topical",
+              "subject": "Categories (Philosophy)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/868114",
+              "scheme": "FAST-topical",
+              "subject": "College teachers"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/876455",
+              "scheme": "FAST-topical",
+              "subject": "Consumption (Economics)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902499",
+              "scheme": "FAST-topical",
+              "subject": "Education"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902721",
+              "scheme": "FAST-topical",
+              "subject": "Education--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/995281",
+              "scheme": "FAST-topical",
+              "subject": "Lectures and lecturing"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1741190",
+              "scheme": "FAST-topical",
+              "subject": "Moral exhortation"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1090626",
+              "scheme": "FAST-topical",
+              "subject": "Reading"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1136041",
+              "scheme": "FAST-topical",
+              "subject": "Students"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1150249",
+              "scheme": "FAST-topical",
+              "subject": "Thought and thinking"
+            }
+          ],
+          "title": "Teaching with Fear and Trembling: the Trial of Abraham, the Reader, and the Professor."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:40:34.395482+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 12.2",
+                  "title": "JCRT 12.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/12.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-122",
+                "updated": "2026-08-30T10:40:35.037794+00:00"
+              }
+            ],
+            "ids": [
+              "2f9523f2-ecae-43d4-8498-32a217fe5578"
+            ]
+          },
+          "id": "zx6z9-mmc02",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/zx6z9-mmc02",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/tef9y-1rc71",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:tef9y-1rc71",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:41:02.335016+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "tef9y-1rc71",
+      "record_url": "https://works.hcommons.org/records/tef9y-1rc71",
+      "source_id": ""
+    },
+    {
+      "collection_id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+      "errors": [],
+      "files": {
+        "dickinson.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:41:04.713394+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "85-105",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "12"
+          },
+          "kcr:user_defined_tags": [
+            "students",
+            "education",
+            "1813-1855",
+            "kierkegaard",
+            "s-ren",
+            "administration-of-education-programs",
+            "all-other-miscellaneous-schools-and-instruction",
+            "educational-support-services",
+            "college-teachers",
+            "fear-trembling-book-kierkegaard",
+            "paraenesis",
+            "reading",
+            "consumption-economics",
+            "knowledge",
+            "theory-of",
+            "1724-1804",
+            "immanuel",
+            "kant",
+            "education-methods",
+            "education-philosophy",
+            "biblical-patriarch",
+            "abraham",
+            "categories-philosophy",
+            "lectures-and-lecturing",
+            "thought-and-thinking"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "dickinson.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:921b8a694c7398d9cbede3898d099521",
+              "ext": "pdf",
+              "id": "90518792-4186-4104-99d4-cddd6fcd6744",
+              "key": "dickinson.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/dm9h1-1k728/files/dickinson.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:dm9h1-1k728:dickinson.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:dm9h1-1k728:dickinson.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:dm9h1-1k728/canvas/dickinson.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:dm9h1-1k728:dickinson.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/dm9h1-1k728/files/dickinson.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 620193,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 620193
+        },
+        "id": "dm9h1-1k728",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/dm9h1-1k728/access",
+          "access_grants": "https://works.hcommons.org/api/records/dm9h1-1k728/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/dm9h1-1k728/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/dm9h1-1k728/access/links",
+          "access_request": "https://works.hcommons.org/api/records/dm9h1-1k728/access/request",
+          "access_users": "https://works.hcommons.org/api/records/dm9h1-1k728/access/users",
+          "archive": "https://works.hcommons.org/api/records/dm9h1-1k728/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/dm9h1-1k728/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/dm9h1-1k728/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/dm9h1-1k728/communities-suggestions",
+          "doi": "https://doi.org/10.17613/dm9h1-1k728",
+          "draft": "https://works.hcommons.org/api/records/dm9h1-1k728/draft",
+          "files": "https://works.hcommons.org/api/records/dm9h1-1k728/files",
+          "latest": "https://works.hcommons.org/api/records/dm9h1-1k728/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/dm9h1-1k728/latest",
+          "media_files": "https://works.hcommons.org/api/records/dm9h1-1k728/media-files",
+          "parent": "https://works.hcommons.org/api/records/8zmxn-e1t45",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/8zmxn-e1t45",
+          "parent_html": "https://works.hcommons.org/records/8zmxn-e1t45",
+          "requests": "https://works.hcommons.org/api/records/dm9h1-1k728/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/dm9h1-1k728/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/dm9h1-1k728",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/dm9h1-1k728",
+          "self_html": "https://works.hcommons.org/records/dm9h1-1k728",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:dm9h1-1k728/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:dm9h1-1k728/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/dm9h1-1k728/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Dickinson",
+                "given_name": "T Wilson",
+                "name": "Dickinson, T Wilson",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "eOCrND",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/12.2/dickinson/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2012",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/849003",
+              "scheme": "FAST-topical",
+              "subject": "Categories (Philosophy)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/868114",
+              "scheme": "FAST-topical",
+              "subject": "College teachers"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/876455",
+              "scheme": "FAST-topical",
+              "subject": "Consumption (Economics)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902499",
+              "scheme": "FAST-topical",
+              "subject": "Education"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902721",
+              "scheme": "FAST-topical",
+              "subject": "Education--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/995281",
+              "scheme": "FAST-topical",
+              "subject": "Lectures and lecturing"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1741190",
+              "scheme": "FAST-topical",
+              "subject": "Moral exhortation"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1090626",
+              "scheme": "FAST-topical",
+              "subject": "Reading"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1136041",
+              "scheme": "FAST-topical",
+              "subject": "Students"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1150249",
+              "scheme": "FAST-topical",
+              "subject": "Thought and thinking"
+            }
+          ],
+          "title": "Teaching with Fear and Trembling: the Trial of Abraham, the Reader, and the Professor"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:40:34.395482+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 12.2",
+                  "title": "JCRT 12.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/12.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-122",
+                "updated": "2026-08-30T10:40:35.037794+00:00"
+              }
+            ],
+            "ids": [
+              "2f9523f2-ecae-43d4-8498-32a217fe5578"
+            ]
+          },
+          "id": "8zmxn-e1t45",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/8zmxn-e1t45",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/dm9h1-1k728",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:dm9h1-1k728",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:41:04.943420+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "dm9h1-1k728",
+      "record_url": "https://works.hcommons.org/records/dm9h1-1k728",
+      "source_id": ""
+    },
+    {
+      "collection_id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+      "errors": [],
+      "files": {
+        "fong.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 2,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:41:06.811903+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "12"
+          },
+          "kcr:user_defined_tags": [
+            "interpersonal-relations",
+            "philosophical-anthropology",
+            "philosophy-and-theology",
+            "intimacy-psychology",
+            "culture-philosophy",
+            "phenomenology",
+            "peter",
+            "sloterdijk",
+            "object-relations-psychoanalysis",
+            "space-and-time",
+            "spatial-behavior"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "fong.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:44fdf17ce00f62e8a9f08cd7ca014dde",
+              "ext": "pdf",
+              "id": "a81296c1-6b30-4df4-b5b0-eab2a8cd7058",
+              "key": "fong.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/t1ym2-et289/files/fong.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:t1ym2-et289:fong.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:t1ym2-et289:fong.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:t1ym2-et289/canvas/fong.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:t1ym2-et289:fong.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/t1ym2-et289/files/fong.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 204605,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 204605
+        },
+        "id": "t1ym2-et289",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/t1ym2-et289/access",
+          "access_grants": "https://works.hcommons.org/api/records/t1ym2-et289/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/t1ym2-et289/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/t1ym2-et289/access/links",
+          "access_request": "https://works.hcommons.org/api/records/t1ym2-et289/access/request",
+          "access_users": "https://works.hcommons.org/api/records/t1ym2-et289/access/users",
+          "archive": "https://works.hcommons.org/api/records/t1ym2-et289/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/t1ym2-et289/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/t1ym2-et289/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/t1ym2-et289/communities-suggestions",
+          "doi": "https://doi.org/10.17613/t1ym2-et289",
+          "draft": "https://works.hcommons.org/api/records/t1ym2-et289/draft",
+          "files": "https://works.hcommons.org/api/records/t1ym2-et289/files",
+          "latest": "https://works.hcommons.org/api/records/t1ym2-et289/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/t1ym2-et289/latest",
+          "media_files": "https://works.hcommons.org/api/records/t1ym2-et289/media-files",
+          "parent": "https://works.hcommons.org/api/records/a8fwf-ssy88",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/a8fwf-ssy88",
+          "parent_html": "https://works.hcommons.org/records/a8fwf-ssy88",
+          "requests": "https://works.hcommons.org/api/records/t1ym2-et289/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/t1ym2-et289/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/t1ym2-et289",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/t1ym2-et289",
+          "self_html": "https://works.hcommons.org/records/t1ym2-et289",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:t1ym2-et289/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:t1ym2-et289/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/t1ym2-et289/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Fong",
+                "given_name": "Benjamin",
+                "name": "Fong, Benjamin",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "qdU9hY",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/12.2/fong_2/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2012",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/885075",
+              "scheme": "FAST-topical",
+              "subject": "Culture--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1937862",
+              "scheme": "FAST-title",
+              "subject": "Everyman's library. Theology & philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/977397",
+              "scheme": "FAST-topical",
+              "subject": "Interpersonal relations"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/977714",
+              "scheme": "FAST-topical",
+              "subject": "Intimacy (Psychology)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1042793",
+              "scheme": "FAST-topical",
+              "subject": "Object relations (Psychoanalysis)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060522",
+              "scheme": "FAST-topical",
+              "subject": "Phenomenology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060766",
+              "scheme": "FAST-topical",
+              "subject": "Philosophical anthropology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1127622",
+              "scheme": "FAST-topical",
+              "subject": "Space and time"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1128787",
+              "scheme": "FAST-topical",
+              "subject": "Spatial behavior"
+            }
+          ],
+          "title": "A Review of Peter Sloterdijk, Spheres, Volume One: Bubbles"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:40:34.395482+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 12.2",
+                  "title": "JCRT 12.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/12.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-122",
+                "updated": "2026-08-30T10:40:35.037794+00:00"
+              }
+            ],
+            "ids": [
+              "2f9523f2-ecae-43d4-8498-32a217fe5578"
+            ]
+          },
+          "id": "a8fwf-ssy88",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/a8fwf-ssy88",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/t1ym2-et289",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:t1ym2-et289",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:41:07.078260+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "t1ym2-et289",
+      "record_url": "https://works.hcommons.org/records/t1ym2-et289",
+      "source_id": ""
+    },
+    {
+      "collection_id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+      "errors": [],
+      "files": {
+        "fong.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 3,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:41:08.891461+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "240-242",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "12"
+          },
+          "kcr:user_defined_tags": [
+            "religion",
+            "nonfiction",
+            "peter",
+            "sloterdijk",
+            "spheres",
+            "spheres-bubbles-book",
+            "interpersonal-relations",
+            "philosophical-anthropology",
+            "philosophy-and-theology",
+            "intimacy-psychology",
+            "culture-philosophy",
+            "phenomenology",
+            "peter",
+            "sloterdijk",
+            "object-relations-psychoanalysis",
+            "space-and-time",
+            "spatial-behavior"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "fong.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:44fdf17ce00f62e8a9f08cd7ca014dde",
+              "ext": "pdf",
+              "id": "4bc2d7ec-f3f9-46e4-9033-374f4b15477a",
+              "key": "fong.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/ey2tb-q6n56/files/fong.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:ey2tb-q6n56:fong.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:ey2tb-q6n56:fong.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:ey2tb-q6n56/canvas/fong.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:ey2tb-q6n56:fong.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/ey2tb-q6n56/files/fong.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 204605,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 204605
+        },
+        "id": "ey2tb-q6n56",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/ey2tb-q6n56/access",
+          "access_grants": "https://works.hcommons.org/api/records/ey2tb-q6n56/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/ey2tb-q6n56/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/ey2tb-q6n56/access/links",
+          "access_request": "https://works.hcommons.org/api/records/ey2tb-q6n56/access/request",
+          "access_users": "https://works.hcommons.org/api/records/ey2tb-q6n56/access/users",
+          "archive": "https://works.hcommons.org/api/records/ey2tb-q6n56/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/ey2tb-q6n56/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/ey2tb-q6n56/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/ey2tb-q6n56/communities-suggestions",
+          "doi": "https://doi.org/10.17613/ey2tb-q6n56",
+          "draft": "https://works.hcommons.org/api/records/ey2tb-q6n56/draft",
+          "files": "https://works.hcommons.org/api/records/ey2tb-q6n56/files",
+          "latest": "https://works.hcommons.org/api/records/ey2tb-q6n56/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/ey2tb-q6n56/latest",
+          "media_files": "https://works.hcommons.org/api/records/ey2tb-q6n56/media-files",
+          "parent": "https://works.hcommons.org/api/records/tca3k-wex71",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/tca3k-wex71",
+          "parent_html": "https://works.hcommons.org/records/tca3k-wex71",
+          "requests": "https://works.hcommons.org/api/records/ey2tb-q6n56/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/ey2tb-q6n56/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/ey2tb-q6n56",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/ey2tb-q6n56",
+          "self_html": "https://works.hcommons.org/records/ey2tb-q6n56",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:ey2tb-q6n56/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:ey2tb-q6n56/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/ey2tb-q6n56/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Fong",
+                "given_name": "Benjamin",
+                "name": "Fong, Benjamin",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The article reviews the book",
+          "identifiers": [
+            {
+              "identifier": "fRp0uk",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/12.2/fong/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2012",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/885075",
+              "scheme": "FAST-topical",
+              "subject": "Culture--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1937862",
+              "scheme": "FAST-title",
+              "subject": "Everyman's library. Theology & philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/977397",
+              "scheme": "FAST-topical",
+              "subject": "Interpersonal relations"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/977714",
+              "scheme": "FAST-topical",
+              "subject": "Intimacy (Psychology)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1042793",
+              "scheme": "FAST-topical",
+              "subject": "Object relations (Psychoanalysis)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060522",
+              "scheme": "FAST-topical",
+              "subject": "Phenomenology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060766",
+              "scheme": "FAST-topical",
+              "subject": "Philosophical anthropology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1093763",
+              "scheme": "FAST-topical",
+              "subject": "Religion"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1127622",
+              "scheme": "FAST-topical",
+              "subject": "Space and time"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1128787",
+              "scheme": "FAST-topical",
+              "subject": "Spatial behavior"
+            }
+          ],
+          "title": "Spheres, Volume One: Bubbles."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:40:34.395482+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "2f9523f2-ecae-43d4-8498-32a217fe5578",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 12.2",
+                  "title": "JCRT 12.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/12.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-122",
+                "updated": "2026-08-30T10:40:35.037794+00:00"
+              }
+            ],
+            "ids": [
+              "2f9523f2-ecae-43d4-8498-32a217fe5578"
+            ]
+          },
+          "id": "tca3k-wex71",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/tca3k-wex71",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/ey2tb-q6n56",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:ey2tb-q6n56",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:41:09.129132+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "ey2tb-q6n56",
+      "record_url": "https://works.hcommons.org/records/ey2tb-q6n56",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

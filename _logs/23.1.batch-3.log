@@ -1,0 +1,1379 @@
+{
+  "data": [
+    {
+      "collection_id": "3d5bebe9-d247-4a5d-a42f-595e1dce5fb9",
+      "errors": [],
+      "files": {
+        "McKanan.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:08:14.461909+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "86-99",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "23"
+          },
+          "kcr:user_defined_tags": [
+            "climate-change",
+            "philosophical-anthropology",
+            "memorials",
+            "environmental-justice",
+            "ecology-and-religion",
+            "intergenerational-relations",
+            "ancestors",
+            "boston-mass",
+            "capitalism-and-ethics",
+            "cemeteries",
+            "conservation-of-natural-resources",
+            "deforestation",
+            "forest-reserves",
+            "national-parks-and-reserves",
+            "new-england",
+            "public-lands",
+            "urban-ecology-sociology"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "McKanan.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:4d35370db742fee3a3d3d11b2c49fbda",
+              "ext": "pdf",
+              "id": "d5ef38f1-16a5-48e6-8e01-ddda873e986d",
+              "key": "McKanan.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/mr1n7-t7003/files/McKanan.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:mr1n7-t7003:McKanan.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:mr1n7-t7003:McKanan.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:mr1n7-t7003/canvas/McKanan.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:mr1n7-t7003:McKanan.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/mr1n7-t7003/files/McKanan.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 498021,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 498021
+        },
+        "id": "mr1n7-t7003",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/mr1n7-t7003/access",
+          "access_grants": "https://works.hcommons.org/api/records/mr1n7-t7003/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/mr1n7-t7003/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/mr1n7-t7003/access/links",
+          "access_request": "https://works.hcommons.org/api/records/mr1n7-t7003/access/request",
+          "access_users": "https://works.hcommons.org/api/records/mr1n7-t7003/access/users",
+          "archive": "https://works.hcommons.org/api/records/mr1n7-t7003/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/mr1n7-t7003/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/mr1n7-t7003/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/mr1n7-t7003/communities-suggestions",
+          "doi": "https://doi.org/10.17613/mr1n7-t7003",
+          "draft": "https://works.hcommons.org/api/records/mr1n7-t7003/draft",
+          "files": "https://works.hcommons.org/api/records/mr1n7-t7003/files",
+          "latest": "https://works.hcommons.org/api/records/mr1n7-t7003/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/mr1n7-t7003/latest",
+          "media_files": "https://works.hcommons.org/api/records/mr1n7-t7003/media-files",
+          "parent": "https://works.hcommons.org/api/records/0bpz2-26v38",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/0bpz2-26v38",
+          "parent_html": "https://works.hcommons.org/records/0bpz2-26v38",
+          "requests": "https://works.hcommons.org/api/records/mr1n7-t7003/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/mr1n7-t7003/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/mr1n7-t7003",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/mr1n7-t7003",
+          "self_html": "https://works.hcommons.org/records/mr1n7-t7003",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:mr1n7-t7003/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:mr1n7-t7003/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/mr1n7-t7003/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Mckanan",
+                "given_name": "Daniel",
+                "name": "Mckanan, Daniel",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "mBFrD8",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/23.1/mckanan/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2024-01-01",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/850521",
+              "scheme": "FAST-topical",
+              "subject": "Cemeteries"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/864229",
+              "scheme": "FAST-topical",
+              "subject": "Climatic changes"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/875502",
+              "scheme": "FAST-topical",
+              "subject": "Conservation of natural resources"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/889763",
+              "scheme": "FAST-topical",
+              "subject": "Deforestation"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/913104",
+              "scheme": "FAST-topical",
+              "subject": "Environmental justice"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/932451",
+              "scheme": "FAST-topical",
+              "subject": "Forest reserves"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/976251",
+              "scheme": "FAST-topical",
+              "subject": "Intergenerational relations"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1015903",
+              "scheme": "FAST-topical",
+              "subject": "Memorials"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1033642",
+              "scheme": "FAST-topical",
+              "subject": "National parks and reserves"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1241913",
+              "scheme": "FAST-geographic",
+              "subject": "New England"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060766",
+              "scheme": "FAST-topical",
+              "subject": "Philosophical anthropology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1082573",
+              "scheme": "FAST-topical",
+              "subject": "Public lands"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1733718",
+              "scheme": "FAST-topical",
+              "subject": "Urban ecology (Sociology)"
+            }
+          ],
+          "title": "Ancestral Devotion, New England Conservation, and the Challenge of Environmental Justice"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "3d5bebe9-d247-4a5d-a42f-595e1dce5fb9",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:07:13.208728+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "3d5bebe9-d247-4a5d-a42f-595e1dce5fb9",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 23.1",
+                  "title": "JCRT 23.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/23.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-231",
+                "updated": "2026-08-30T10:07:13.798493+00:00"
+              }
+            ],
+            "ids": [
+              "3d5bebe9-d247-4a5d-a42f-595e1dce5fb9"
+            ]
+          },
+          "id": "0bpz2-26v38",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/0bpz2-26v38",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/mr1n7-t7003",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:mr1n7-t7003",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:08:14.706641+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "mr1n7-t7003",
+      "record_url": "https://works.hcommons.org/records/mr1n7-t7003",
+      "source_id": ""
+    },
+    {
+      "collection_id": "3d5bebe9-d247-4a5d-a42f-595e1dce5fb9",
+      "errors": [],
+      "files": {
+        "Monson.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:08:16.506053+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "99-107",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "23"
+          },
+          "kcr:user_defined_tags": [
+            "black-theology",
+            "philosophical-anthropology",
+            "justice",
+            "african-americans",
+            "environmental-justice",
+            "administration-of",
+            "black-people",
+            "disabilities",
+            "discrimination-in-justice-administration",
+            "flint-mich",
+            "passion-of-jesus-christ",
+            "people-with-disabilities-religious-life",
+            "religious-aspects"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Monson.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:49568fed2ac3267d8d27346af17c93e2",
+              "ext": "pdf",
+              "id": "23fae2b3-2151-44af-a65b-056b1d6b0ae1",
+              "key": "Monson.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/vrnhx-ad332/files/Monson.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:vrnhx-ad332:Monson.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:vrnhx-ad332:Monson.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:vrnhx-ad332/canvas/Monson.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:vrnhx-ad332:Monson.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/vrnhx-ad332/files/Monson.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 401854,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 401854
+        },
+        "id": "vrnhx-ad332",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/vrnhx-ad332/access",
+          "access_grants": "https://works.hcommons.org/api/records/vrnhx-ad332/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/vrnhx-ad332/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/vrnhx-ad332/access/links",
+          "access_request": "https://works.hcommons.org/api/records/vrnhx-ad332/access/request",
+          "access_users": "https://works.hcommons.org/api/records/vrnhx-ad332/access/users",
+          "archive": "https://works.hcommons.org/api/records/vrnhx-ad332/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/vrnhx-ad332/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/vrnhx-ad332/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/vrnhx-ad332/communities-suggestions",
+          "doi": "https://doi.org/10.17613/vrnhx-ad332",
+          "draft": "https://works.hcommons.org/api/records/vrnhx-ad332/draft",
+          "files": "https://works.hcommons.org/api/records/vrnhx-ad332/files",
+          "latest": "https://works.hcommons.org/api/records/vrnhx-ad332/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/vrnhx-ad332/latest",
+          "media_files": "https://works.hcommons.org/api/records/vrnhx-ad332/media-files",
+          "parent": "https://works.hcommons.org/api/records/z68zb-dav83",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/z68zb-dav83",
+          "parent_html": "https://works.hcommons.org/records/z68zb-dav83",
+          "requests": "https://works.hcommons.org/api/records/vrnhx-ad332/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/vrnhx-ad332/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/vrnhx-ad332",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/vrnhx-ad332",
+          "self_html": "https://works.hcommons.org/records/vrnhx-ad332",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:vrnhx-ad332/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:vrnhx-ad332/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/vrnhx-ad332/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Monson",
+                "given_name": "Robert",
+                "name": "Monson, Robert",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "T16A8e",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/23.1/monson/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2024-01-01",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/799558",
+              "scheme": "FAST-topical",
+              "subject": "African Americans"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/833880",
+              "scheme": "FAST-topical",
+              "subject": "Black people"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/833791",
+              "scheme": "FAST-topical",
+              "subject": "Black theology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/894633",
+              "scheme": "FAST-topical",
+              "subject": "Disabilities"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/895100",
+              "scheme": "FAST-topical",
+              "subject": "Discrimination in justice administration"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/913104",
+              "scheme": "FAST-topical",
+              "subject": "Environmental justice"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/985122",
+              "scheme": "FAST-topical",
+              "subject": "Justice"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1353950",
+              "scheme": "FAST-topical",
+              "subject": "Passion of Jesus Christ"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1057326",
+              "scheme": "FAST-topical",
+              "subject": "People with disabilities--Religious life"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060766",
+              "scheme": "FAST-topical",
+              "subject": "Philosophical anthropology"
+            }
+          ],
+          "title": "Seated at the Cross: What Black Disabled Bodies Can Teach US About Environmental Justice"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "3d5bebe9-d247-4a5d-a42f-595e1dce5fb9",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:07:13.208728+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "3d5bebe9-d247-4a5d-a42f-595e1dce5fb9",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 23.1",
+                  "title": "JCRT 23.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/23.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-231",
+                "updated": "2026-08-30T10:07:13.798493+00:00"
+              }
+            ],
+            "ids": [
+              "3d5bebe9-d247-4a5d-a42f-595e1dce5fb9"
+            ]
+          },
+          "id": "z68zb-dav83",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/z68zb-dav83",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/vrnhx-ad332",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:vrnhx-ad332",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:08:16.761643+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "vrnhx-ad332",
+      "record_url": "https://works.hcommons.org/records/vrnhx-ad332",
+      "source_id": ""
+    },
+    {
+      "collection_id": "3d5bebe9-d247-4a5d-a42f-595e1dce5fb9",
+      "errors": [],
+      "files": {
+        "Pope.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 2,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:08:18.672125+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "108-123",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "23"
+          },
+          "kcr:user_defined_tags": [
+            "philosophical-anthropology",
+            "theological-anthropology",
+            "vocation",
+            "image-of-god",
+            "modernity",
+            "climatic-changes",
+            "humanity",
+            "christianity",
+            "environmental-justice",
+            "global-warming",
+            "agriculture-history",
+            "civilization",
+            "culture-philosophy",
+            "eden",
+            "gardening",
+            "greenhouse-gas-mitigation",
+            "hebrew-language-terms-adamah",
+            "modern",
+            "nature-in-religion",
+            "order-philosophy",
+            "soil-conservation",
+            "land-use"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Pope.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:a557ddb5f3cf3eb8173e949f3de943a9",
+              "ext": "pdf",
+              "id": "c47cc45f-d023-46ad-a07c-a55edaf1ddc9",
+              "key": "Pope.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/j7bpq-mcw24/files/Pope.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:j7bpq-mcw24:Pope.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:j7bpq-mcw24:Pope.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:j7bpq-mcw24/canvas/Pope.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:j7bpq-mcw24:Pope.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/j7bpq-mcw24/files/Pope.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 578455,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 578455
+        },
+        "id": "j7bpq-mcw24",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/j7bpq-mcw24/access",
+          "access_grants": "https://works.hcommons.org/api/records/j7bpq-mcw24/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/j7bpq-mcw24/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/j7bpq-mcw24/access/links",
+          "access_request": "https://works.hcommons.org/api/records/j7bpq-mcw24/access/request",
+          "access_users": "https://works.hcommons.org/api/records/j7bpq-mcw24/access/users",
+          "archive": "https://works.hcommons.org/api/records/j7bpq-mcw24/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/j7bpq-mcw24/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/j7bpq-mcw24/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/j7bpq-mcw24/communities-suggestions",
+          "doi": "https://doi.org/10.17613/j7bpq-mcw24",
+          "draft": "https://works.hcommons.org/api/records/j7bpq-mcw24/draft",
+          "files": "https://works.hcommons.org/api/records/j7bpq-mcw24/files",
+          "latest": "https://works.hcommons.org/api/records/j7bpq-mcw24/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/j7bpq-mcw24/latest",
+          "media_files": "https://works.hcommons.org/api/records/j7bpq-mcw24/media-files",
+          "parent": "https://works.hcommons.org/api/records/0vh06-z8k55",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/0vh06-z8k55",
+          "parent_html": "https://works.hcommons.org/records/0vh06-z8k55",
+          "requests": "https://works.hcommons.org/api/records/j7bpq-mcw24/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/j7bpq-mcw24/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/j7bpq-mcw24",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/j7bpq-mcw24",
+          "self_html": "https://works.hcommons.org/records/j7bpq-mcw24",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:j7bpq-mcw24/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:j7bpq-mcw24/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/j7bpq-mcw24/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Pope",
+                "given_name": "Mick",
+                "name": "Pope, Mick",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "z7nyMq",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/23.1/pope/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2024-01-01",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/801533",
+              "scheme": "FAST-topical",
+              "subject": "Agriculture--History"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/859599",
+              "scheme": "FAST-topical",
+              "subject": "Christianity"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/862898",
+              "scheme": "FAST-topical",
+              "subject": "Civilization"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/863073",
+              "scheme": "FAST-topical",
+              "subject": "Civilization, Modern"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/864229",
+              "scheme": "FAST-topical",
+              "subject": "Climatic changes"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/885075",
+              "scheme": "FAST-topical",
+              "subject": "Culture--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/902429",
+              "scheme": "FAST-topical",
+              "subject": "Eden"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/913104",
+              "scheme": "FAST-topical",
+              "subject": "Environmental justice"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/937852",
+              "scheme": "FAST-topical",
+              "subject": "Gardening"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/943506",
+              "scheme": "FAST-topical",
+              "subject": "Global warming"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/947703",
+              "scheme": "FAST-topical",
+              "subject": "Greenhouse gas mitigation"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/963659",
+              "scheme": "FAST-topical",
+              "subject": "Humanity"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1432055",
+              "scheme": "FAST-topical",
+              "subject": "Image of God"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/991472",
+              "scheme": "FAST-topical",
+              "subject": "Land use"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1047368",
+              "scheme": "FAST-topical",
+              "subject": "Order (Philosophy)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060766",
+              "scheme": "FAST-topical",
+              "subject": "Philosophical anthropology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1124293",
+              "scheme": "FAST-topical",
+              "subject": "Soil conservation"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1431587",
+              "scheme": "FAST-topical",
+              "subject": "Theological anthropology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1168466",
+              "scheme": "FAST-topical",
+              "subject": "Vocation"
+            }
+          ],
+          "title": "The Image of God and Our Vocation of the Soil"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "3d5bebe9-d247-4a5d-a42f-595e1dce5fb9",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:07:13.208728+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "3d5bebe9-d247-4a5d-a42f-595e1dce5fb9",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 23.1",
+                  "title": "JCRT 23.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/23.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-231",
+                "updated": "2026-08-30T10:07:13.798493+00:00"
+              }
+            ],
+            "ids": [
+              "3d5bebe9-d247-4a5d-a42f-595e1dce5fb9"
+            ]
+          },
+          "id": "0vh06-z8k55",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/0vh06-z8k55",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/j7bpq-mcw24",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:j7bpq-mcw24",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:08:18.929425+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "j7bpq-mcw24",
+      "record_url": "https://works.hcommons.org/records/j7bpq-mcw24",
+      "source_id": ""
+    },
+    {
+      "collection_id": "3d5bebe9-d247-4a5d-a42f-595e1dce5fb9",
+      "errors": [],
+      "files": {
+        "Prewitt-Davis.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 3,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:08:20.788264+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "123-131",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "23"
+          },
+          "kcr:user_defined_tags": [
+            "dissent",
+            "women-in-christianity",
+            "christianity",
+            "ecology-and-religion",
+            "nature-in-religion",
+            "gonzalez",
+            "nature-conservation",
+            "nuns",
+            "paula",
+            "political",
+            "religion-and-science",
+            "renewable-energy-sources",
+            "solar-energy",
+            "women-religious-life"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Prewitt-Davis.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:f1cb73d6ab64a9669dcb563ebdf98605",
+              "ext": "pdf",
+              "id": "9fd66879-3d0b-4f3a-8e32-29db778f2fa9",
+              "key": "Prewitt-Davis.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/fangs-4yn13/files/Prewitt-Davis.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:fangs-4yn13:Prewitt-Davis.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:fangs-4yn13:Prewitt-Davis.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:fangs-4yn13/canvas/Prewitt-Davis.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:fangs-4yn13:Prewitt-Davis.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/fangs-4yn13/files/Prewitt-Davis.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 412389,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 412389
+        },
+        "id": "fangs-4yn13",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/fangs-4yn13/access",
+          "access_grants": "https://works.hcommons.org/api/records/fangs-4yn13/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/fangs-4yn13/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/fangs-4yn13/access/links",
+          "access_request": "https://works.hcommons.org/api/records/fangs-4yn13/access/request",
+          "access_users": "https://works.hcommons.org/api/records/fangs-4yn13/access/users",
+          "archive": "https://works.hcommons.org/api/records/fangs-4yn13/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/fangs-4yn13/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/fangs-4yn13/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/fangs-4yn13/communities-suggestions",
+          "doi": "https://doi.org/10.17613/fangs-4yn13",
+          "draft": "https://works.hcommons.org/api/records/fangs-4yn13/draft",
+          "files": "https://works.hcommons.org/api/records/fangs-4yn13/files",
+          "latest": "https://works.hcommons.org/api/records/fangs-4yn13/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/fangs-4yn13/latest",
+          "media_files": "https://works.hcommons.org/api/records/fangs-4yn13/media-files",
+          "parent": "https://works.hcommons.org/api/records/e6efs-pj494",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/e6efs-pj494",
+          "parent_html": "https://works.hcommons.org/records/e6efs-pj494",
+          "requests": "https://works.hcommons.org/api/records/fangs-4yn13/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/fangs-4yn13/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/fangs-4yn13",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/fangs-4yn13",
+          "self_html": "https://works.hcommons.org/records/fangs-4yn13",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:fangs-4yn13/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:fangs-4yn13/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/fangs-4yn13/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Prewitt-Davis",
+                "given_name": "Elijah",
+                "name": "Prewitt-Davis, Elijah",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "rp7uw6",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/23.1/prewitt_davis/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2024-01-01",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/859599",
+              "scheme": "FAST-topical",
+              "subject": "Christianity"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1034632",
+              "scheme": "FAST-topical",
+              "subject": "Nature conservation"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1041386",
+              "scheme": "FAST-topical",
+              "subject": "Nuns"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1093848",
+              "scheme": "FAST-topical",
+              "subject": "Religion and science"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1094570",
+              "scheme": "FAST-topical",
+              "subject": "Renewable energy sources"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1124984",
+              "scheme": "FAST-topical",
+              "subject": "Solar energy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1177787",
+              "scheme": "FAST-topical",
+              "subject": "Women in Christianity"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1176921",
+              "scheme": "FAST-topical",
+              "subject": "Women--Religious life"
+            }
+          ],
+          "title": "The Solar Nun: the Prophetic Action and Thought of Sr. Paula Gonzalez, S.C"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "3d5bebe9-d247-4a5d-a42f-595e1dce5fb9",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:07:13.208728+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "3d5bebe9-d247-4a5d-a42f-595e1dce5fb9",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 23.1",
+                  "title": "JCRT 23.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/23.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-231",
+                "updated": "2026-08-30T10:07:13.798493+00:00"
+              }
+            ],
+            "ids": [
+              "3d5bebe9-d247-4a5d-a42f-595e1dce5fb9"
+            ]
+          },
+          "id": "e6efs-pj494",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/e6efs-pj494",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/fangs-4yn13",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:fangs-4yn13",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:08:21.019386+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "fangs-4yn13",
+      "record_url": "https://works.hcommons.org/records/fangs-4yn13",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

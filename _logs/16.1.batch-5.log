@@ -1,0 +1,21 @@
+{
+  "data": [],
+  "errors": [
+    {
+      "collection_id": "9545d87d-59f1-4af1-a8ef-e7fb7357897d",
+      "errors": [
+        {
+          "validation_error": "Validation error while creating new record: Invalid value http://id.worldcat.org/fast/2072294."
+        }
+      ],
+      "files": {},
+      "item_index": 0,
+      "metadata": {},
+      "record_id": "",
+      "record_url": "",
+      "source_id": ""
+    }
+  ],
+  "message": "Some records could not be imported, and the 'all_or_none' flag was set to True, so the import was aborted and no records were created. Please check the list of failed records in the 'errors' field for more information. Each failed item should have its own list of specific errors.",
+  "status": "error"
+}

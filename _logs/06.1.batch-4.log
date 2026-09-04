@@ -1,0 +1,313 @@
+{
+  "data": [
+    {
+      "collection_id": "cafece43-18eb-4834-aea6-f42fd6d3fbb1",
+      "errors": [],
+      "files": {
+        "woodard.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T11:02:48.920838+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "6"
+          },
+          "kcr:user_defined_tags": [
+            "michael-hardt",
+            "antonio-negri",
+            "multitude",
+            "empire",
+            "democracy",
+            "biopolitics",
+            "globalization",
+            "war",
+            "political-philosophy",
+            "marxism",
+            "sovereignty",
+            "immaterial-labor"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "woodard.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:22d760941b1e1fe8d9a7348f2ba0064b",
+              "ext": "pdf",
+              "id": "ae0f4799-cd3d-4f32-8ddc-6ec9af6793c3",
+              "key": "woodard.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/kqdev-fts66/files/woodard.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:kqdev-fts66:woodard.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:kqdev-fts66:woodard.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:kqdev-fts66/canvas/woodard.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:kqdev-fts66:woodard.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/kqdev-fts66/files/woodard.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 470472,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 470472
+        },
+        "id": "kqdev-fts66",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/kqdev-fts66/access",
+          "access_grants": "https://works.hcommons.org/api/records/kqdev-fts66/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/kqdev-fts66/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/kqdev-fts66/access/links",
+          "access_request": "https://works.hcommons.org/api/records/kqdev-fts66/access/request",
+          "access_users": "https://works.hcommons.org/api/records/kqdev-fts66/access/users",
+          "archive": "https://works.hcommons.org/api/records/kqdev-fts66/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/kqdev-fts66/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/kqdev-fts66/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/kqdev-fts66/communities-suggestions",
+          "doi": "https://doi.org/10.17613/kqdev-fts66",
+          "draft": "https://works.hcommons.org/api/records/kqdev-fts66/draft",
+          "files": "https://works.hcommons.org/api/records/kqdev-fts66/files",
+          "latest": "https://works.hcommons.org/api/records/kqdev-fts66/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/kqdev-fts66/latest",
+          "media_files": "https://works.hcommons.org/api/records/kqdev-fts66/media-files",
+          "parent": "https://works.hcommons.org/api/records/jcq0v-me978",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/jcq0v-me978",
+          "parent_html": "https://works.hcommons.org/records/jcq0v-me978",
+          "requests": "https://works.hcommons.org/api/records/kqdev-fts66/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/kqdev-fts66/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/kqdev-fts66",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/kqdev-fts66",
+          "self_html": "https://works.hcommons.org/records/kqdev-fts66",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:kqdev-fts66/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:kqdev-fts66/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/kqdev-fts66/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Woodard",
+                "given_name": "Jared",
+                "name": "Woodard, Jared",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "0-eX-2",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/06.1/woodard/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2004",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/832668",
+              "scheme": "FAST-topical",
+              "subject": "Biopolitics"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/890077",
+              "scheme": "FAST-topical",
+              "subject": "Democracy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/943532",
+              "scheme": "FAST-topical",
+              "subject": "Globalization"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1069819",
+              "scheme": "FAST-topical",
+              "subject": "Political science--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1127379",
+              "scheme": "FAST-topical",
+              "subject": "Sovereignty"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1170328",
+              "scheme": "FAST-topical",
+              "subject": "War"
+            }
+          ],
+          "title": "Multitude: War and Democracy in the Age of Empire"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "cafece43-18eb-4834-aea6-f42fd6d3fbb1",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T11:02:08.351621+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "cafece43-18eb-4834-aea6-f42fd6d3fbb1",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 06.1",
+                  "title": "JCRT 06.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/06.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-061",
+                "updated": "2026-08-30T11:02:09.080973+00:00"
+              }
+            ],
+            "ids": [
+              "cafece43-18eb-4834-aea6-f42fd6d3fbb1"
+            ]
+          },
+          "id": "jcq0v-me978",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/jcq0v-me978",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/kqdev-fts66",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:kqdev-fts66",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T11:02:49.174497+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "kqdev-fts66",
+      "record_url": "https://works.hcommons.org/records/kqdev-fts66",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

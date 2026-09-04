@@ -1,0 +1,281 @@
+{
+  "data": [
+    {
+      "collection_id": "7af4be8a-2169-477a-be10-aa69dfe292c8",
+      "errors": [],
+      "files": {
+        "yonker.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:36:48.779620+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "165-170",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "14"
+          },
+          "kcr:user_defined_tags": [
+            "bell-jar",
+            "book-cover-art",
+            "feminism-art",
+            "the-book-plath"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "yonker.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:467a4af2acd09f5c563a0800775041d2",
+              "ext": "pdf",
+              "id": "f30057b0-837c-4b72-9053-57bc033a0aa8",
+              "key": "yonker.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/zwjw9-z2h61/files/yonker.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:zwjw9-z2h61:yonker.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:zwjw9-z2h61:yonker.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:zwjw9-z2h61/canvas/yonker.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:zwjw9-z2h61:yonker.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/zwjw9-z2h61/files/yonker.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 830085,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 830085
+        },
+        "id": "zwjw9-z2h61",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/zwjw9-z2h61/access",
+          "access_grants": "https://works.hcommons.org/api/records/zwjw9-z2h61/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/zwjw9-z2h61/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/zwjw9-z2h61/access/links",
+          "access_request": "https://works.hcommons.org/api/records/zwjw9-z2h61/access/request",
+          "access_users": "https://works.hcommons.org/api/records/zwjw9-z2h61/access/users",
+          "archive": "https://works.hcommons.org/api/records/zwjw9-z2h61/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/zwjw9-z2h61/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/zwjw9-z2h61/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/zwjw9-z2h61/communities-suggestions",
+          "doi": "https://doi.org/10.17613/zwjw9-z2h61",
+          "draft": "https://works.hcommons.org/api/records/zwjw9-z2h61/draft",
+          "files": "https://works.hcommons.org/api/records/zwjw9-z2h61/files",
+          "latest": "https://works.hcommons.org/api/records/zwjw9-z2h61/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/zwjw9-z2h61/latest",
+          "media_files": "https://works.hcommons.org/api/records/zwjw9-z2h61/media-files",
+          "parent": "https://works.hcommons.org/api/records/40w38-egn13",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/40w38-egn13",
+          "parent_html": "https://works.hcommons.org/records/40w38-egn13",
+          "requests": "https://works.hcommons.org/api/records/zwjw9-z2h61/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/zwjw9-z2h61/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/zwjw9-z2h61",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/zwjw9-z2h61",
+          "self_html": "https://works.hcommons.org/records/zwjw9-z2h61",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:zwjw9-z2h61/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:zwjw9-z2h61/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/zwjw9-z2h61/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Yonker",
+                "given_name": "Madeline",
+                "name": "Yonker, Madeline",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The article focuses on the visual representation of feminist discourse in the cover art of the books",
+          "identifiers": [
+            {
+              "identifier": "Cy5IPE",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/14.1/yonker/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2014",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1893019",
+              "scheme": "FAST-topical",
+              "subject": "Book cover art"
+            }
+          ],
+          "title": "Sylvia Plath, Simone De Beauvoir, and the Visual Representation of Feminist Discourse."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "7af4be8a-2169-477a-be10-aa69dfe292c8",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:36:13.684065+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "7af4be8a-2169-477a-be10-aa69dfe292c8",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 14.1",
+                  "title": "JCRT 14.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/14.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-141",
+                "updated": "2026-08-30T10:36:14.416176+00:00"
+              }
+            ],
+            "ids": [
+              "7af4be8a-2169-477a-be10-aa69dfe292c8"
+            ]
+          },
+          "id": "40w38-egn13",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/40w38-egn13",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/zwjw9-z2h61",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:zwjw9-z2h61",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:36:48.998809+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "zwjw9-z2h61",
+      "record_url": "https://works.hcommons.org/records/zwjw9-z2h61",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

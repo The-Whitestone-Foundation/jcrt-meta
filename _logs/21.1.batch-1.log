@@ -1,0 +1,1129 @@
+{
+  "data": [
+    {
+      "collection_id": "3312af41-839d-40d0-bdd8-6659d6cc9505",
+      "errors": [],
+      "files": {
+        "Bakker.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:15:39.805253+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "1-22",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "21"
+          },
+          "kcr:user_defined_tags": [
+            "posthumanism",
+            "sylvia",
+            "wynter"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Bakker.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:fe3cbbb549c4c7393ad29182071cff8f",
+              "ext": "pdf",
+              "id": "5a6e511f-3707-4f6e-b008-865f3bac6f59",
+              "key": "Bakker.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/hchk1-md423/files/Bakker.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:hchk1-md423:Bakker.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:hchk1-md423:Bakker.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:hchk1-md423/canvas/Bakker.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:hchk1-md423:Bakker.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/hchk1-md423/files/Bakker.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 2030825,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 2030825
+        },
+        "id": "hchk1-md423",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/hchk1-md423/access",
+          "access_grants": "https://works.hcommons.org/api/records/hchk1-md423/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/hchk1-md423/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/hchk1-md423/access/links",
+          "access_request": "https://works.hcommons.org/api/records/hchk1-md423/access/request",
+          "access_users": "https://works.hcommons.org/api/records/hchk1-md423/access/users",
+          "archive": "https://works.hcommons.org/api/records/hchk1-md423/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/hchk1-md423/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/hchk1-md423/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/hchk1-md423/communities-suggestions",
+          "doi": "https://doi.org/10.17613/hchk1-md423",
+          "draft": "https://works.hcommons.org/api/records/hchk1-md423/draft",
+          "files": "https://works.hcommons.org/api/records/hchk1-md423/files",
+          "latest": "https://works.hcommons.org/api/records/hchk1-md423/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/hchk1-md423/latest",
+          "media_files": "https://works.hcommons.org/api/records/hchk1-md423/media-files",
+          "parent": "https://works.hcommons.org/api/records/j9m1v-jyb91",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/j9m1v-jyb91",
+          "parent_html": "https://works.hcommons.org/records/j9m1v-jyb91",
+          "requests": "https://works.hcommons.org/api/records/hchk1-md423/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/hchk1-md423/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/hchk1-md423",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/hchk1-md423",
+          "self_html": "https://works.hcommons.org/records/hchk1-md423",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:hchk1-md423/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:hchk1-md423/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/hchk1-md423/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Bakker",
+                "given_name": "Justine M.",
+                "name": "Bakker, Justine M.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "qoYBv5",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/21.1/bakker/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2022",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/2027038",
+              "scheme": "FAST-topical",
+              "subject": "Posthumanism"
+            }
+          ],
+          "title": "Locating the Oceanic in Sylvia Wynter's"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "3312af41-839d-40d0-bdd8-6659d6cc9505",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:15:35.651034+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "3312af41-839d-40d0-bdd8-6659d6cc9505",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 21.1",
+                  "title": "JCRT 21.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/21.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-211",
+                "updated": "2026-08-30T10:15:36.305353+00:00"
+              }
+            ],
+            "ids": [
+              "3312af41-839d-40d0-bdd8-6659d6cc9505"
+            ]
+          },
+          "id": "j9m1v-jyb91",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/j9m1v-jyb91",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/hchk1-md423",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:hchk1-md423",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:15:40.083231+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "hchk1-md423",
+      "record_url": "https://works.hcommons.org/records/hchk1-md423",
+      "source_id": ""
+    },
+    {
+      "collection_id": "3312af41-839d-40d0-bdd8-6659d6cc9505",
+      "errors": [],
+      "files": {
+        "bios.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:15:41.633833+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "21"
+          },
+          "kcr:user_defined_tags": [
+            "contributor-biographies",
+            "philosophy-of-religion",
+            "continental-philosophy",
+            "liberation-theology",
+            "race-and-religion",
+            "african-diaspora",
+            "deconstruction",
+            "phenomenology",
+            "postcoloniality",
+            "utopian-studies",
+            "lenart-skof",
+            "disenchantment"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "bios.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:d7d203f52f729a0522ce5979dc421e6a",
+              "ext": "pdf",
+              "id": "25ecea25-4791-435c-98a4-b5f1ca277bd4",
+              "key": "bios.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/x456y-jk080/files/bios.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:x456y-jk080:bios.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:x456y-jk080:bios.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:x456y-jk080/canvas/bios.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:x456y-jk080:bios.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/x456y-jk080/files/bios.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 174497,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 174497
+        },
+        "id": "x456y-jk080",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/x456y-jk080/access",
+          "access_grants": "https://works.hcommons.org/api/records/x456y-jk080/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/x456y-jk080/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/x456y-jk080/access/links",
+          "access_request": "https://works.hcommons.org/api/records/x456y-jk080/access/request",
+          "access_users": "https://works.hcommons.org/api/records/x456y-jk080/access/users",
+          "archive": "https://works.hcommons.org/api/records/x456y-jk080/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/x456y-jk080/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/x456y-jk080/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/x456y-jk080/communities-suggestions",
+          "doi": "https://doi.org/10.17613/x456y-jk080",
+          "draft": "https://works.hcommons.org/api/records/x456y-jk080/draft",
+          "files": "https://works.hcommons.org/api/records/x456y-jk080/files",
+          "latest": "https://works.hcommons.org/api/records/x456y-jk080/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/x456y-jk080/latest",
+          "media_files": "https://works.hcommons.org/api/records/x456y-jk080/media-files",
+          "parent": "https://works.hcommons.org/api/records/zwdwj-xb707",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/zwdwj-xb707",
+          "parent_html": "https://works.hcommons.org/records/zwdwj-xb707",
+          "requests": "https://works.hcommons.org/api/records/x456y-jk080/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/x456y-jk080/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/x456y-jk080",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/x456y-jk080",
+          "self_html": "https://works.hcommons.org/records/x456y-jk080",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:x456y-jk080/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:x456y-jk080/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/x456y-jk080/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "editors",
+                "given_name": "",
+                "name": "editors",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "XVvPlQ",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/21.1/bios/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2022",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/799755",
+              "scheme": "FAST-topical",
+              "subject": "African diaspora"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1765182",
+              "scheme": "FAST-topical",
+              "subject": "Continental philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/889137",
+              "scheme": "FAST-topical",
+              "subject": "Deconstruction"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/997211",
+              "scheme": "FAST-topical",
+              "subject": "Liberation theology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060522",
+              "scheme": "FAST-topical",
+              "subject": "Phenomenology"
+            }
+          ],
+          "title": "Author Bios"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "3312af41-839d-40d0-bdd8-6659d6cc9505",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:15:35.651034+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "3312af41-839d-40d0-bdd8-6659d6cc9505",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 21.1",
+                  "title": "JCRT 21.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/21.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-211",
+                "updated": "2026-08-30T10:15:36.305353+00:00"
+              }
+            ],
+            "ids": [
+              "3312af41-839d-40d0-bdd8-6659d6cc9505"
+            ]
+          },
+          "id": "zwdwj-xb707",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/zwdwj-xb707",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/x456y-jk080",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:x456y-jk080",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:15:41.843545+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "x456y-jk080",
+      "record_url": "https://works.hcommons.org/records/x456y-jk080",
+      "source_id": ""
+    },
+    {
+      "collection_id": "3312af41-839d-40d0-bdd8-6659d6cc9505",
+      "errors": [],
+      "files": {
+        "Boulting.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 2,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:15:43.549946+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "23-43",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "21"
+          },
+          "kcr:user_defined_tags": [
+            "philosophy",
+            "1909-1943",
+            "simone",
+            "weil"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Boulting.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:9681feaca8b88fb44ffa6378c2d2cf1b",
+              "ext": "pdf",
+              "id": "04c91f19-e985-40cd-8124-4ae7a4fd4617",
+              "key": "Boulting.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/t6x8y-jcr06/files/Boulting.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:t6x8y-jcr06:Boulting.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:t6x8y-jcr06:Boulting.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:t6x8y-jcr06/canvas/Boulting.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:t6x8y-jcr06:Boulting.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/t6x8y-jcr06/files/Boulting.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 1739879,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 1739879
+        },
+        "id": "t6x8y-jcr06",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/t6x8y-jcr06/access",
+          "access_grants": "https://works.hcommons.org/api/records/t6x8y-jcr06/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/t6x8y-jcr06/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/t6x8y-jcr06/access/links",
+          "access_request": "https://works.hcommons.org/api/records/t6x8y-jcr06/access/request",
+          "access_users": "https://works.hcommons.org/api/records/t6x8y-jcr06/access/users",
+          "archive": "https://works.hcommons.org/api/records/t6x8y-jcr06/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/t6x8y-jcr06/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/t6x8y-jcr06/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/t6x8y-jcr06/communities-suggestions",
+          "doi": "https://doi.org/10.17613/t6x8y-jcr06",
+          "draft": "https://works.hcommons.org/api/records/t6x8y-jcr06/draft",
+          "files": "https://works.hcommons.org/api/records/t6x8y-jcr06/files",
+          "latest": "https://works.hcommons.org/api/records/t6x8y-jcr06/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/t6x8y-jcr06/latest",
+          "media_files": "https://works.hcommons.org/api/records/t6x8y-jcr06/media-files",
+          "parent": "https://works.hcommons.org/api/records/a3bys-net63",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/a3bys-net63",
+          "parent_html": "https://works.hcommons.org/records/a3bys-net63",
+          "requests": "https://works.hcommons.org/api/records/t6x8y-jcr06/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/t6x8y-jcr06/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/t6x8y-jcr06",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/t6x8y-jcr06",
+          "self_html": "https://works.hcommons.org/records/t6x8y-jcr06",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:t6x8y-jcr06/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:t6x8y-jcr06/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/t6x8y-jcr06/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Boulting",
+                "given_name": "N. E.",
+                "name": "Boulting, N. E.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "DZjo-M",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/21.1/boulting/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2022",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1060777",
+              "scheme": "FAST-topical",
+              "subject": "Philosophy"
+            }
+          ],
+          "title": "'Scale Relative Ontology' and Simone Weil's Spiritual Philosophy."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "3312af41-839d-40d0-bdd8-6659d6cc9505",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:15:35.651034+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "3312af41-839d-40d0-bdd8-6659d6cc9505",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 21.1",
+                  "title": "JCRT 21.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/21.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-211",
+                "updated": "2026-08-30T10:15:36.305353+00:00"
+              }
+            ],
+            "ids": [
+              "3312af41-839d-40d0-bdd8-6659d6cc9505"
+            ]
+          },
+          "id": "a3bys-net63",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/a3bys-net63",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/t6x8y-jcr06",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:t6x8y-jcr06",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:15:43.750271+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "t6x8y-jcr06",
+      "record_url": "https://works.hcommons.org/records/t6x8y-jcr06",
+      "source_id": ""
+    },
+    {
+      "collection_id": "3312af41-839d-40d0-bdd8-6659d6cc9505",
+      "errors": [],
+      "files": {
+        "Burkette.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 3,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:15:45.488259+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "44-65",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "21"
+          },
+          "kcr:user_defined_tags": [
+            "theology",
+            "faith"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Burkette.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:ca03792e728a0fc7415100ee66b906b6",
+              "ext": "pdf",
+              "id": "ad1b5270-7911-4c37-af3a-a96aeb7d5a02",
+              "key": "Burkette.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/skjqc-dyv40/files/Burkette.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:skjqc-dyv40:Burkette.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:skjqc-dyv40:Burkette.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:skjqc-dyv40/canvas/Burkette.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:skjqc-dyv40:Burkette.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/skjqc-dyv40/files/Burkette.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 1978230,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 1978230
+        },
+        "id": "skjqc-dyv40",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/skjqc-dyv40/access",
+          "access_grants": "https://works.hcommons.org/api/records/skjqc-dyv40/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/skjqc-dyv40/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/skjqc-dyv40/access/links",
+          "access_request": "https://works.hcommons.org/api/records/skjqc-dyv40/access/request",
+          "access_users": "https://works.hcommons.org/api/records/skjqc-dyv40/access/users",
+          "archive": "https://works.hcommons.org/api/records/skjqc-dyv40/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/skjqc-dyv40/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/skjqc-dyv40/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/skjqc-dyv40/communities-suggestions",
+          "doi": "https://doi.org/10.17613/skjqc-dyv40",
+          "draft": "https://works.hcommons.org/api/records/skjqc-dyv40/draft",
+          "files": "https://works.hcommons.org/api/records/skjqc-dyv40/files",
+          "latest": "https://works.hcommons.org/api/records/skjqc-dyv40/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/skjqc-dyv40/latest",
+          "media_files": "https://works.hcommons.org/api/records/skjqc-dyv40/media-files",
+          "parent": "https://works.hcommons.org/api/records/40kv6-nm292",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/40kv6-nm292",
+          "parent_html": "https://works.hcommons.org/records/40kv6-nm292",
+          "requests": "https://works.hcommons.org/api/records/skjqc-dyv40/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/skjqc-dyv40/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/skjqc-dyv40",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/skjqc-dyv40",
+          "self_html": "https://works.hcommons.org/records/skjqc-dyv40",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:skjqc-dyv40/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:skjqc-dyv40/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/skjqc-dyv40/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Burkette",
+                "given_name": "Jerry",
+                "name": "Burkette, Jerry",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "zOSB_H",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/21.1/burkette/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2022",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1198492",
+              "scheme": "FAST-topical",
+              "subject": "Faith"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1149559",
+              "scheme": "FAST-topical",
+              "subject": "Theology"
+            }
+          ],
+          "title": "The Function of Faith: Theological Constituents in Processual Utopian Methodology."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "3312af41-839d-40d0-bdd8-6659d6cc9505",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:15:35.651034+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "3312af41-839d-40d0-bdd8-6659d6cc9505",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 21.1",
+                  "title": "JCRT 21.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/21.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-211",
+                "updated": "2026-08-30T10:15:36.305353+00:00"
+              }
+            ],
+            "ids": [
+              "3312af41-839d-40d0-bdd8-6659d6cc9505"
+            ]
+          },
+          "id": "40kv6-nm292",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/40kv6-nm292",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/skjqc-dyv40",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:skjqc-dyv40",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:15:45.702278+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "skjqc-dyv40",
+      "record_url": "https://works.hcommons.org/records/skjqc-dyv40",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

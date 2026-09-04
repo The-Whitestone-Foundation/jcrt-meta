@@ -1,0 +1,623 @@
+{
+  "data": [
+    {
+      "collection_id": "d5bc9189-a5f3-49e0-8def-3e978c3b446d",
+      "errors": [],
+      "files": {
+        "strysick.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T11:13:37.353210+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "3",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "1"
+          },
+          "kcr:user_defined_tags": [
+            "culture-wars",
+            "american-religion",
+            "postmodern-sacred",
+            "multiculturalism",
+            "jean-francois-lyotard",
+            "metanarratives",
+            "religious-pluralism",
+            "death-of-god",
+            "secularism",
+            "iconography",
+            "victor-taylor",
+            "separation-of-church-and-state",
+            "book-review",
+            "parainquiry"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "strysick.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:2bf2b5e4b507974818c91b32670dfe12",
+              "ext": "pdf",
+              "id": "f49faf94-b39f-413b-a6c2-ef5a3548fc5b",
+              "key": "strysick.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/3yxqx-95495/files/strysick.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:3yxqx-95495:strysick.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:3yxqx-95495:strysick.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:3yxqx-95495/canvas/strysick.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:3yxqx-95495:strysick.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/3yxqx-95495/files/strysick.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 460452,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 460452
+        },
+        "id": "3yxqx-95495",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/3yxqx-95495/access",
+          "access_grants": "https://works.hcommons.org/api/records/3yxqx-95495/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/3yxqx-95495/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/3yxqx-95495/access/links",
+          "access_request": "https://works.hcommons.org/api/records/3yxqx-95495/access/request",
+          "access_users": "https://works.hcommons.org/api/records/3yxqx-95495/access/users",
+          "archive": "https://works.hcommons.org/api/records/3yxqx-95495/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/3yxqx-95495/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/3yxqx-95495/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/3yxqx-95495/communities-suggestions",
+          "doi": "https://doi.org/10.17613/3yxqx-95495",
+          "draft": "https://works.hcommons.org/api/records/3yxqx-95495/draft",
+          "files": "https://works.hcommons.org/api/records/3yxqx-95495/files",
+          "latest": "https://works.hcommons.org/api/records/3yxqx-95495/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/3yxqx-95495/latest",
+          "media_files": "https://works.hcommons.org/api/records/3yxqx-95495/media-files",
+          "parent": "https://works.hcommons.org/api/records/th2m4-pen87",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/th2m4-pen87",
+          "parent_html": "https://works.hcommons.org/records/th2m4-pen87",
+          "requests": "https://works.hcommons.org/api/records/3yxqx-95495/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/3yxqx-95495/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/3yxqx-95495",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/3yxqx-95495",
+          "self_html": "https://works.hcommons.org/records/3yxqx-95495",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:3yxqx-95495/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:3yxqx-95495/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/3yxqx-95495/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Strysick",
+                "given_name": "Michael",
+                "name": "Strysick, Michael",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "bh_1Z3",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/01.3/strysick/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2000",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/885099",
+              "scheme": "FAST-topical",
+              "subject": "Culture conflict"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/888713",
+              "scheme": "FAST-topical",
+              "subject": "Death of God"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1028836",
+              "scheme": "FAST-topical",
+              "subject": "Multiculturalism"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1094200",
+              "scheme": "FAST-topical",
+              "subject": "Religious pluralism"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1110732",
+              "scheme": "FAST-topical",
+              "subject": "Secularism"
+            }
+          ],
+          "title": "Culture Wars, Religion, and the Postmodern Sacred"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "d5bc9189-a5f3-49e0-8def-3e978c3b446d",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T11:13:11.611746+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "d5bc9189-a5f3-49e0-8def-3e978c3b446d",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 01.3",
+                  "title": "JCRT 01.3",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/01.3/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-013",
+                "updated": "2026-08-30T11:13:12.370688+00:00"
+              }
+            ],
+            "ids": [
+              "d5bc9189-a5f3-49e0-8def-3e978c3b446d"
+            ]
+          },
+          "id": "th2m4-pen87",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/th2m4-pen87",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/3yxqx-95495",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:3yxqx-95495",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T11:13:37.585099+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "3yxqx-95495",
+      "record_url": "https://works.hcommons.org/records/3yxqx-95495",
+      "source_id": ""
+    },
+    {
+      "collection_id": "d5bc9189-a5f3-49e0-8def-3e978c3b446d",
+      "errors": [],
+      "files": {
+        "weiss.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T11:13:39.305985+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "3",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "1"
+          },
+          "kcr:user_defined_tags": [
+            "posthuman",
+            "cybernetics",
+            "katherine-hayles",
+            "embodiment",
+            "liberal-humanism",
+            "artificial-life",
+            "information-theory",
+            "subjectivity",
+            "distributed-cognition",
+            "technology",
+            "materiality",
+            "cyborg",
+            "philosophy-of-mind",
+            "book-review"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "weiss.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:05bb0beeba2b7987cbdab93314bb4626",
+              "ext": "pdf",
+              "id": "a272dbf2-b282-4dc6-8a4c-84d945c286b2",
+              "key": "weiss.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/khwpq-x7894/files/weiss.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:khwpq-x7894:weiss.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:khwpq-x7894:weiss.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:khwpq-x7894/canvas/weiss.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:khwpq-x7894:weiss.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/khwpq-x7894/files/weiss.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 1138011,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 1138011
+        },
+        "id": "khwpq-x7894",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/khwpq-x7894/access",
+          "access_grants": "https://works.hcommons.org/api/records/khwpq-x7894/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/khwpq-x7894/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/khwpq-x7894/access/links",
+          "access_request": "https://works.hcommons.org/api/records/khwpq-x7894/access/request",
+          "access_users": "https://works.hcommons.org/api/records/khwpq-x7894/access/users",
+          "archive": "https://works.hcommons.org/api/records/khwpq-x7894/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/khwpq-x7894/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/khwpq-x7894/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/khwpq-x7894/communities-suggestions",
+          "doi": "https://doi.org/10.17613/khwpq-x7894",
+          "draft": "https://works.hcommons.org/api/records/khwpq-x7894/draft",
+          "files": "https://works.hcommons.org/api/records/khwpq-x7894/files",
+          "latest": "https://works.hcommons.org/api/records/khwpq-x7894/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/khwpq-x7894/latest",
+          "media_files": "https://works.hcommons.org/api/records/khwpq-x7894/media-files",
+          "parent": "https://works.hcommons.org/api/records/ebs32-fnk22",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/ebs32-fnk22",
+          "parent_html": "https://works.hcommons.org/records/ebs32-fnk22",
+          "requests": "https://works.hcommons.org/api/records/khwpq-x7894/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/khwpq-x7894/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/khwpq-x7894",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/khwpq-x7894",
+          "self_html": "https://works.hcommons.org/records/khwpq-x7894",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:khwpq-x7894/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:khwpq-x7894/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/khwpq-x7894/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Weiss",
+                "given_name": "Dennis M",
+                "name": "Weiss, Dennis M",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "rdTpAM",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/01.3/weiss/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2000",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/817302",
+              "scheme": "FAST-topical",
+              "subject": "Artificial life"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/885777",
+              "scheme": "FAST-topical",
+              "subject": "Cybernetics"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1741266",
+              "scheme": "FAST-topical",
+              "subject": "Distributed cognition"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/973149",
+              "scheme": "FAST-topical",
+              "subject": "Information theory"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060840",
+              "scheme": "FAST-topical",
+              "subject": "Philosophy of mind"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1136568",
+              "scheme": "FAST-topical",
+              "subject": "Subjectivity"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1145078",
+              "scheme": "FAST-topical",
+              "subject": "Technology"
+            }
+          ],
+          "title": "How We Became Posthuman: Virtual Bodies in Cybernetics, Literature, and Informatics"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "d5bc9189-a5f3-49e0-8def-3e978c3b446d",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T11:13:11.611746+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "d5bc9189-a5f3-49e0-8def-3e978c3b446d",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 01.3",
+                  "title": "JCRT 01.3",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/01.3/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-013",
+                "updated": "2026-08-30T11:13:12.370688+00:00"
+              }
+            ],
+            "ids": [
+              "d5bc9189-a5f3-49e0-8def-3e978c3b446d"
+            ]
+          },
+          "id": "ebs32-fnk22",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/ebs32-fnk22",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/khwpq-x7894",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:khwpq-x7894",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T11:13:39.548070+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "khwpq-x7894",
+      "record_url": "https://works.hcommons.org/records/khwpq-x7894",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

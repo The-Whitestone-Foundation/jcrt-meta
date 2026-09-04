@@ -1,0 +1,1111 @@
+{
+  "data": [
+    {
+      "collection_id": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+      "errors": [],
+      "files": {
+        "shaver.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:37:36.368299+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "132-137",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "13"
+          },
+          "kcr:user_defined_tags": [
+            "nonfiction",
+            "beyond-the-pulpit-women-s-rhetorical-roles-in-the-antebellum-religious-press-book",
+            "lisa-j",
+            "shaver",
+            "women-religion"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "shaver.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:f714ff07ddf0a92b07d6ffb558b065ed",
+              "ext": "pdf",
+              "id": "6bb0ba21-fb41-4b5d-bfa1-ec8e1f48597b",
+              "key": "shaver.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/3rscm-vkw22/files/shaver.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:3rscm-vkw22:shaver.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:3rscm-vkw22:shaver.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:3rscm-vkw22/canvas/shaver.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:3rscm-vkw22:shaver.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/3rscm-vkw22/files/shaver.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 332629,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 332629
+        },
+        "id": "3rscm-vkw22",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/3rscm-vkw22/access",
+          "access_grants": "https://works.hcommons.org/api/records/3rscm-vkw22/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/3rscm-vkw22/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/3rscm-vkw22/access/links",
+          "access_request": "https://works.hcommons.org/api/records/3rscm-vkw22/access/request",
+          "access_users": "https://works.hcommons.org/api/records/3rscm-vkw22/access/users",
+          "archive": "https://works.hcommons.org/api/records/3rscm-vkw22/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/3rscm-vkw22/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/3rscm-vkw22/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/3rscm-vkw22/communities-suggestions",
+          "doi": "https://doi.org/10.17613/3rscm-vkw22",
+          "draft": "https://works.hcommons.org/api/records/3rscm-vkw22/draft",
+          "files": "https://works.hcommons.org/api/records/3rscm-vkw22/files",
+          "latest": "https://works.hcommons.org/api/records/3rscm-vkw22/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/3rscm-vkw22/latest",
+          "media_files": "https://works.hcommons.org/api/records/3rscm-vkw22/media-files",
+          "parent": "https://works.hcommons.org/api/records/c8v7g-6w240",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/c8v7g-6w240",
+          "parent_html": "https://works.hcommons.org/records/c8v7g-6w240",
+          "requests": "https://works.hcommons.org/api/records/3rscm-vkw22/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/3rscm-vkw22/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/3rscm-vkw22",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/3rscm-vkw22",
+          "self_html": "https://works.hcommons.org/records/3rscm-vkw22",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:3rscm-vkw22/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:3rscm-vkw22/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/3rscm-vkw22/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Carsey",
+                "given_name": "Kerrie L.",
+                "name": "Carsey, Kerrie L.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "VNS5gY",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/13.2/carsey/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2014",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1176908",
+              "scheme": "FAST-topical",
+              "subject": "Women--Religion"
+            }
+          ],
+          "title": "Beyond the Pulpit: Women's Rhetorical Roles in the Antebellum Religious Press."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:37:32.099386+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 13.2",
+                  "title": "JCRT 13.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/13.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-132",
+                "updated": "2026-08-30T10:37:33.183536+00:00"
+              }
+            ],
+            "ids": [
+              "ad381810-b1f0-477f-b591-f8df6a8a8bab"
+            ]
+          },
+          "id": "c8v7g-6w240",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/c8v7g-6w240",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/3rscm-vkw22",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:3rscm-vkw22",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:37:36.572103+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "3rscm-vkw22",
+      "record_url": "https://works.hcommons.org/records/3rscm-vkw22",
+      "source_id": ""
+    },
+    {
+      "collection_id": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+      "errors": [],
+      "files": {
+        "cisney.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:37:38.114310+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "58-81",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "13"
+          },
+          "kcr:user_defined_tags": [
+            "george-a",
+            "zombie-films",
+            "1940-2017",
+            "romero",
+            "night-of-the-living-dead-film-1968"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "cisney.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:f7db0413cf773659c01b3a26793dd8e4",
+              "ext": "pdf",
+              "id": "b1559aad-ab78-47d6-a73c-85e3a1b82420",
+              "key": "cisney.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/dkxpc-9j251/files/cisney.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:dkxpc-9j251:cisney.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:dkxpc-9j251:cisney.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:dkxpc-9j251/canvas/cisney.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:dkxpc-9j251:cisney.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/dkxpc-9j251/files/cisney.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 1421995,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 1421995
+        },
+        "id": "dkxpc-9j251",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/dkxpc-9j251/access",
+          "access_grants": "https://works.hcommons.org/api/records/dkxpc-9j251/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/dkxpc-9j251/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/dkxpc-9j251/access/links",
+          "access_request": "https://works.hcommons.org/api/records/dkxpc-9j251/access/request",
+          "access_users": "https://works.hcommons.org/api/records/dkxpc-9j251/access/users",
+          "archive": "https://works.hcommons.org/api/records/dkxpc-9j251/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/dkxpc-9j251/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/dkxpc-9j251/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/dkxpc-9j251/communities-suggestions",
+          "doi": "https://doi.org/10.17613/dkxpc-9j251",
+          "draft": "https://works.hcommons.org/api/records/dkxpc-9j251/draft",
+          "files": "https://works.hcommons.org/api/records/dkxpc-9j251/files",
+          "latest": "https://works.hcommons.org/api/records/dkxpc-9j251/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/dkxpc-9j251/latest",
+          "media_files": "https://works.hcommons.org/api/records/dkxpc-9j251/media-files",
+          "parent": "https://works.hcommons.org/api/records/n7pmz-q4f08",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/n7pmz-q4f08",
+          "parent_html": "https://works.hcommons.org/records/n7pmz-q4f08",
+          "requests": "https://works.hcommons.org/api/records/dkxpc-9j251/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/dkxpc-9j251/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/dkxpc-9j251",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/dkxpc-9j251",
+          "self_html": "https://works.hcommons.org/records/dkxpc-9j251",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:dkxpc-9j251/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:dkxpc-9j251/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/dkxpc-9j251/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Cisney",
+                "given_name": "Vernon W.",
+                "name": "Cisney, Vernon W.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The article discusses the characterization of zombies by filmmaker George A. Romero in films including",
+          "identifiers": [
+            {
+              "identifier": "Zu6JyB",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/13.2/cisney/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2014",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1184593",
+              "scheme": "FAST-topical",
+              "subject": "Zombie films"
+            }
+          ],
+          "title": "Living in the Land of the Dead: George Romero, Gilles Deleuze, and the Question of the Zombie."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:37:32.099386+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 13.2",
+                  "title": "JCRT 13.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/13.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-132",
+                "updated": "2026-08-30T10:37:33.183536+00:00"
+              }
+            ],
+            "ids": [
+              "ad381810-b1f0-477f-b591-f8df6a8a8bab"
+            ]
+          },
+          "id": "n7pmz-q4f08",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/n7pmz-q4f08",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/dkxpc-9j251",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:dkxpc-9j251",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:37:38.320795+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "dkxpc-9j251",
+      "record_url": "https://works.hcommons.org/records/dkxpc-9j251",
+      "source_id": ""
+    },
+    {
+      "collection_id": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+      "errors": [],
+      "files": {
+        "clark.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 2,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:37:39.820125+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "38-47",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "13"
+          },
+          "kcr:user_defined_tags": [
+            "george-a",
+            "zombie-films",
+            "1940-2017",
+            "romero",
+            "the-tv-program",
+            "walking-dead"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "clark.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:d1c768ab80ef8d920c1466fd221bff96",
+              "ext": "pdf",
+              "id": "0409f234-4627-4892-9cc1-6daec6a63822",
+              "key": "clark.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/3rggn-qb577/files/clark.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:3rggn-qb577:clark.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:3rggn-qb577:clark.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:3rggn-qb577/canvas/clark.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:3rggn-qb577:clark.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/3rggn-qb577/files/clark.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 467910,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 467910
+        },
+        "id": "3rggn-qb577",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/3rggn-qb577/access",
+          "access_grants": "https://works.hcommons.org/api/records/3rggn-qb577/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/3rggn-qb577/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/3rggn-qb577/access/links",
+          "access_request": "https://works.hcommons.org/api/records/3rggn-qb577/access/request",
+          "access_users": "https://works.hcommons.org/api/records/3rggn-qb577/access/users",
+          "archive": "https://works.hcommons.org/api/records/3rggn-qb577/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/3rggn-qb577/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/3rggn-qb577/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/3rggn-qb577/communities-suggestions",
+          "doi": "https://doi.org/10.17613/3rggn-qb577",
+          "draft": "https://works.hcommons.org/api/records/3rggn-qb577/draft",
+          "files": "https://works.hcommons.org/api/records/3rggn-qb577/files",
+          "latest": "https://works.hcommons.org/api/records/3rggn-qb577/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/3rggn-qb577/latest",
+          "media_files": "https://works.hcommons.org/api/records/3rggn-qb577/media-files",
+          "parent": "https://works.hcommons.org/api/records/s96z7-6qt25",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/s96z7-6qt25",
+          "parent_html": "https://works.hcommons.org/records/s96z7-6qt25",
+          "requests": "https://works.hcommons.org/api/records/3rggn-qb577/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/3rggn-qb577/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/3rggn-qb577",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/3rggn-qb577",
+          "self_html": "https://works.hcommons.org/records/3rggn-qb577",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:3rggn-qb577/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:3rggn-qb577/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/3rggn-qb577/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Clark",
+                "given_name": "Simon",
+                "name": "Clark, Simon",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The article discusses the early zombie films of filmmaker George Romero and loss of blatant and the affective materiality by zombies due to use of digital effects in the series",
+          "identifiers": [
+            {
+              "identifier": "DuA9hF",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/13.2/clark/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2014",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1938236",
+              "scheme": "FAST-title",
+              "subject": "Walking dead (Kirkman, Robert)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1184593",
+              "scheme": "FAST-topical",
+              "subject": "Zombie films"
+            }
+          ],
+          "title": "Doing the Zombie Glitch; Haptic Undeadliness as a Political Theory."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:37:32.099386+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 13.2",
+                  "title": "JCRT 13.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/13.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-132",
+                "updated": "2026-08-30T10:37:33.183536+00:00"
+              }
+            ],
+            "ids": [
+              "ad381810-b1f0-477f-b591-f8df6a8a8bab"
+            ]
+          },
+          "id": "s96z7-6qt25",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/s96z7-6qt25",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/3rggn-qb577",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:3rggn-qb577",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:37:40.039201+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "3rggn-qb577",
+      "record_url": "https://works.hcommons.org/records/3rggn-qb577",
+      "source_id": ""
+    },
+    {
+      "collection_id": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+      "errors": [],
+      "files": {
+        "coggan.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 3,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:37:41.575354+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "129-131",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "13"
+          },
+          "kcr:user_defined_tags": [
+            "nonfiction",
+            "beyond-religion-from-shamanism-to-religion-to-post-religious-spirituality-book",
+            "religions",
+            "thompson",
+            "william-irwin"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "coggan.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:eaced25bcd466b8d9bfbda9e729ac70d",
+              "ext": "pdf",
+              "id": "d8d94d35-0c5f-4d90-8903-c44ec75af38d",
+              "key": "coggan.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/s3na6-14s81/files/coggan.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:s3na6-14s81:coggan.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:s3na6-14s81:coggan.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:s3na6-14s81/canvas/coggan.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:s3na6-14s81:coggan.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/s3na6-14s81/files/coggan.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 254391,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 254391
+        },
+        "id": "s3na6-14s81",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/s3na6-14s81/access",
+          "access_grants": "https://works.hcommons.org/api/records/s3na6-14s81/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/s3na6-14s81/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/s3na6-14s81/access/links",
+          "access_request": "https://works.hcommons.org/api/records/s3na6-14s81/access/request",
+          "access_users": "https://works.hcommons.org/api/records/s3na6-14s81/access/users",
+          "archive": "https://works.hcommons.org/api/records/s3na6-14s81/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/s3na6-14s81/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/s3na6-14s81/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/s3na6-14s81/communities-suggestions",
+          "doi": "https://doi.org/10.17613/s3na6-14s81",
+          "draft": "https://works.hcommons.org/api/records/s3na6-14s81/draft",
+          "files": "https://works.hcommons.org/api/records/s3na6-14s81/files",
+          "latest": "https://works.hcommons.org/api/records/s3na6-14s81/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/s3na6-14s81/latest",
+          "media_files": "https://works.hcommons.org/api/records/s3na6-14s81/media-files",
+          "parent": "https://works.hcommons.org/api/records/g8z6z-1fp15",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/g8z6z-1fp15",
+          "parent_html": "https://works.hcommons.org/records/g8z6z-1fp15",
+          "requests": "https://works.hcommons.org/api/records/s3na6-14s81/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/s3na6-14s81/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/s3na6-14s81",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/s3na6-14s81",
+          "self_html": "https://works.hcommons.org/records/s3na6-14s81",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:s3na6-14s81/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:s3na6-14s81/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/s3na6-14s81/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Coggan",
+                "given_name": "Sharon L.",
+                "name": "Coggan, Sharon L.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "WgjCwu",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/13.2/coggan/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2014",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1093898",
+              "scheme": "FAST-topical",
+              "subject": "Religions"
+            }
+          ],
+          "title": "Beyond Religion: from Shamanism to Religion to Post-Religious Spirituality."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:37:32.099386+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "ad381810-b1f0-477f-b591-f8df6a8a8bab",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 13.2",
+                  "title": "JCRT 13.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/13.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-132",
+                "updated": "2026-08-30T10:37:33.183536+00:00"
+              }
+            ],
+            "ids": [
+              "ad381810-b1f0-477f-b591-f8df6a8a8bab"
+            ]
+          },
+          "id": "g8z6z-1fp15",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/g8z6z-1fp15",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/s3na6-14s81",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:s3na6-14s81",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:37:41.787339+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "s3na6-14s81",
+      "record_url": "https://works.hcommons.org/records/s3na6-14s81",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

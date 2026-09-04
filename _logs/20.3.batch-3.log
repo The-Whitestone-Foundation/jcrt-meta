@@ -1,0 +1,324 @@
+{
+  "data": [
+    {
+      "collection_id": "cb4d9153-de8c-4c5c-a503-5260624827b4",
+      "errors": [],
+      "files": {
+        "Decoloniality.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:17:30.362138+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "3",
+            "pages": "341-360",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "20"
+          },
+          "kcr:user_defined_tags": [
+            "fernando",
+            "george-e",
+            "herrero",
+            "tinker",
+            "webinars"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Decoloniality.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:198ca256020b8c0812ce86c409e344a0",
+              "ext": "pdf",
+              "id": "fa4da8ac-2dd6-4a17-bd31-0eec8c8d9361",
+              "key": "Decoloniality.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/nxfc8-8bd06/files/Decoloniality.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:nxfc8-8bd06:Decoloniality.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:nxfc8-8bd06:Decoloniality.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:nxfc8-8bd06/canvas/Decoloniality.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:nxfc8-8bd06:Decoloniality.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/nxfc8-8bd06/files/Decoloniality.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 2336977,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 2336977
+        },
+        "id": "nxfc8-8bd06",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/nxfc8-8bd06/access",
+          "access_grants": "https://works.hcommons.org/api/records/nxfc8-8bd06/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/nxfc8-8bd06/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/nxfc8-8bd06/access/links",
+          "access_request": "https://works.hcommons.org/api/records/nxfc8-8bd06/access/request",
+          "access_users": "https://works.hcommons.org/api/records/nxfc8-8bd06/access/users",
+          "archive": "https://works.hcommons.org/api/records/nxfc8-8bd06/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/nxfc8-8bd06/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/nxfc8-8bd06/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/nxfc8-8bd06/communities-suggestions",
+          "doi": "https://doi.org/10.17613/nxfc8-8bd06",
+          "draft": "https://works.hcommons.org/api/records/nxfc8-8bd06/draft",
+          "files": "https://works.hcommons.org/api/records/nxfc8-8bd06/files",
+          "latest": "https://works.hcommons.org/api/records/nxfc8-8bd06/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/nxfc8-8bd06/latest",
+          "media_files": "https://works.hcommons.org/api/records/nxfc8-8bd06/media-files",
+          "parent": "https://works.hcommons.org/api/records/ye52k-4vm41",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/ye52k-4vm41",
+          "parent_html": "https://works.hcommons.org/records/ye52k-4vm41",
+          "requests": "https://works.hcommons.org/api/records/nxfc8-8bd06/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/nxfc8-8bd06/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/nxfc8-8bd06",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/nxfc8-8bd06",
+          "self_html": "https://works.hcommons.org/records/nxfc8-8bd06",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:nxfc8-8bd06/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:nxfc8-8bd06/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/nxfc8-8bd06/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Walsh",
+                "given_name": "Catherine",
+                "name": "Walsh, Catherine",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            },
+            {
+              "person_or_org": {
+                "family_name": "Mignolo",
+                "given_name": "Walter",
+                "name": "Mignolo, Walter",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            },
+            {
+              "person_or_org": {
+                "family_name": "Herrero",
+                "given_name": "Fernando",
+                "name": "Herrero, Fernando",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            },
+            {
+              "person_or_org": {
+                "family_name": "Tinker",
+                "given_name": "Tink",
+                "name": "Tinker, Tink",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The following is a transcript of the keynote panel session of a three-day international webinar",
+          "identifiers": [
+            {
+              "identifier": "JgQxu5",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/20.3/walsh_mignolo_herrero_tinker/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2021",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1093763",
+              "scheme": "FAST-topical",
+              "subject": "Religion"
+            }
+          ],
+          "title": "What Do We Mean By"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "cb4d9153-de8c-4c5c-a503-5260624827b4",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:16:13.991249+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "cb4d9153-de8c-4c5c-a503-5260624827b4",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 20.3",
+                  "title": "JCRT 20.3",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/20.3/"
+                },
+                "revision_id": 4,
+                "slug": "jcrt-203",
+                "updated": "2026-08-30T10:17:06.625788+00:00"
+              }
+            ],
+            "ids": [
+              "cb4d9153-de8c-4c5c-a503-5260624827b4"
+            ]
+          },
+          "id": "ye52k-4vm41",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/ye52k-4vm41",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/nxfc8-8bd06",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:nxfc8-8bd06",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:17:30.569388+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "nxfc8-8bd06",
+      "record_url": "https://works.hcommons.org/records/nxfc8-8bd06",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

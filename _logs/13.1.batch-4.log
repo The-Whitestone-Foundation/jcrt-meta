@@ -1,0 +1,862 @@
+{
+  "data": [
+    {
+      "collection_id": "d8cb3ee6-47c7-441b-a138-ddd29349ce19",
+      "errors": [],
+      "files": {
+        "vasquez.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:39:16.885450+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "81-100",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "13"
+          },
+          "kcr:user_defined_tags": [
+            "united-states",
+            "biopolitics-philosophy",
+            "agamben",
+            "giorgio",
+            "immigrants"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "vasquez.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:780e8594058c375b6f7d3647242ebac5",
+              "ext": "pdf",
+              "id": "8708bba6-b6d9-4f1d-a99d-3275cb998119",
+              "key": "vasquez.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/dj9vm-51t58/files/vasquez.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:dj9vm-51t58:vasquez.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:dj9vm-51t58:vasquez.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:dj9vm-51t58/canvas/vasquez.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:dj9vm-51t58:vasquez.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/dj9vm-51t58/files/vasquez.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 714071,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 714071
+        },
+        "id": "dj9vm-51t58",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/dj9vm-51t58/access",
+          "access_grants": "https://works.hcommons.org/api/records/dj9vm-51t58/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/dj9vm-51t58/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/dj9vm-51t58/access/links",
+          "access_request": "https://works.hcommons.org/api/records/dj9vm-51t58/access/request",
+          "access_users": "https://works.hcommons.org/api/records/dj9vm-51t58/access/users",
+          "archive": "https://works.hcommons.org/api/records/dj9vm-51t58/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/dj9vm-51t58/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/dj9vm-51t58/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/dj9vm-51t58/communities-suggestions",
+          "doi": "https://doi.org/10.17613/dj9vm-51t58",
+          "draft": "https://works.hcommons.org/api/records/dj9vm-51t58/draft",
+          "files": "https://works.hcommons.org/api/records/dj9vm-51t58/files",
+          "latest": "https://works.hcommons.org/api/records/dj9vm-51t58/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/dj9vm-51t58/latest",
+          "media_files": "https://works.hcommons.org/api/records/dj9vm-51t58/media-files",
+          "parent": "https://works.hcommons.org/api/records/yxzmm-gk430",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/yxzmm-gk430",
+          "parent_html": "https://works.hcommons.org/records/yxzmm-gk430",
+          "requests": "https://works.hcommons.org/api/records/dj9vm-51t58/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/dj9vm-51t58/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/dj9vm-51t58",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/dj9vm-51t58",
+          "self_html": "https://works.hcommons.org/records/dj9vm-51t58",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:dj9vm-51t58/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:dj9vm-51t58/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/dj9vm-51t58/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "V\u00e1squez",
+                "given_name": "Manuel A.",
+                "name": "V\u00e1squez, Manuel A.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The article explores the emergence of a transnational regime of subjectivation and population management based from Michel Foucault's work on governmentality and biopolitics and Giorgio Agamben's on normalization of the state of exception.",
+          "identifiers": [
+            {
+              "identifier": "Bsi6Yz",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/13.1/v_squez/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2014",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/967712",
+              "scheme": "FAST-topical",
+              "subject": "Immigrants"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1204155",
+              "scheme": "FAST-geographic",
+              "subject": "United States"
+            }
+          ],
+          "title": "From Colonialism to Neo-Liberal Capitalism: Latino/a Immigrants in the U.S. and the New Biopolitics."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "d8cb3ee6-47c7-441b-a138-ddd29349ce19",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:38:41.564315+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "d8cb3ee6-47c7-441b-a138-ddd29349ce19",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 13.1",
+                  "title": "JCRT 13.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/13.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-131",
+                "updated": "2026-08-30T10:38:42.315468+00:00"
+              }
+            ],
+            "ids": [
+              "d8cb3ee6-47c7-441b-a138-ddd29349ce19"
+            ]
+          },
+          "id": "yxzmm-gk430",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/yxzmm-gk430",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/dj9vm-51t58",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:dj9vm-51t58",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:39:17.097991+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "dj9vm-51t58",
+      "record_url": "https://works.hcommons.org/records/dj9vm-51t58",
+      "source_id": ""
+    },
+    {
+      "collection_id": "d8cb3ee6-47c7-441b-a138-ddd29349ce19",
+      "errors": [],
+      "files": {
+        "vasquez.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:39:18.692147+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "13"
+          },
+          "kcr:user_defined_tags": [
+            "colonialism",
+            "neoliberal-capitalism",
+            "latino-immigrants",
+            "immigration",
+            "biopolitics",
+            "neoliberalism",
+            "migration",
+            "race-and-religion",
+            "united-states",
+            "globalization",
+            "latino-studies",
+            "michel-foucault"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "vasquez.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:780e8594058c375b6f7d3647242ebac5",
+              "ext": "pdf",
+              "id": "93fbf060-13af-4de6-8ff0-78bb0f9eb948",
+              "key": "vasquez.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/8jn0d-d9a94/files/vasquez.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:8jn0d-d9a94:vasquez.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:8jn0d-d9a94:vasquez.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:8jn0d-d9a94/canvas/vasquez.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:8jn0d-d9a94:vasquez.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/8jn0d-d9a94/files/vasquez.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 714071,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 714071
+        },
+        "id": "8jn0d-d9a94",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/8jn0d-d9a94/access",
+          "access_grants": "https://works.hcommons.org/api/records/8jn0d-d9a94/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/8jn0d-d9a94/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/8jn0d-d9a94/access/links",
+          "access_request": "https://works.hcommons.org/api/records/8jn0d-d9a94/access/request",
+          "access_users": "https://works.hcommons.org/api/records/8jn0d-d9a94/access/users",
+          "archive": "https://works.hcommons.org/api/records/8jn0d-d9a94/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/8jn0d-d9a94/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/8jn0d-d9a94/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/8jn0d-d9a94/communities-suggestions",
+          "doi": "https://doi.org/10.17613/8jn0d-d9a94",
+          "draft": "https://works.hcommons.org/api/records/8jn0d-d9a94/draft",
+          "files": "https://works.hcommons.org/api/records/8jn0d-d9a94/files",
+          "latest": "https://works.hcommons.org/api/records/8jn0d-d9a94/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/8jn0d-d9a94/latest",
+          "media_files": "https://works.hcommons.org/api/records/8jn0d-d9a94/media-files",
+          "parent": "https://works.hcommons.org/api/records/bqczw-n1w90",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/bqczw-n1w90",
+          "parent_html": "https://works.hcommons.org/records/bqczw-n1w90",
+          "requests": "https://works.hcommons.org/api/records/8jn0d-d9a94/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/8jn0d-d9a94/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/8jn0d-d9a94",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/8jn0d-d9a94",
+          "self_html": "https://works.hcommons.org/records/8jn0d-d9a94",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:8jn0d-d9a94/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:8jn0d-d9a94/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/8jn0d-d9a94/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Vasquez",
+                "given_name": "Manuel",
+                "name": "Vasquez, Manuel",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "gA1EES",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/13.1/vasquez/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2014",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/832668",
+              "scheme": "FAST-topical",
+              "subject": "Biopolitics"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/908690",
+              "scheme": "FAST-topical",
+              "subject": "Emigration and immigration"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/943532",
+              "scheme": "FAST-topical",
+              "subject": "Globalization"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1737382",
+              "scheme": "FAST-topical",
+              "subject": "Neoliberalism"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1204155",
+              "scheme": "FAST-geographic",
+              "subject": "United States"
+            }
+          ],
+          "title": "From Colonialism To Neo-liberal Capitalism: Latino/a Immigrants In The U.s. And The New Biopolitics"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "d8cb3ee6-47c7-441b-a138-ddd29349ce19",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:38:41.564315+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "d8cb3ee6-47c7-441b-a138-ddd29349ce19",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 13.1",
+                  "title": "JCRT 13.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/13.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-131",
+                "updated": "2026-08-30T10:38:42.315468+00:00"
+              }
+            ],
+            "ids": [
+              "d8cb3ee6-47c7-441b-a138-ddd29349ce19"
+            ]
+          },
+          "id": "bqczw-n1w90",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/bqczw-n1w90",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/8jn0d-d9a94",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:8jn0d-d9a94",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:39:18.920075+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "8jn0d-d9a94",
+      "record_url": "https://works.hcommons.org/records/8jn0d-d9a94",
+      "source_id": ""
+    },
+    {
+      "collection_id": "d8cb3ee6-47c7-441b-a138-ddd29349ce19",
+      "errors": [],
+      "files": {
+        "woessner.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 2,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:39:20.454323+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "151-154",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "13"
+          },
+          "kcr:user_defined_tags": [
+            "nonfiction",
+            "crimes-against-women",
+            "luevano",
+            "rafael",
+            "woman-killing-in-jua-rez-theodicy-at-the-border-book"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "woessner.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:3fd19b213f3bf1314eb8f3cd0bed8750",
+              "ext": "pdf",
+              "id": "50b1c39b-cf69-484a-9e4d-f044a03c35cf",
+              "key": "woessner.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/nbnks-b2f78/files/woessner.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:nbnks-b2f78:woessner.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:nbnks-b2f78:woessner.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:nbnks-b2f78/canvas/woessner.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:nbnks-b2f78:woessner.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/nbnks-b2f78/files/woessner.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 300740,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 300740
+        },
+        "id": "nbnks-b2f78",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/nbnks-b2f78/access",
+          "access_grants": "https://works.hcommons.org/api/records/nbnks-b2f78/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/nbnks-b2f78/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/nbnks-b2f78/access/links",
+          "access_request": "https://works.hcommons.org/api/records/nbnks-b2f78/access/request",
+          "access_users": "https://works.hcommons.org/api/records/nbnks-b2f78/access/users",
+          "archive": "https://works.hcommons.org/api/records/nbnks-b2f78/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/nbnks-b2f78/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/nbnks-b2f78/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/nbnks-b2f78/communities-suggestions",
+          "doi": "https://doi.org/10.17613/nbnks-b2f78",
+          "draft": "https://works.hcommons.org/api/records/nbnks-b2f78/draft",
+          "files": "https://works.hcommons.org/api/records/nbnks-b2f78/files",
+          "latest": "https://works.hcommons.org/api/records/nbnks-b2f78/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/nbnks-b2f78/latest",
+          "media_files": "https://works.hcommons.org/api/records/nbnks-b2f78/media-files",
+          "parent": "https://works.hcommons.org/api/records/k4xpw-52j78",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/k4xpw-52j78",
+          "parent_html": "https://works.hcommons.org/records/k4xpw-52j78",
+          "requests": "https://works.hcommons.org/api/records/nbnks-b2f78/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/nbnks-b2f78/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/nbnks-b2f78",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/nbnks-b2f78",
+          "self_html": "https://works.hcommons.org/records/nbnks-b2f78",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:nbnks-b2f78/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:nbnks-b2f78/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/nbnks-b2f78/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Woessner",
+                "given_name": "Martin",
+                "name": "Woessner, Martin",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "JXE5t4",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/13.1/woessner/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2014",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1176618",
+              "scheme": "FAST-topical",
+              "subject": "Women--Crimes against"
+            }
+          ],
+          "title": "The Borderlines of Theodicy."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "d8cb3ee6-47c7-441b-a138-ddd29349ce19",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:38:41.564315+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "d8cb3ee6-47c7-441b-a138-ddd29349ce19",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 13.1",
+                  "title": "JCRT 13.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/13.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-131",
+                "updated": "2026-08-30T10:38:42.315468+00:00"
+              }
+            ],
+            "ids": [
+              "d8cb3ee6-47c7-441b-a138-ddd29349ce19"
+            ]
+          },
+          "id": "k4xpw-52j78",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/k4xpw-52j78",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/nbnks-b2f78",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:nbnks-b2f78",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:39:20.667466+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "nbnks-b2f78",
+      "record_url": "https://works.hcommons.org/records/nbnks-b2f78",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

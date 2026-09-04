@@ -1,0 +1,850 @@
+{
+  "data": [
+    {
+      "collection_id": "3eb8a95b-6c2e-4bc2-a286-32c6cfeff3a1",
+      "errors": [],
+      "files": {
+        "OMurchadha.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:27:49.374885+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "339-352",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "17"
+          },
+          "kcr:user_defined_tags": [
+            "faith",
+            "love",
+            "phenomenology"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "OMurchadha.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:3361386cd155cc8fbf1e7d6a09128ab8",
+              "ext": "pdf",
+              "id": "30e686d8-ee44-427a-9599-27f1b46e2fd5",
+              "key": "OMurchadha.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/zz3ym-5t930/files/OMurchadha.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:zz3ym-5t930:OMurchadha.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:zz3ym-5t930:OMurchadha.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:zz3ym-5t930/canvas/OMurchadha.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:zz3ym-5t930:OMurchadha.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/zz3ym-5t930/files/OMurchadha.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 2016651,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 2016651
+        },
+        "id": "zz3ym-5t930",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/zz3ym-5t930/access",
+          "access_grants": "https://works.hcommons.org/api/records/zz3ym-5t930/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/zz3ym-5t930/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/zz3ym-5t930/access/links",
+          "access_request": "https://works.hcommons.org/api/records/zz3ym-5t930/access/request",
+          "access_users": "https://works.hcommons.org/api/records/zz3ym-5t930/access/users",
+          "archive": "https://works.hcommons.org/api/records/zz3ym-5t930/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/zz3ym-5t930/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/zz3ym-5t930/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/zz3ym-5t930/communities-suggestions",
+          "doi": "https://doi.org/10.17613/zz3ym-5t930",
+          "draft": "https://works.hcommons.org/api/records/zz3ym-5t930/draft",
+          "files": "https://works.hcommons.org/api/records/zz3ym-5t930/files",
+          "latest": "https://works.hcommons.org/api/records/zz3ym-5t930/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/zz3ym-5t930/latest",
+          "media_files": "https://works.hcommons.org/api/records/zz3ym-5t930/media-files",
+          "parent": "https://works.hcommons.org/api/records/bw0jv-4pa10",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/bw0jv-4pa10",
+          "parent_html": "https://works.hcommons.org/records/bw0jv-4pa10",
+          "requests": "https://works.hcommons.org/api/records/zz3ym-5t930/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/zz3ym-5t930/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/zz3ym-5t930",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/zz3ym-5t930",
+          "self_html": "https://works.hcommons.org/records/zz3ym-5t930",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:zz3ym-5t930/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:zz3ym-5t930/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/zz3ym-5t930/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Murchadha",
+                "given_name": "Felix \u00d3",
+                "name": "Murchadha, Felix \u00d3",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The essential relation of the infinite to the finite, suggested already in the word itself, has troubled philosophical thinking at least since Descartes. To speak of the finite and the infinite is already to speak of horizon: the horizon of understanding, the horizon as limitation, the horizon as opening towards and beyond the finite objects of perception and knowledge. From Descartes to Levinas the infinite is the moment of the divine which both implies and problematizes all horizons. The infinite in this sense makes inescapable the question of the possibility of revelation, the horizon in which revelation is or is not possible.",
+          "identifiers": [
+            {
+              "identifier": "w-fBUN",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/17.2/Omurchadha/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2018",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1198492",
+              "scheme": "FAST-topical",
+              "subject": "Faith"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1002769",
+              "scheme": "FAST-topical",
+              "subject": "Love"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060522",
+              "scheme": "FAST-topical",
+              "subject": "Phenomenology"
+            }
+          ],
+          "title": "A Phenomenology of the Infinite: Horizon, Faith, Love."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "3eb8a95b-6c2e-4bc2-a286-32c6cfeff3a1",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:26:54.834760+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "3eb8a95b-6c2e-4bc2-a286-32c6cfeff3a1",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 17.2",
+                  "title": "JCRT 17.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/17.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-172",
+                "updated": "2026-08-30T10:26:55.497742+00:00"
+              }
+            ],
+            "ids": [
+              "3eb8a95b-6c2e-4bc2-a286-32c6cfeff3a1"
+            ]
+          },
+          "id": "bw0jv-4pa10",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/bw0jv-4pa10",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/zz3ym-5t930",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:zz3ym-5t930",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:27:49.672687+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "zz3ym-5t930",
+      "record_url": "https://works.hcommons.org/records/zz3ym-5t930",
+      "source_id": ""
+    },
+    {
+      "collection_id": "3eb8a95b-6c2e-4bc2-a286-32c6cfeff3a1",
+      "errors": [],
+      "files": {
+        "Prole.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:27:51.319114+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "253-267",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "17"
+          },
+          "kcr:user_defined_tags": [
+            "1874-1928",
+            "max",
+            "phenomenology",
+            "scheler",
+            "1888-1966",
+            "conrad-martius",
+            "hedwig"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Prole.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:33e2306d1bef770652fb540b5ddbaef2",
+              "ext": "pdf",
+              "id": "d20a542d-a3bd-4de8-8bde-0729741ba241",
+              "key": "Prole.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/8b6gs-kfc85/files/Prole.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:8b6gs-kfc85:Prole.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:8b6gs-kfc85:Prole.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:8b6gs-kfc85/canvas/Prole.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:8b6gs-kfc85:Prole.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/8b6gs-kfc85/files/Prole.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 1935089,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 1935089
+        },
+        "id": "8b6gs-kfc85",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/8b6gs-kfc85/access",
+          "access_grants": "https://works.hcommons.org/api/records/8b6gs-kfc85/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/8b6gs-kfc85/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/8b6gs-kfc85/access/links",
+          "access_request": "https://works.hcommons.org/api/records/8b6gs-kfc85/access/request",
+          "access_users": "https://works.hcommons.org/api/records/8b6gs-kfc85/access/users",
+          "archive": "https://works.hcommons.org/api/records/8b6gs-kfc85/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/8b6gs-kfc85/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/8b6gs-kfc85/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/8b6gs-kfc85/communities-suggestions",
+          "doi": "https://doi.org/10.17613/8b6gs-kfc85",
+          "draft": "https://works.hcommons.org/api/records/8b6gs-kfc85/draft",
+          "files": "https://works.hcommons.org/api/records/8b6gs-kfc85/files",
+          "latest": "https://works.hcommons.org/api/records/8b6gs-kfc85/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/8b6gs-kfc85/latest",
+          "media_files": "https://works.hcommons.org/api/records/8b6gs-kfc85/media-files",
+          "parent": "https://works.hcommons.org/api/records/vhnne-ddk85",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/vhnne-ddk85",
+          "parent_html": "https://works.hcommons.org/records/vhnne-ddk85",
+          "requests": "https://works.hcommons.org/api/records/8b6gs-kfc85/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/8b6gs-kfc85/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/8b6gs-kfc85",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/8b6gs-kfc85",
+          "self_html": "https://works.hcommons.org/records/8b6gs-kfc85",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:8b6gs-kfc85/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:8b6gs-kfc85/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/8b6gs-kfc85/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Prole",
+                "given_name": "Dragan",
+                "name": "Prole, Dragan",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The intent of this paper is to show that the",
+          "identifiers": [
+            {
+              "identifier": "Be0DMn",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/17.2/prole/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2018",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1060522",
+              "scheme": "FAST-topical",
+              "subject": "Phenomenology"
+            }
+          ],
+          "title": "The Theological Turn of Phenomenology as Return: Hedwig Conrad-Martius and Max Scheler Versus the Husserlian Secular Breakthrough."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "3eb8a95b-6c2e-4bc2-a286-32c6cfeff3a1",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:26:54.834760+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "3eb8a95b-6c2e-4bc2-a286-32c6cfeff3a1",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 17.2",
+                  "title": "JCRT 17.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/17.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-172",
+                "updated": "2026-08-30T10:26:55.497742+00:00"
+              }
+            ],
+            "ids": [
+              "3eb8a95b-6c2e-4bc2-a286-32c6cfeff3a1"
+            ]
+          },
+          "id": "vhnne-ddk85",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/vhnne-ddk85",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/8b6gs-kfc85",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:8b6gs-kfc85",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:27:51.545508+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "8b6gs-kfc85",
+      "record_url": "https://works.hcommons.org/records/8b6gs-kfc85",
+      "source_id": ""
+    },
+    {
+      "collection_id": "3eb8a95b-6c2e-4bc2-a286-32c6cfeff3a1",
+      "errors": [],
+      "files": {
+        "Rivera.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 2,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:27:53.216888+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "307-327",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "17"
+          },
+          "kcr:user_defined_tags": [
+            "spiritual-exercises",
+            "phenomenology",
+            "philosophy-religion"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Rivera.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:519cfe310e4e01275e302044052039aa",
+              "ext": "pdf",
+              "id": "55c94508-4efb-48bd-b0c1-4a63b71d57d3",
+              "key": "Rivera.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/4q2sb-08348/files/Rivera.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:4q2sb-08348:Rivera.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:4q2sb-08348:Rivera.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:4q2sb-08348/canvas/Rivera.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:4q2sb-08348:Rivera.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/4q2sb-08348/files/Rivera.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 2947082,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 2947082
+        },
+        "id": "4q2sb-08348",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/4q2sb-08348/access",
+          "access_grants": "https://works.hcommons.org/api/records/4q2sb-08348/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/4q2sb-08348/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/4q2sb-08348/access/links",
+          "access_request": "https://works.hcommons.org/api/records/4q2sb-08348/access/request",
+          "access_users": "https://works.hcommons.org/api/records/4q2sb-08348/access/users",
+          "archive": "https://works.hcommons.org/api/records/4q2sb-08348/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/4q2sb-08348/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/4q2sb-08348/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/4q2sb-08348/communities-suggestions",
+          "doi": "https://doi.org/10.17613/4q2sb-08348",
+          "draft": "https://works.hcommons.org/api/records/4q2sb-08348/draft",
+          "files": "https://works.hcommons.org/api/records/4q2sb-08348/files",
+          "latest": "https://works.hcommons.org/api/records/4q2sb-08348/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/4q2sb-08348/latest",
+          "media_files": "https://works.hcommons.org/api/records/4q2sb-08348/media-files",
+          "parent": "https://works.hcommons.org/api/records/m40yg-46q72",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/m40yg-46q72",
+          "parent_html": "https://works.hcommons.org/records/m40yg-46q72",
+          "requests": "https://works.hcommons.org/api/records/4q2sb-08348/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/4q2sb-08348/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/4q2sb-08348",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/4q2sb-08348",
+          "self_html": "https://works.hcommons.org/records/4q2sb-08348",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:4q2sb-08348/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:4q2sb-08348/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/4q2sb-08348/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Rivera",
+                "given_name": "Joseph",
+                "name": "Rivera, Joseph",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "Phenomenology, as a particular idiom or style of philosophical reflection, is one not wholly free of theological supposition. Perhaps the learned consensus in the academy today is that philosophical discourse, without first abandoning its judicious commitment to rigor and principled reason, never may have meaningful and fruitful interchange with theology. In many contemporary French currents of phenomenology that flow through to the wider discourse of philosophy of religion there have been strong theological inclinations at play for some time now, whose collective force is able to keep at bay those impulses that might otherwise reconfigure the relationship between philosophy and theology into an antithetical imperative. The inner constitution of philosophy and theology, as recent voices have articulated it, has been strengthened by a spirituality that advances the creature's desire for God under the form of a particular philosophical articulation, the phenomenological reduction, which",
+          "identifiers": [
+            {
+              "identifier": "yobmzP",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/17.2/rivera/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2018",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1060522",
+              "scheme": "FAST-topical",
+              "subject": "Phenomenology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060802",
+              "scheme": "FAST-topical",
+              "subject": "Philosophy--Religion"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1130077",
+              "scheme": "FAST-topical",
+              "subject": "Spiritual exercises"
+            }
+          ],
+          "title": "Spiritual Exercises in a Secular Age: Prospects for a Theological Reduction."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "3eb8a95b-6c2e-4bc2-a286-32c6cfeff3a1",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:26:54.834760+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "3eb8a95b-6c2e-4bc2-a286-32c6cfeff3a1",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 17.2",
+                  "title": "JCRT 17.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/17.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-172",
+                "updated": "2026-08-30T10:26:55.497742+00:00"
+              }
+            ],
+            "ids": [
+              "3eb8a95b-6c2e-4bc2-a286-32c6cfeff3a1"
+            ]
+          },
+          "id": "m40yg-46q72",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/m40yg-46q72",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/4q2sb-08348",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:4q2sb-08348",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:27:53.455846+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "4q2sb-08348",
+      "record_url": "https://works.hcommons.org/records/4q2sb-08348",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

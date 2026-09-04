@@ -1,0 +1,311 @@
+{
+  "data": [
+    {
+      "collection_id": "8f44b440-d148-41df-9c17-ec358776cf5a",
+      "errors": [],
+      "files": {
+        "weitzman.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:42:50.853319+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "12"
+          },
+          "kcr:user_defined_tags": [
+            "philosophical-anthropology",
+            "sovereignty",
+            "politics-and-government",
+            "body",
+            "human-philosophy",
+            "eric-l",
+            "human",
+            "santner",
+            "1883-1924",
+            "alenka",
+            "comedy",
+            "franz",
+            "kafka",
+            "politics-in-literature",
+            "zupanc-ic"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "weitzman.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:5a5a0a221be3f1d30905a3d258db51aa",
+              "ext": "pdf",
+              "id": "198d9e18-e6a3-43ac-b501-6be5b362bed5",
+              "key": "weitzman.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/q5456-j3x45/files/weitzman.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:q5456-j3x45:weitzman.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:q5456-j3x45:weitzman.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:q5456-j3x45/canvas/weitzman.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:q5456-j3x45:weitzman.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/q5456-j3x45/files/weitzman.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 450772,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 450772
+        },
+        "id": "q5456-j3x45",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/q5456-j3x45/access",
+          "access_grants": "https://works.hcommons.org/api/records/q5456-j3x45/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/q5456-j3x45/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/q5456-j3x45/access/links",
+          "access_request": "https://works.hcommons.org/api/records/q5456-j3x45/access/request",
+          "access_users": "https://works.hcommons.org/api/records/q5456-j3x45/access/users",
+          "archive": "https://works.hcommons.org/api/records/q5456-j3x45/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/q5456-j3x45/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/q5456-j3x45/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/q5456-j3x45/communities-suggestions",
+          "doi": "https://doi.org/10.17613/q5456-j3x45",
+          "draft": "https://works.hcommons.org/api/records/q5456-j3x45/draft",
+          "files": "https://works.hcommons.org/api/records/q5456-j3x45/files",
+          "latest": "https://works.hcommons.org/api/records/q5456-j3x45/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/q5456-j3x45/latest",
+          "media_files": "https://works.hcommons.org/api/records/q5456-j3x45/media-files",
+          "parent": "https://works.hcommons.org/api/records/a6zx7-wfv27",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/a6zx7-wfv27",
+          "parent_html": "https://works.hcommons.org/records/a6zx7-wfv27",
+          "requests": "https://works.hcommons.org/api/records/q5456-j3x45/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/q5456-j3x45/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/q5456-j3x45",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/q5456-j3x45",
+          "self_html": "https://works.hcommons.org/records/q5456-j3x45",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:q5456-j3x45/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:q5456-j3x45/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/q5456-j3x45/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Weitzman",
+                "given_name": "Erica",
+                "name": "Weitzman, Erica",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "nVSANL",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/12.1/weitzman/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2012",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/869083",
+              "scheme": "FAST-topical",
+              "subject": "Comedy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060766",
+              "scheme": "FAST-topical",
+              "subject": "Philosophical anthropology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1919741",
+              "scheme": "FAST-topical",
+              "subject": "Politics and government"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1896084",
+              "scheme": "FAST-topical",
+              "subject": "Politics in literature"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1127379",
+              "scheme": "FAST-topical",
+              "subject": "Sovereignty"
+            }
+          ],
+          "title": "Odradek's Laughter"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "8f44b440-d148-41df-9c17-ec358776cf5a",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:42:13.503255+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "8f44b440-d148-41df-9c17-ec358776cf5a",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 12.1",
+                  "title": "JCRT 12.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/12.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-121",
+                "updated": "2026-08-30T10:42:14.201467+00:00"
+              }
+            ],
+            "ids": [
+              "8f44b440-d148-41df-9c17-ec358776cf5a"
+            ]
+          },
+          "id": "a6zx7-wfv27",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/a6zx7-wfv27",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/q5456-j3x45",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:q5456-j3x45",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:42:51.076209+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "q5456-j3x45",
+      "record_url": "https://works.hcommons.org/records/q5456-j3x45",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

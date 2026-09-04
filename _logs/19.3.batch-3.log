@@ -1,0 +1,622 @@
+{
+  "data": [
+    {
+      "collection_id": "bc02055e-3d70-4f8e-9a5b-ec9312c435f1",
+      "errors": [],
+      "files": {
+        "bios.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:19:22.296398+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "3",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "19"
+          },
+          "kcr:user_defined_tags": [
+            "walter-benjamin",
+            "political-theology",
+            "secularism",
+            "hermeneutics",
+            "german-jewish-thought",
+            "holocaust-studies",
+            "gershom-scholem",
+            "messianism",
+            "religion-and-literature",
+            "biopolitics",
+            "tradition",
+            "comparative-literature"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "bios.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:9a56d3d53869e1b8fd4d78c8e0912b27",
+              "ext": "pdf",
+              "id": "5f0fd22d-68d7-4262-893a-04bcfe6366e1",
+              "key": "bios.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/cpa77-rzf61/files/bios.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:cpa77-rzf61:bios.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:cpa77-rzf61:bios.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:cpa77-rzf61/canvas/bios.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:cpa77-rzf61:bios.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/cpa77-rzf61/files/bios.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 159309,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 159309
+        },
+        "id": "cpa77-rzf61",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/cpa77-rzf61/access",
+          "access_grants": "https://works.hcommons.org/api/records/cpa77-rzf61/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/cpa77-rzf61/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/cpa77-rzf61/access/links",
+          "access_request": "https://works.hcommons.org/api/records/cpa77-rzf61/access/request",
+          "access_users": "https://works.hcommons.org/api/records/cpa77-rzf61/access/users",
+          "archive": "https://works.hcommons.org/api/records/cpa77-rzf61/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/cpa77-rzf61/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/cpa77-rzf61/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/cpa77-rzf61/communities-suggestions",
+          "doi": "https://doi.org/10.17613/cpa77-rzf61",
+          "draft": "https://works.hcommons.org/api/records/cpa77-rzf61/draft",
+          "files": "https://works.hcommons.org/api/records/cpa77-rzf61/files",
+          "latest": "https://works.hcommons.org/api/records/cpa77-rzf61/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/cpa77-rzf61/latest",
+          "media_files": "https://works.hcommons.org/api/records/cpa77-rzf61/media-files",
+          "parent": "https://works.hcommons.org/api/records/9gvg0-7t487",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/9gvg0-7t487",
+          "parent_html": "https://works.hcommons.org/records/9gvg0-7t487",
+          "requests": "https://works.hcommons.org/api/records/cpa77-rzf61/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/cpa77-rzf61/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/cpa77-rzf61",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/cpa77-rzf61",
+          "self_html": "https://works.hcommons.org/records/cpa77-rzf61",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:cpa77-rzf61/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:cpa77-rzf61/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/cpa77-rzf61/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "editors",
+                "given_name": "",
+                "name": "editors",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "GFMXWU",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/19.3/bios/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2020",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/832668",
+              "scheme": "FAST-topical",
+              "subject": "Biopolitics"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1734553",
+              "scheme": "FAST-topical",
+              "subject": "Comparative literature"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/955492",
+              "scheme": "FAST-topical",
+              "subject": "Hermeneutics"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1017438",
+              "scheme": "FAST-topical",
+              "subject": "Messianism"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1069899",
+              "scheme": "FAST-topical",
+              "subject": "Political theology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1093839",
+              "scheme": "FAST-topical",
+              "subject": "Religion and literature"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1110732",
+              "scheme": "FAST-topical",
+              "subject": "Secularism"
+            }
+          ],
+          "title": "Author Bios"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "bc02055e-3d70-4f8e-9a5b-ec9312c435f1",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:18:56.455457+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "bc02055e-3d70-4f8e-9a5b-ec9312c435f1",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 19.3",
+                  "title": "JCRT 19.3",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/19.3/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-193",
+                "updated": "2026-08-30T10:18:57.178991+00:00"
+              }
+            ],
+            "ids": [
+              "bc02055e-3d70-4f8e-9a5b-ec9312c435f1"
+            ]
+          },
+          "id": "9gvg0-7t487",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/9gvg0-7t487",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/cpa77-rzf61",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:cpa77-rzf61",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:19:22.529354+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "cpa77-rzf61",
+      "record_url": "https://works.hcommons.org/records/cpa77-rzf61",
+      "source_id": ""
+    },
+    {
+      "collection_id": "bc02055e-3d70-4f8e-9a5b-ec9312c435f1",
+      "errors": [],
+      "files": {
+        "5-Leibovic.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:19:24.717831+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "3",
+            "pages": "428-435",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "19"
+          },
+          "kcr:user_defined_tags": [
+            "theology",
+            "hermeneutics",
+            "philosophy-and-theology",
+            "political-theology",
+            "philosophy",
+            "modern",
+            "religion-philosophy",
+            "1892-1940",
+            "benjamin",
+            "walter"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "5-Leibovic.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:66029e1044e2217f4c0529ef85112a57",
+              "ext": "pdf",
+              "id": "bd807f74-8d38-470f-8f3d-07ae92086a15",
+              "key": "5-Leibovic.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/7d1j6-xw877/files/5-Leibovic.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:7d1j6-xw877:5-Leibovic.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:7d1j6-xw877:5-Leibovic.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:7d1j6-xw877/canvas/5-Leibovic.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:7d1j6-xw877:5-Leibovic.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/7d1j6-xw877/files/5-Leibovic.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 376971,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 376971
+        },
+        "id": "7d1j6-xw877",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/7d1j6-xw877/access",
+          "access_grants": "https://works.hcommons.org/api/records/7d1j6-xw877/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/7d1j6-xw877/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/7d1j6-xw877/access/links",
+          "access_request": "https://works.hcommons.org/api/records/7d1j6-xw877/access/request",
+          "access_users": "https://works.hcommons.org/api/records/7d1j6-xw877/access/users",
+          "archive": "https://works.hcommons.org/api/records/7d1j6-xw877/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/7d1j6-xw877/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/7d1j6-xw877/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/7d1j6-xw877/communities-suggestions",
+          "doi": "https://doi.org/10.17613/7d1j6-xw877",
+          "draft": "https://works.hcommons.org/api/records/7d1j6-xw877/draft",
+          "files": "https://works.hcommons.org/api/records/7d1j6-xw877/files",
+          "latest": "https://works.hcommons.org/api/records/7d1j6-xw877/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/7d1j6-xw877/latest",
+          "media_files": "https://works.hcommons.org/api/records/7d1j6-xw877/media-files",
+          "parent": "https://works.hcommons.org/api/records/kgf8w-fsw50",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/kgf8w-fsw50",
+          "parent_html": "https://works.hcommons.org/records/kgf8w-fsw50",
+          "requests": "https://works.hcommons.org/api/records/7d1j6-xw877/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/7d1j6-xw877/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/7d1j6-xw877",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/7d1j6-xw877",
+          "self_html": "https://works.hcommons.org/records/7d1j6-xw877",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:7d1j6-xw877/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:7d1j6-xw877/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/7d1j6-xw877/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Lebovic",
+                "given_name": "Nitzan",
+                "name": "Lebovic, Nitzan",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "7u01M5",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/19.3/lebovic/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2020",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1937862",
+              "scheme": "FAST-title",
+              "subject": "Everyman's library. Theology & philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/955492",
+              "scheme": "FAST-topical",
+              "subject": "Hermeneutics"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1060777",
+              "scheme": "FAST-topical",
+              "subject": "Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1069899",
+              "scheme": "FAST-topical",
+              "subject": "Political theology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1093794",
+              "scheme": "FAST-topical",
+              "subject": "Religion--Philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1149559",
+              "scheme": "FAST-topical",
+              "subject": "Theology"
+            }
+          ],
+          "title": "Benjamin: to the Rhythm of Theological Concepts"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "bc02055e-3d70-4f8e-9a5b-ec9312c435f1",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:18:56.455457+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "bc02055e-3d70-4f8e-9a5b-ec9312c435f1",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 19.3",
+                  "title": "JCRT 19.3",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/19.3/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-193",
+                "updated": "2026-08-30T10:18:57.178991+00:00"
+              }
+            ],
+            "ids": [
+              "bc02055e-3d70-4f8e-9a5b-ec9312c435f1"
+            ]
+          },
+          "id": "kgf8w-fsw50",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/kgf8w-fsw50",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/7d1j6-xw877",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:7d1j6-xw877",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:19:24.934178+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "7d1j6-xw877",
+      "record_url": "https://works.hcommons.org/records/7d1j6-xw877",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

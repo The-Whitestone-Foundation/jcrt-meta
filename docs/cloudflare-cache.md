@@ -36,29 +36,34 @@ Both are fixed with Cache Rules, which the Free plan supports (10 rules, and the
 ## Cache Rules
 
 Dashboard → **Caching → Cache Rules**, in this order. Rules are evaluated top-down and
-the first match wins, so rule 1 must stay first.
+the first match wins, so the bypass rules must stay above the catch-all.
 
-### 1. `bypass-markdown-negotiation` — Bypass cache
+### 1. `bypass-markdown-negotiation` — retired (2026-09-03)
 
-```
-any(http.request.headers["accept"][*] contains "text/markdown")
-```
+This rule is no longer needed and no rule number depends on staying first.
 
-Cache eligibility: **Bypass cache**.
+It existed because `netlify/edge-functions/markdown-for-agents.js` used to return a
+Markdown body for the *same* URL when the client sent `Accept: text/markdown`, setting
+`Vary: Accept`. Cloudflare only varies its cache key on `Accept-Encoding`, so the HTML
+page and its Markdown twin shared one cache key.
 
-**This rule is load-bearing.** `netlify/edge-functions/markdown-for-agents.js` returns a
-Markdown body for the same URL when the client sends `Accept: text/markdown`, and sets
-`Vary: Accept`. Cloudflare only varies its cache key on `Accept-Encoding`, so without
-this bypass one agent request would poison the edge cache and browsers would receive
-Markdown instead of HTML. Agent traffic is a rounding error, so sending it to origin
-costs nothing.
+**That failure actually occurred.** On 2026-09-03 `https://jcrt.org/archives/25.2/` was
+serving `text/markdown` to browsers (`cf-cache-status: HIT`, `age: 10331`), while a
+cache-busted request to the same path returned correct HTML — a single agent request had
+poisoned the edge entry. Probing `/` with `Accept: text/markdown` returned
+`cf-cache-status: HIT` rather than `BYPASS`, confirming this rule was never actually
+created in the dashboard. The edge function's `Cache-Control: private, no-store` backstop
+did not save it either: the response carried `private, max-age=14400`, i.e. rule 4's
+"Ignore cache-control header" Edge TTL and 4-hour Browser TTL override had replaced it.
 
-The edge function also sets `Cache-Control: private, no-store` on the Markdown variant as
-an origin-side backstop. Note that rule 4's "Ignore cache-control header" mode would
-override that, which is exactly why this bypass rule must stay above it. If the
-`http.request.headers` field is not selectable in your Cache Rules builder, do not just
-drop this rule — instead move Markdown onto its own URL (`/path/index.md`) so the two
-variants stop sharing a cache key.
+The fix was the fallback this section already prescribed: Markdown moved onto its own URL,
+`<path>index.md`. Two URLs cannot share a cache key, so nothing here is load-bearing any
+more and the Markdown twin caches normally under rule 4. Discovery is a static
+`<link rel="alternate" type="text/markdown">` in `_includes/partials/seo.njk`.
+
+Verify with `curl -sSI https://jcrt.org/archives/25.2/index.md` (Markdown) and
+`curl -sSI -H 'Accept: text/markdown' https://jcrt.org/archives/25.2/` (HTML — Accept is
+now ignored).
 
 ### 2. `bypass-dynamic-endpoints` — Bypass cache
 
@@ -132,8 +137,8 @@ This is the rule that rescues Pagefind. `/pagefind/*` (unhashed loader files) ke
 - Browser TTL: **Override origin** → `4 hours`
 - Serve stale content while revalidating: **on**
 
-The catch-all. Rules 1–2 have already carved out everything that must not be cached, so
-this covers HTML, sitemaps, feeds and `standard.site/*.json`.
+The catch-all. Rule 2 has already carved out everything that must not be cached, so this
+covers HTML, sitemaps, feeds, `standard.site/*.json` and the `index.md` twins.
 
 Start at 1 day. Once the deploy purge below is wired up and verified, raise the Edge TTL
 to 1 month — the purge, not the TTL, becomes what controls freshness.
@@ -258,8 +263,9 @@ curl -sSI https://jcrt.org/ | grep -iE 'cf-cache-status|age:|x-nf-request-id'
 # Pagefind shards should be HIT, not DYNAMIC
 curl -sSI "https://jcrt.org/pagefind/pagefind-entry.json" | grep -i cf-cache-status
 
-# Markdown negotiation must stay BYPASS and stay Markdown
-curl -sSI -H 'Accept: text/markdown' https://jcrt.org/ | grep -iE 'cf-cache-status|content-type'
+# The Markdown twin lives on its own URL; the page URL always returns HTML
+curl -sSI https://jcrt.org/index.md | grep -i content-type
+curl -sSI -H 'Accept: text/markdown' https://jcrt.org/ | grep -i content-type
 ```
 
 `DYNAMIC` means the rule did not match. `BYPASS` means a rule explicitly excluded it.

@@ -1,0 +1,324 @@
+{
+  "data": [
+    {
+      "collection_id": "66b61182-2394-4f19-9d86-1b0f92cd737d",
+      "errors": [],
+      "files": {
+        "waggoner.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T11:01:48.146559+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "6"
+          },
+          "kcr:user_defined_tags": [
+            "gayatri-spivak",
+            "comparative-literature",
+            "postcolonialism",
+            "cultural-studies",
+            "multiculturalism",
+            "humanism",
+            "religious-studies",
+            "othering",
+            "planetarity",
+            "area-studies",
+            "translation",
+            "literary-theory",
+            "ethnocentrism"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "waggoner.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:bba0fbc3b7fd4e33853d770941c52f21",
+              "ext": "pdf",
+              "id": "48dda930-11c3-4b8f-a2e5-0b31ec23250b",
+              "key": "waggoner.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/m1ccm-ej218/files/waggoner.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:m1ccm-ej218:waggoner.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:m1ccm-ej218:waggoner.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:m1ccm-ej218/canvas/waggoner.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:m1ccm-ej218:waggoner.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/m1ccm-ej218/files/waggoner.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 513315,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 513315
+        },
+        "id": "m1ccm-ej218",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/m1ccm-ej218/access",
+          "access_grants": "https://works.hcommons.org/api/records/m1ccm-ej218/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/m1ccm-ej218/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/m1ccm-ej218/access/links",
+          "access_request": "https://works.hcommons.org/api/records/m1ccm-ej218/access/request",
+          "access_users": "https://works.hcommons.org/api/records/m1ccm-ej218/access/users",
+          "archive": "https://works.hcommons.org/api/records/m1ccm-ej218/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/m1ccm-ej218/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/m1ccm-ej218/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/m1ccm-ej218/communities-suggestions",
+          "doi": "https://doi.org/10.17613/m1ccm-ej218",
+          "draft": "https://works.hcommons.org/api/records/m1ccm-ej218/draft",
+          "files": "https://works.hcommons.org/api/records/m1ccm-ej218/files",
+          "latest": "https://works.hcommons.org/api/records/m1ccm-ej218/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/m1ccm-ej218/latest",
+          "media_files": "https://works.hcommons.org/api/records/m1ccm-ej218/media-files",
+          "parent": "https://works.hcommons.org/api/records/8xpqv-vjs56",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/8xpqv-vjs56",
+          "parent_html": "https://works.hcommons.org/records/8xpqv-vjs56",
+          "requests": "https://works.hcommons.org/api/records/m1ccm-ej218/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/m1ccm-ej218/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/m1ccm-ej218",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/m1ccm-ej218",
+          "self_html": "https://works.hcommons.org/records/m1ccm-ej218",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:m1ccm-ej218/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:m1ccm-ej218/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/m1ccm-ej218/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "affiliations": [
+                {
+                  "name": "Albertus Magnus College"
+                }
+              ],
+              "person_or_org": {
+                "family_name": "Waggoner",
+                "given_name": "Matthew",
+                "name": "Waggoner, Matthew",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "o6QFsx",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/06.2/waggoner/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2005",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/814190",
+              "scheme": "FAST-topical",
+              "subject": "Area studies"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1734553",
+              "scheme": "FAST-topical",
+              "subject": "Comparative literature"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/916081",
+              "scheme": "FAST-topical",
+              "subject": "Ethnocentrism"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/963520",
+              "scheme": "FAST-topical",
+              "subject": "Humanism"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1404190",
+              "scheme": "FAST-title",
+              "subject": "Literary theory"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1028836",
+              "scheme": "FAST-topical",
+              "subject": "Multiculturalism"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1073032",
+              "scheme": "FAST-topical",
+              "subject": "Postcolonialism"
+            }
+          ],
+          "title": "Death of a Discipline"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "66b61182-2394-4f19-9d86-1b0f92cd737d",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T11:01:10.564311+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "66b61182-2394-4f19-9d86-1b0f92cd737d",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 06.2",
+                  "title": "JCRT 06.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/06.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-062",
+                "updated": "2026-08-30T11:01:11.285120+00:00"
+              }
+            ],
+            "ids": [
+              "66b61182-2394-4f19-9d86-1b0f92cd737d"
+            ]
+          },
+          "id": "8xpqv-vjs56",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/8xpqv-vjs56",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/m1ccm-ej218",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:m1ccm-ej218",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T11:01:48.386918+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "m1ccm-ej218",
+      "record_url": "https://works.hcommons.org/records/m1ccm-ej218",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

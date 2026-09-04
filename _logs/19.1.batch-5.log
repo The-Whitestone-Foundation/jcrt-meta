@@ -1,0 +1,292 @@
+{
+  "data": [
+    {
+      "collection_id": "82476a4f-7d93-40cd-89b5-e328bbed0f11",
+      "errors": [],
+      "files": {
+        "Wolfson.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:21:44.662097+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "52-84",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "19"
+          },
+          "kcr:user_defined_tags": [
+            "theologians",
+            "1927-2018",
+            "altizer",
+            "thomas-j-j",
+            "philosophers"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "Wolfson.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:dfd7df321ecf668e51ed72c2dff3bb76",
+              "ext": "pdf",
+              "id": "3c174bcb-33aa-4a7b-b8a4-c02da85c9ff3",
+              "key": "Wolfson.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/m8hhq-ks473/files/Wolfson.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:m8hhq-ks473:Wolfson.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:m8hhq-ks473:Wolfson.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:m8hhq-ks473/canvas/Wolfson.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:m8hhq-ks473:Wolfson.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/m8hhq-ks473/files/Wolfson.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 1456181,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 1456181
+        },
+        "id": "m8hhq-ks473",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/m8hhq-ks473/access",
+          "access_grants": "https://works.hcommons.org/api/records/m8hhq-ks473/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/m8hhq-ks473/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/m8hhq-ks473/access/links",
+          "access_request": "https://works.hcommons.org/api/records/m8hhq-ks473/access/request",
+          "access_users": "https://works.hcommons.org/api/records/m8hhq-ks473/access/users",
+          "archive": "https://works.hcommons.org/api/records/m8hhq-ks473/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/m8hhq-ks473/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/m8hhq-ks473/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/m8hhq-ks473/communities-suggestions",
+          "doi": "https://doi.org/10.17613/m8hhq-ks473",
+          "draft": "https://works.hcommons.org/api/records/m8hhq-ks473/draft",
+          "files": "https://works.hcommons.org/api/records/m8hhq-ks473/files",
+          "latest": "https://works.hcommons.org/api/records/m8hhq-ks473/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/m8hhq-ks473/latest",
+          "media_files": "https://works.hcommons.org/api/records/m8hhq-ks473/media-files",
+          "parent": "https://works.hcommons.org/api/records/bmd4p-rxd45",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/bmd4p-rxd45",
+          "parent_html": "https://works.hcommons.org/records/bmd4p-rxd45",
+          "requests": "https://works.hcommons.org/api/records/m8hhq-ks473/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/m8hhq-ks473/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/m8hhq-ks473",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/m8hhq-ks473",
+          "self_html": "https://works.hcommons.org/records/m8hhq-ks473",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:m8hhq-ks473/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:m8hhq-ks473/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/m8hhq-ks473/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Wolfson",
+                "given_name": "Elliot R.",
+                "name": "Wolfson, Elliot R.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "Even what we have left undone weaves the fabric of the entire future: even nothingness itself is a master weaver and a woman spinning webs.",
+          "identifiers": [
+            {
+              "identifier": "U6KRNp",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/19.1/wolfson/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2020",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1060746",
+              "scheme": "FAST-topical",
+              "subject": "Philosophers"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1149517",
+              "scheme": "FAST-topical",
+              "subject": "Theologians"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1474140",
+              "scheme": "FAST-personal",
+              "subject": "Thomas, J. J."
+            }
+          ],
+          "title": "Apotheosis of the Nothing in Altizer's Kenotic Atheology."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "82476a4f-7d93-40cd-89b5-e328bbed0f11",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:20:54.980453+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "82476a4f-7d93-40cd-89b5-e328bbed0f11",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 19.1",
+                  "title": "JCRT 19.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/19.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-191",
+                "updated": "2026-08-30T10:20:55.740648+00:00"
+              }
+            ],
+            "ids": [
+              "82476a4f-7d93-40cd-89b5-e328bbed0f11"
+            ]
+          },
+          "id": "bmd4p-rxd45",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/bmd4p-rxd45",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/m8hhq-ks473",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:m8hhq-ks473",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:21:44.873430+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "m8hhq-ks473",
+      "record_url": "https://works.hcommons.org/records/m8hhq-ks473",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

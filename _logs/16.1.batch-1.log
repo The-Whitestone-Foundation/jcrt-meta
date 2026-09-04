@@ -1,0 +1,859 @@
+{
+  "data": [
+    {
+      "collection_id": "9545d87d-59f1-4af1-a8ef-e7fb7357897d",
+      "errors": [],
+      "files": {
+        "InterviewSousanis.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:32:17.807774+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "74-83",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "16"
+          },
+          "kcr:user_defined_tags": [
+            "etc",
+            "comic-book-artists",
+            "comic-books",
+            "commercial-printing-except-screen-and-books",
+            "nick",
+            "other-printing",
+            "periodical-publishers",
+            "sousanis",
+            "strips"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "InterviewSousanis.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:36f90bcae4d8c9a4cf7d155573ec3e43",
+              "ext": "pdf",
+              "id": "48890d65-638e-4075-8deb-ad5eb222a94c",
+              "key": "InterviewSousanis.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/7xh48-95v72/files/InterviewSousanis.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:7xh48-95v72:InterviewSousanis.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:7xh48-95v72:InterviewSousanis.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:7xh48-95v72/canvas/InterviewSousanis.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:7xh48-95v72:InterviewSousanis.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/7xh48-95v72/files/InterviewSousanis.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 475754,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 475754
+        },
+        "id": "7xh48-95v72",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/7xh48-95v72/access",
+          "access_grants": "https://works.hcommons.org/api/records/7xh48-95v72/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/7xh48-95v72/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/7xh48-95v72/access/links",
+          "access_request": "https://works.hcommons.org/api/records/7xh48-95v72/access/request",
+          "access_users": "https://works.hcommons.org/api/records/7xh48-95v72/access/users",
+          "archive": "https://works.hcommons.org/api/records/7xh48-95v72/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/7xh48-95v72/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/7xh48-95v72/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/7xh48-95v72/communities-suggestions",
+          "doi": "https://doi.org/10.17613/7xh48-95v72",
+          "draft": "https://works.hcommons.org/api/records/7xh48-95v72/draft",
+          "files": "https://works.hcommons.org/api/records/7xh48-95v72/files",
+          "latest": "https://works.hcommons.org/api/records/7xh48-95v72/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/7xh48-95v72/latest",
+          "media_files": "https://works.hcommons.org/api/records/7xh48-95v72/media-files",
+          "parent": "https://works.hcommons.org/api/records/w4xwj-5bw94",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/w4xwj-5bw94",
+          "parent_html": "https://works.hcommons.org/records/w4xwj-5bw94",
+          "requests": "https://works.hcommons.org/api/records/7xh48-95v72/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/7xh48-95v72/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/7xh48-95v72",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/7xh48-95v72",
+          "self_html": "https://works.hcommons.org/records/7xh48-95v72",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:7xh48-95v72/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:7xh48-95v72/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/7xh48-95v72/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Stowe",
+                "given_name": "S. Andrew",
+                "name": "Stowe, S. Andrew",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            },
+            {
+              "person_or_org": {
+                "family_name": "Sousanis",
+                "given_name": "Nick",
+                "name": "Sousanis, Nick",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "8t_U_0",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/16.1/stowe_sousanis/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2016",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "title": "An Interview with Nick Sousanis"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "9545d87d-59f1-4af1-a8ef-e7fb7357897d",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:31:09.579726+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "9545d87d-59f1-4af1-a8ef-e7fb7357897d",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 16.1",
+                  "title": "JCRT 16.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/16.1/"
+                },
+                "revision_id": 4,
+                "slug": "jcrt-161",
+                "updated": "2026-08-30T10:32:14.298931+00:00"
+              }
+            ],
+            "ids": [
+              "9545d87d-59f1-4af1-a8ef-e7fb7357897d"
+            ]
+          },
+          "id": "w4xwj-5bw94",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/w4xwj-5bw94",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/7xh48-95v72",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:7xh48-95v72",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:32:18.379354+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "7xh48-95v72",
+      "record_url": "https://works.hcommons.org/records/7xh48-95v72",
+      "source_id": ""
+    },
+    {
+      "collection_id": "9545d87d-59f1-4af1-a8ef-e7fb7357897d",
+      "errors": [],
+      "files": {
+        "InterviewGiroux.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:32:19.841626+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "163-175",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "16"
+          },
+          "kcr:user_defined_tags": [
+            "administration-of-general-economic-programs",
+            "giroux",
+            "henry-a",
+            "municipal-art",
+            "social-criticism"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "InterviewGiroux.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:22592f141b33841a528f6e2d0a4c8d77",
+              "ext": "pdf",
+              "id": "acea8764-3e91-4323-b73c-de75fbdbd4f1",
+              "key": "InterviewGiroux.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/mrtn5-t0k78/files/InterviewGiroux.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:mrtn5-t0k78:InterviewGiroux.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:mrtn5-t0k78:InterviewGiroux.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:mrtn5-t0k78/canvas/InterviewGiroux.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:mrtn5-t0k78:InterviewGiroux.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/mrtn5-t0k78/files/InterviewGiroux.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 348698,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 348698
+        },
+        "id": "mrtn5-t0k78",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/mrtn5-t0k78/access",
+          "access_grants": "https://works.hcommons.org/api/records/mrtn5-t0k78/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/mrtn5-t0k78/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/mrtn5-t0k78/access/links",
+          "access_request": "https://works.hcommons.org/api/records/mrtn5-t0k78/access/request",
+          "access_users": "https://works.hcommons.org/api/records/mrtn5-t0k78/access/users",
+          "archive": "https://works.hcommons.org/api/records/mrtn5-t0k78/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/mrtn5-t0k78/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/mrtn5-t0k78/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/mrtn5-t0k78/communities-suggestions",
+          "doi": "https://doi.org/10.17613/mrtn5-t0k78",
+          "draft": "https://works.hcommons.org/api/records/mrtn5-t0k78/draft",
+          "files": "https://works.hcommons.org/api/records/mrtn5-t0k78/files",
+          "latest": "https://works.hcommons.org/api/records/mrtn5-t0k78/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/mrtn5-t0k78/latest",
+          "media_files": "https://works.hcommons.org/api/records/mrtn5-t0k78/media-files",
+          "parent": "https://works.hcommons.org/api/records/dtrpd-s4x90",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/dtrpd-s4x90",
+          "parent_html": "https://works.hcommons.org/records/dtrpd-s4x90",
+          "requests": "https://works.hcommons.org/api/records/mrtn5-t0k78/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/mrtn5-t0k78/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/mrtn5-t0k78",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/mrtn5-t0k78",
+          "self_html": "https://works.hcommons.org/records/mrtn5-t0k78",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:mrtn5-t0k78/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:mrtn5-t0k78/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/mrtn5-t0k78/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "TAYLOR",
+                "given_name": "VICTOR",
+                "name": "TAYLOR, VICTOR",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            },
+            {
+              "person_or_org": {
+                "family_name": "Giroux",
+                "given_name": "Henry",
+                "name": "Giroux, Henry",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "f_zhdj",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/16.1/taylor_giroux/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2016",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/816679",
+              "scheme": "FAST-topical",
+              "subject": "Art, Municipal"
+            }
+          ],
+          "title": "An Interview with Henry Giroux"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "9545d87d-59f1-4af1-a8ef-e7fb7357897d",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:31:09.579726+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "9545d87d-59f1-4af1-a8ef-e7fb7357897d",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 16.1",
+                  "title": "JCRT 16.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/16.1/"
+                },
+                "revision_id": 4,
+                "slug": "jcrt-161",
+                "updated": "2026-08-30T10:32:14.298931+00:00"
+              }
+            ],
+            "ids": [
+              "9545d87d-59f1-4af1-a8ef-e7fb7357897d"
+            ]
+          },
+          "id": "dtrpd-s4x90",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/dtrpd-s4x90",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/mrtn5-t0k78",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:mrtn5-t0k78",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:32:20.055765+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "mrtn5-t0k78",
+      "record_url": "https://works.hcommons.org/records/mrtn5-t0k78",
+      "source_id": ""
+    },
+    {
+      "collection_id": "9545d87d-59f1-4af1-a8ef-e7fb7357897d",
+      "errors": [],
+      "files": {
+        "reviewbutler.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 2,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:32:21.608441+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "95-108",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "16"
+          },
+          "kcr:user_defined_tags": [
+            "fiction",
+            "butler",
+            "conception",
+            "judith",
+            "senses-of-the-subject-book"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "reviewbutler.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:b1c8d6b29a210be801e35e0758cc93a6",
+              "ext": "pdf",
+              "id": "f418329a-0407-460d-b50b-c452fffac2fb",
+              "key": "reviewbutler.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/x8zed-k1w66/files/reviewbutler.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:x8zed-k1w66:reviewbutler.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:x8zed-k1w66:reviewbutler.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:x8zed-k1w66/canvas/reviewbutler.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:x8zed-k1w66:reviewbutler.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/x8zed-k1w66/files/reviewbutler.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 632467,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 632467
+        },
+        "id": "x8zed-k1w66",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/x8zed-k1w66/access",
+          "access_grants": "https://works.hcommons.org/api/records/x8zed-k1w66/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/x8zed-k1w66/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/x8zed-k1w66/access/links",
+          "access_request": "https://works.hcommons.org/api/records/x8zed-k1w66/access/request",
+          "access_users": "https://works.hcommons.org/api/records/x8zed-k1w66/access/users",
+          "archive": "https://works.hcommons.org/api/records/x8zed-k1w66/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/x8zed-k1w66/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/x8zed-k1w66/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/x8zed-k1w66/communities-suggestions",
+          "doi": "https://doi.org/10.17613/x8zed-k1w66",
+          "draft": "https://works.hcommons.org/api/records/x8zed-k1w66/draft",
+          "files": "https://works.hcommons.org/api/records/x8zed-k1w66/files",
+          "latest": "https://works.hcommons.org/api/records/x8zed-k1w66/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/x8zed-k1w66/latest",
+          "media_files": "https://works.hcommons.org/api/records/x8zed-k1w66/media-files",
+          "parent": "https://works.hcommons.org/api/records/r3cdf-c2n12",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/r3cdf-c2n12",
+          "parent_html": "https://works.hcommons.org/records/r3cdf-c2n12",
+          "requests": "https://works.hcommons.org/api/records/x8zed-k1w66/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/x8zed-k1w66/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/x8zed-k1w66",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/x8zed-k1w66",
+          "self_html": "https://works.hcommons.org/records/x8zed-k1w66",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:x8zed-k1w66/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:x8zed-k1w66/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/x8zed-k1w66/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Waggoner",
+                "given_name": "Matt",
+                "name": "Waggoner, Matt",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "ikYesu",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/16.1/waggoner/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2016",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/872956",
+              "scheme": "FAST-topical",
+              "subject": "Conception"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/923709",
+              "scheme": "FAST-topical",
+              "subject": "Fiction"
+            }
+          ],
+          "title": "Judith Butler's Senses of the Subject."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "9545d87d-59f1-4af1-a8ef-e7fb7357897d",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:31:09.579726+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "9545d87d-59f1-4af1-a8ef-e7fb7357897d",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 16.1",
+                  "title": "JCRT 16.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/16.1/"
+                },
+                "revision_id": 4,
+                "slug": "jcrt-161",
+                "updated": "2026-08-30T10:32:14.298931+00:00"
+              }
+            ],
+            "ids": [
+              "9545d87d-59f1-4af1-a8ef-e7fb7357897d"
+            ]
+          },
+          "id": "r3cdf-c2n12",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/r3cdf-c2n12",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/x8zed-k1w66",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:x8zed-k1w66",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:32:21.820050+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "x8zed-k1w66",
+      "record_url": "https://works.hcommons.org/records/x8zed-k1w66",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

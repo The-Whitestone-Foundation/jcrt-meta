@@ -3,11 +3,15 @@
 
 usage: build_review_docx.py TEMPLATE.docx REVIEW.md OUT.docx
 Front matter keys used: title, author, affiliation, doi, abstract, keywords.
-Body: Markdown with ##/###/#### headings, *italics*, **bold**.
+Body: Markdown with ##/###/#### headings, *italics*, **bold**, [text](url)
+links, and Pandoc-style footnotes ([^n] in the text, "[^n]: ..." definitions
+anywhere on their own line).  Lines ending in two spaces keep a hard break.
+The first "## " line is the bibliographic citation of the reviewed book.
 """
 import re, sys
 from pathlib import Path
 import yaml
+from lxml import etree
 from docx import Document
 from docx.enum.section import WD_SECTION
 from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_BREAK
@@ -20,11 +24,24 @@ raw = Path(md_path).read_text(encoding="utf-8")
 _, fm, body = raw.split("---\n", 2)
 meta = yaml.safe_load(fm)
 FONT = "Book Antiqua"
+LINK = RGBColor(0x00, 0x33, 0x66)
 title = meta["title"]
 author = meta["author"]
 doi = meta.get("doi")
 stable = f"https://doi.org/{doi}" if doi else meta.get("url", "")
 running = f"{author.split()[-1]}: {title}"
+
+# ---- footnote definitions ---------------------------------------------------
+footnotes: dict[str, str] = {}
+kept = []
+for line in body.splitlines():
+    m = re.match(r"^\[\^([^\]]+)\]:\s*(.*)$", line)
+    if m:
+        footnotes[m.group(1)] = m.group(2).strip()
+    else:
+        kept.append(line)
+body = "\n".join(kept)
+footnote_ids: dict[str, int] = {}
 
 
 def set_font(run, size=None, bold=None, italic=None, name=FONT):
@@ -49,18 +66,45 @@ def replace_placeholder(doc, old, new):
     raise SystemExit(f"placeholder {old!r} not found")
 
 
-def add_inline(p, text, size=12, base_bold=False):
-    """Emit runs for *italic* / **bold** markdown."""
-    for tok in re.split(r"(\*\*[^*]+\*\*|\*[^*]+\*|\n)", text):
+def hyperlink(p, text, url, size=12, italic=False, part=None):
+    part = part or p.part
+    rid = part.relate_to(url, "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink", is_external=True)
+    h = OxmlElement("w:hyperlink"); h.set(qn("r:id"), rid)
+    r = p.add_run(text); set_font(r, size, italic=italic)
+    r.font.color.rgb = LINK; r.font.underline = True
+    h.append(r._element); p._p.append(h)
+    return r
+
+
+def add_footnote_ref(p, key, size=12):
+    """Superscript reference in the body + entry in footnotes.xml."""
+    fid = footnote_ids.setdefault(key, len(footnote_ids) + 1)
+    r = p.add_run(); set_font(r, size)
+    r.font.superscript = True
+    ref = OxmlElement("w:footnoteReference"); ref.set(qn("w:id"), str(fid))
+    r._element.append(ref)
+
+
+INLINE = r"(\*\*[^*]+\*\*|\*[^*]+\*|\[\^[^\]]+\]|\[[^\]]+\]\([^)]+\)|\n)"
+
+
+def add_inline(p, text, size=12, base_bold=False, base_italic=False, part=None):
+    """Emit runs for *italic* / **bold** / [^n] / [text](url) markdown."""
+    for tok in re.split(INLINE, text):
         if not tok: continue
         if tok == "\n":
             p.add_run().add_break(WD_BREAK.LINE)
         elif tok.startswith("**"):
-            set_font(p.add_run(tok[2:-2]), size, bold=True)
+            set_font(p.add_run(tok[2:-2]), size, bold=True, italic=base_italic)
         elif tok.startswith("*"):
-            set_font(p.add_run(tok[1:-1]), size, bold=base_bold, italic=True)
+            set_font(p.add_run(tok[1:-1]), size, bold=base_bold, italic=not base_italic)
+        elif tok.startswith("[^"):
+            add_footnote_ref(p, tok[2:-1], size)
+        elif tok.startswith("["):
+            m = re.match(r"\[([^\]]+)\]\(([^)]+)\)", tok)
+            hyperlink(p, m.group(1), m.group(2), size, italic=base_italic, part=part)
         else:
-            set_font(p.add_run(tok), size, bold=base_bold)
+            set_font(p.add_run(tok), size, bold=base_bold, italic=base_italic)
 
 
 def add_field(run, instr):
@@ -86,7 +130,7 @@ for p in doc.paragraphs:
         rid = part.relate_to(stable, "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink", is_external=True)
         h = OxmlElement("w:hyperlink"); h.set(qn("r:id"), rid)
         r._element.addprevious(h); h.append(r._element)
-        r.font.color.rgb = RGBColor(0x00, 0x33, 0x66); r.font.underline = True
+        r.font.color.rgb = LINK; r.font.underline = True
 
 # core properties
 cp = doc.core_properties
@@ -168,9 +212,27 @@ for name, size in (("Heading 1", 12), ("Heading 2", 12), ("Heading 3", 12)):
 doc.styles["Heading 2"].paragraph_format.left_indent = Inches(0.5)
 doc.styles["Heading 3"].paragraph_format.left_indent = Inches(0.5)
 
-# signature lines are the last two body paragraphs (bold name, italic affiliation) -> left align, no indent
+# signature block is the last body paragraph (name / affiliation / ORCID) -> left align, no indent, keep together
 for p in doc.paragraphs[-1:]:
     p.alignment = WD_ALIGN_PARAGRAPH.LEFT; p.paragraph_format.first_line_indent = Inches(0)
+    p.paragraph_format.space_before = Pt(12); p.paragraph_format.keep_together = True
+
+# ---- footnotes part ---------------------------------------------------------
+if footnote_ids:
+    fn_part = next(pt for pt in doc.part.package.iter_parts() if str(pt.partname) == "/word/footnotes.xml")
+    root = etree.fromstring(fn_part.blob)
+    W = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+    tmp = Document(tpl)  # scratch document only used to build runs
+    for key, fid in sorted(footnote_ids.items(), key=lambda kv: kv[1]):
+        fn = etree.SubElement(root, f"{{{W}}}footnote"); fn.set(f"{{{W}}}id", str(fid))
+        p = tmp.add_paragraph()
+        p.paragraph_format.space_after = Pt(2); p.paragraph_format.line_spacing = 1.0
+        r = p.add_run(); set_font(r, 10); r.font.superscript = True
+        r._element.append(OxmlElement("w:footnoteRef"))
+        set_font(p.add_run(" "), 10)
+        add_inline(p, footnotes.get(key, ""), 10, part=fn_part)
+        fn.append(p._p)
+    fn_part._blob = etree.tostring(root, xml_declaration=True, encoding="UTF-8", standalone=True)
 
 doc.save(out)
 print(out)

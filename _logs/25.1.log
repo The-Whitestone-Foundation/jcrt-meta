@@ -1,0 +1,2666 @@
+{
+  "data": [
+    {
+      "collection_id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+      "errors": [],
+      "files": {
+        "conclusion.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T08:52:24.557563+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "137-139",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "25"
+          },
+          "kcr:user_defined_tags": [
+            "doctrine-of-christian-discovery",
+            "johnson-v-mintosh",
+            "indigenous-sovereignty",
+            "white-supremacy",
+            "decolonization"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "conclusion.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:cf8cf6ebfd75b9559426785263f2f239",
+              "ext": "pdf",
+              "id": "69999249-4438-4f90-9663-e3dd3a22ce51",
+              "key": "conclusion.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/jp50n-7y514/files/conclusion.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:jp50n-7y514:conclusion.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:jp50n-7y514:conclusion.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:jp50n-7y514/canvas/conclusion.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:jp50n-7y514:conclusion.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/jp50n-7y514/files/conclusion.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 197640,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 197640
+        },
+        "id": "jp50n-7y514",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/jp50n-7y514/access",
+          "access_grants": "https://works.hcommons.org/api/records/jp50n-7y514/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/jp50n-7y514/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/jp50n-7y514/access/links",
+          "access_request": "https://works.hcommons.org/api/records/jp50n-7y514/access/request",
+          "access_users": "https://works.hcommons.org/api/records/jp50n-7y514/access/users",
+          "archive": "https://works.hcommons.org/api/records/jp50n-7y514/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/jp50n-7y514/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/jp50n-7y514/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/jp50n-7y514/communities-suggestions",
+          "doi": "https://doi.org/10.17613/jp50n-7y514",
+          "draft": "https://works.hcommons.org/api/records/jp50n-7y514/draft",
+          "files": "https://works.hcommons.org/api/records/jp50n-7y514/files",
+          "latest": "https://works.hcommons.org/api/records/jp50n-7y514/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/jp50n-7y514/latest",
+          "media_files": "https://works.hcommons.org/api/records/jp50n-7y514/media-files",
+          "parent": "https://works.hcommons.org/api/records/zq30a-97m25",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/zq30a-97m25",
+          "parent_html": "https://works.hcommons.org/records/zq30a-97m25",
+          "requests": "https://works.hcommons.org/api/records/jp50n-7y514/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/jp50n-7y514/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/jp50n-7y514",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/jp50n-7y514",
+          "self_html": "https://works.hcommons.org/records/jp50n-7y514",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:jp50n-7y514/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:jp50n-7y514/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/jp50n-7y514/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Arnold",
+                "given_name": "Philip P.",
+                "name": "Arnold, Philip P.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            },
+            {
+              "person_or_org": {
+                "family_name": "Bigtree",
+                "given_name": "Sandra",
+                "name": "Bigtree, Sandra",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            },
+            {
+              "person_or_org": {
+                "family_name": "Brett",
+                "given_name": "Adam DJ",
+                "identifiers": [
+                  {
+                    "identifier": "0009-0004-6725-8425",
+                    "scheme": "orcid"
+                  }
+                ],
+                "name": "Brett, Adam DJ",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The conclusion calls for decolonization beyond legal reform, centering Indigenous law, land return, and right relations to resist Christian Discovery.",
+          "identifiers": [
+            {
+              "identifier": "T4s4RL",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/25.1/conclusion/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2026-04-16",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/889115",
+              "scheme": "FAST-topical",
+              "subject": "Decolonization"
+            }
+          ],
+          "title": "Conclusion: Dismantling the Doctrine of Christian Discovery Cultivating Right Relations"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "5d113ed0-5cc8-4499-aff4-58a772358295",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T08:47:38.396910+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 25.1",
+                  "title": "JCRT 25.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/25.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-251",
+                "updated": "2026-08-30T08:48:27.672640+00:00"
+              }
+            ],
+            "ids": [
+              "5d113ed0-5cc8-4499-aff4-58a772358295"
+            ]
+          },
+          "id": "zq30a-97m25",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/zq30a-97m25",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/jp50n-7y514",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:jp50n-7y514",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T08:52:24.815355+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "jp50n-7y514",
+      "record_url": "https://works.hcommons.org/records/jp50n-7y514",
+      "source_id": ""
+    },
+    {
+      "collection_id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+      "errors": [],
+      "files": {
+        "derrico.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T08:52:26.428822+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "1-15",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "25"
+          },
+          "kcr:user_defined_tags": [
+            "indigenous-sovereignty",
+            "indigenous-peoples",
+            "colonization",
+            "colonial-domination",
+            "racial-equality",
+            "anti-indian-law",
+            "legal-formalism",
+            "christian-discovery",
+            "us-property-law",
+            "territorial-authority",
+            "indigenous-rights"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "derrico.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:0bbd33c2b96ab1429e1d7a13b7d86796",
+              "ext": "pdf",
+              "id": "79e9bc53-eb66-4061-8f32-5145de120f80",
+              "key": "derrico.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/981dv-bd519/files/derrico.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:981dv-bd519:derrico.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:981dv-bd519:derrico.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:981dv-bd519/canvas/derrico.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:981dv-bd519:derrico.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/981dv-bd519/files/derrico.pdf"
+              },
+              "metadata": null,
+              "mimetype": "application/pdf",
+              "size": 673639,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 673639
+        },
+        "id": "981dv-bd519",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/981dv-bd519/access",
+          "access_grants": "https://works.hcommons.org/api/records/981dv-bd519/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/981dv-bd519/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/981dv-bd519/access/links",
+          "access_request": "https://works.hcommons.org/api/records/981dv-bd519/access/request",
+          "access_users": "https://works.hcommons.org/api/records/981dv-bd519/access/users",
+          "archive": "https://works.hcommons.org/api/records/981dv-bd519/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/981dv-bd519/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/981dv-bd519/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/981dv-bd519/communities-suggestions",
+          "doi": "https://doi.org/10.17613/981dv-bd519",
+          "draft": "https://works.hcommons.org/api/records/981dv-bd519/draft",
+          "files": "https://works.hcommons.org/api/records/981dv-bd519/files",
+          "latest": "https://works.hcommons.org/api/records/981dv-bd519/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/981dv-bd519/latest",
+          "media_files": "https://works.hcommons.org/api/records/981dv-bd519/media-files",
+          "parent": "https://works.hcommons.org/api/records/ne2n8-jy368",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/ne2n8-jy368",
+          "parent_html": "https://works.hcommons.org/records/ne2n8-jy368",
+          "requests": "https://works.hcommons.org/api/records/981dv-bd519/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/981dv-bd519/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/981dv-bd519",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/981dv-bd519",
+          "self_html": "https://works.hcommons.org/records/981dv-bd519",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:981dv-bd519/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:981dv-bd519/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/981dv-bd519/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "affiliations": [
+                {
+                  "name": "University of Massachusetts Amherst"
+                }
+              ],
+              "person_or_org": {
+                "family_name": "d'Errico",
+                "given_name": "Peter",
+                "name": "d'Errico, Peter",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "Peter d'Errico argues that U.S. anti-Indian law rests on Christian Discovery, and that challenging it exposes a metaphysical crisis in U.S. law today.",
+          "identifiers": [
+            {
+              "identifier": "8aH278",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/25.1/derrico/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2026-04-16",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/868483",
+              "scheme": "FAST-topical",
+              "subject": "Colonization"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/970213",
+              "scheme": "FAST-topical",
+              "subject": "Indigenous peoples"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/970219",
+              "scheme": "FAST-topical",
+              "subject": "Indigenous peoples--Civil rights"
+            }
+          ],
+          "title": "Federal Anti-indian Law: Why a Challenge to \"Christian Discovery\" Creates a Metaphysical Crisis for the US"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "5d113ed0-5cc8-4499-aff4-58a772358295",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T08:47:38.396910+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 25.1",
+                  "title": "JCRT 25.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/25.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-251",
+                "updated": "2026-08-30T08:48:27.672640+00:00"
+              }
+            ],
+            "ids": [
+              "5d113ed0-5cc8-4499-aff4-58a772358295"
+            ]
+          },
+          "id": "ne2n8-jy368",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/ne2n8-jy368",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/981dv-bd519",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:981dv-bd519",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T08:52:26.677337+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "981dv-bd519",
+      "record_url": "https://works.hcommons.org/records/981dv-bd519",
+      "source_id": ""
+    },
+    {
+      "collection_id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+      "errors": [],
+      "files": {
+        "goudy.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 2,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T08:52:28.243725+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "16-50",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "25"
+          },
+          "kcr:user_defined_tags": [
+            "doctrine-of-christian-discovery",
+            "yakama-nation",
+            "federal-indian-law",
+            "plenary-power",
+            "treaty-rights",
+            "indigenous-sovereignty",
+            "cultural-identity",
+            "tribal-council",
+            "native-cultural-preservation",
+            "resilience",
+            "imposed-legal-systems",
+            "foundational-myths",
+            "equitable-systems",
+            "assertion-of-cultural-rights",
+            "justice-and-equity"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "goudy.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:079e2be0066e9a4e771d1650904c42dc",
+              "ext": "pdf",
+              "id": "ae6680c5-0efb-4d71-b180-c099c5c88812",
+              "key": "goudy.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/3zgj0-vqa85/files/goudy.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:3zgj0-vqa85:goudy.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:3zgj0-vqa85:goudy.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:3zgj0-vqa85/canvas/goudy.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:3zgj0-vqa85:goudy.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/3zgj0-vqa85/files/goudy.pdf"
+              },
+              "metadata": null,
+              "mimetype": "application/pdf",
+              "size": 1186179,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 1186179
+        },
+        "id": "3zgj0-vqa85",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/3zgj0-vqa85/access",
+          "access_grants": "https://works.hcommons.org/api/records/3zgj0-vqa85/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/3zgj0-vqa85/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/3zgj0-vqa85/access/links",
+          "access_request": "https://works.hcommons.org/api/records/3zgj0-vqa85/access/request",
+          "access_users": "https://works.hcommons.org/api/records/3zgj0-vqa85/access/users",
+          "archive": "https://works.hcommons.org/api/records/3zgj0-vqa85/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/3zgj0-vqa85/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/3zgj0-vqa85/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/3zgj0-vqa85/communities-suggestions",
+          "doi": "https://doi.org/10.17613/3zgj0-vqa85",
+          "draft": "https://works.hcommons.org/api/records/3zgj0-vqa85/draft",
+          "files": "https://works.hcommons.org/api/records/3zgj0-vqa85/files",
+          "latest": "https://works.hcommons.org/api/records/3zgj0-vqa85/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/3zgj0-vqa85/latest",
+          "media_files": "https://works.hcommons.org/api/records/3zgj0-vqa85/media-files",
+          "parent": "https://works.hcommons.org/api/records/89dn8-x2r73",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/89dn8-x2r73",
+          "parent_html": "https://works.hcommons.org/records/89dn8-x2r73",
+          "requests": "https://works.hcommons.org/api/records/3zgj0-vqa85/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/3zgj0-vqa85/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/3zgj0-vqa85",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/3zgj0-vqa85",
+          "self_html": "https://works.hcommons.org/records/3zgj0-vqa85",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:3zgj0-vqa85/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:3zgj0-vqa85/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/3zgj0-vqa85/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "affiliations": [
+                {
+                  "name": "Independent Scholar"
+                }
+              ],
+              "person_or_org": {
+                "family_name": "Goudy",
+                "given_name": "Jode",
+                "name": "Goudy, Jode",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "Jode Goudy recounts how the Yakama Nation built a historic amicus brief, connecting treaty rights, sovereignty, and opposition to Christian Discovery.",
+          "identifiers": [
+            {
+              "identifier": "drvB0y",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/25.1/goudy/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2026-04-16",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/948442",
+              "scheme": "FAST-topical",
+              "subject": "Group identity"
+            }
+          ],
+          "title": "Right & Respectful Relations: A Memoir of the Road to the Historic Yakama Nation Amicus Brief Challenging 'Christian Discovery' in Washington State V. Cougar Den"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "5d113ed0-5cc8-4499-aff4-58a772358295",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T08:47:38.396910+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 25.1",
+                  "title": "JCRT 25.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/25.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-251",
+                "updated": "2026-08-30T08:48:27.672640+00:00"
+              }
+            ],
+            "ids": [
+              "5d113ed0-5cc8-4499-aff4-58a772358295"
+            ]
+          },
+          "id": "89dn8-x2r73",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/89dn8-x2r73",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/3zgj0-vqa85",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:3zgj0-vqa85",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T08:52:28.450925+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "3zgj0-vqa85",
+      "record_url": "https://works.hcommons.org/records/3zgj0-vqa85",
+      "source_id": ""
+    },
+    {
+      "collection_id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+      "errors": [],
+      "files": {
+        "heath.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 3,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T08:52:30.252245+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "51-60",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "25"
+          },
+          "kcr:user_defined_tags": [
+            "christian-discovery",
+            "christian-domination",
+            "treaty-rights",
+            "indigenous-land-rights",
+            "european-claims",
+            "ancestral-land",
+            "indigenous-land",
+            "colonization",
+            "racial-equality",
+            "land-justice",
+            "indigenous-land-reclamation",
+            "treaty-enforcement"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "heath.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:185066ce4a4225c8f69dd3fcfd05af80",
+              "ext": "pdf",
+              "id": "d5548795-f4da-4eab-a16d-d942d069a495",
+              "key": "heath.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/7gn0r-e2w48/files/heath.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:7gn0r-e2w48:heath.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:7gn0r-e2w48:heath.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:7gn0r-e2w48/canvas/heath.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:7gn0r-e2w48:heath.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/7gn0r-e2w48/files/heath.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 456741,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 456741
+        },
+        "id": "7gn0r-e2w48",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/7gn0r-e2w48/access",
+          "access_grants": "https://works.hcommons.org/api/records/7gn0r-e2w48/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/7gn0r-e2w48/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/7gn0r-e2w48/access/links",
+          "access_request": "https://works.hcommons.org/api/records/7gn0r-e2w48/access/request",
+          "access_users": "https://works.hcommons.org/api/records/7gn0r-e2w48/access/users",
+          "archive": "https://works.hcommons.org/api/records/7gn0r-e2w48/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/7gn0r-e2w48/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/7gn0r-e2w48/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/7gn0r-e2w48/communities-suggestions",
+          "doi": "https://doi.org/10.17613/7gn0r-e2w48",
+          "draft": "https://works.hcommons.org/api/records/7gn0r-e2w48/draft",
+          "files": "https://works.hcommons.org/api/records/7gn0r-e2w48/files",
+          "latest": "https://works.hcommons.org/api/records/7gn0r-e2w48/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/7gn0r-e2w48/latest",
+          "media_files": "https://works.hcommons.org/api/records/7gn0r-e2w48/media-files",
+          "parent": "https://works.hcommons.org/api/records/578sh-5t175",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/578sh-5t175",
+          "parent_html": "https://works.hcommons.org/records/578sh-5t175",
+          "requests": "https://works.hcommons.org/api/records/7gn0r-e2w48/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/7gn0r-e2w48/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/7gn0r-e2w48",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/7gn0r-e2w48",
+          "self_html": "https://works.hcommons.org/records/7gn0r-e2w48",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:7gn0r-e2w48/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:7gn0r-e2w48/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/7gn0r-e2w48/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "affiliations": [
+                {
+                  "name": "Onondaga Nation General Counsel"
+                }
+              ],
+              "person_or_org": {
+                "family_name": "Heath",
+                "given_name": "Joseph J.",
+                "name": "Heath, Joseph J.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "Joseph J. Heath shows how U.S. courts use Christian Discovery to deny Haudenosaunee treaty and land rights, and calls for its repudiation in U.S. law.",
+          "identifiers": [
+            {
+              "identifier": "3sfbaI",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/25.1/heath/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2026-04-16",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/868483",
+              "scheme": "FAST-topical",
+              "subject": "Colonization"
+            }
+          ],
+          "title": "The Doctrine of Christian Discovery and Domination: How It Has Been Used by United States Courts to Deny Treaty Rights & Dismiss the Haudenosaunee Land Rights Cases"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "5d113ed0-5cc8-4499-aff4-58a772358295",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T08:47:38.396910+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 25.1",
+                  "title": "JCRT 25.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/25.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-251",
+                "updated": "2026-08-30T08:48:27.672640+00:00"
+              }
+            ],
+            "ids": [
+              "5d113ed0-5cc8-4499-aff4-58a772358295"
+            ]
+          },
+          "id": "578sh-5t175",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/578sh-5t175",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/7gn0r-e2w48",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:7gn0r-e2w48",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T08:52:30.490436+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "7gn0r-e2w48",
+      "record_url": "https://works.hcommons.org/records/7gn0r-e2w48",
+      "source_id": ""
+    },
+    {
+      "collection_id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+      "errors": [],
+      "files": {
+        "miller.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 4,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T08:52:32.053940+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "61-67",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "25"
+          },
+          "kcr:user_defined_tags": [
+            "doctrine-of-discovery",
+            "international-law-of-colonialism",
+            "johnson-v-mintosh",
+            "first-discovery",
+            "actual-occupancy-and-possession",
+            "preemption",
+            "native-title",
+            "indigenous-limited-sovereign-and-commercial-rights",
+            "contiguity",
+            "terra-nullius",
+            "christianity",
+            "civilization",
+            "conquest"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "miller.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:c95fe234bb3969f59c9048d9e3620812",
+              "ext": "pdf",
+              "id": "2588c5b1-8ffc-4bb6-8896-267eee7e8289",
+              "key": "miller.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/783vd-2z545/files/miller.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:783vd-2z545:miller.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:783vd-2z545:miller.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:783vd-2z545/canvas/miller.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:783vd-2z545:miller.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/783vd-2z545/files/miller.pdf"
+              },
+              "metadata": null,
+              "mimetype": "application/pdf",
+              "size": 411279,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 411279
+        },
+        "id": "783vd-2z545",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/783vd-2z545/access",
+          "access_grants": "https://works.hcommons.org/api/records/783vd-2z545/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/783vd-2z545/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/783vd-2z545/access/links",
+          "access_request": "https://works.hcommons.org/api/records/783vd-2z545/access/request",
+          "access_users": "https://works.hcommons.org/api/records/783vd-2z545/access/users",
+          "archive": "https://works.hcommons.org/api/records/783vd-2z545/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/783vd-2z545/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/783vd-2z545/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/783vd-2z545/communities-suggestions",
+          "doi": "https://doi.org/10.17613/783vd-2z545",
+          "draft": "https://works.hcommons.org/api/records/783vd-2z545/draft",
+          "files": "https://works.hcommons.org/api/records/783vd-2z545/files",
+          "latest": "https://works.hcommons.org/api/records/783vd-2z545/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/783vd-2z545/latest",
+          "media_files": "https://works.hcommons.org/api/records/783vd-2z545/media-files",
+          "parent": "https://works.hcommons.org/api/records/9re0c-f1105",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/9re0c-f1105",
+          "parent_html": "https://works.hcommons.org/records/9re0c-f1105",
+          "requests": "https://works.hcommons.org/api/records/783vd-2z545/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/783vd-2z545/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/783vd-2z545",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/783vd-2z545",
+          "self_html": "https://works.hcommons.org/records/783vd-2z545",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:783vd-2z545/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:783vd-2z545/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/783vd-2z545/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "affiliations": [
+                {
+                  "name": "Arizona State University"
+                }
+              ],
+              "person_or_org": {
+                "family_name": "Miller",
+                "given_name": "Robert J.",
+                "name": "Miller, Robert J.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "Robert J. Miller traces how the Doctrine of Discovery became international law, enabling colonial claims over Indigenous land, rights and sovereignty.",
+          "identifiers": [
+            {
+              "identifier": "YHFQdp",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/25.1/miller/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2026-04-16",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/859599",
+              "scheme": "FAST-topical",
+              "subject": "Christianity"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/862898",
+              "scheme": "FAST-topical",
+              "subject": "Civilization"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1198642",
+              "scheme": "FAST-topical",
+              "subject": "Conquest"
+            }
+          ],
+          "title": "The International Law of Colonialism: The Doctrine of Discovery"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "5d113ed0-5cc8-4499-aff4-58a772358295",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T08:47:38.396910+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 25.1",
+                  "title": "JCRT 25.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/25.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-251",
+                "updated": "2026-08-30T08:48:27.672640+00:00"
+              }
+            ],
+            "ids": [
+              "5d113ed0-5cc8-4499-aff4-58a772358295"
+            ]
+          },
+          "id": "9re0c-f1105",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/9re0c-f1105",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/783vd-2z545",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:783vd-2z545",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T08:52:32.282414+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "783vd-2z545",
+      "record_url": "https://works.hcommons.org/records/783vd-2z545",
+      "source_id": ""
+    },
+    {
+      "collection_id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+      "errors": [],
+      "files": {
+        "newcomb.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 5,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T08:52:33.887560+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "68-84",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "25"
+          },
+          "kcr:user_defined_tags": [
+            "doctrine-of-christian-discovery",
+            "us-property-system",
+            "native-nations",
+            "cultural-reclamation",
+            "language-recovery",
+            "colonial-mindset",
+            "boarding-schools",
+            "life-centered-sovereignty",
+            "despotic-dominion",
+            "reclamation",
+            "resistance",
+            "colonial-law"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "newcomb.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:8aad1b84e7636c6fd2d867d53075d93f",
+              "ext": "pdf",
+              "id": "bb067841-990f-49ff-982f-59607566a5eb",
+              "key": "newcomb.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/415tz-4hb24/files/newcomb.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:415tz-4hb24:newcomb.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:415tz-4hb24:newcomb.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:415tz-4hb24/canvas/newcomb.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:415tz-4hb24:newcomb.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/415tz-4hb24/files/newcomb.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 698387,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 698387
+        },
+        "id": "415tz-4hb24",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/415tz-4hb24/access",
+          "access_grants": "https://works.hcommons.org/api/records/415tz-4hb24/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/415tz-4hb24/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/415tz-4hb24/access/links",
+          "access_request": "https://works.hcommons.org/api/records/415tz-4hb24/access/request",
+          "access_users": "https://works.hcommons.org/api/records/415tz-4hb24/access/users",
+          "archive": "https://works.hcommons.org/api/records/415tz-4hb24/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/415tz-4hb24/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/415tz-4hb24/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/415tz-4hb24/communities-suggestions",
+          "doi": "https://doi.org/10.17613/415tz-4hb24",
+          "draft": "https://works.hcommons.org/api/records/415tz-4hb24/draft",
+          "files": "https://works.hcommons.org/api/records/415tz-4hb24/files",
+          "latest": "https://works.hcommons.org/api/records/415tz-4hb24/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/415tz-4hb24/latest",
+          "media_files": "https://works.hcommons.org/api/records/415tz-4hb24/media-files",
+          "parent": "https://works.hcommons.org/api/records/896nq-j9665",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/896nq-j9665",
+          "parent_html": "https://works.hcommons.org/records/896nq-j9665",
+          "requests": "https://works.hcommons.org/api/records/415tz-4hb24/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/415tz-4hb24/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/415tz-4hb24",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/415tz-4hb24",
+          "self_html": "https://works.hcommons.org/records/415tz-4hb24",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:415tz-4hb24/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:415tz-4hb24/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/415tz-4hb24/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "affiliations": [
+                {
+                  "name": "Indigenous Law Institute"
+                }
+              ],
+              "person_or_org": {
+                "family_name": "Newcomb",
+                "given_name": "Steven T.",
+                "identifiers": [
+                  {
+                    "identifier": "000000003627109X",
+                    "scheme": "isni"
+                  }
+                ],
+                "name": "Newcomb, Steven T.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "Steven Newcomb reflects on decades studying Christian Discovery, showing how law and language normalized domination over Native nations for centuries.",
+          "identifiers": [
+            {
+              "identifier": "ftCESu",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/25.1/newcomb/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2026-04-16",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/835102",
+              "scheme": "FAST-topical",
+              "subject": "Boarding schools"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/868466",
+              "scheme": "FAST-topical",
+              "subject": "Colonies--Law and legislation"
+            }
+          ],
+          "title": "My Decades-long Inquiry Into the Doctrine of Christian Discovery and Domination"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "5d113ed0-5cc8-4499-aff4-58a772358295",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T08:47:38.396910+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 25.1",
+                  "title": "JCRT 25.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/25.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-251",
+                "updated": "2026-08-30T08:48:27.672640+00:00"
+              }
+            ],
+            "ids": [
+              "5d113ed0-5cc8-4499-aff4-58a772358295"
+            ]
+          },
+          "id": "896nq-j9665",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/896nq-j9665",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/415tz-4hb24",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:415tz-4hb24",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T08:52:34.105645+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "415tz-4hb24",
+      "record_url": "https://works.hcommons.org/records/415tz-4hb24",
+      "source_id": ""
+    },
+    {
+      "collection_id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+      "errors": [],
+      "files": {
+        "postscript.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 6,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T08:52:35.652126+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "129-153",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "25"
+          },
+          "kcr:user_defined_tags": [
+            "doctrine-of-christian-discovery",
+            "johnson-v-mintosh",
+            "indigenous-sovereignty",
+            "white-supremacy",
+            "decolonization"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "postscript.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:515b8aba8604dc5bd0b2ef9e107bcba6",
+              "ext": "pdf",
+              "id": "74aad592-4b36-466d-98ad-3564b9b9f912",
+              "key": "postscript.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/a3v2f-9nm55/files/postscript.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:a3v2f-9nm55:postscript.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:a3v2f-9nm55:postscript.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:a3v2f-9nm55/canvas/postscript.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:a3v2f-9nm55:postscript.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/a3v2f-9nm55/files/postscript.pdf"
+              },
+              "metadata": null,
+              "mimetype": "application/pdf",
+              "size": 1207255,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 1207255
+        },
+        "id": "a3v2f-9nm55",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/a3v2f-9nm55/access",
+          "access_grants": "https://works.hcommons.org/api/records/a3v2f-9nm55/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/a3v2f-9nm55/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/a3v2f-9nm55/access/links",
+          "access_request": "https://works.hcommons.org/api/records/a3v2f-9nm55/access/request",
+          "access_users": "https://works.hcommons.org/api/records/a3v2f-9nm55/access/users",
+          "archive": "https://works.hcommons.org/api/records/a3v2f-9nm55/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/a3v2f-9nm55/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/a3v2f-9nm55/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/a3v2f-9nm55/communities-suggestions",
+          "doi": "https://doi.org/10.17613/a3v2f-9nm55",
+          "draft": "https://works.hcommons.org/api/records/a3v2f-9nm55/draft",
+          "files": "https://works.hcommons.org/api/records/a3v2f-9nm55/files",
+          "latest": "https://works.hcommons.org/api/records/a3v2f-9nm55/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/a3v2f-9nm55/latest",
+          "media_files": "https://works.hcommons.org/api/records/a3v2f-9nm55/media-files",
+          "parent": "https://works.hcommons.org/api/records/jeswg-90007",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/jeswg-90007",
+          "parent_html": "https://works.hcommons.org/records/jeswg-90007",
+          "requests": "https://works.hcommons.org/api/records/a3v2f-9nm55/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/a3v2f-9nm55/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/a3v2f-9nm55",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/a3v2f-9nm55",
+          "self_html": "https://works.hcommons.org/records/a3v2f-9nm55",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:a3v2f-9nm55/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:a3v2f-9nm55/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/a3v2f-9nm55/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Brett",
+                "given_name": "Adam DJ",
+                "identifiers": [
+                  {
+                    "identifier": "0009-0004-6725-8425",
+                    "scheme": "orcid"
+                  }
+                ],
+                "name": "Brett, Adam DJ",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            },
+            {
+              "person_or_org": {
+                "family_name": "(Lyons)",
+                "given_name": "Betty Hill",
+                "name": "(Lyons), Betty Hill",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            },
+            {
+              "person_or_org": {
+                "family_name": "Belmont",
+                "given_name": "Nethanial",
+                "identifiers": [
+                  {
+                    "identifier": "0009-0003-5490-0389",
+                    "scheme": "orcid"
+                  }
+                ],
+                "name": "Belmont, Nethanial",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "This postscript argues Indigenous nations need full sovereignty, rejecting settler carve-outs and urging a healing return to precolonial lifeways now.",
+          "identifiers": [
+            {
+              "identifier": "V0XX0X",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/25.1/postscript/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2026-04-16",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/889115",
+              "scheme": "FAST-topical",
+              "subject": "Decolonization"
+            }
+          ],
+          "title": "A Postscript: Sovereignty is Still the Issue"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "5d113ed0-5cc8-4499-aff4-58a772358295",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T08:47:38.396910+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 25.1",
+                  "title": "JCRT 25.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/25.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-251",
+                "updated": "2026-08-30T08:48:27.672640+00:00"
+              }
+            ],
+            "ids": [
+              "5d113ed0-5cc8-4499-aff4-58a772358295"
+            ]
+          },
+          "id": "jeswg-90007",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/jeswg-90007",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/a3v2f-9nm55",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:a3v2f-9nm55",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T08:52:35.892169+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "a3v2f-9nm55",
+      "record_url": "https://works.hcommons.org/records/a3v2f-9nm55",
+      "source_id": ""
+    },
+    {
+      "collection_id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+      "errors": [],
+      "files": {
+        "rodgers-falk.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 7,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T08:52:37.510826+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "85-99",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "25"
+          },
+          "kcr:user_defined_tags": [
+            "doctrine-of-christian-discovery",
+            "johnson-v-mintosh",
+            "indigenous-sovereignty",
+            "white-supremacy",
+            "decolonization"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "rodgers-falk.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:2b17d995a4228ecefdd826ffcf3bf070",
+              "ext": "pdf",
+              "id": "7745531d-7a3e-4e82-8714-122336a118ef",
+              "key": "rodgers-falk.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/e1xg5-8c012/files/rodgers-falk.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:e1xg5-8c012:rodgers-falk.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:e1xg5-8c012:rodgers-falk.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:e1xg5-8c012/canvas/rodgers-falk.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:e1xg5-8c012:rodgers-falk.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/e1xg5-8c012/files/rodgers-falk.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 788383,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 788383
+        },
+        "id": "e1xg5-8c012",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/e1xg5-8c012/access",
+          "access_grants": "https://works.hcommons.org/api/records/e1xg5-8c012/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/e1xg5-8c012/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/e1xg5-8c012/access/links",
+          "access_request": "https://works.hcommons.org/api/records/e1xg5-8c012/access/request",
+          "access_users": "https://works.hcommons.org/api/records/e1xg5-8c012/access/users",
+          "archive": "https://works.hcommons.org/api/records/e1xg5-8c012/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/e1xg5-8c012/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/e1xg5-8c012/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/e1xg5-8c012/communities-suggestions",
+          "doi": "https://doi.org/10.17613/e1xg5-8c012",
+          "draft": "https://works.hcommons.org/api/records/e1xg5-8c012/draft",
+          "files": "https://works.hcommons.org/api/records/e1xg5-8c012/files",
+          "latest": "https://works.hcommons.org/api/records/e1xg5-8c012/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/e1xg5-8c012/latest",
+          "media_files": "https://works.hcommons.org/api/records/e1xg5-8c012/media-files",
+          "parent": "https://works.hcommons.org/api/records/9w00n-new38",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/9w00n-new38",
+          "parent_html": "https://works.hcommons.org/records/9w00n-new38",
+          "requests": "https://works.hcommons.org/api/records/e1xg5-8c012/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/e1xg5-8c012/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/e1xg5-8c012",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/e1xg5-8c012",
+          "self_html": "https://works.hcommons.org/records/e1xg5-8c012",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:e1xg5-8c012/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:e1xg5-8c012/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/e1xg5-8c012/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "affiliations": [
+                {
+                  "name": "Macquarie University"
+                }
+              ],
+              "person_or_org": {
+                "family_name": "Rodgers-Falk",
+                "given_name": "Phillip",
+                "name": "Rodgers-Falk, Phillip",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "Phillip Rodgers-Falk argues that native title and colonial sovereignty preserve Indigenous subordination through terra nullius and racial hierarchies.",
+          "identifiers": [
+            {
+              "identifier": "EAeglE",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/25.1/rodgers-falk/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2026-04-16",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/889115",
+              "scheme": "FAST-topical",
+              "subject": "Decolonization"
+            }
+          ],
+          "title": "An Intergenerational and Perpetual Imperium of Domination and Subjugation of Indigenous Peoples: The Doctrine of Christian Discovery and Royal Supremacy"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "5d113ed0-5cc8-4499-aff4-58a772358295",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T08:47:38.396910+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 25.1",
+                  "title": "JCRT 25.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/25.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-251",
+                "updated": "2026-08-30T08:48:27.672640+00:00"
+              }
+            ],
+            "ids": [
+              "5d113ed0-5cc8-4499-aff4-58a772358295"
+            ]
+          },
+          "id": "9w00n-new38",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/9w00n-new38",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/e1xg5-8c012",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:e1xg5-8c012",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T08:52:37.722995+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "e1xg5-8c012",
+      "record_url": "https://works.hcommons.org/records/e1xg5-8c012",
+      "source_id": ""
+    },
+    {
+      "collection_id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+      "errors": [],
+      "files": {
+        "schwartzberg.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 8,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T08:52:39.417313+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "1",
+            "pages": "100-136",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "25"
+          },
+          "kcr:user_defined_tags": [
+            "doctrine-of-christian-discovery",
+            "johnson-v-mintosh",
+            "indigenous-sovereignty",
+            "federal-indian-law",
+            "colonization",
+            "decolonization"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "schwartzberg.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:d1b17649ead7d49a08b955d1fc4b0f6c",
+              "ext": "pdf",
+              "id": "bac25727-83d9-4420-a8bb-3331b8570dd8",
+              "key": "schwartzberg.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/ba4bv-y1067/files/schwartzberg.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:ba4bv-y1067:schwartzberg.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:ba4bv-y1067:schwartzberg.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:ba4bv-y1067/canvas/schwartzberg.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:ba4bv-y1067:schwartzberg.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/ba4bv-y1067/files/schwartzberg.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 1504951,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 1504951
+        },
+        "id": "ba4bv-y1067",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/ba4bv-y1067/access",
+          "access_grants": "https://works.hcommons.org/api/records/ba4bv-y1067/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/ba4bv-y1067/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/ba4bv-y1067/access/links",
+          "access_request": "https://works.hcommons.org/api/records/ba4bv-y1067/access/request",
+          "access_users": "https://works.hcommons.org/api/records/ba4bv-y1067/access/users",
+          "archive": "https://works.hcommons.org/api/records/ba4bv-y1067/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/ba4bv-y1067/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/ba4bv-y1067/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/ba4bv-y1067/communities-suggestions",
+          "doi": "https://doi.org/10.17613/ba4bv-y1067",
+          "draft": "https://works.hcommons.org/api/records/ba4bv-y1067/draft",
+          "files": "https://works.hcommons.org/api/records/ba4bv-y1067/files",
+          "latest": "https://works.hcommons.org/api/records/ba4bv-y1067/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/ba4bv-y1067/latest",
+          "media_files": "https://works.hcommons.org/api/records/ba4bv-y1067/media-files",
+          "parent": "https://works.hcommons.org/api/records/x2hqd-57z60",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/x2hqd-57z60",
+          "parent_html": "https://works.hcommons.org/records/x2hqd-57z60",
+          "requests": "https://works.hcommons.org/api/records/ba4bv-y1067/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/ba4bv-y1067/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/ba4bv-y1067",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/ba4bv-y1067",
+          "self_html": "https://works.hcommons.org/records/ba4bv-y1067",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:ba4bv-y1067/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:ba4bv-y1067/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/ba4bv-y1067/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "affiliations": [
+                {
+                  "name": "DePaul University"
+                }
+              ],
+              "person_or_org": {
+                "family_name": "Schwartzberg",
+                "given_name": "Steven J.",
+                "name": "Schwartzberg, Steven J.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "Steven J. Schwartzberg urges Americans to overturn Federal Indian Law by confronting the colonial assumptions that still shape U.S. jurisprudence now.",
+          "identifiers": [
+            {
+              "identifier": "J1rTNl",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/25.1/schwartzberg/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2026-04-16",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/868483",
+              "scheme": "FAST-topical",
+              "subject": "Colonization"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/889115",
+              "scheme": "FAST-topical",
+              "subject": "Decolonization"
+            }
+          ],
+          "title": "An Appeal to the American People\u2014Overturning \"Federal Indian Law\""
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "5d113ed0-5cc8-4499-aff4-58a772358295",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T08:47:38.396910+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "5d113ed0-5cc8-4499-aff4-58a772358295",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 25.1",
+                  "title": "JCRT 25.1",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/25.1/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-251",
+                "updated": "2026-08-30T08:48:27.672640+00:00"
+              }
+            ],
+            "ids": [
+              "5d113ed0-5cc8-4499-aff4-58a772358295"
+            ]
+          },
+          "id": "x2hqd-57z60",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/x2hqd-57z60",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/ba4bv-y1067",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:ba4bv-y1067",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T08:52:39.647949+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "ba4bv-y1067",
+      "record_url": "https://works.hcommons.org/records/ba4bv-y1067",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

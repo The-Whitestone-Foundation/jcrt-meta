@@ -1,0 +1,1160 @@
+{
+  "data": [
+    {
+      "collection_id": "b0c5e9ae-8f32-43ef-aec2-2914232d75bd",
+      "errors": [],
+      "files": {
+        "aldinger.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:33:27.841394+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "85-97",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "15"
+          },
+          "kcr:user_defined_tags": [
+            "crash-reel",
+            "lucy",
+            "sports-injuries",
+            "the-film",
+            "walker"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "aldinger.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:620f00ba86949b4176b51a64b974eacb",
+              "ext": "pdf",
+              "id": "ba2f1d3e-88f3-4ccc-ba00-266830306429",
+              "key": "aldinger.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/9n9f5-s6k89/files/aldinger.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:9n9f5-s6k89:aldinger.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:9n9f5-s6k89:aldinger.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:9n9f5-s6k89/canvas/aldinger.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:9n9f5-s6k89:aldinger.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/9n9f5-s6k89/files/aldinger.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 866068,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 866068
+        },
+        "id": "9n9f5-s6k89",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/9n9f5-s6k89/access",
+          "access_grants": "https://works.hcommons.org/api/records/9n9f5-s6k89/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/9n9f5-s6k89/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/9n9f5-s6k89/access/links",
+          "access_request": "https://works.hcommons.org/api/records/9n9f5-s6k89/access/request",
+          "access_users": "https://works.hcommons.org/api/records/9n9f5-s6k89/access/users",
+          "archive": "https://works.hcommons.org/api/records/9n9f5-s6k89/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/9n9f5-s6k89/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/9n9f5-s6k89/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/9n9f5-s6k89/communities-suggestions",
+          "doi": "https://doi.org/10.17613/9n9f5-s6k89",
+          "draft": "https://works.hcommons.org/api/records/9n9f5-s6k89/draft",
+          "files": "https://works.hcommons.org/api/records/9n9f5-s6k89/files",
+          "latest": "https://works.hcommons.org/api/records/9n9f5-s6k89/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/9n9f5-s6k89/latest",
+          "media_files": "https://works.hcommons.org/api/records/9n9f5-s6k89/media-files",
+          "parent": "https://works.hcommons.org/api/records/eckqx-sza81",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/eckqx-sza81",
+          "parent_html": "https://works.hcommons.org/records/eckqx-sza81",
+          "requests": "https://works.hcommons.org/api/records/9n9f5-s6k89/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/9n9f5-s6k89/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/9n9f5-s6k89",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/9n9f5-s6k89",
+          "self_html": "https://works.hcommons.org/records/9n9f5-s6k89",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:9n9f5-s6k89/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:9n9f5-s6k89/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/9n9f5-s6k89/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Aldinger",
+                "given_name": "Joseph M. M.",
+                "name": "Aldinger, Joseph M. M.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The article critiques the film",
+          "identifiers": [
+            {
+              "identifier": "njoxy4",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/15.2/aldinger/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2016",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/1130688",
+              "scheme": "FAST-topical",
+              "subject": "Sports injuries"
+            }
+          ],
+          "title": "Narratives of Overcoming: Disability Theory and the Crash Reel."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "b0c5e9ae-8f32-43ef-aec2-2914232d75bd",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:33:23.732012+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "b0c5e9ae-8f32-43ef-aec2-2914232d75bd",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 15.2",
+                  "title": "JCRT 15.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/15.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-152",
+                "updated": "2026-08-30T10:33:24.472005+00:00"
+              }
+            ],
+            "ids": [
+              "b0c5e9ae-8f32-43ef-aec2-2914232d75bd"
+            ]
+          },
+          "id": "eckqx-sza81",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/eckqx-sza81",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/9n9f5-s6k89",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:9n9f5-s6k89",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:33:28.060341+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "9n9f5-s6k89",
+      "record_url": "https://works.hcommons.org/records/9n9f5-s6k89",
+      "source_id": ""
+    },
+    {
+      "collection_id": "b0c5e9ae-8f32-43ef-aec2-2914232d75bd",
+      "errors": [],
+      "files": {
+        "betcher.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:33:29.734081+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "98-115",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "15"
+          },
+          "kcr:user_defined_tags": [
+            "religion",
+            "jesus-christ",
+            "disabilities",
+            "nostalgia"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "betcher.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:70586a6f22bdda7ca2c20cf872776ae1",
+              "ext": "pdf",
+              "id": "c620565c-a4d9-4cd8-8bef-6c23260aca50",
+              "key": "betcher.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/5gt68-aff31/files/betcher.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:5gt68-aff31:betcher.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:5gt68-aff31:betcher.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:5gt68-aff31/canvas/betcher.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:5gt68-aff31:betcher.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/5gt68-aff31/files/betcher.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 1068642,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 1068642
+        },
+        "id": "5gt68-aff31",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/5gt68-aff31/access",
+          "access_grants": "https://works.hcommons.org/api/records/5gt68-aff31/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/5gt68-aff31/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/5gt68-aff31/access/links",
+          "access_request": "https://works.hcommons.org/api/records/5gt68-aff31/access/request",
+          "access_users": "https://works.hcommons.org/api/records/5gt68-aff31/access/users",
+          "archive": "https://works.hcommons.org/api/records/5gt68-aff31/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/5gt68-aff31/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/5gt68-aff31/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/5gt68-aff31/communities-suggestions",
+          "doi": "https://doi.org/10.17613/5gt68-aff31",
+          "draft": "https://works.hcommons.org/api/records/5gt68-aff31/draft",
+          "files": "https://works.hcommons.org/api/records/5gt68-aff31/files",
+          "latest": "https://works.hcommons.org/api/records/5gt68-aff31/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/5gt68-aff31/latest",
+          "media_files": "https://works.hcommons.org/api/records/5gt68-aff31/media-files",
+          "parent": "https://works.hcommons.org/api/records/bxm6f-b9519",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/bxm6f-b9519",
+          "parent_html": "https://works.hcommons.org/records/bxm6f-b9519",
+          "requests": "https://works.hcommons.org/api/records/5gt68-aff31/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/5gt68-aff31/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/5gt68-aff31",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/5gt68-aff31",
+          "self_html": "https://works.hcommons.org/records/5gt68-aff31",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:5gt68-aff31/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:5gt68-aff31/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/5gt68-aff31/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Betcher",
+                "given_name": "Sharon V.",
+                "name": "Betcher, Sharon V.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "The article offers the author's insights regarding the Crip/tography or the disability theology in the ruins of God and mentions its nostalgia for Jesus as Healer.",
+          "identifiers": [
+            {
+              "identifier": "O2hvhO",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/15.2/betcher/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2016",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/894633",
+              "scheme": "FAST-topical",
+              "subject": "Disabilities"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/40116",
+              "scheme": "FAST-personal",
+              "subject": "Jesus Christ"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1039536",
+              "scheme": "FAST-topical",
+              "subject": "Nostalgia"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1093763",
+              "scheme": "FAST-topical",
+              "subject": "Religion"
+            }
+          ],
+          "title": "Crip/Tography: Disability Theology in the Ruins of God."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "b0c5e9ae-8f32-43ef-aec2-2914232d75bd",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:33:23.732012+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "b0c5e9ae-8f32-43ef-aec2-2914232d75bd",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 15.2",
+                  "title": "JCRT 15.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/15.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-152",
+                "updated": "2026-08-30T10:33:24.472005+00:00"
+              }
+            ],
+            "ids": [
+              "b0c5e9ae-8f32-43ef-aec2-2914232d75bd"
+            ]
+          },
+          "id": "bxm6f-b9519",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/bxm6f-b9519",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/5gt68-aff31",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:5gt68-aff31",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:33:29.963106+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "5gt68-aff31",
+      "record_url": "https://works.hcommons.org/records/5gt68-aff31",
+      "source_id": ""
+    },
+    {
+      "collection_id": "b0c5e9ae-8f32-43ef-aec2-2914232d75bd",
+      "errors": [],
+      "files": {
+        "fox.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 2,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:33:31.562074+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "15"
+          },
+          "kcr:user_defined_tags": [
+            "feminists",
+            "de-saint-palle",
+            "niki",
+            "sculpture"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "fox.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:e358c75abb5c2e576455aca48789f87f",
+              "ext": "pdf",
+              "id": "baeb0695-9ede-42b5-a3ce-a5431d8e1f82",
+              "key": "fox.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/1cdx4-m5p70/files/fox.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:1cdx4-m5p70:fox.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:1cdx4-m5p70:fox.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:1cdx4-m5p70/canvas/fox.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:1cdx4-m5p70:fox.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/1cdx4-m5p70/files/fox.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 1312844,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 1312844
+        },
+        "id": "1cdx4-m5p70",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/1cdx4-m5p70/access",
+          "access_grants": "https://works.hcommons.org/api/records/1cdx4-m5p70/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/1cdx4-m5p70/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/1cdx4-m5p70/access/links",
+          "access_request": "https://works.hcommons.org/api/records/1cdx4-m5p70/access/request",
+          "access_users": "https://works.hcommons.org/api/records/1cdx4-m5p70/access/users",
+          "archive": "https://works.hcommons.org/api/records/1cdx4-m5p70/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/1cdx4-m5p70/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/1cdx4-m5p70/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/1cdx4-m5p70/communities-suggestions",
+          "doi": "https://doi.org/10.17613/1cdx4-m5p70",
+          "draft": "https://works.hcommons.org/api/records/1cdx4-m5p70/draft",
+          "files": "https://works.hcommons.org/api/records/1cdx4-m5p70/files",
+          "latest": "https://works.hcommons.org/api/records/1cdx4-m5p70/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/1cdx4-m5p70/latest",
+          "media_files": "https://works.hcommons.org/api/records/1cdx4-m5p70/media-files",
+          "parent": "https://works.hcommons.org/api/records/aakdh-re824",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/aakdh-re824",
+          "parent_html": "https://works.hcommons.org/records/aakdh-re824",
+          "requests": "https://works.hcommons.org/api/records/1cdx4-m5p70/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/1cdx4-m5p70/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/1cdx4-m5p70",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/1cdx4-m5p70",
+          "self_html": "https://works.hcommons.org/records/1cdx4-m5p70",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:1cdx4-m5p70/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:1cdx4-m5p70/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/1cdx4-m5p70/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Fox",
+                "given_name": "Ann M.",
+                "name": "Fox, Ann M.",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "description": "An essay is presented on feminist disability studies focusing on the sculpture",
+          "identifiers": [
+            {
+              "identifier": "XfL-JO",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/15.2/fox/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2016",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/922831",
+              "scheme": "FAST-topical",
+              "subject": "Feminists"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1109483",
+              "scheme": "FAST-topical",
+              "subject": "Sculpture"
+            }
+          ],
+          "title": "Peeking Under the Veil: Niki De Saint Phalle's the Bride and/as Feminist Disability Aesthetics."
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "b0c5e9ae-8f32-43ef-aec2-2914232d75bd",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:33:23.732012+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "b0c5e9ae-8f32-43ef-aec2-2914232d75bd",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 15.2",
+                  "title": "JCRT 15.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/15.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-152",
+                "updated": "2026-08-30T10:33:24.472005+00:00"
+              }
+            ],
+            "ids": [
+              "b0c5e9ae-8f32-43ef-aec2-2914232d75bd"
+            ]
+          },
+          "id": "aakdh-re824",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/aakdh-re824",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/1cdx4-m5p70",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:1cdx4-m5p70",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:33:31.781217+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "1cdx4-m5p70",
+      "record_url": "https://works.hcommons.org/records/1cdx4-m5p70",
+      "source_id": ""
+    },
+    {
+      "collection_id": "b0c5e9ae-8f32-43ef-aec2-2914232d75bd",
+      "errors": [],
+      "files": {
+        "intro.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 3,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:33:33.439062+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "15"
+          },
+          "kcr:user_defined_tags": [
+            "disability-studies",
+            "disability-aesthetics",
+            "tobin-siebers",
+            "crip-theory",
+            "aesthetics",
+            "embodiment",
+            "autism",
+            "prosthetics",
+            "disability-theology",
+            "rosemarie-garland-thomson",
+            "representation-of-disability",
+            "body"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "intro.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:b5224666a83d40ab025147f0754aa60f",
+              "ext": "pdf",
+              "id": "87d6f75e-55c6-4225-8632-e2674cc35c96",
+              "key": "intro.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/19w40-h2f31/files/intro.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:19w40-h2f31:intro.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:19w40-h2f31:intro.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:19w40-h2f31/canvas/intro.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:19w40-h2f31:intro.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/19w40-h2f31/files/intro.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 282691,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 282691
+        },
+        "id": "19w40-h2f31",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/19w40-h2f31/access",
+          "access_grants": "https://works.hcommons.org/api/records/19w40-h2f31/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/19w40-h2f31/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/19w40-h2f31/access/links",
+          "access_request": "https://works.hcommons.org/api/records/19w40-h2f31/access/request",
+          "access_users": "https://works.hcommons.org/api/records/19w40-h2f31/access/users",
+          "archive": "https://works.hcommons.org/api/records/19w40-h2f31/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/19w40-h2f31/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/19w40-h2f31/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/19w40-h2f31/communities-suggestions",
+          "doi": "https://doi.org/10.17613/19w40-h2f31",
+          "draft": "https://works.hcommons.org/api/records/19w40-h2f31/draft",
+          "files": "https://works.hcommons.org/api/records/19w40-h2f31/files",
+          "latest": "https://works.hcommons.org/api/records/19w40-h2f31/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/19w40-h2f31/latest",
+          "media_files": "https://works.hcommons.org/api/records/19w40-h2f31/media-files",
+          "parent": "https://works.hcommons.org/api/records/ra7sf-rh408",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/ra7sf-rh408",
+          "parent_html": "https://works.hcommons.org/records/ra7sf-rh408",
+          "requests": "https://works.hcommons.org/api/records/19w40-h2f31/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/19w40-h2f31/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/19w40-h2f31",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/19w40-h2f31",
+          "self_html": "https://works.hcommons.org/records/19w40-h2f31",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:19w40-h2f31/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:19w40-h2f31/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/19w40-h2f31/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Almanza",
+                "given_name": "Maria",
+                "name": "Almanza, Maria",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            },
+            {
+              "person_or_org": {
+                "family_name": "Aldinger",
+                "given_name": "Joseph",
+                "name": "Aldinger, Joseph",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "VFJBG_",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/15.2/intro/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2016",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/798702",
+              "scheme": "FAST-topical",
+              "subject": "Aesthetics"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/822484",
+              "scheme": "FAST-topical",
+              "subject": "Autism"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/894656",
+              "scheme": "FAST-topical",
+              "subject": "Disability studies"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1079519",
+              "scheme": "FAST-topical",
+              "subject": "Prosthesis"
+            }
+          ],
+          "title": "Introduction"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "b0c5e9ae-8f32-43ef-aec2-2914232d75bd",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:33:23.732012+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "b0c5e9ae-8f32-43ef-aec2-2914232d75bd",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 15.2",
+                  "title": "JCRT 15.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/15.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-152",
+                "updated": "2026-08-30T10:33:24.472005+00:00"
+              }
+            ],
+            "ids": [
+              "b0c5e9ae-8f32-43ef-aec2-2914232d75bd"
+            ]
+          },
+          "id": "ra7sf-rh408",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/ra7sf-rh408",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/19w40-h2f31",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:19w40-h2f31",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:33:33.655441+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "19w40-h2f31",
+      "record_url": "https://works.hcommons.org/records/19w40-h2f31",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}

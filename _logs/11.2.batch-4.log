@@ -1,0 +1,665 @@
+{
+  "data": [
+    {
+      "collection_id": "e5751b5a-5b73-44fa-8027-869a5bb8d79c",
+      "errors": [],
+      "files": {
+        "wood.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 0,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:44:55.581332+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "11"
+          },
+          "kcr:user_defined_tags": [
+            "enlightenment",
+            "islam-and-state",
+            "methodology",
+            "religions-study-and-teaching",
+            "civilization",
+            "modern",
+            "the",
+            "state",
+            "1902-1989",
+            "1903-1979",
+            "ayatollah",
+            "fundamentalism-comparative-studies",
+            "fundamentalism-islam",
+            "golden-age-mythology",
+            "iran",
+            "islam-and-culture",
+            "islam-and-politics",
+            "khomeini",
+            "literalism",
+            "maudoodi",
+            "maulana",
+            "political-science-history",
+            "qur-an-use",
+            "ruhollah",
+            "secularization-religion",
+            "syed-abul-ala",
+            "theocracy",
+            "tradition-islam"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "wood.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:63f6c9a7e95cb4230f59a5046e88ffb8",
+              "ext": "pdf",
+              "id": "aeade583-eea2-4d58-864f-e8c6c45d0ce8",
+              "key": "wood.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/t48nq-ksx78/files/wood.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:t48nq-ksx78:wood.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:t48nq-ksx78:wood.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:t48nq-ksx78/canvas/wood.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:t48nq-ksx78:wood.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/t48nq-ksx78/files/wood.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 974776,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 974776
+        },
+        "id": "t48nq-ksx78",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/t48nq-ksx78/access",
+          "access_grants": "https://works.hcommons.org/api/records/t48nq-ksx78/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/t48nq-ksx78/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/t48nq-ksx78/access/links",
+          "access_request": "https://works.hcommons.org/api/records/t48nq-ksx78/access/request",
+          "access_users": "https://works.hcommons.org/api/records/t48nq-ksx78/access/users",
+          "archive": "https://works.hcommons.org/api/records/t48nq-ksx78/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/t48nq-ksx78/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/t48nq-ksx78/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/t48nq-ksx78/communities-suggestions",
+          "doi": "https://doi.org/10.17613/t48nq-ksx78",
+          "draft": "https://works.hcommons.org/api/records/t48nq-ksx78/draft",
+          "files": "https://works.hcommons.org/api/records/t48nq-ksx78/files",
+          "latest": "https://works.hcommons.org/api/records/t48nq-ksx78/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/t48nq-ksx78/latest",
+          "media_files": "https://works.hcommons.org/api/records/t48nq-ksx78/media-files",
+          "parent": "https://works.hcommons.org/api/records/5mdd7-15385",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/5mdd7-15385",
+          "parent_html": "https://works.hcommons.org/records/5mdd7-15385",
+          "requests": "https://works.hcommons.org/api/records/t48nq-ksx78/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/t48nq-ksx78/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/t48nq-ksx78",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/t48nq-ksx78",
+          "self_html": "https://works.hcommons.org/records/t48nq-ksx78",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:t48nq-ksx78/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:t48nq-ksx78/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/t48nq-ksx78/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Wood",
+                "given_name": "Simon A",
+                "name": "Wood, Simon A",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "eWWTN4",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/11.2/wood/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2011",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/862898",
+              "scheme": "FAST-topical",
+              "subject": "Civilization"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/912527",
+              "scheme": "FAST-topical",
+              "subject": "Enlightenment"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/944541",
+              "scheme": "FAST-topical",
+              "subject": "Golden age (Mythology)"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1204889",
+              "scheme": "FAST-geographic",
+              "subject": "Iran"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/979871",
+              "scheme": "FAST-topical",
+              "subject": "Islam and culture"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/979879",
+              "scheme": "FAST-topical",
+              "subject": "Islam and politics"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/979890",
+              "scheme": "FAST-topical",
+              "subject": "Islam and state"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1018722",
+              "scheme": "FAST-topical",
+              "subject": "Methodology"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1069810",
+              "scheme": "FAST-topical",
+              "subject": "Political science--History"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1093917",
+              "scheme": "FAST-topical",
+              "subject": "Religions--Study and teaching"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1149503",
+              "scheme": "FAST-topical",
+              "subject": "Theocracy"
+            }
+          ],
+          "title": "Rethinking Fundamentalism: Ruhollah Knomeini, Mawlana Mawdudi, and the Fundamentalist Model"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "e5751b5a-5b73-44fa-8027-869a5bb8d79c",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:44:17.551400+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "e5751b5a-5b73-44fa-8027-869a5bb8d79c",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 11.2",
+                  "title": "JCRT 11.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/11.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-112",
+                "updated": "2026-08-30T10:44:18.236424+00:00"
+              }
+            ],
+            "ids": [
+              "e5751b5a-5b73-44fa-8027-869a5bb8d79c"
+            ]
+          },
+          "id": "5mdd7-15385",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/5mdd7-15385",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/t48nq-ksx78",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:t48nq-ksx78",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:44:55.902832+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "t48nq-ksx78",
+      "record_url": "https://works.hcommons.org/records/t48nq-ksx78",
+      "source_id": ""
+    },
+    {
+      "collection_id": "e5751b5a-5b73-44fa-8027-869a5bb8d79c",
+      "errors": [],
+      "files": {
+        "zabala.pdf": {
+          "messages": [],
+          "status": "uploaded"
+        }
+      },
+      "item_index": 1,
+      "metadata": {
+        "access": {
+          "embargo": {
+            "active": false,
+            "reason": null
+          },
+          "files": "public",
+          "record": "public",
+          "status": "open"
+        },
+        "created": "2026-08-30T10:44:57.656058+00:00",
+        "custom_fields": {
+          "journal:journal": {
+            "issn": "1530-5228",
+            "issue": "2",
+            "pages": "",
+            "title": "Journal for Cultural & Religious Theory",
+            "volume": "11"
+          },
+          "kcr:user_defined_tags": [
+            "death-of-god",
+            "philosophy-of-religion",
+            "concept-of-god",
+            "atheism",
+            "secularization",
+            "theology",
+            "history-of-god",
+            "metaphysics",
+            "friedrich-nietzsche",
+            "continental-philosophy",
+            "nihilism",
+            "western-thought"
+          ]
+        },
+        "deletion_status": {
+          "is_deleted": false,
+          "status": "P"
+        },
+        "files": {
+          "count": 1,
+          "enabled": true,
+          "entries": {
+            "zabala.pdf": {
+              "access": {
+                "hidden": false
+              },
+              "checksum": "md5:6c0768574126073f35c4456cbc3ddee4",
+              "ext": "pdf",
+              "id": "ca9a5587-dcf3-4424-9e52-1f650cbb8e05",
+              "key": "zabala.pdf",
+              "links": {
+                "content": "https://works.hcommons.org/api/records/4j6t1-zw448/files/zabala.pdf/content",
+                "iiif_api": "https://works.hcommons.org/api/iiif/record:4j6t1-zw448:zabala.pdf/full/full/0/default.png",
+                "iiif_base": "https://works.hcommons.org/api/iiif/record:4j6t1-zw448:zabala.pdf",
+                "iiif_canvas": "https://works.hcommons.org/api/iiif/record:4j6t1-zw448/canvas/zabala.pdf",
+                "iiif_info": "https://works.hcommons.org/api/iiif/record:4j6t1-zw448:zabala.pdf/info.json",
+                "self": "https://works.hcommons.org/api/records/4j6t1-zw448/files/zabala.pdf"
+              },
+              "metadata": {},
+              "mimetype": "application/pdf",
+              "size": 272067,
+              "storage_class": "L"
+            }
+          },
+          "order": [],
+          "total_bytes": 272067
+        },
+        "id": "4j6t1-zw448",
+        "is_draft": false,
+        "is_published": true,
+        "links": {
+          "access": "https://works.hcommons.org/api/records/4j6t1-zw448/access",
+          "access_grants": "https://works.hcommons.org/api/records/4j6t1-zw448/access/grants",
+          "access_groups": "https://works.hcommons.org/api/records/4j6t1-zw448/access/groups",
+          "access_links": "https://works.hcommons.org/api/records/4j6t1-zw448/access/links",
+          "access_request": "https://works.hcommons.org/api/records/4j6t1-zw448/access/request",
+          "access_users": "https://works.hcommons.org/api/records/4j6t1-zw448/access/users",
+          "archive": "https://works.hcommons.org/api/records/4j6t1-zw448/files-archive",
+          "archive_media": "https://works.hcommons.org/api/records/4j6t1-zw448/media-files-archive",
+          "communities": "https://works.hcommons.org/api/records/4j6t1-zw448/communities",
+          "communities-suggestions": "https://works.hcommons.org/api/records/4j6t1-zw448/communities-suggestions",
+          "doi": "https://doi.org/10.17613/4j6t1-zw448",
+          "draft": "https://works.hcommons.org/api/records/4j6t1-zw448/draft",
+          "files": "https://works.hcommons.org/api/records/4j6t1-zw448/files",
+          "latest": "https://works.hcommons.org/api/records/4j6t1-zw448/versions/latest",
+          "latest_html": "https://works.hcommons.org/records/4j6t1-zw448/latest",
+          "media_files": "https://works.hcommons.org/api/records/4j6t1-zw448/media-files",
+          "parent": "https://works.hcommons.org/api/records/as2c1-v6613",
+          "parent_doi": "https://works.hcommons.org/doi/10.17613/as2c1-v6613",
+          "parent_html": "https://works.hcommons.org/records/as2c1-v6613",
+          "requests": "https://works.hcommons.org/api/records/4j6t1-zw448/requests",
+          "reserve_doi": "https://works.hcommons.org/api/records/4j6t1-zw448/draft/pids/doi",
+          "self": "https://works.hcommons.org/api/records/4j6t1-zw448",
+          "self_doi": "https://works.hcommons.org/doi/10.17613/4j6t1-zw448",
+          "self_html": "https://works.hcommons.org/records/4j6t1-zw448",
+          "self_iiif_manifest": "https://works.hcommons.org/api/iiif/record:4j6t1-zw448/manifest",
+          "self_iiif_sequence": "https://works.hcommons.org/api/iiif/record:4j6t1-zw448/sequence/default",
+          "versions": "https://works.hcommons.org/api/records/4j6t1-zw448/versions"
+        },
+        "media_files": {
+          "count": 0,
+          "enabled": false,
+          "entries": {},
+          "order": [],
+          "total_bytes": 0
+        },
+        "metadata": {
+          "creators": [
+            {
+              "person_or_org": {
+                "family_name": "Zabala",
+                "given_name": "Santiago",
+                "name": "Zabala, Santiago",
+                "type": "personal"
+              },
+              "role": {
+                "id": "author",
+                "title": {
+                  "en": "Author"
+                }
+              }
+            }
+          ],
+          "identifiers": [
+            {
+              "identifier": "IZ8A0e",
+              "scheme": "import-recid"
+            },
+            {
+              "identifier": "https://jcrt.org/archives/11.2/zabala/",
+              "scheme": "url"
+            }
+          ],
+          "languages": [
+            {
+              "id": "eng",
+              "title": {
+                "en": "English"
+              }
+            }
+          ],
+          "publication_date": "2011",
+          "publisher": "Whitestone Publications",
+          "resource_type": {
+            "id": "textDocument-journalArticle",
+            "title": {
+              "de": "Zeitschriftenartikel",
+              "en": "Journal article"
+            }
+          },
+          "rights": [
+            {
+              "link": "https://jcrt.org/copyright/",
+              "title": {
+                "en": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory."
+              }
+            }
+          ],
+          "subjects": [
+            {
+              "id": "http://id.worldcat.org/fast/819974",
+              "scheme": "FAST-topical",
+              "subject": "Atheism"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1765182",
+              "scheme": "FAST-topical",
+              "subject": "Continental philosophy"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/888713",
+              "scheme": "FAST-topical",
+              "subject": "Death of God"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1018304",
+              "scheme": "FAST-topical",
+              "subject": "Metaphysics"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1037702",
+              "scheme": "FAST-topical",
+              "subject": "Nihilism"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1110738",
+              "scheme": "FAST-topical",
+              "subject": "Secularization"
+            },
+            {
+              "id": "http://id.worldcat.org/fast/1149559",
+              "scheme": "FAST-topical",
+              "subject": "Theology"
+            }
+          ],
+          "title": "The Death of God: an Investigation into the History of the Western Concept of God"
+        },
+        "parent": {
+          "access": {
+            "grants": [],
+            "links": [],
+            "owned_by": {
+              "user": "3742"
+            },
+            "settings": {
+              "accept_conditions_text": null,
+              "allow_guest_requests": false,
+              "allow_user_requests": false,
+              "secret_link_expiration": 0
+            }
+          },
+          "communities": {
+            "default": "e5751b5a-5b73-44fa-8027-869a5bb8d79c",
+            "entries": [
+              {
+                "access": {
+                  "member_policy": "open",
+                  "members_visibility": "public",
+                  "record_policy": "open",
+                  "review_policy": "closed",
+                  "visibility": "public"
+                },
+                "children": {
+                  "allow": false
+                },
+                "created": "2026-08-30T10:44:17.551400+00:00",
+                "custom_fields": {
+                  "stats:dashboard_enabled": false
+                },
+                "deletion_status": {
+                  "is_deleted": false,
+                  "status": "P"
+                },
+                "id": "e5751b5a-5b73-44fa-8027-869a5bb8d79c",
+                "links": {},
+                "metadata": {
+                  "description": "JCRT 11.2",
+                  "title": "JCRT 11.2",
+                  "type": {
+                    "id": "journal"
+                  },
+                  "website": "https://jcrt.org/archives/11.2/"
+                },
+                "revision_id": 3,
+                "slug": "jcrt-112",
+                "updated": "2026-08-30T10:44:18.236424+00:00"
+              }
+            ],
+            "ids": [
+              "e5751b5a-5b73-44fa-8027-869a5bb8d79c"
+            ]
+          },
+          "id": "as2c1-v6613",
+          "pids": {
+            "doi": {
+              "client": "datacite",
+              "identifier": "10.17613/as2c1-v6613",
+              "provider": "datacite"
+            }
+          }
+        },
+        "pids": {
+          "doi": {
+            "client": "datacite",
+            "identifier": "10.17613/4j6t1-zw448",
+            "provider": "datacite"
+          },
+          "oai": {
+            "identifier": "oai:https://works.hcommons.org:4j6t1-zw448",
+            "provider": "oai"
+          }
+        },
+        "revision_id": 5,
+        "stats": {
+          "all_versions": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          },
+          "this_version": {
+            "data_volume": 0.0,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "unique_views": 0,
+            "views": 0
+          }
+        },
+        "status": "published",
+        "updated": "2026-08-30T10:44:57.889204+00:00",
+        "versions": {
+          "index": 1,
+          "is_latest": true,
+          "is_latest_draft": true
+        }
+      },
+      "record_id": "4j6t1-zw448",
+      "record_url": "https://works.hcommons.org/records/4j6t1-zw448",
+      "source_id": ""
+    }
+  ],
+  "errors": [],
+  "message": "All records were successfully imported",
+  "status": "success"
+}
