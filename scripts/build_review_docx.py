@@ -158,6 +158,13 @@ if logo.exists():
 set_font(fp.add_run("  Religious Theory"), 10, italic=True, name="Monotype Corsiva")
 set_font(fp.add_run("  |  An Editorial Review Blog  |  Journal for Cultural and Religious Theory\t"), 8)
 pr = fp.add_run(); set_font(pr, 8); add_field(pr, "PAGE")
+# Restart at 1 so the review's own first page is page 1: the flyleaf is not counted.
+# Without this the body section continues the flyleaf's numbering and prints 2..N.
+# Schema order inside sectPr puts pgNumType immediately before w:cols.
+pg_num = OxmlElement("w:pgNumType"); pg_num.set(qn("w:start"), "1")
+sect_pr = sec._sectPr
+cols = sect_pr.find(qn("w:cols"))
+sect_pr.insert(list(sect_pr).index(cols), pg_num) if cols is not None else sect_pr.append(pg_num)
 # right tab stop for the page number
 pPr = fp._element.get_or_add_pPr(); tabs = OxmlElement("w:tabs"); tab = OxmlElement("w:tab")
 tab.set(qn("w:val"), "right"); tab.set(qn("w:pos"), "9360"); tabs.append(tab); pPr.append(tabs)

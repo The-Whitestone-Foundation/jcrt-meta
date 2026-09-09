@@ -8,6 +8,10 @@ Generated and kept current by `npm run changelog` — do not renumber by hand.
 Hand-written notes added under an entry are preserved; the generator only ever
 appends entries for commits that are not yet listed.
 
+## [00.00.35] — 2026-09-04
+sharing log files
+- Notes: sharing log files.
+
 ## [00.00.34] — 2026-09-03
 edit: new post
 - Notes: edit: new post.
