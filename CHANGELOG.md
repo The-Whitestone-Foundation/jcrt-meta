@@ -8,6 +8,10 @@ Generated and kept current by `npm run changelog` — do not renumber by hand.
 Hand-written notes added under an entry are preserved; the generator only ever
 appends entries for commits that are not yet listed.
 
+## [00.00.37] — 2026-09-11
+fix meta
+- Notes: fix meta.
+
 ## [00.00.36] — 2026-09-09
 python pdf builders
 - Notes: python pdf builders.
