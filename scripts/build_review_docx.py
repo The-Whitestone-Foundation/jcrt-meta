@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Fill the JCRT flyleaf-review template and append the review body.
 
-usage: build_review_docx.py TEMPLATE.docx REVIEW.md OUT.docx
+usage: build_review_docx.py TEMPLATE.docx REVIEW.md OUT.docx [--kind=Review|Interview] [--abstract]
 Front matter keys used: title, author, affiliation, doi, abstract, keywords.
 Body: Markdown with ##/###/#### headings, *italics*, **bold**, [text](url)
 links, and Pandoc-style footnotes ([^n] in the text, "[^n]: ..." definitions
@@ -19,7 +19,14 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Pt, Inches, RGBColor
 
-tpl, md_path, out = sys.argv[1:4]
+args = [a for a in sys.argv[1:] if not a.startswith("--")]
+kind = next((a.split("=", 1)[1] for a in sys.argv[1:] if a.startswith("--kind=")), "Review")
+# flyleaf TYPE, body heading, byline, and docx category per piece kind
+HEADING, BYLINE, CATEGORY = {
+    "Review": ("BOOK REVIEW", "Review by", "Book review"),
+    "Interview": ("INTERVIEW", "Interview by", "Interview"),
+}[kind]
+tpl, md_path, out = args[:3]
 raw = Path(md_path).read_text(encoding="utf-8")
 _, fm, body = raw.split("---\n", 2)
 meta = yaml.safe_load(fm)
@@ -28,7 +35,7 @@ LINK = RGBColor(0x00, 0x33, 0x66)
 title = meta["title"]
 author = meta["author"]
 doi = meta.get("doi")
-stable = f"https://doi.org/{doi}" if doi else meta.get("url", "")
+stable = f"https://doi.org/{doi}" if doi else (meta.get("url") or f"https://jcrt.org/religioustheory/posts/{meta['slug']}/")
 running = f"{author.split()[-1]}: {title}"
 
 # ---- footnote definitions ---------------------------------------------------
@@ -67,6 +74,8 @@ def replace_placeholder(doc, old, new):
 
 
 def hyperlink(p, text, url, size=12, italic=False, part=None):
+    if len(text) > 2 and text.startswith("*") and text.endswith("*"):
+        text, italic = text[1:-1], True   # [*Book Title*](url)
     part = part or p.part
     rid = part.relate_to(url, "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink", is_external=True)
     h = OxmlElement("w:hyperlink"); h.set(qn("r:id"), rid)
@@ -118,7 +127,7 @@ def add_field(run, instr):
 
 
 doc = Document(tpl)
-replace_placeholder(doc, "[Review]", "Review")
+replace_placeholder(doc, "[Review]", kind)
 replace_placeholder(doc, "[Title]", title)
 replace_placeholder(doc, "[Author name(s)]", author)
 replace_placeholder(doc, "[Permalink or DOI]", stable)
@@ -135,7 +144,7 @@ for p in doc.paragraphs:
 # core properties
 cp = doc.core_properties
 cp.title = title; cp.author = author; cp.subject = meta.get("description", "")[:255]
-cp.keywords = ", ".join(meta.get("keywords", [])); cp.category = "Book review"
+cp.keywords = ", ".join(meta.get("keywords", [])); cp.category = CATEGORY
 cp.description = meta.get("abstract", "")[:255]; cp.language = "en-US"
 cp.identifier = stable; cp.last_modified_by = "JCRT"
 
@@ -180,15 +189,24 @@ def para(text="", align=None, size=12, space_after=6, indent=False, style=None):
     return p
 
 # opening block, as on previous JCRT reviews
-p = para("BOOK REVIEW", WD_ALIGN_PARAGRAPH.CENTER, 12, 12, style="Heading 1")
+p = para(HEADING, WD_ALIGN_PARAGRAPH.CENTER, 12, 12, style="Heading 1")
 lines = [l for l in body.strip().splitlines()]
 i = 0
 if lines and lines[0].startswith("## "):
     cite = lines[0][3:].strip(); i = 1
-    cite = re.sub(r"^Book Review:\s*", "", cite, flags=re.I)
+    cite = re.sub(rf"^(Book Review|{kind}):\s*", "", cite, flags=re.I)
     p = para(None, WD_ALIGN_PARAGRAPH.CENTER, 12, 6)
     add_inline(p, cite.upper().replace("*", "*"), 12)   # italics preserved
-para(f"Review by {author}", WD_ALIGN_PARAGRAPH.CENTER, 12, 18)
+para(f"{BYLINE} {author}", WD_ALIGN_PARAGRAPH.CENTER, 12, 18)
+
+# --abstract prints the front matter abstract + keywords above the body
+if "--abstract" in sys.argv and meta.get("abstract"):
+    for label, text in (("Abstract", meta["abstract"]), ("Keywords", ", ".join(meta.get("keywords", [])))):
+        if not text: continue
+        ap = para(None, WD_ALIGN_PARAGRAPH.JUSTIFY, 10, 8)
+        ap.paragraph_format.left_indent = ap.paragraph_format.right_indent = Inches(0.5)
+        set_font(ap.add_run(f"{label}: "), 10, bold=True)
+        add_inline(ap, text, 10)
 
 buf = []
 def flush():

@@ -64,6 +64,13 @@ ISSN = "1530-5228"
 PUBLISHER = "Whitestone Publications"
 IMPRINT_PLACE = "Boulder, CO"
 BASE_TAGS = ["religion", "religious studies", "book review"]
+# Religious Theory also runs interviews, which are the same flyleaf PDF under a
+# different resource type, byline role, and genre term. See build_review_docx.py --kind.
+KINDS = {
+    "review": ("textDocument-review", "author", BASE_TAGS),
+    "interview": ("textDocument-interviewTranscript", "interviewer",
+                  ["religion", "religious studies", "interview"]),
+}
 LANDING = "https://jcrt.org/religioustheory/posts/{slug}/"
 
 # FAST genre/form terms. Front matter files these under `category: topical`, but the
@@ -71,7 +78,25 @@ LANDING = "https://jcrt.org/religioustheory/posts/{slug}/"
 FAST_FORM_IDS = {
     "fst01423756",  # Book reviews
     "fst01423760",  # Reviews
+    "fst01423832",  # Interviews
 }
+
+
+def parse_creator(spec: str) -> dict:
+    """`Family, Given|role|orcid|affiliation|ror` — everything after the name optional.
+
+    For an interview the interviewee is not in the post's front matter (the CMS
+    schema has one author), so they are named on the command line at reserve time.
+    """
+    name, role, orcid, affiliation, ror = ([p.strip() for p in spec.split("|")] + [""] * 4)[:5]
+    family, _, given = (part.strip() for part in name.partition(","))
+    person = {"type": "personal", "name": name, "given_name": given, "family_name": family}
+    if orcid:
+        person["identifiers"] = [{"identifier": orcid, "scheme": "orcid"}]
+    creator = {"person_or_org": person, "role": {"id": role or "author"}}
+    if affiliation:
+        creator["affiliations"] = [{"id": ror, "name": affiliation} if ror else {"name": affiliation}]
+    return creator
 
 
 # ---------------------------------------------------------------- front matter
@@ -169,7 +194,7 @@ def isbn_from(meta: dict, body: str) -> str | None:
 # ---------------------------------------------------------------- deposit body
 
 
-def build_metadata(post: Path, pages: str | None, isbn: str | None, notes: list[str]) -> dict:
+def build_metadata(post: Path, pages: str | None, isbn: str | None, notes: list[str], args=None) -> dict:
     _, meta, body = split_front_matter(post)
     for key in ("title", "slug", "author"):
         if not meta.get(key):
@@ -185,12 +210,18 @@ def build_metadata(post: Path, pages: str | None, isbn: str | None, notes: list[
     }
     if meta.get("orcid"):
         person["identifiers"] = [{"identifier": str(meta["orcid"]), "scheme": "orcid"}]
-    creator: dict = {"person_or_org": person, "role": {"id": "author"}}
+    kind = getattr(args, "kind", None) or "review"
+    resource_type, author_role, base_tags = KINDS[kind]
+    creator: dict = {"person_or_org": person, "role": {"id": author_role}}
     if meta.get("affiliation"):
-        creator["affiliations"] = [{"name": str(meta["affiliation"])}]
-        notes.append(
-            "affiliation sent by name only — add a ROR id in KC Works if you want it linked"
-        )
+        ror = getattr(args, "author_ror", None)
+        creator["affiliations"] = [{"id": ror, "name": str(meta["affiliation"])} if ror
+                                   else {"name": str(meta["affiliation"])}]
+        if not ror:
+            notes.append(
+                "affiliation sent by name only — pass --author-ror, or add the id in KC Works"
+            )
+    creators = [creator] + [parse_creator(spec) for spec in (getattr(args, "creator", None) or [])]
 
     subjects = []
     for subject in meta.get("subjects") or []:
@@ -211,8 +242,8 @@ def build_metadata(post: Path, pages: str | None, isbn: str | None, notes: list[
 
     record: dict = {
         "metadata": {
-            "resource_type": {"id": "textDocument-review"},
-            "creators": [creator],
+            "resource_type": {"id": resource_type},
+            "creators": creators,
             "title": str(meta["title"]),
             "publisher": PUBLISHER,
             "publication_date": eastern_date(meta.get("date", "")),
@@ -250,7 +281,7 @@ def build_metadata(post: Path, pages: str | None, isbn: str | None, notes: list[
     else:
         notes.append("no page range — pass --pages, or keep the PDF where --pdf can find it")
 
-    tags = meta.get("kcworks_tags") or BASE_TAGS + list(meta.get("keywords") or [])
+    tags = meta.get("kcworks_tags") or base_tags + list(meta.get("keywords") or [])
     record["custom_fields"]["kcr:user_defined_tags"] = list(dict.fromkeys(str(t) for t in tags))
     return record
 
@@ -296,7 +327,7 @@ def report(notes: list[str]) -> None:
 
 def cmd_metadata(args) -> None:
     notes: list[str] = []
-    record = build_metadata(args.post, resolve_pages(args, notes), resolve_isbn(args), notes)
+    record = build_metadata(args.post, resolve_pages(args, notes), resolve_isbn(args), notes, args)
     print(json.dumps(record, indent=2, ensure_ascii=False))
     report(notes)
 
@@ -391,7 +422,7 @@ def cmd_reserve(args) -> None:
         )
 
     notes: list[str] = []
-    record = build_metadata(args.post, resolve_pages(args, notes), resolve_isbn(args), notes)
+    record = build_metadata(args.post, resolve_pages(args, notes), resolve_isbn(args), notes, args)
     report(notes)
     if args.dry_run:
         print(json.dumps(record, indent=2, ensure_ascii=False))
@@ -443,7 +474,7 @@ def cmd_publish(args) -> None:
     # Refresh the two fields that drift while the PDF is being built. PUT replaces the
     # whole draft, so send back what the server gave us with only those changed.
     notes: list[str] = []
-    wanted = build_metadata(args.post, resolve_pages(args, notes), resolve_isbn(args), notes)
+    wanted = build_metadata(args.post, resolve_pages(args, notes), resolve_isbn(args), notes, args)
     report(notes)
     body = {k: v for k, v in draft.json().items() if k in ("access", "files", "metadata", "custom_fields", "pids")}
     body["metadata"]["publication_date"] = wanted["metadata"]["publication_date"]
@@ -511,6 +542,11 @@ def main() -> None:
             sp.add_argument("--isbn", help="hyphenated ISBN of the reviewed book")
         if pdf:
             sp.add_argument("--pdf", help="override the PDF path (default ../jcrt-files/religioustheory/)")
+        sp.add_argument("--kind", choices=sorted(KINDS), default="review",
+                        help="review (default) or interview")
+        sp.add_argument("--author-ror", help="ROR id for the front matter author's affiliation")
+        sp.add_argument("--creator", action="append", metavar="SPEC",
+                        help='extra creator "Family, Given|role|orcid|affiliation|ror"; repeatable')
 
     s = sub.add_parser("status", help="where this review stands (no writes)")
     s.add_argument("post", type=Path)

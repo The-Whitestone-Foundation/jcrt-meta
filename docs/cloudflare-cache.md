@@ -220,21 +220,15 @@ resolves against `https://jcrt.org`.
 
 ## Purging on deploy
 
-`scripts/cloudflare-purge.mjs`, exposed as `npm run cf:purge`.
-
-```sh
-export CLOUDFLARE_ZONE_ID=...      # jcrt.org zone id, dashboard overview sidebar
-export CLOUDFLARE_API_TOKEN=...    # Zone → Cache Purge → Purge, scoped to jcrt.org only
-npm run cf:purge                            # purge everything
-node scripts/cloudflare-purge.mjs --urls / /archives/   # purge specific paths (max 30/call)
-node scripts/cloudflare-purge.mjs --dry-run             # print the payload, send nothing
-```
-
-### Automatic purge
-
-`plugins/cloudflare-purge/`, registered in `netlify.toml`. It runs on Netlify's
+The purge is the UI-installed Netlify build plugin `netlify-purge-cloudflare-on-deploy`
+(Site configuration → Build & deploy → Build plugins), fed by the `CLOUDFLARE_API_TOKEN`
+and `CLOUDFLARE_ZONE_ID` environment variables in Netlify. It runs on Netlify's
 `onSuccess` event, which fires **after the deploy stage** — so the purge lands once the new
 content is live, not while the old build is still being served.
+
+An in-repo copy (`plugins/cloudflare-purge`, `npm run cf:purge`) existed until 2026-09-23 and
+purged a second time on every deploy; it was deleted. Manual purge: Cloudflare dashboard →
+Caching → Configuration → Purge Everything.
 
 No outgoing webhook, no Cloudflare Worker and no Netlify Function are involved. The
 notification form under **Site configuration → Notifications** is not used.
@@ -273,5 +267,5 @@ curl -sSI -H 'Accept: text/markdown' https://jcrt.org/ | grep -i content-type
 
 ## Rollback
 
-Disable rule 4 (`cache-html-and-data`) in the dashboard and run `npm run cf:purge`. The
+Disable rule 4 (`cache-html-and-data`) in the dashboard and purge everything. The
 site reverts to today's behaviour within seconds; nothing in the repo needs reverting.
