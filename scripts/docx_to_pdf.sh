@@ -13,6 +13,12 @@
 #      gets the flyleaf's Whitestone colophon instead of the Religious Theory bar.
 #   3. the footer PAGE field renders as an empty span; a CSS counter fills it,
 #      started at -1 so the flyleaf is page 0 and the body opens at 1.
+#   4. footnotes: officecli emits every note in ONE block on the page holding the
+#      first reference and reserves its height there, so an essay with more notes
+#      than fit on a page balloons into hundreds of empty pages. The block is
+#      held aside while officecli paginates, then a print-time script puts each
+#      note at the foot of the page that references it, pushing whole blocks
+#      forward until text + notes fit (block-level, like officecli's own splits).
 set -euo pipefail
 in=$1; out=$2
 chrome="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
@@ -21,6 +27,20 @@ trap 'rm -rf "$tmp"' EXIT
 
 officecli close "$in" >/dev/null 2>&1 || true
 officecli view "$in" html -o "$tmp/page.html" >/dev/null
+
+# hold the footnote block aside (as a <template>) so officecli paginates the text alone
+python3 - "$tmp/page.html" <<'PY'
+import sys
+p = sys.argv[1]; s = open(p, encoding="utf-8").read()
+if '<div id="fn' in s:
+    start = s.index('<div class="footnotes"')
+    last_end = s.index("</div>", s.rindex('<div id="fn')) + 6   # note divs hold no nested divs
+    close = s.index("</div>", last_end) + 6
+    block = s[start:close]
+    s = s[:start] + s[close:]
+    s = s.replace("</body>", f'<template id="jcrt-notes">{block}</template></body>', 1)
+    open(p, "w", encoding="utf-8").write(s)
+PY
 
 "$chrome" --headless --disable-gpu --no-sandbox --virtual-time-budget=30000 \
   --dump-dom "file://$tmp/page.html" 2>/dev/null > "$tmp/laid-out.html"
@@ -71,6 +91,61 @@ if colophon:
     fixed = re.sub(rf'<span style="[^"]*font-weight:bold[^"]*">{blank}+</span>', "", fixed)
     s = s[:colophon.start()] + fixed + s[colophon.end():]
 
+FOOTNOTES_JS = """<script>
+(function () {
+  var tpl = document.getElementById('jcrt-notes');
+  if (!tpl) return;
+  var notes = {};
+  tpl.content.querySelectorAll('div[id^="fn"]').forEach(function (d) { notes[d.id] = d; });
+  var PT = 96 / 72;
+  var wrappers = document.querySelectorAll('.page-wrapper');
+  var w = wrappers[1];                       // first body page; the flyleaf has no notes
+  function content(body) {
+    return Array.prototype.filter.call(body.children, function (c) { return !c.classList.contains('footnotes'); });
+  }
+  while (w) {
+    var page = w.querySelector('.page'), body = w.querySelector('.page-body');
+    var box = document.createElement('div');
+    box.className = 'footnotes';
+    box.style.cssText = 'position:absolute;left:72pt;right:72pt;bottom:' + getComputedStyle(page).paddingBottom + ';font-size:10pt';
+    page.appendChild(box);
+    var limit = page.getBoundingClientRect().top + (792 * PT) - parseFloat(getComputedStyle(page).paddingBottom);
+    var fits = function () {
+      box.innerHTML = '';
+      var ids = [];
+      body.querySelectorAll('a[href^="#fn"]').forEach(function (a) { ids.push(a.getAttribute('href').slice(1)); });
+      ids.forEach(function (id) { if (notes[id]) box.appendChild(notes[id].cloneNode(true)); });
+      if (ids.length) box.insertAdjacentHTML('afterbegin', '<hr style="margin:0.6em 0 0.5em;border:none;border-top:1px solid #757575;width:33%">');
+      var bottom = 0;                          // hidden officecli marker spans report 0, so take the max
+      content(body).forEach(function (c) { var r = c.getBoundingClientRect(); if (r.height) bottom = Math.max(bottom, r.bottom); });
+      return bottom + box.offsetHeight <= limit + 2;
+    };
+    var moved = [];
+    while (!fits() && content(body).length > 1) {
+      var kids = content(body);
+      moved.unshift(kids[kids.length - 1]);
+      kids[kids.length - 1].remove();
+      var vis = content(body).filter(function (c) { return c.offsetHeight; });
+      var last = vis[vis.length - 1];          // never strand a heading at the page foot
+      if (last && /^H[1-6]$/.test(last.tagName) && content(body).length > 1) { moved.unshift(last); last.remove(); }
+    }
+    if (moved.length) {
+      var next = w.nextElementSibling;
+      if (!next || !next.classList.contains('page-wrapper')) {
+        next = w.cloneNode(true);
+        next.querySelector('.page-body').innerHTML = '';
+        next.querySelectorAll('.footnotes').forEach(function (f) { f.remove(); });
+        w.after(next);
+      }
+      var nb = next.querySelector('.page-body');
+      moved.slice().reverse().forEach(function (m) { nb.insertBefore(m, nb.firstChild); });
+      fits();                                  // redraw this page's notes for what stayed
+    }
+    w = w.nextElementSibling && w.nextElementSibling.classList.contains('page-wrapper') ? w.nextElementSibling : null;
+  }
+})();
+</script>"""
+
 css = """<style>
 @page { size: 8.5in 11in; margin: 0 }
 @media print {
@@ -88,6 +163,14 @@ css = """<style>
   .page-wrapper:first-of-type img[style*="float:left"] { margin-left: 0 !important }
 }
 </style>"""
+# officecli appends a Japanese UI-font tail to every font stack, so Ā or ł drop into
+# MS Mincho/Hiragino and sit visibly apart. Swap the tail for the Palatino family
+# first, then Noto Serif for scripts Palatino lacks.
+FALLBACK = ("'Palatino', 'Palatino Linotype', 'Noto Serif CJK JP', 'Noto Serif CJK SC', "
+            "'Noto Serif Arabic', 'Noto Serif Devanagari'")
+s = re.sub(r"'ＭＳ 明朝',\s*'Hiragino Sans',\s*'Hiragino Mincho ProN',\s*'Yu Gothic',\s*'Yu Mincho',"
+           r"\s*'Noto Sans CJK JP',\s*'MS Gothic'", FALLBACK, s)
+s = s.replace("</body>", FOOTNOTES_JS + "</body>", 1)
 open(dst, "w", encoding="utf-8").write(s.replace("</head>", css + "\n</head>", 1))
 PY
 

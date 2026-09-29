@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Set Info dictionary + XMP on a Religious Theory review PDF from its post front matter.
 
-usage: set_review_metadata.py POST.md IN.pdf OUT.pdf [--kind=Review|Interview]
+usage: set_review_metadata.py POST.md IN.pdf OUT.pdf [--kind=Review|Interview|Essay]
 Mirrors the metadata written on 9781481324250.pdf (CC BY 4.0, PDF/UA-1 flag kept).
 """
 import sys

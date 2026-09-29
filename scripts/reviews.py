@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Deposit a Religious Theory book review into KC Works, one record at a time.
+"""Deposit a Religious Theory review, interview, or essay into KC Works, one record at a time.
 
 `import.sh` only handles numbered issues (`^\\d\\d\\.\\d+$`) in bulk; reviews live in
 `jcrt-v2/content/religioustheory/posts/` and have always been deposited by hand. This
@@ -70,6 +70,7 @@ KINDS = {
     "review": ("textDocument-review", "author", BASE_TAGS),
     "interview": ("textDocument-interviewTranscript", "interviewer",
                   ["religion", "religious studies", "interview"]),
+    "essay": ("textDocument-essay", "author", ["religion", "religious studies", "essay"]),
 }
 LANDING = "https://jcrt.org/religioustheory/posts/{slug}/"
 
@@ -208,12 +209,23 @@ def build_metadata(post: Path, pages: str | None, isbn: str | None, notes: list[
         "given_name": given,
         "family_name": family,
     }
-    if meta.get("orcid"):
-        person["identifiers"] = [{"identifier": str(meta["orcid"]), "scheme": "orcid"}]
+    # KC Works links a creator to a member profile through these identifiers (same
+    # shape as Adam's existing records: kc_username + orcid + email).
+    ids = [(getattr(args, "author_kc_username", None), "kc_username"),
+           (meta.get("orcid"), "orcid"),
+           (getattr(args, "author_email", None), "email")]
+    ids = [{"identifier": str(v).replace("https://orcid.org/", ""), "scheme": k} for v, k in ids if v]
+    if ids:
+        person["identifiers"] = ids
     kind = getattr(args, "kind", None) or "review"
     resource_type, author_role, base_tags = KINDS[kind]
     creator: dict = {"person_or_org": person, "role": {"id": author_role}}
-    if meta.get("affiliation"):
+    if getattr(args, "affiliation", None):
+        creator["affiliations"] = [
+            {"id": ror, "name": name} if ror else {"name": name}
+            for name, _, ror in (a.partition("|") for a in args.affiliation)
+        ]
+    elif meta.get("affiliation"):
         ror = getattr(args, "author_ror", None)
         creator["affiliations"] = [{"id": ror, "name": str(meta["affiliation"])} if ror
                                    else {"name": str(meta["affiliation"])}]
@@ -256,7 +268,9 @@ def build_metadata(post: Path, pages: str | None, isbn: str | None, notes: list[
         "custom_fields": {
             "journal:journal": {"title": JOURNAL_TITLE, "issn": ISSN},
             "imprint:imprint": {"place": IMPRINT_PLACE},
-            "kcr:ai_usage": {"ai_used": bool(meta.get("ai_used", False))},
+            "kcr:ai_usage": ({"ai_used": True, "ai_description": args.ai_description}
+                             if getattr(args, "ai_description", None)
+                             else {"ai_used": bool(meta.get("ai_used", False))}),
         },
         "access": {"record": "public", "files": "public"},
         "files": {"enabled": True},
@@ -543,7 +557,12 @@ def main() -> None:
         if pdf:
             sp.add_argument("--pdf", help="override the PDF path (default ../jcrt-files/religioustheory/)")
         sp.add_argument("--kind", choices=sorted(KINDS), default="review",
-                        help="review (default) or interview")
+                        help="review (default), interview, or essay")
+        sp.add_argument("--author-kc-username", help="author's Knowledge Commons username (links the profile)")
+        sp.add_argument("--author-email", help="author's email, as a creator identifier")
+        sp.add_argument("--affiliation", action="append", metavar="NAME|ROR",
+                        help="author affiliation, repeatable; replaces the front matter one")
+        sp.add_argument("--ai-description", help="AI-use disclosure; sets ai_used true")
         sp.add_argument("--author-ror", help="ROR id for the front matter author's affiliation")
         sp.add_argument("--creator", action="append", metavar="SPEC",
                         help='extra creator "Family, Given|role|orcid|affiliation|ror"; repeatable')

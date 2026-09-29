@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Fill the JCRT flyleaf-review template and append the review body.
 
-usage: build_review_docx.py TEMPLATE.docx REVIEW.md OUT.docx [--kind=Review|Interview] [--abstract]
+usage: build_review_docx.py TEMPLATE.docx REVIEW.md OUT.docx [--kind=Review|Interview|Essay] [--abstract]
 Front matter keys used: title, author, affiliation, doi, abstract, keywords.
 Body: Markdown with ##/###/#### headings, *italics*, **bold**, [text](url)
 links, and Pandoc-style footnotes ([^n] in the text, "[^n]: ..." definitions
@@ -25,6 +25,7 @@ kind = next((a.split("=", 1)[1] for a in sys.argv[1:] if a.startswith("--kind=")
 HEADING, BYLINE, CATEGORY = {
     "Review": ("BOOK REVIEW", "Review by", "Book review"),
     "Interview": ("INTERVIEW", "Interview by", "Interview"),
+    "Essay": ("ESSAY", "Essay by", "Essay"),
 }[kind]
 tpl, md_path, out = args[:3]
 raw = Path(md_path).read_text(encoding="utf-8")
@@ -222,6 +223,12 @@ while i < len(lines):
         flush(); para(l[5:], None, 12, 6, style="Heading 3").runs[0].bold = True
     elif l.startswith("### "):
         flush(); para(l[4:], None, 12, 6, style="Heading 2").runs[0].bold = True
+    elif l.startswith(">"):
+        flush(); q = [l.lstrip("> ").strip()]
+        while i < len(lines) and lines[i].startswith(">") and lines[i].strip() != ">":
+            q.append(lines[i].lstrip("> ").strip()); i += 1
+        bq = para(" ".join(q), WD_ALIGN_PARAGRAPH.JUSTIFY, 11, 8)
+        bq.paragraph_format.left_indent = bq.paragraph_format.right_indent = Inches(0.5)
     elif not l.strip():
         flush()
     else:
