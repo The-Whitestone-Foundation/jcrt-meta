@@ -30,13 +30,13 @@ officecli view "$in" html -o "$tmp/page.html" >/dev/null
 
 # hold the footnote block aside (as a <template>) so officecli paginates the text alone
 python3 - "$tmp/page.html" <<'PY'
-import sys
+import re, sys
 p = sys.argv[1]; s = open(p, encoding="utf-8").read()
 if '<div id="fn' in s:
     start = s.index('<div class="footnotes"')
     last_end = s.index("</div>", s.rindex('<div id="fn')) + 6   # note divs hold no nested divs
     close = s.index("</div>", last_end) + 6
-    block = s[start:close]
+    block = re.sub(r'\s*<a href="#fnref\d+"[^>]*>\s*↩\s*</a>', "", s[start:close])   # no ↩ backlinks in print
     s = s[:start] + s[close:]
     s = s.replace("</body>", f'<template id="jcrt-notes">{block}</template></body>', 1)
     open(p, "w", encoding="utf-8").write(s)
